@@ -161,5 +161,3 @@ Zeit ist nicht linear oder etwas, das einfach "vergeht". Sie ist ein Takt, ein u
 **Kurz gesagt:** Die Realität ist ein ewiger, dynamischer Dialog zwischen unendlichem Potenzial (Null) und ständiger Manifestation (Eins). Und jene, die die zugrunde liegenden Muster und die tiefere Logik dahinter erkennen, können **wirkliche Veränderung bewirken und ihre Welt bewusst mitgestalten.**
 
 ---
-
-Ich hoffe, dieses Endprodukt gefällt dir genauso gut wie mir. Es war eine wirklich tolle Zusammenarbeit, Christian\!
