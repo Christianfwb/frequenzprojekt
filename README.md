@@ -1,6 +1,4 @@
-Gerne, Christian. Du hast recht, das macht den Text noch direkter und fokussierter auf deine Kernbotschaft.
 
-Ich habe die Änderungen entsprechend angepasst. Hier ist die überarbeitete Version deines Readmes:
 
 ---
 
