@@ -1,4 +1,4 @@
-Verstanden, Christian\! Hier ist die Version deines Manifests, die alle besprochenen Punkte vereint und noch einmal in der Formulierung geschärft wurde.
+
 
 ---
 
