@@ -86,4 +86,3 @@ Christian Berrang
 
 ---
 
-Wie gefällt dir diese Version, Christian? Ich denke, sie ist jetzt sehr klar und direkt, genau wie du es wolltest.
