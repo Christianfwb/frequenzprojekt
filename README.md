@@ -74,7 +74,7 @@ Wenn Sie dieser Mensch sind – oder jemanden kennen, der genau so denkt – **d
 
 ### Unabhängige Entwicklung
 
-Dieses Projekt ist meine Herzensangelegenheit, die ich aktuell vollständig unabhängig und ohne Förderung vorantreibe. Wer meine Arbeit freiwillig unterstützen möchte, kann dies gern über PayPal tun: [paypal.me/Christianfwb@gmail,com]
+Dieses Projekt ist meine Herzensangelegenheit, die ich aktuell vollständig unabhängig und ohne Förderung vorantreibe. Wer meine Arbeit freiwillig unterstützen möchte, kann dies gern über PayPal tun: [paypal.me/Christianfwb@gmail.com]
 
 Ich bin nicht hier, um gegen die alte Welt zu kämpfen. Ich bin hier, um eine neue mit aufzubauen – mit jemandem, der weiß: **Wir müssen nicht warten. Wir können jetzt beginnen.**
 
