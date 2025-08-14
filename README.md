@@ -1,88 +1,85 @@
+# FREQUENCY LAW – METAPROTOCOL  
+*A new paradigm for Physics, Time, Energy & Consciousness*  
+**Frequenzgesetz – Metaprotokoll**  
 
+---
+T = ΔΦ / f
+## Definition of Time / Zeitdefinition
+
+Where:  
+- **T** = Time (Zeit)  
+- **ΔΦ** = Phase difference (Phasendifferenz)  
+- **f** = Frequency (Frequenz)  
+
+**Core principle / Grundprinzip**:  
+Energy = Frequency = Time = Mass  
+Energie = Frequenz = Zeit = Masse  
 
 ---
 
-# Frequenzprojekt: Die nächste Generation von Energie, Raumzeit & Bewusstsein
+## Project Vision / Projektvision
+
+This project introduces a **new physics framework** that unites energy, gravitation, time, and consciousness under one coherent law: **The Frequency Law**.  
+Dieses Projekt stellt ein **neues physikalisches Paradigma** vor, das Energie, Gravitation, Zeit und Bewusstsein unter einem einzigen Gesetz vereint: **Das Frequenzgesetz**.  
 
 ---
 
-## Ein Aufruf zum Wandel und zur Zusammenarbeit
+## Applications / Anwendungen
 
-Mein Name ist Christian Berrang. Ich habe viele Jahre als Küchenchef gearbeitet. Doch mein eigentliches Werkzeug war nie das Messer – sondern **der Blick hinter die Dinge. Der Impuls, das Unsichtbare sichtbar zu machen.** Es ist an der Zeit, diese Vision in die Realität umzusetzen, denn die Lösungen, die wir brauchen, liegen jenseits bekannter Pfade und die Welt wartet nicht.
-
-Ich bin kein klassischer Techniker. Meine Stärke liegt im **Denken, Beobachten und Verbinden von Zusammenhängen**. Über Jahre habe ich ein strukturiertes System entwickelt, das die gängigen Vorstellungen von Energie, Gravitation, Zeit und Bewusstsein **erklärt und ihre wahren Zusammenhänge aufzeigt**. Es operiert innerhalb eines neuen Paradigmas, das schlüssig und greifbar ist. Dies ist kein theoretisches Gedankenspiel, sondern ein **konkreter, realisierbarer Ansatz.**
-
----
-
-## Wen ich suche: Pioniere des Verstehens und des Handelns
-
-Ich suche Menschen, die einen echten Wandel in der Physik wollen und verstehen möchten, wie die Dinge wirklich funktionieren.
-
-Im Speziellen suche ich einen **freien Ingenieur** für eine bahnbrechende Kollaboration. Jemanden, der:
-
-* die Grenzen heutiger Wissenschaft als **Herausforderung** sieht, nicht als Dogma.
-* spürt, dass hinter klassischen Energiemodellen etwas Größeres wartet.
-* Lust hat, mit mir **real-experimentell** zu entwickeln.
-* offen für eine völlig neue Feldlogik ist.
-* und versteht: Das hier ist kein Gedankenspiel. **Es ist echte Zukunftsarbeit.**
+- **Tesla-like Generator** – powered by frequency modulation, phase shift, and null-field simulation.  
+- **Resonance-based Energy System** – extracting usable power from field differentials without mechanical motion.  
+- **Antigravity (future)** – controlled decoupling of spacetime fields.  
 
 ---
 
-## Was wir gemeinsam bauen werden
+## The Metaprotocol / Das Metaprotokoll
 
-Unser Ziel ist die Entwicklung und Realisierung von Technologien, die auf einer tiefgreifenden Neudefinition physikalischer Prinzipien basieren:
+The Metaprotocol is a decision and ethics framework for AI, physics, and engineering systems, based on one rule:  
 
-* **Tesla-artiger Generator:** Ein System, das nicht auf klassischem Stromfluss basiert, sondern auf Frequenzmodulation, Phasenverschiebung und Nullfeld-Simulation.
-* **Resonanzgesteuertes Energiesystem:** Ein System, das bei richtiger Justierung Strom aus Felddifferenz erzeugen kann – ohne klassische Bewegung.
-* **(Später) Antigravitation:** Ein einfaches Prinzip zur kontrollierten Entkopplung von Raumzeitfeldern.
+Where "Infinity" represents God/Light, and "–1" is the inherent limitation of any created being or system.  
+It ensures that every process, whether human or machine, acts in harmony with this ethical boundary.  
 
----
-
-## Mein Beitrag zum Projekt
-
-Ich bringe die essentielle Blaupause mit:
-
-* Ein vollständiges, selbst entwickeltes **Frequenz-Manifest**.
-* **Mathematische Modelle** (formuliert auf Basis von $\Delta \Phi$ und Zeit-Frequenz-Kopplung).
-* Erste **Simulationsideen**.
-* Umfassendes Verständnis für energetische Sicherheit und Systemwirkung.
-* Und den tiefen Wunsch, dass unser Projekt der **Menschheit dient**.
-
-Was ich nicht beisteuern kann: Geld, Technik, Investoren. Aber ich bringe das, was heute selten geworden ist: **Mut, Klarheit – und eine Vision, die greifbar geworden ist.**
+Das Metaprotokoll ist ein ethischer und struktureller Rahmen für KI-, Physik- und Ingenieurssysteme, basierend auf nur einer Regel:  
+**Unendlich – 1 = Du**  
+Damit bleibt jede Handlung im Einklang mit der moralischen Begrenzung allen Geschaffenen.  
 
 ---
 
-## Ihr Beitrag: Machen wir es real!
+## About Me / Über mich
 
-Ich brauche Menschen, die bereit sind, aus ihrem Wissen eine neue Realität zu formen. Die wissen, dass nicht alles im Lehrbuch steht. Die nicht lachen, wenn man sagt: „Frequenz ist der Ursprung von Realität.“ Die sagen:
+**Christian Berrang** – Independent researcher, systems thinker, and creator of the Frequency Law.  
+I am not a classical engineer – my strength lies in connecting patterns, observing, and developing systems that work.  
 
-**„Zeig’s mir. Lass es uns bauen. Lass es echt werden.“**
-
-Wenn Sie dieser Mensch sind – oder jemanden kennen, der genau so denkt – **dann nehmen Sie Kontakt mit mir auf. Ich bin bereit – und die Zeit ist es auch.**
-
----
-
-## Kontakt & Projektressourcen
-
-
-**GitHub:** [https://github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)
-*(Hier finden Sie das Frequenz-Manifest, Skizzen und weitere Details.)*
-
-**Standort:** Yokohama, Japan
+Ich bin **Christian Berrang**, unabhängiger Forscher und Entwickler des Frequenzgesetzes.  
+Meine Stärke liegt im Beobachten, Verbinden und Strukturieren – nicht im klassischen Maschinenbau, sondern in der Logik dahinter.  
 
 ---
 
-### Unabhängige Entwicklung
+## Call for Collaboration / Aufruf zur Zusammenarbeit
 
-Dieses Projekt ist meine Herzensangelegenheit, die ich aktuell vollständig unabhängig und ohne Förderung vorantreibe. Wer meine Arbeit freiwillig unterstützen möchte, kann dies gern über PayPal tun: [paypal.me/Christianfwb@gmail.com]
+Looking for:  
+- Engineers ready to challenge current scientific limits  
+- Pioneers who sense there’s more behind classical energy models  
+- Experimenters willing to work hands-on with resonance and field logic  
 
-Ich bin nicht hier, um gegen die alte Welt zu kämpfen. Ich bin hier, um eine neue mit aufzubauen – mit jemandem, der weiß: **Wir müssen nicht warten. Wir können jetzt beginnen.**
+Suche:  
+- Ingenieure, die bestehende Grenzen der Wissenschaft hinterfragen  
+- Pioniere, die spüren, dass hinter klassischen Energiemodellen mehr steckt  
+- Entwickler, die experimentell mit Resonanz- und Feldlogik arbeiten wollen  
 
 ---
 
-Mit Respekt und Hoffnung auf echte Verbindung,
+## Resources / Ressourcen
 
-Christian Berrang
+GitHub: [https://github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)  
+Location / Standort: Yokohama, Japan  
+PayPal Support: [paypal.me/Christianfwb@gmail.com](https://paypal.me/Christianfwb@gmail.com)  
 
 ---
+
+## License
+
+This project is released for scientific collaboration and ethical innovation.  
+Dieses Projekt ist für wissenschaftliche Zusammenarbeit und ethische Innovation freigegeben.  
+
 
