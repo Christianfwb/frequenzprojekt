@@ -94,7 +94,13 @@ Entwickler, die experimentell mit Resonanz- und Feldlogik arbeiten wollen
 Resources / Ressourcen
 
 GitHub: https://github.com/Christianfwb/frequenzprojekt
-https://zenodo.org/records/16750794
+---
+## Citation / Zitation
+
+If you use this work, please cite:
+
+Berrang, Christian. (2025). *The Frequency Law: A New Ontological Architecture for Time, Matter, and Light*.  
+Zenodo. https://zenodo.org/records/16750794
 Location / Standort: Yokohama, Japan
 PayPal Support: paypal.me/Christianfwb@gmail.com
 
