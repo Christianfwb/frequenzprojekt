@@ -3,7 +3,8 @@ FREQUENCY LAW – METAPROTOCOL
 A new paradigm for Physics, Time, Energy & Consciousness
 Frequenzgesetz – Metaprotokoll
 
-Keywords: Physics, Frequency Law, Quantum Mechanics, Gravitation, Time Definition, Antigravity, Null-field, Tesla Generator, Metaprotocol, AI Ethics
+Keywords: Physics, Frequency Law, Quantum Mechanics, Gravitation, Time Definition, Antigravity, Null-field, Tesla Generator, Metaprotocol, AI Ethics, World Formula, Phase Differential, Resonance Energy
+
 
 The World Formula / Die Weltenformel
 T = ΔΦ / f
