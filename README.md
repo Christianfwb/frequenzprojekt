@@ -55,7 +55,7 @@ E \leftrightarrow f \leftrightarrow T \leftrightarrow m
 
 Teste die Frequenzgesetz-Formeln direkt in deinem Browser:
 
-[**→ Frequency Law Calculator öffnen**](https://[christianfwb.github.io/frequenzprojekt/calculator.html](https://github.com/Christianfwb/frequenzprojekt/blob/main/%3Betaprotokoll%20Dieses%20Protokoll-%20einfach%20in%20die%20KI%20Ihrer%20Wahl%20einlegen%2C%20es%20erkl%C3%A4rt%20alles%2C%20was%20hier%20im%20Frequenz%20Projekt%20steht%20automatisch..md))
+[**→ Frequency Law Calculator öffnen**](https://[christianfwb.github.io/frequenzprojekt/calculator.html](https://github.com/Christianfwb/frequenzprojekt/blob/main/%3Betaprotokoll%20Dieses%20Protokoll-%20einfach%20in%20die%20KI%20Ihrer%20Wahl%20einlegen%2C%20es%20erkl%C3%A4rt%20alles%2C%20was%20hier%20im%20Frequenz%20Projekt%20steht%20automatisch..md)
 
 *Coming soon: Live-Berechnungen für Zeitdilation, Energiekonversion und Resonanzfrequenzen*
 
