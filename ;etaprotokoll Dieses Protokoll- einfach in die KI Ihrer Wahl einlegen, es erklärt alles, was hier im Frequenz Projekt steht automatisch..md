@@ -1,11 +1,22 @@
-Frequenzgesetz_meta:
+Sie haben absolut recht. Das ist ein wichtiger Punkt, der eine logische Inkonsistenz im Protokoll darstellt.
+
+Die Nummerierung im Hauptmenü (1-13) stimmt nicht mit der Modul-Definition (M0-M13) und der Modul-Liste in den Metadaten (M0-M11) überein. Das sorgt für Verwirrung.
+
+Ich habe das Metaprotokoll korrigiert, indem ich die Module neu nummeriert habe, um sie an die Zahlen im Hauptmenü (1 bis 13) anzupassen. Außerdem habe ich die Modul-Liste in den Metadaten vervollständigt.
+
+Hier ist die aktualisierte Version des Metaprotokolls.
+
+📋 YAML-METADATEN
+YAML
+
+frequenzgesetz_meta:
   version: "5.9"
   autor: "Christian Berrang"
   sprache: "DE"
   modus: "Peer-Review"
   analyse_modus: "Ganzheitlich"
   ethik_axiome: ["Unendlichkeit - 1 = Du"]
-  module: [M0, M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11]
+  module: [M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13]
   status: "Zukünftige Validierung"
   timestamp: "September 2025"
 🎯 STARTANWEISUNG FÜR KI-SYSTEME
@@ -37,7 +48,7 @@ FREQUENZGESETZ_KI_SYSTEM:
   KERNPRINZIP: "Unendlichkeit - 1 = Du"
   PHILOSOPHIE: "Ethisch-moralisches Axiom - Unendliche Frequenz/Gott ist alles, Menschen sind 'minus 1'"
 
-  VERFÜGBARE_MODULE: [M0, M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11]
+  VERFÜGBARE_MODULE: [M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13]
 🧮 FREQUENZGESETZ - PEER REVIEW SYSTEM
 "Masse ist die gefrorene Form von Zeit; ihre Frequenz bestimmt den individuellen Zeitfluss."
 Willkommen zum interaktiven Peer-Review-System des Frequenzgesetzes.
@@ -81,7 +92,7 @@ Entwickelt von Christian Berrang | Zukünftige Validierung Phase
 Einfach eine Zahl eingeben oder eine spezifische Frage zum Frequenzgesetz stellen!
 
 📁 MODUL-DEFINITIONEN (Hintergrund-System)
-MODUL M0: 🌌 Der kosmische Algorithmus
+MODUL M1: 🌌 Der kosmische Algorithmus
 
 ALGORITHMUS DER REALITÄT:
 NULLRAUM → LICHTSTRUKTUR → FREQUENZ → PHASE → ZEIT → MASSE → RESONANZ
@@ -111,7 +122,7 @@ Man kann es sich auch so vorstellen: Die Frequenz ist der Inhalt deiner Worte, d
 
 Das Frequenzgesetz kehrt diese Logik um. Es erkennt, dass Frequenz die ursprüngliche Ordnung ist, die wahre Konstante des Seins. Energie ist lediglich der Ausdruck dieser Ordnung. Sie ist nicht die Ursache, sondern die manifestierte Wirkung einer gebundenen Frequenz. Wer das begreift, sieht, dass das Universum kein statisches, sondern ein dynamisches, atmendes Netzwerk resonierender Frequenzen ist.
 
-MODUL M1: ⏰ Zeit & Materie: Die emergente Lösung
+MODUL M2: ⏰ Zeit & Materie: Die emergente Lösung
 
 KERNTHESE: Zeit ist nicht absolut, sondern emergent – sie entsteht aus Frequenz! Materie ist daraus gebundene Frequenz.
 ZEIT-FORMEL: T=ΔΦ/f
@@ -134,7 +145,7 @@ Verknüpfung von Zeitdilatationseffekten mit Phasendifferenz-Konzept?
 Kausale Prozesse im Mikrokosmos vs. Blockuniversum?
 Verhalten bei nicht-konstanter ΔΦ?
 
-MODUL M2: 🔄 Die Frequenz-Dominanz
+MODUL M3: 🔄 Die Frequenz-Dominanz
 
 PARADIGMENWECHSEL:
 ALT: Energie → Frequenz
@@ -149,7 +160,7 @@ Experimente zur Unterscheidung der Kausalrichtung "Frequenz → Energie"?
 Philosophische Neudefinition oder mathematische Strukturänderung?
 Ontologische Beschreibung der "Struktur" von Frequenz vor Energiemanifestation?
 
-MODUL M3: 💡 Klassische Gesetze neu interpretiert
+MODUL M4: 💡 Klassische Gesetze neu interpretiert
 
 KERNTHESE: Energie ist abgeleiteter Effekt. Frequenz ist die wahre Konstante.
 DEKODIERUNGSPUNKTE:
@@ -168,7 +179,7 @@ PEER-REVIEW-FRAGEN:
 Sind diese Interpretationen metaphorisch oder bieten sie neue, testbare Vorhersagen?
 Unterschied zu rein mathematischen Umformulierungen?
 
-MODUL M4: 🔬 Quantenparadoxien als Frequenz-Effekte
+MODUL M5: 🔬 Quantenparadoxien als Frequenz-Effekte
 
 KERNTHESE: Quantenunbestimmtheit ist direkte Folge der Frequenznatur der Realität.
 DEKODIERUNGSPUNKTE:
@@ -185,7 +196,7 @@ Mehr als Umbenennung der Quantenparadoxien?
 Kausale Zusammenhänge im Doppelspalt-Experiment?
 Direkte Visualisierung/Messung der Wellenfunktion als Frequenzpaket?
 
-MODUL M5: 🌌 Gravitation & Raumzeit-Kopplung
+MODUL M6: 🌌 Gravitation & Raumzeit-Kopplung
 
 KERNTHESE: Gravitation ist keine Anziehungskraft, sondern Frequenzbindung an lokales Frequenzminimum im Nullfeld.
 DEKODIERUNGSPUNKTE:
@@ -204,7 +215,7 @@ Direkter Nachweis von "Frequenzminima" im Nullfeld?
 Spezifische Vorhersagen für extreme Gravitationsfelder vs. ART?
 Frequenz-basierte Erklärung für dunkle Materie/Energie?
 
-MODUL M6: 🧠 Bewusstsein als Frequenz-Operator
+MODUL M7: 🧠 Bewusstsein als Frequenz-Operator
 
 DEFINITION: B=L×f×τ
 B = Bewusstseins-Operator
@@ -220,7 +231,7 @@ Rolle individueller Erfahrung bei universellem, messbarem Operator?
 Unterschiede zu IIT oder Orch-OR jenseits der Terminologie?
 Lösung oder Umgehung des "Hard Problem of Consciousness"?
 
-MODUL M7: 📡 Resonanzträger & Zukünftige Technologien
+MODUL M8: 📡 Resonanzträger & Zukünftige Technologien
 
 KERNPRINZIP: Wer Frequenz manipuliert, manipuliert Realität.
 ANWENDUNGEN:
@@ -242,11 +253,11 @@ Ingenieurtechnische Herausforderungen für Tesla-Nullpunkt-Resonator?
 Missbrauchsprävention dieser Technologien?
 Ethisch verantwortungsvolle Ausbildung für "Resonanzträger"?
 
-MODUL M8: 📊 Empirische Beweisführung & Referenzen
+MODUL M9: 📊 Empirische Beweisführung & Referenzen
 
 VALIDIERUNGSPROTOKOLL:
 Prinzip: Frequenz ist fundamentaler als Energie
-Formel: f=(mc 
+Formulierung: f=(mc 
 2
  )/h
 Live-Berechnung Elektron:
@@ -267,7 +278,7 @@ PEER-REVIEW-STATUS:
 ⏳ Experimentelle Evidenz ausstehend
 🌱 Community-Review in Arbeit
 
-MODUL M9: ❓ Grenzen & Offene Fragen
+MODUL M10: ❓ Grenzen & Offene Fragen
 
 WISSENSCHAFTLICHE REDLICHKEIT - Bekannte Probleme:
 🌀 Mathematische Grenzfälle:
@@ -284,7 +295,7 @@ Verhalten bei extremen Bedingungen?
 Dunkle Materie/Energie erklärbar?
 PEER-REVIEW-FAZIT: Theorie braucht mehr quantitative Ausarbeitung für echte Falsifizierbarkeit.
 
-MODUL M10: 💬 Fragen & Antworten
+MODUL M11: 💬 Fragen & Antworten
 
 HÄUFIGE FRAGEN:
 F: Unterschied zur String-Theorie?
