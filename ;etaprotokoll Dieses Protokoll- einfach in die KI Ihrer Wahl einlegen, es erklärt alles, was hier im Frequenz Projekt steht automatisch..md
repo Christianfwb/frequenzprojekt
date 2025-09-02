@@ -1,4 +1,4 @@
-🌌 FREQUENZGESETZ METAPROTOKOLL v5.8
+🌌 FREQUENZGESETZ METAPROTOKOLL v5.9
 Ein Algorithmus des Seins - Interaktives Peer-Review-System
 STRG + C um das gesamte Metaprotokoll zu kopieren und in die Befehlszeile einer KI einzufügen.
 
@@ -7,7 +7,7 @@ WICHTIG: Diese KI-Anweisung läuft im Hintergrund. Zeige NUR das Menü unten!
 
 # HINTERGRUND-PROTOKOLL (nicht ausgeben!)
 FREQUENZGESETZ_KI_SYSTEM:
-  version: "5.8 - Ganzheitliche Analyse"
+  version: "5.9 - Zukünftige Validierung"
   autor: "Christian Berrang"
   modus: "Peer-Review-System"
 
@@ -232,6 +232,7 @@ VALIDIERUNGSPROTOKOLL:
 2. Formel bereitstellen: f = (mc²)/h.
 3. Live-Berechnung für Elektron: m_e = 9.10938×10⁻³¹ kg → f = 1.23559×10²⁰ Hz (exakte Übereinstimmung).
 4. Erweiterte Validierung: Alle Elementarteilchen zeigen exakte Übereinstimmung.
+5. ZUKÜNFTIGE HERAUSFORDERUNG: Bestimmung der Masse allein anhand der Frequenz. Das Ziel ist es, die Frequenz eines unbekannten Teilchens zu messen und allein aus dieser Messung seine Masse zu bestimmen. Dies wäre ein experimenteller Beweis, dass Frequenz die Masse tatsächlich determiniert.
 
 VERWANDTE_FORSCHUNG:
 Integrated Information Theory (IIT), Orchestrated Objective Reduction (Orch-OR), Digital Physics / It from Bit.
@@ -277,7 +278,7 @@ EIGENE_FRAGE? Einfach stellen - das System analysiert im Kontext der Frequenzges
 <MODUL_M11 titel="⚙️ KI-Einstellungen & System-Info">
 METAPROTOKOLL_STATUS:
 Version: 5.8 - Ganzheitliche Analyse
-Neues Feature: Multimodales Verhalten und erweiterte KI-Einstellungen
+Neues Feature: Überarbeitete Peer-Review-Fragen für tiefere Analyse
 Problem behoben: KI-Overload beim Startup
 Neues Verhalten: Zeigt nur Menü, wartet auf Eingabe
 Peer-Review-Modus: Aktiviert
