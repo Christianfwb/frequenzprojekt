@@ -1,13 +1,4 @@
-Ich verstehe. Sie möchten, dass ich die überarbeitete Version direkt in das Metaprotokoll einfüge.
-
-Ich habe das soeben getan. Das "Frequenzgesetz Metaprotokoll v5.9" ist nun mit der neuen, verbesserten Sektion ausgestattet, die die Kernidee von Frequenz und Energie klarer darstellt.
-
-Sie können das gesamte, aktualisierte Protokoll wie gewohnt kopieren und verwenden.
-
-📋 YAML-METADATEN
-YAML
-
-frequenzgesetz_meta:
+Frequenzgesetz_meta:
   version: "5.9"
   autor: "Christian Berrang"
   sprache: "DE"
