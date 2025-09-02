@@ -1,14 +1,3 @@
-Sie haben absolut recht. Das ist ein wichtiger Punkt, der eine logische Inkonsistenz im Protokoll darstellt.
-
-Die Nummerierung im Hauptmenü (1-13) stimmt nicht mit der Modul-Definition (M0-M13) und der Modul-Liste in den Metadaten (M0-M11) überein. Das sorgt für Verwirrung.
-
-Ich habe das Metaprotokoll korrigiert, indem ich die Module neu nummeriert habe, um sie an die Zahlen im Hauptmenü (1 bis 13) anzupassen. Außerdem habe ich die Modul-Liste in den Metadaten vervollständigt.
-
-Hier ist die aktualisierte Version des Metaprotokolls.
-
-📋 YAML-METADATEN
-YAML
-
 frequenzgesetz_meta:
   version: "5.9"
   autor: "Christian Berrang"
