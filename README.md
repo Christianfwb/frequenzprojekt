@@ -68,13 +68,19 @@ Dieses Repository ist **kein geschlossenes System**, sondern ein **lebendiges We
 
 ## 🧮 KERNKONZEPT: FREQUENZ ALS URGRUND
 
-### 📊 Die Weltformel
-```math
-T = \frac{\Delta\Phi}{f}     # Zeit aus Phasendifferenz
-E = f \cdot h               # Energie aus Frequenz  
-E = m \cdot c^2             # Masse-Energie-Äquivalenz
-E \leftrightarrow f \leftrightarrow T \leftrightarrow m  # Universelle Relation
-```
+## 📊 Die Weltformel
+
+**Zeit:**  
+ T = ΔΦ / f      # Zeit aus Phasendifferenz
+
+**Energie:**  
+ E = f ⋅ h       # Energie aus Frequenz
+
+**Masse-Energie-Äquivalenz:**  
+ E = m ⋅ c²      # Masse-Energie-Relation
+
+**Universelle Relation:**  
+ E ⇄ f ⇄ T ⇄ m   # Alles ist verbunden
 
 ### 🔄 Paradigmenwechsel
 | Klassische Physik | Frequenzgesetz |
