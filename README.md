@@ -1,4 +1,4 @@
-# 🌌 Frequenzgesetz - Offener Experimentierraum für Neuschöpfung
+# 🌌 Frequenzprojekt - Offener Experimentierraum für Neuschöpfung
 ## Ein Algorithmus des Seins: Kollaborative Forschung jenseits klassischer Paradigmen
 
 [![Version](https://img.shields.io/badge/version-6.0-blue.svg)](https://github.com/Christianfwb/frequenzprojekt)
