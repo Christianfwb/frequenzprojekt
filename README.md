@@ -68,7 +68,7 @@ Dieses Repository ist **kein geschlossenes System**, sondern ein **lebendiges We
 
 ## 🧮 KERNKONZEPT: FREQUENZ ALS URGRUND
 
-## 📊 Die Weltformel
+## 📊 Die Kernvision einfach dargestellt:
 
 **Zeit:**  
  T = ΔΦ / f      # Zeit aus Phasendifferenz
