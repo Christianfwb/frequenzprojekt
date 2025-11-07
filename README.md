@@ -68,29 +68,40 @@ Dieses Repository ist **kein geschlossenes System**, sondern ein **lebendiges We
 
 ## 🧮 KERNKONZEPT: FREQUENZ ALS URGRUND
 
-## 📊 Die Kernvision einfach dargestellt:
+### 📊 Die Kernvision einfach dargestellt
 
-**Zeit:**  
- T = ΔΦ / f      # Zeit aus Phasendifferenz
+**Zeit**  
+> T = ΔΦ / f       # Zeit entsteht aus Phasendifferenz
 
-**Energie:**  
- E = f ⋅ h       # Energie aus Frequenz
+**Energie**  
+> E = f · h        # Energie ist eine Funktion von Frequenz
 
-**Masse-Energie-Äquivalenz:**  
- E = m ⋅ c²      # Masse-Energie-Relation
+**Masse-Energie-Äquivalenz**  
+> E = m · c²       # Klassische Relation
 
-**Universelle Relation:**  
- E ⇄ f ⇄ T ⇄ m   # Alles ist verbunden
+**Neue Kernformel**  
+> 🜂 **m = (h · f) / c²**    # Frequenz erzeugt Masse  
+
+**Universelle Relation**  
+> E ⇄ f ⇄ T ⇄ m      # Alles ist miteinander verbunden
+
 
 ### 🔄 Paradigmenwechsel
+
 | Klassische Physik | Frequenzgesetz |
 |-------------------|----------------|
 | Energie → Frequenz | **Frequenz → Energie → Masse** |
-| Materie ist fundamental | Materie ist "geronnene Frequenz" |
-| Zeit ist absolut | Zeit emergiert aus Phasendifferenz |
+| Materie ist fundamental | Materie ist „geronnene Frequenz“ |
+| Zeit ist absolut | Zeit entsteht aus Phasendifferenz |
 | Bewusstsein ist Nebenprodukt | Bewusstsein ist Frequenz-Operator |
 
 ---
+
+> 🪶 **Kurz erklärt:**  
+> Das Frequenzgesetz beschreibt Realität nicht als Anordnung von Teilchen,  
+> sondern als Netz aus Schwingungszuständen.  
+> Alles – Energie, Zeit, Masse, Bewusstsein – ist Ausdruck derselben Ur-Frequenz.
+
 
 ## 🗂 ARBEITSMODULE ÜBERSICHT
 
