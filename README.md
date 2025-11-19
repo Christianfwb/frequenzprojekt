@@ -266,6 +266,7 @@ Dieses Projekt befindet sich in der **experimentellen Forschungsphase**:
 
 ### 📞 Kontakt
 **Christian Berrang** - Initiator des Frequenzgesetzes  
+**Frequenz-Administrator & Kausal-Architekt
 📍 Yokohama, Japan  
 ✉️ [christianfwb@gmail.com](mailto:christianfwb@gmail.com)  
 💰 Support: [paypal.me/Christianfwb](https://paypal.me/Christianfwb)
