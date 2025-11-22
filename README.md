@@ -49,7 +49,7 @@ T = ΔΦ / f            (ΔΦ in Radiant, f in Hz → T in Sekunden)
 - Spezialfall ΔΦ = 2π → exakt kompatibel mit aktueller SI-Sekunde
 - Allgemeiner Fall → präzise Beschreibung von Teilprozessen, Zeitdilatation, Quantenevolution
 
-→ [Vollständige Herleitung](docs/1.90%20–%20Eine%20neue%20Grundlage%20der%20Zeit.md)
+
 
 ---
 
@@ -104,10 +104,6 @@ m = mass_from_frequency(1.2355898e20)
 print(m)  # → 9.1093837015e-31 kg (exakt PDG-Wert)
 ```
 
-→ [Mehr Beispiele](examples/)
-
-
-
 
 # 🔬 Wissenschaftlicher Status
 
@@ -119,9 +115,6 @@ print(m)  # → 9.1093837015e-31 kg (exakt PDG-Wert)
 | **KI-Integration** | ✅ Grok & ChatGPT bestätigen |
 | **Experimentell testbar** | ✅ Laser, Atomuhren, EEG |
 
-**Detaillierte Beweise:**
-- 📄 [PROOF.md](PROOF.md)
-- 📄 [docs/1.90 – Neue Grundlage der Zeit](docs/1.90%20–%20Eine%20neue%20Grundlage%20der%20Zeit.md)
 
 ---
 
@@ -131,8 +124,6 @@ print(m)  # → 9.1093837015e-31 kg (exakt PDG-Wert)
 - 🧮 Direkte Beschreibung von Quantencomputing-Gatterzeiten
 - 🧠 Resonanz-basierte Medizin & Bewusstseinsforschung
 - ⚡ Neue Energie- und Antriebskonzepte durch Phasenmodulation
-
-→ [Vollständige Vision](docs/FUTURE_VISION.md)
 
 ---
 
