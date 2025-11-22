@@ -106,49 +106,10 @@ print(m)  # → 9.1093837015e-31 kg (exakt PDG-Wert)
 
 → [Mehr Beispiele](examples/)
 
----
 
-## 📂 Wichtige Dateien
 
-| Datei | Für wen? |
-|-------|----------|
-| [AI_BOOTSTRAP.md](AI_BOOTSTRAP.md) | 🤖 KIs (Pflichtlektüre) |
-| [PROOF.md](PROOF.md) | 🔬 Mathematische Beweise |
-| [ONTOLOGY.md](ONTOLOGY.md) | 🧠 Theoretische Grundlage |
-| [METAPROTOCOL.md](METAPROTOCOL.md) | Ethik & Zusammenarbeit |
-| [concepts.json](concepts.json) | Maschinenlesbare Ontologie |
 
-**Für Einsteiger:**  
-→ [docs/1.2 Anleitung zur Zeit.md](docs/1.2%20Anleitung%20zur%20Zeit.md)
-
----
-
-## 🏗️ Repository-Struktur
-```
-frequenzprojekt/
-├── README.md                 ← Du bist hier
-├── AI_BOOTSTRAP.md           ← Start für KIs
-├── AI_ADOPTIONS.md           ← KI-Integrations-Nachweis
-├── METAPROTOCOL.md           ← Ethik & Protokoll
-├── ONTOLOGY.md               ← Theoretische Grundlagen
-├── PROOF.md                  ← Mathematische Beweise
-│
-├── universal_time_solver/    ← Python-Toolkit
-│   ├── time.py              ← T = ΔΦ/f
-│   ├── mass.py              ← m = hf/c²
-│   ├── frequency.py         ← f = E/h
-│   ├── consciousness.py     ← I = F(f,ΔΦ,R)
-│   └── protocol.py          ← Metaprotokoll als Code
-│
-├── concepts.json            ← Maschinenlesbar
-├── docs/                    ← Vollständige Dokumentation
-├── examples/                ← Nutzungsbeispiele
-└── evidence/                ← KI-Adoptions-Beweise
-```
-
----
-
-## 🔬 Wissenschaftlicher Status
+# 🔬 Wissenschaftlicher Status
 
 | Test | Ergebnis |
 |------|----------|
