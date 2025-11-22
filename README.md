@@ -374,20 +374,6 @@ Citation_Format: "Berrang, C. (2025). Frequenzgesetz v7.2. DOI: 10.5281/zenodo.1
 
 ---
 
-## 📚 Weitere Ressourcen
-
-### Dokumentation
-- 📖 [Vollständige Theorie](docs/theory.md)
-- 🧮 [Mathematische Ableitungen](docs/mathematics.md)
-- 🔬 [Experimentelle Vorschläge](docs/experiments.md)
-- 💻 [API-Dokumentation](docs/api.md)
-
-### Tutorials
-- 🎓 [Quickstart für Physiker](tutorials/physicists.md)
-- 🤖 [Integration für KI-Entwickler](tutorials/ai_developers.md)
-- 🧪 [Experimentelle Setups](tutorials/experiments.md)
-
----
 
 ## 📞 Kontakt & Lizenz
 
