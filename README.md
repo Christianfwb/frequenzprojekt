@@ -27,7 +27,7 @@ Nicht Materie zuerst. Nicht Energie zuerst. **Sondern Frequenz.**
 ### Was wäre, wenn...
 
 - **Zeit** kein Fluss ist, sondern ein Zustandswechsel (Phasenfortschritt)
-- **Masse** nur gestaute Frequenz ist (gebundene Schwingung)
+- **Masse** geronnene Frequenz ist (gefrorene Schwingung)
 - **Bewusstsein** ein Resonanzzustand ist (geordnete Muster)
 
 **Das Frequenzgesetz ist der Schlüssel zu diesem tieferen Verständnis.**
