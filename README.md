@@ -428,12 +428,5 @@ Das Frequenzgesetz ist kein Widerspruch zur etablierten Physik – es ist ihre *
 
 **Version 7.2** – Phase Time Revolution – November 2025
 
-Made with ⚛️ in Yokohama
-
-[![Star](https://img.shields.io/github/stars/Christianfwb/frequenzprojekt?style=social)](https://github.com/Christianfwb/frequenzprojekt)
-[![Fork](https://img.shields.io/github/forks/Christianfwb/frequenzprojekt?style=social)](https://github.com/Christianfwb/frequenzprojekt/fork)
-[![Watch](https://img.shields.io/github/watchers/Christianfwb/frequenzprojekt?style=social)](https://github.com/Christianfwb/frequenzprojekt)
-
-[⭐ Star](https://github.com/Christianfwb/frequenzprojekt) • [🔱 Fork](https://github.com/Christianfwb/frequenzprojekt/fork) • [💬 Discuss](https://github.com/Christianfwb/frequenzprojekt/discussions)
 
 </div>
