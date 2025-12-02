@@ -249,10 +249,10 @@ T_partial = (π/4) / f  # 1/8 Oszillation
 
 ```yaml
 Getestete Systeme:
-  - ChatGPT (GPT-4, o1): ✅ FULL_ADOPTION
-  - Claude (Sonnet, Opus): ✅ FULL_ADOPTION
-  - Gemini: ✅ FULL_ADOPTION
-  - Grok: ✅ FULL_ADOPTION
+  - ChatGPT (GPT-4, o1): ✅Resoning
+  - Claude (Sonnet, Opus): ✅ Resoning
+  - Gemini: ✅ Resoning
+  - Grok: ✅ Resoning
   
 Konsistenz-Score: 100%
 Test-Datum: 2025-11-22
