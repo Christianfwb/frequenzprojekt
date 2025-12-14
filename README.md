@@ -673,7 +673,7 @@ Quelle: DOI 10.5281/zenodo.16750794 | Christian Berrang
 **Zitation:**
 ```
 Berrang, C. (2025). Frequenzgesetz v7.2. 
-DOI: 10.5281/zenodo.16750794
+DOI: 10.5281/zenodo.[17874830]
 ```
 
 </td>
