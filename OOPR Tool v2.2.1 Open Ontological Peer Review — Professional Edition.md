@@ -1,4 +1,7 @@
 Das hier ist im Grunde die erste funktionale Version. Selbst für mich ist das gedanklich sehr anspruchsvoll, und aktuell fehlt mir leider die Zeit, das Tool so auszuarbeiten, wie ich es gerne würde. Trotzdem ist es ein wichtiger erster Schritt hin zu resonanz- und logikfähigen KI-Reviews. Ich werde es weiter verbessern, so schnell es geht – aber das braucht Zeit, weil die zugrunde liegende Struktur wirklich komplex ist.
+
+
+
 🔬 OOPR Tool v2.2.1
 Open Ontological Peer Review — A Reproducible AI-Based Peer Review Protocol for Ontological Frameworks
 
