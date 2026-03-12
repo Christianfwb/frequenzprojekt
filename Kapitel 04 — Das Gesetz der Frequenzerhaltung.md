@@ -10,15 +10,15 @@ Doch alle diese Erhaltungsgrößen sind **abgeleitet** — von etwas Tieferem.
 
 Das Frequenzgesetz enthüllt das **ursprünglichste Erhaltungsprinzip**:
 
-> **Nicht Energie bleibt erhalten — Frequenz bleibt erhalten.**  
-> Energieerhaltung ist eine *Konsequenz* der Frequenzerhaltung.
+> **Energieerhaltung kann als Konsequenz einer zugrundeliegenden Frequenzstruktur interpretiert werden.**  
+> Diese Lesart verändert keine Gleichungen — sie verschiebt die ontologische Priorität.
 
 ---
 
 ## 4.1 Das Gesetz
 
 ```
-∑ fᵢ(t) = konstant   (in einem geschlossenen System)
+∑ Eᵢ = ∑ h · fᵢ = konstant   (in einem geschlossenen System)
 ```
 
 **Was das bedeutet:**
@@ -81,29 +81,35 @@ Temperatur ist das Maß für **Frequenzen, die ihre Kohärenz verloren haben**.
 | Plasma | Kaum kohärent | T → sehr hoch |
 | BEC | Perfekt kohärent | T → 0 K |
 
-> **Wärme ist nicht Energie — Wärme ist verlorene Resonanz.**
+> **Wärme kann als Verlust von Kohärenz zwischen Frequenzzuständen interpretiert werden.**
 
 ---
 
-## 4.5 Das große zyklische Modell (CGL)
+## 4.5 Konzept eines zyklischen Frequenzsystems
 
-Das Universum ist ein **sich selbst referenzierendes Frequenzsystem**:
+Der folgende Abschnitt beschreibt ein konzeptuelles Modell, das aus der im Frequenzgesetz vorgeschlagenen Frequenzstruktur abgeleitet werden kann. Es handelt sich nicht um eine experimentell bestätigte kosmologische Theorie, sondern um eine interpretative Darstellung möglicher Dynamiken eines frequenzbasierten Universums.
+
+Innerhalb des Frequenzgesetzes lässt sich ein zyklisches Frequenzsystem als mögliche globale Dynamik beschreiben:
 
 ```
-Kernel (Nullfeld)
+Kernel (Nullfeld)          ←  hypothetischer Grundzustand
     ↓
-Licht (freie Frequenz)
+Licht (freie Frequenz)     ←  propagierende Frequenzmuster
     ↓
-Masse (gebundene Frequenz)
+Masse (gebundene Frequenz) ←  stabilisierte Frequenzknoten
     ↓
-Resonanz (kohärente Frequenz)
+Resonanz (kohärente Freq.) ←  synchronisierte Systeme
     ↓
-neue Frequenzmuster f'
+neue Frequenzmuster f'     ←  emergente Strukturen
     ↓
 zurück zum Kernel...
 ```
 
-> "Alles ist Frequenz. Alles ist Erinnerung im Rhythmus der Wirklichkeit."
+*Dieses Schema beschreibt eine mögliche Dynamik innerhalb eines frequenzbasierten ontologischen Rahmens — keine bewiesene kosmologische Aussage.*
+
+Innerhalb dieses Rahmens können physikalische Systeme als stabile oder propagierende Frequenzmuster interpretiert werden, die zwischen gebundenen und freien Zuständen wechseln.
+
+> *Dieser Abschnitt ist eine interpretative Erweiterung des Frequenzgesetzes und dient der konzeptuellen Veranschaulichung möglicher globaler Dynamiken.*
 
 ---
 
@@ -130,13 +136,13 @@ Jedes manifestierte System ist eine **lokale Auswahl** aus dieser unendlichen Ma
 Das BEC ist die **perfekteste experimentelle Bestätigung** der Frequenzerhaltung:
 
 ```
-BEC: ∀i,j: fᵢ = fⱼ   (alle Frequenzen synchron)
+BEC: alle Teilchen besetzen denselben makroskopischen Quantenzustand
 ```
 
-Alle individuellen Frequenzen synchronisieren sich in **EIN gemeinsames Frequenzfeld**.
+Im BEC kollabieren alle Teilchen in denselben Quantenzustand — eine perfekte Phasenkohärenz entsteht. Das Frequenzgesetz interpretiert dies als den Zustand maximaler Frequenzkohärenz.
 
-> Das BEC ist nicht seltsam — es ist das **reinste Bild des Universums**:  
-> Perfekte Kohärenz. Maximale Frequenzerhaltung. Minimale verlorene Resonanz.
+> Das BEC ist nicht seltsam — es ist das reinste experimentelle Beispiel maximaler Phasenkohärenz:  
+> Alle Teilchen im selben Quantenzustand. Minimale Entropie. Maximale Ordnung.
 
 ---
 
