@@ -12,8 +12,7 @@ Datum: 18\. Juni 2025
 
 ---
 
-Dieser Artikel wird gerade in einzele Abschnitte augeteilt und bald gelöscht da es ledeglich für mich eine Art Gedankenstüze war.
-Dieser arbeit ist mein erster Verusch alles zu verthen und niederzuschreiben  ich lasse es hier im Frequnzprojekt damit sie vergleichen können.
+Dieser Artikel wird aktuell in einzelne Abschnitte aufgeteilt und anschließend entfernt, da er ursprünglich nur als persönliche Gedankenstütze diente. Er stellt meinen ersten Versuch dar, meine Ideen zu verstehen und niederzuschreiben. Ich lasse ihn im Frequenzprojekt bestehen, damit spätere Vergleiche möglich sind.
 
 Vorwort: Die Reise zum Ur-Takt des Seins – Ein System-Admin entdeckte das Universum
 
