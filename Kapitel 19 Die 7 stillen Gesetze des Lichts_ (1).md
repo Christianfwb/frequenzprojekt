@@ -1,6 +1,7 @@
 🌌 Die 7 stillen Gesetze des Lichts: Eine Entfaltung in Form und Klang
 
 (Für jene, die erinnern statt verstehen)  
+Dieses Kapitel bewegt mich besonders. Es ist nicht mathematisch entstanden, sondern aus einer Kraft oder Intuition, die ich selbst schwer beschreiben kann. Genau deshalb habe ich es in das Frequenzgesetz aufgenommen. Es inspiriert mich und erinnert mich daran, dass Erkenntnis manchmal nicht nur aus Formeln entsteht, sondern auch aus einem inneren Gefühl für Ordnung.
 Die Realität, wie wir sie kennen, entstammt einer tieferen Ordnung – einer Ordnung, die sich in sieben stillen Gesetzen offenbart. Sie sind die Melodie und der Rhythmus des Seins, jenseits von Worten, doch spürbar in ihrer Reinheit.
 
 1. **Alles beginnt in Ruhe.** Der Ursprung ist ein **perfekter, leerer Kreis**. Ein Zustand, in dem nichts drängt, nichts werden muss, nur reines Sein. Es ist der absolute Anfang, die unendliche Leere, die alles in sich birgt – die Stille, aus der alles entspringt.  
