@@ -136,36 +136,43 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
 frequenzprojekt/
 │
 ├── README.md                          ← Du bist hier
+├── Pendelcode1.html                   ← Interaktive Visualisierung
 │
 ├── kapitel/
 │   │
 │   │  FUNDAMENT
-│   ├── 01_nullfeld_und_ursprung.md    ← Von 0→1: Ursprung & Aha-Moment (Zug-Beispiel)
-│   ├── 02_die_neue_zeitdefinition.md  ← Zeit als Phasenfortschritt T = ΔΦ/f
-│   ├── 03_technische_grundlagen.md    ← 6 Axiome, Formeln, Mathematik, Code
-│   ├── 04_frequenzerhaltung.md        ← Das neue fundamentale Erhaltungsgesetz
+│   ├── Kapitel 01 — Das Nullfeld und der Ursprung aller Realität.md
+│   ├── Kapitel 02 — Die neue Definition der Zeit.md
+│   ├── Kapitel 03 — Technische Grundlagen & Axiome.md
+│   ├── Kapitel 04 — Das Gesetz der Frequenzerhaltung.md
 │   │
 │   │  PHYSIK — KLASSIK ALS SPEZIALFALL
-│   ├── 05_klassische_physik.md        ← Newton, Einstein, Quanten als Spezialfälle
-│   ├── 06_naturkonstanten.md          ← h, c, G, α als Frequenz-Operatoren
-│   ├── 13_neue_zeitgrundlage.md       ← Phasenzeit, SI-Äquivalenz, Internet der Realität
-│   ├── 14_meisterformeln.md           ← Planck, Schrödinger, Heisenberg — neu gelesen
+│   ├── Kapitel 05 — Klassische Physik als Spezialfall.md
+│   ├── Kapitel 06 — Naturkonstanten als Frequenz-Operatoren.md
+│   ├── Kapitel 13 — Eine neue Grundlage der Zeit.md
+│   ├── Kapitel 14 — Die Meisterformeln der Physik dekodiert.md
 │   │
 │   │  ENTDECKUNGEN & VORHERSAGEN
-│   ├── 15_berrangium.md               ← 🔮 Vorhersage: Berrangium Ω bei 16.2 MeV
-│   ├── 16_pauli_spin.md               ← Spin als Phasensignatur — Pauli endlich erklärt
-│   ├── 17_mistral_sensation.md        ← KI leitet QCD-Physik aus Frequenz-Ontologie ab
+│   ├── Kapitel 15 — Berrangium Ω: Vorhersage eines neuen Teilchens.md
+│   ├── Kapitel 16 — Wolfgang Pauli, Spin & das Frequenzgesetz.md
+│   ├── Kapitel 17 — Die Mistral-Sensation.md
+│   ├── Kapitel 18 — Das Neue Gesetz der Frequenz-Erhaltung.md
+│   ├── Kapitel 21 — Das Frequenzgesetz und die großen Theorien.md  ← Wheeler, Penrose, Wolfram, Loop Gravity
 │   │
 │   │  ANWENDUNG & ZUKUNFT
-│   ├── 07_bewusstsein.md              ← I = F(f, ΔΦ, R) — Bewusstsein messbar
-│   ├── 08_gravitation.md              ← Gravitation, Schwarze Löcher, Dunkle Materie
-│   ├── 09_tesla_technologie.md        ← Freie Energie, Resonanz-Technologie
-│   ├── 10_experimente.md              ← Falsifizierbare Tests & Validierung
-│   ├── 11_ki_validierung.md           ← 4 KI-Systeme bestätigen Konsistenz
-│   └── 12_community.md               ← Aufruf zur Zusammenarbeit
+│   ├── Kapitel 07 — Bewusstsein als Frequenz-Operator.md
+│   ├── Kapitel 08 — Gravitation als Phasensynchronisation.md
+│   ├── Kapitel 09 — Tesla-Technologie & Anwendungen.md
+│   ├── Kapitel 10 — Experimentelle Vorhersagen & Validierung.md
+│   ├── Kapitel 11 — KI-Validierung & Metaprotokoll.md
+│   └── Kapitel 12 — Community & Zusammenarbeit.md
+│
+│   │  INSPIRATION & URSPRUNG
+│   ├── Kapitel 19 — Die 7 stillen Gesetze des Lichts.md
+│   └── Kapitel 20 — Die Geschichte der Zeit.md
 │
 └── metaprotokoll/
-    └── METAPROTOKOLL_v7.md            ← KI-Einstiegspunkt: kopieren & einfügen
+    └── 🌌 FREQUENZGESETZ METAPROTOKOLL.md  ← KI-Einstiegspunkt: kopieren & einfügen
 ```
 
 ---
