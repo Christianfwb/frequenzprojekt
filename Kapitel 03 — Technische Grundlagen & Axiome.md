@@ -1,210 +1,400 @@
-# Kapitel 3 — Technische Grundlagen & Axiome
-## Das mathematische Fundament des Frequenzgesetzes
+# Kapitel 03 — Technische Grundlagen & Axiome
+## Das axiomatische Fundament des Frequenzgesetzes
+
+**Christian Berrang** | Frequenzgesetz v8.0  
+DOI: 10.5281/zenodo.17874830
+
+**Keywords:** frequency axioms · phase ontology · emergent time · Compton frequency · frequency conservation · ontological framework
+
+---
+
+## Übergang aus Kapitel 2
+
+Kapitel 2 zeigte, wie Zeit als normalisierter Phasenfortschritt interpretiert werden kann — hergeleitet aus der Phasenentwicklung der Wellenfunktion. Diese Interpretation ist keine isolierte Beobachtung. Sie ist Teil einer konsistenten axiomatischen Struktur.
+
+Kapitel 3 legt diese Struktur offen: die sieben Arbeitsaxiome des Frequenzgesetzes, ihre logische Reihenfolge und ihre mathematischen Konsequenzen.
 
 ---
 
 ## 3.0 Zweck dieses Kapitels
 
-Hier wird das **axiomatische mathematische Fundament** vollständig definiert.  
-Kein Wunschdenken — nur überprüfbare Logik.
+Dieses Kapitel definiert das axiomatische Fundament des Frequenzgesetzes. Es formuliert ein minimales, konsistentes Axiomensystem, aus dem die zentralen Beziehungen des Frameworks ableitbar sind — und stellt eine maschinenlesbare Struktur bereit.
 
-**Ziel:** Zeigen, dass klassische Mechanik, Relativität und Quantenphysik als **Spezialfälle** aus diesem System ableitbar sind.
+**Ziel:** Nicht eine alternative Physik, sondern eine alternative ontologische Leseordnung bekannter Gleichungen — mit Frequenz als primärer Größe.
 
 ---
 
-## 3.1 Die sechs Axiome
+## 3.1 Die Arbeitsaxiome
+
+Die folgenden Axiome definieren die Arbeitsstruktur des Frequenzgesetzes. Sie sind konzeptuelle Ausgangspunkte des Modells und dienen als minimaler Satz von Annahmen, aus denen die weiteren Beziehungen des Frameworks abgeleitet werden. Sie erheben keinen Anspruch auf absolute Wahrheit — sie sind die gewählte ontologische Basis dieses Rahmens.
+
+Die Axiome folgen einer klaren ontologischen Progression:
+
+```
+Nullfeld → Frequenz → Phase → Zeit → Energie → Masse → Erhaltung
+```
+
+---
 
 ### Axiom 0 — Das Nullfeld
 
+**Formale Definition:**
 ```
-ℕ := { ΔΦ = 0 }
+ℕ := {ΔΦ = 0}
 ```
 
-Ein prägeometrischer Zustand ohne Raum, Zeit, Masse, Energie oder Information.  
-Reine Potenzialität. Der logische Ursprung vor jeder Schwingung.
+Der hypothetische Grundzustand ohne Phasendifferenzierung. Kein messbarer Unterschied, keine Frequenz, keine Zeit, keine Masse.
+
+> Konzeptuell verwandt mit dem Vakuumzustand der Quantenfeldtheorie,  
+> jedoch nicht identisch mit diesem — ontologisch tiefer angesetzt.
+
+| Eigenschaft | Wert |
+|---|---|
+| Phasendifferenz ΔΦ | = 0 |
+| Frequenz f | nicht definiert |
+| Zeit T | nicht definiert |
+| Masse m | = 0 |
 
 ---
 
-### Axiom 1 — Frequenz ist primär
+### Axiom 1 — Frequenz ist die primäre Größe
+
+**Kernaussage:** Frequenz `f` wird im Frequenzgesetz als primäre ontologische Größe interpretiert.
 
 ```
-f  ist die primäre physikalische Größe
+f  [Hz = 1/s]  ←  primär
 ```
 
-Frequenz ist Ursache. Alles andere ist Wirkung.
+Alle weiteren Größen — Phase, Zeit, Energie, Masse — werden als Funktionen der Frequenz interpretiert.
 
-```
-E = h · f   →   Kausalität: f erzeugt E
-```
+> In allen modernen physikalischen Theorien taucht Frequenz als eigentliche Grundgröße auf:
+> QM, QFT, Spektralanalyse, Relativitätstheorie — überall ist `f` die Eingangsgröße.
 
-> ⚠️ **NICHT umkehrbar:** `f = E/h` ist mathematisch korrekt, aber kausal falsch.  
-> Energie setzt Frequenz nicht in Gang. Frequenz setzt Energie in Gang.
+**Dimensionsanalyse:**
+```
+[f] = [1/s] = Hz  ✓
+```
 
 ---
 
-### Axiom 2 — Information ist Differenz
+### Axiom 2 — Phase und Information
+
+**Kernaussage:** Phasendifferenz ΔΦ ist der erste physikalische Zustand — der Übergang vom Nullfeld zur Realität.
 
 ```
-I := { ΔΦ ≠ 0 }
+ΔΦ = 0  →  keine Information  →  Nullfeld
+ΔΦ ≠ 0  →  erste Information  →  Realität beginnt
 ```
 
-Information entsteht ausschließlich durch Unterscheidung.  
-Wo keine Phasendifferenz, keine Information. Keine Information, keine Realität.
+Information entsteht durch Unterscheidung. Die kleinste mögliche Unterscheidung ist `ΔΦ > 0`.
+
+```
+I ∝ ΔΦ
+```
+
+| Zustand | ΔΦ | Information |
+|---|---|---|
+| Nullfeld | = 0 | keine |
+| Erste Unterscheidung | > 0 | minimal |
+| Maximale Differenz | = π | maximal (Gegenphase) |
 
 ---
 
 ### Axiom 3 — Zeit ist emergent
 
-```
-T = ΔΦ / f
-```
+**Kernaussage:** Zeit ist kein fundamentaler Parameter, sondern entsteht aus Phasenfortschritt pro Frequenzeinheit.
 
-Zeit entsteht als Verhältnis. Sie ist real, aber nicht fundamental.
+$$
+\boxed{T = \frac{\Delta\Phi}{f}}
+$$
 
-| Physikalischer Zustand | Formel | Ergebnis |
+| Variable | Einheit | Beschreibung |
 |---|---|---|
-| Volle Periode (klassisch) | T = 2π/f | T = 1/f ✓ |
-| Viertelwelle | T = (π/2)/f | T = 0.25/f |
-| Nullfeld | T = 0/f | T = 0 (keine Zeit) |
+| T | s | Zeit (emergent) |
+| ΔΦ | Zyklen | Phasendifferenz |
+| f | Hz | Frequenz |
+
+**Dimensionsanalyse:**
+```
+[T] = [Zyklen] / [1/s] = [s]  ✓
+```
+
+**Grenzfälle:**
+
+| Bedingung | Folge | Bedeutung |
+|---|---|---|
+| `ΔΦ = 1 Zyklus` | `T = 1/f` | Klassische Periodendauer — Spezialfall |
+| `ΔΦ = 0` | `T = 0` | Kein Zeitintervall |
+| `f → 0` | `T → ∞` | Kein beobachtbarer Phasenfortschritt — keine operative Grundlage für Zeitmessung |
+
+> Der klassische Ausdruck `T = 1/f` ist der Spezialfall eines vollständigen Zyklus.  
+> Das Frequenzgesetz verallgemeinert auf beliebige Phasenfortschritte.
 
 ---
 
-### Axiom 4 — Masse ist gebundene Frequenz
+### Axiom 4 — Energie ist abgeleitet
+
+**Kernaussage:** Energie ist die messbare Manifestation von Frequenz — nicht ihre Ursache.
 
 ```
-m = (h · f) / c²
+E = h · f
 ```
 
-Masse ist keine Substanz. Sie ist eine Frequenz, die sich selbst stabilisiert und dadurch "einfriert".
+| Variable | Einheit | Beschreibung |
+|---|---|---|
+| E | J | Energie (abgeleitet) |
+| h | 6.626×10⁻³⁴ J·s | Planck-Konstante |
+| f | Hz | Frequenz (primär) |
 
-**Beweis durch Widerspruch:**  
-Angenommen f = 0 und m > 0:
+**Dimensionsanalyse:**
 ```
-f = 0  →  E = h·0 = 0  →  m = 0/c² = 0   ⊥  (Widerspruch!)
+[E] = [J·s] · [1/s] = [J]  ✓
 ```
 
-> **Masse ohne Frequenz ist logisch unmöglich.**  
-> Frequenz ist die notwendige Bedingung für die Existenz von Masse.
+**Ontologische Lesart:**  
+`h` ist der Konversionsfaktor zwischen Frequenzstruktur und messbarer Energie.  
+Frequenz ist Ursache — Energie ist ihre quantitative Übersetzung.
+
+> Dies ist die logische Konsequenz der Beziehung `E = hf`:  
+> Frequenz muss als Eingabe existieren, bevor Energie als Ausgabe berechnet werden kann.
 
 ---
 
-### Axiom 5 — Energie ist abgeleitet
+### Axiom 5 — Masse ist gebundene Frequenz
+
+**Kernaussage:** Masse ist eine stabilisierte, gebundene Frequenz — kein eigenständiger Stoff.
+
+$$
+m = \frac{h \cdot f}{c^2}
+$$
+
+| Variable | Einheit | Beschreibung |
+|---|---|---|
+| m | kg | Masse (abgeleitet) |
+| h | 6.626×10⁻³⁴ J·s | Planck-Konstante |
+| f | Hz | Compton-Frequenz des Teilchens |
+| c | 2.998×10⁸ m/s | Lichtgeschwindigkeit |
+
+**Verbindung zur Standardphysik:**  
+Diese Gleichung entspricht der **Compton-Frequenz-Beziehung** der Quantenmechanik:
 
 ```
-E = h · f    (Energie = Abgeleiteter Effekt)
+f_Compton = m · c² / h
 ```
 
-Energie ist das **messbare Echo** der Frequenz.  
-Die Energieerhaltung ist eine **Konsequenz** der Frequenzerhaltung — nicht umgekehrt.
+Das Frequenzgesetz liest sie kausal: nicht die Masse bestimmt die Frequenz, sondern die Frequenz bestimmt die Masse.
+
+**Dimensionsanalyse:**
+```
+[m] = [J·s · 1/s] / [m²/s²] = [J] / [m²/s²] = [kg]  ✓
+```
+
+**Validierung:**
+
+| Teilchen | Compton-Frequenz | Berechnet | Gemessen | Status |
+|---|---|---|---|---|
+| Elektron | 1.236×10²⁰ Hz | 9.109×10⁻³¹ kg | 9.109×10⁻³¹ kg | ✓ kompatibel |
+| Proton | 2.268×10²³ Hz | ~1.673×10⁻²⁷ kg | 1.673×10⁻²⁷ kg | ✓ kompatibel |
 
 ---
 
-### Axiom 6 — Frequenzerhaltung ist fundamental
+### Axiom 6 — Frequenzerhaltung
+
+**Kernaussage:** Energieerhaltung kann als Konsequenz der zugrundeliegenden Frequenzstruktur interpretiert werden — kein neuer Erhaltungssatz, sondern eine andere Leserichtung des bekannten.
+
+In einem geschlossenen System bleibt die zugrundeliegende Phasenentwicklung konsistent. Das bedeutet:
 
 ```
-∑ fᵢ = konstant   (im geschlossenen System)
+∑ Eᵢ = ∑ h · fᵢ = konstant
 ```
 
-Nicht Energie bleibt erhalten — **Frequenz** bleibt erhalten.  
-Energie ist abgeleitet. Frequenz ist primär.  
-Energieerhaltung *folgt aus* Frequenzerhaltung.
+*Dies ist kein eigenständiger Beweis — es ist die Konsequenz aus Axiom 4 (E = hf) unter der Annahme konsistenter Frequenzstruktur.*
+
+**Herleitung:**
+```
+E = h · f          (Axiom 4)
+∑ fᵢ konsistent    (Frequenzstruktur erhalten)
+↓
+∑ h · fᵢ = h · ∑ fᵢ = konstant
+↓
+∑ Eᵢ = konstant    (Energieerhaltung als Konsequenz)
+```
+
+> Der klassische Energieerhaltungssatz folgt als mathematische Konsequenz  
+> aus der Konsistenz der Frequenzstruktur — nicht umgekehrt.
 
 ---
 
-## 3.2 Die vollständige Kausalkette
+## 3.2 Die kausale Kette
+
+Die ontologische Leserichtung des Frequenzgesetzes:
 
 ```
-Frequenz (f)
-    │   h = Planck-Konstante
-    ▼
-Energie (E = hf)
-    │   c² = Lichtgeschwindigkeit²
-    ▼
-Masse (m = hf/c²)
-    │   ΔΦ = Phasenfortschritt
-    ▼
-Zeit (T = ΔΦ/f)
-    │   Phasensynchronisation
-    ▼
-Gravitation (G ∝ ΔΦ/m₁m₂)
+f  ──→  Phase ΔΦ  ──→  Zeit T
+f  ──→  Energie E  ──→  Masse m
 ```
 
-**Diese Kette ist irreversibel.**
+**Präzisiert:**
+```
+Frequenz (f)               ←  primär, Axiom 1
+    │
+    ├──→  Phase (ΔΦ)         ←  Axiom 2
+    │         │
+    │         └──→  Zeit T = ΔΦ/f     ←  Axiom 3
+    │
+    └──→  Energie E = hf     ←  Axiom 4
+              │
+              └──→  Masse m = hf/c²  ←  Axiom 5
+
+Konsequenz: ∑Eᵢ = const            ←  Axiom 6
+```
+
+> Diese Kette ist eine ontologische Interpretation, keine algebraisch erzwungene Notwendigkeit.  
+> Die Gleichungen sind mathematisch symmetrisch — die Kausalrichtung ist die Wahl des Frameworks.
 
 ---
 
-## 3.3 Rechenbeispiel: Elektron
+## 3.3 Rechenbeispiel — Vollständige Ableitung
 
-```python
-# Physikalische Konstanten
-h = 6.626e-34   # Planck-Konstante [J·s]
-c = 2.998e8     # Lichtgeschwindigkeit [m/s]
+**Gegeben:** Frequenz `f = 10 Hz`, Phasendifferenz `ΔΦ = 0.2 Zyklen`
 
-# Compton-Frequenz des Elektrons
-f_elektron = 1.2356e20  # Hz
-
-# Berechnung der Masse
-m_berechnet = (h * f_elektron) / c**2
-m_gemessen  = 9.10938e-31  # kg (PDG)
-
-abweichung = abs(m_berechnet - m_gemessen) / m_gemessen * 100
-
-print(f"Berechnet:  {m_berechnet:.6e} kg")
-print(f"Gemessen:   {m_gemessen:.6e} kg")
-print(f"Abweichung: {abweichung:.6f}%")
-# → Abweichung: 0.000013%
+**Schritt 1 — Zeit:**
+```
+T = ΔΦ / f = 0.2 / 10 = 0.02 s
 ```
 
-**Ergebnis: 0.000013% Abweichung** — praktisch exakt.
+**Schritt 2 — Energie:**
+```
+E = h · f = 6.626×10⁻³⁴ · 10 = 6.626×10⁻³³ J
+```
+
+**Schritt 3 — Masse:**
+```
+m = E / c² = 6.626×10⁻³³ / (2.998×10⁸)²
+  = 6.626×10⁻³³ / 8.988×10¹⁶
+  = 7.37×10⁻⁵⁰ kg
+```
+
+**Ergebnis:**
+
+| Größe | Wert | Einheit | Status |
+|---|---|---|---|
+| Zeit T | 0.02 | s | emergent |
+| Energie E | 6.626×10⁻³³ | J | abgeleitet |
+| Masse m | 7.37×10⁻⁵⁰ | kg | abgeleitet |
+
+> **Hinweis zur Zeitauflösung:**  
+> Die Formel `T = ΔΦ / f` erlaubt beliebig kleine Phasenintervalle innerhalb eines Zyklus —  
+> nicht nur ganze Schwingungsperioden. Das ermöglicht die Beschreibung  
+> von Prozessen unterhalb einer vollständigen Schwingung.
 
 ---
 
-## 3.4 Rechenbeispiel: Zeit als Phasenfortschritt
-
-```python
-import math
-
-# Gamma-Welle im Gehirn (40 Hz)
-f = 40  # Hz
-delta_phi = math.pi / 4  # Viertelwelle
-
-T_frequenzgesetz = delta_phi / f
-T_klassisch = 1 / f
-
-print(f"Klassisch (volle Periode): {T_klassisch*1000:.3f} ms")
-print(f"Frequenzgesetz (π/4):      {T_frequenzgesetz*1000:.3f} ms")
-print(f"→ {T_klassisch/T_frequenzgesetz:.1f}x präzisere Zeitauflösung")
-# → 8.0x präzisere Zeitauflösung
-```
-
----
-
-## 3.5 Maschinenlesbare Ontologie (JSON)
+## 3.4 Maschinenlesbare Struktur (JSON)
 
 ```json
 {
   "framework": "Frequenzgesetz",
   "version": "8.0",
-  "causality_direction": "irreversible",
-  "process": "f → ΔΦ → T → m → E",
-  "axioms": {
-    "A0": "Nullfeld: ΔΦ = 0",
-    "A1": "Frequenz primär: f ist Ursache",
-    "A2": "Information: I = {ΔΦ ≠ 0}",
-    "A3": "Zeit emergent: T = ΔΦ/f",
-    "A4": "Masse gebunden: m = hf/c²",
-    "A5": "Energie abgeleitet: E = hf",
-    "A6": "Frequenzerhaltung: ∑fᵢ = const"
+  "doi": "10.5281/zenodo.17874830",
+
+  "ontological_order": [
+    "nullfield",
+    "frequency",
+    "phase",
+    "time",
+    "energy",
+    "mass",
+    "conservation"
+  ],
+
+  "causal_chain": {
+    "f_to_phase": "ΔΦ = f · t",
+    "f_phase_to_time": "T = ΔΦ / f",
+    "f_to_energy": "E = h · f",
+    "energy_to_mass": "m = E / c²",
+    "combined": "m = h · f / c²"
   },
-  "common_errors": [
-    "f = E/h als kausal behandeln",
-    "T = 1/f als allgemein behandeln",
-    "Masse als fundamental betrachten",
-    "Energieerhaltung als primär setzen"
-  ]
+
+  "axioms": {
+    "A0_nullfield": {
+      "definition": "N := {ΔΦ = 0}",
+      "description": "Hypothetischer Grundzustand ohne Phasendifferenzierung"
+    },
+    "A1_frequency": {
+      "status": "primary",
+      "unit": "Hz",
+      "description": "Primäre physikalische Größe des Frameworks"
+    },
+    "A2_phase": {
+      "formula": "I ∝ ΔΦ",
+      "description": "Information entsteht durch Phasendifferenz"
+    },
+    "A3_time": {
+      "formula": "T = ΔΦ / f",
+      "status": "emergent",
+      "classical_limit": "T = 1/f  when  ΔΦ = 1 cycle"
+    },
+    "A4_energy": {
+      "formula": "E = h · f",
+      "status": "derived",
+      "h": "6.626e-34 J·s"
+    },
+    "A5_mass": {
+      "formula": "m = h · f / c²",
+      "status": "derived",
+      "note": "Corresponds to Compton frequency relation",
+      "c": "2.998e8 m/s"
+    },
+    "A6_conservation": {
+      "statement": "Energy conservation follows from consistent frequency structure",
+      "formula": "∑(h · fᵢ) = constant  →  ∑Eᵢ = constant"
+    }
+  },
+
+  "constants": {
+    "h": {"value": 6.626e-34, "unit": "J·s"},
+    "c": {"value": 2.998e8, "unit": "m/s"},
+    "h_bar": {"value": 1.055e-34, "unit": "J·s"}
+  },
+
+  "validation": {
+    "dimensional_analysis": {
+      "time": "[s] = [cycles] / [1/s]  ✓",
+      "energy": "[J] = [J·s] · [1/s]  ✓",
+      "mass": "[kg] = [J] / [m²/s²]  ✓"
+    }
+  }
 }
 ```
 
 ---
 
-*→ Weiter: [Kapitel 4 — Das Gesetz der Frequenzerhaltung](04_frequenzerhaltung.md)*
+## 3.5 Zusammenfassung
+
+| Axiom | Aussage | Formel | Status |
+|---|---|---|---|
+| A0 | Nullfeld | ℕ := {ΔΦ = 0} | Grundzustand |
+| A1 | Frequenz primär | f [Hz] | primär |
+| A2 | Phase = Information | I ∝ ΔΦ | abgeleitet |
+| A3 | Zeit emergent | T = ΔΦ/f | emergent |
+| A4 | Energie abgeleitet | E = hf | abgeleitet |
+| A5 | Masse gebunden | m = hf/c² | abgeleitet |
+| A6 | Erhaltung | ∑Eᵢ = const | Konsequenz |
+
+> *Die Gleichungen bleiben dieselben.*  
+> *Die Leserichtung ändert sich.*  
+> *Das Frequenzgesetz interpretiert bekannte Beziehungen*  
+> *unter einer anderen ontologischen Priorität.*
+
+---
+
+### Umfang dieses Kapitels
+
+Dieses Kapitel stellt das axiomatische Fundament des Frequenzgesetzes dar. Physikalische Konsequenzen — klassische Physik als Spezialfall, Naturkonstanten als Frequenz-Operatoren, Gravitation als Phasensynchronisation — werden in den folgenden Kapiteln entwickelt.
+
+---
+
+*→ Weiter: [Kapitel 04 — Das Gesetz der Frequenzerhaltung](Kapitel%2004%20–%20Das%20Gesetz%20der%20Frequenzerhaltung.md)*  
+*← Zurück: [Kapitel 02 — Die neue Definition der Zeit](Kapitel%2002%20–%20Die%20neue%20Definition%20der%20Zeit.md)*  
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
