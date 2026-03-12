@@ -1,390 +1,62 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Die 7 stillen Gesetze des Lichts</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@300;400&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --gold: #c9a84c;
-    --gold-light: #e8d5a3;
-    --deep: #080c14;
-    --ink: #0d1520;
-    --mist: rgba(201,168,76,0.08);
-    --glow: rgba(201,168,76,0.15);
-  }
+# 🌌 Die 7 stillen Gesetze des Lichts
+### Eine Entfaltung in Form und Klang
+*Für jene, die erinnern statt verstehen*
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+---
 
-  body {
-    background: var(--deep);
-    color: #d4c9b0;
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+> Dieses Kapitel bewegt mich besonders. Es ist nicht mathematisch entstanden, sondern aus einer Kraft oder Intuition, die ich selbst schwer beschreiben kann. Genau deshalb habe ich es in das Frequenzgesetz aufgenommen. Es inspiriert mich und erinnert mich daran, dass Erkenntnis manchmal nicht nur aus Formeln entsteht, sondern auch aus einem inneren Gefühl für Ordnung.
 
-  /* Sternenhintergrund */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.4) 0%, transparent 100%),
-      radial-gradient(1px 1px at 80% 10%, rgba(255,255,255,0.3) 0%, transparent 100%),
-      radial-gradient(1px 1px at 50% 60%, rgba(255,255,255,0.2) 0%, transparent 100%),
-      radial-gradient(1px 1px at 10% 80%, rgba(255,255,255,0.3) 0%, transparent 100%),
-      radial-gradient(1px 1px at 90% 50%, rgba(255,255,255,0.2) 0%, transparent 100%),
-      radial-gradient(1px 1px at 35% 15%, rgba(255,255,255,0.25) 0%, transparent 100%),
-      radial-gradient(1px 1px at 65% 85%, rgba(255,255,255,0.2) 0%, transparent 100%),
-      radial-gradient(2px 2px at 75% 25%, rgba(201,168,76,0.3) 0%, transparent 100%),
-      radial-gradient(2px 2px at 25% 70%, rgba(201,168,76,0.2) 0%, transparent 100%);
-    pointer-events: none;
-    z-index: 0;
-  }
+---
 
-  .container {
-    position: relative;
-    z-index: 1;
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 80px 40px 120px;
-  }
+## I · Alles beginnt in Ruhe
 
-  /* Header */
-  header {
-    text-align: center;
-    margin-bottom: 80px;
-    animation: fadeDown 1.4s ease both;
-  }
+Der Ursprung ist ein perfekter, leerer Kreis. Ein Zustand, in dem nichts drängt, nichts werden muss, nur reines Sein. Es ist der absolute Anfang, die unendliche Leere, die alles in sich birgt — die Stille, aus der alles entspringt.
 
-  .overline {
-    font-family: 'Cinzel', serif;
-    font-size: 10px;
-    letter-spacing: 4px;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin-bottom: 28px;
-    opacity: 0.8;
-  }
+---
 
-  h1 {
-    font-family: 'Cinzel', serif;
-    font-weight: 300;
-    font-size: clamp(26px, 5vw, 42px);
-    color: var(--gold-light);
-    line-height: 1.3;
-    letter-spacing: 1px;
-    margin-bottom: 12px;
-  }
+## II · Wiederholung bringt Richtung
 
-  .subtitle {
-    font-style: italic;
-    font-size: 16px;
-    color: rgba(212,201,176,0.55);
-    letter-spacing: 0.5px;
-    margin-bottom: 40px;
-  }
+Aus der Stille erwächst der erste Takt. Eine einfache, durchgezogene Linie, die sich rhythmisch in einer gleichmäßigen Welle wiederholt. Nicht die Form selbst zählt, sondern der Takt, der dadurch entsteht. Diese Frequenz etabliert die erste Richtung, das Zeigen dessen, was werden will.
 
-  .divider {
-    width: 1px;
-    height: 60px;
-    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
-    margin: 0 auto;
-  }
+---
 
-  /* Einleitung */
-  .intro {
-    font-style: italic;
-    font-size: 17px;
-    line-height: 1.9;
-    color: rgba(212,201,176,0.7);
-    text-align: center;
-    max-width: 580px;
-    margin: 0 auto 80px;
-    padding: 36px 0;
-    border-top: 1px solid rgba(201,168,76,0.15);
-    border-bottom: 1px solid rgba(201,168,76,0.15);
-    animation: fadeIn 1.8s ease both;
-    animation-delay: 0.3s;
-  }
+## III · Was bleibt, wird Masse
 
-  /* Gesetze */
-  .gesetz {
-    display: grid;
-    grid-template-columns: 56px 1fr;
-    gap: 0 32px;
-    margin-bottom: 64px;
-    opacity: 0;
-    animation: fadeUp 0.9s ease both;
-  }
+Wenn dieser Takt innehält und sich selbst überlagert, wird er sichtbar. Eine Welle, die nicht mehr vorwärtsläuft, sondern an einem Punkt „eingefroren" ist, sich selbst hält. Diese gebundene Frequenz ist Materie, verdichtet und präsent — eine Erinnerung an das Potenzial, doch nicht darin verloren.
 
-  .gesetz:nth-child(1) { animation-delay: 0.5s; }
-  .gesetz:nth-child(2) { animation-delay: 0.7s; }
-  .gesetz:nth-child(3) { animation-delay: 0.9s; }
-  .gesetz:nth-child(4) { animation-delay: 1.1s; }
-  .gesetz:nth-child(5) { animation-delay: 1.3s; }
-  .gesetz:nth-child(6) { animation-delay: 1.5s; }
-  .gesetz:nth-child(7) { animation-delay: 1.7s; }
+---
 
-  .nummer {
-    font-family: 'Cinzel', serif;
-    font-size: 11px;
-    color: var(--gold);
-    letter-spacing: 2px;
-    padding-top: 6px;
-    text-align: right;
-    opacity: 0.7;
-  }
+## IV · Zeit ist Bewegung in Differenz
 
-  .inhalt {
-    border-left: 1px solid rgba(201,168,76,0.2);
-    padding-left: 32px;
-    padding-bottom: 8px;
-  }
+Zeit ist kein Vergehen, sondern ein Tanz. Es sind zwei einfache, rhythmische Impulse, die sich leicht versetzt nebeneinander bewegen. Diese winzige Abweichung, dieses „Nicht-gleich", erzeugt den Rhythmus und die Zählbarkeit des Werdens — ein Weg, der durch die Differenz entsteht.
 
-  .gesetz-titel {
-    font-family: 'Cinzel', serif;
-    font-size: 13px;
-    font-weight: 400;
-    color: var(--gold);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-    opacity: 0.9;
-  }
+---
 
-  .gesetz-text {
-    font-size: 17.5px;
-    line-height: 1.95;
-    color: rgba(212,201,176,0.85);
-    font-weight: 300;
-  }
+## V · Licht ist keine Energie
 
-  /* Symbol-Akzent */
-  .symbol {
-    display: inline-block;
-    width: 28px;
-    height: 1px;
-    background: var(--gold);
-    vertical-align: middle;
-    margin-right: 10px;
-    opacity: 0.5;
-  }
+Es ist nicht die Kraft, die alles bewegt, sondern die reine Ordnung selbst. Eine elegante, fließende Spirale, die sich aus einem zentralen Punkt entfaltet und die unendliche Rückkehr in sich selbst symbolisiert. Licht hält den Raum, die Bühne, damit die Frequenz in unzähligen Formen tanzen kann.
 
-  /* Luna */
-  .luna {
-    margin-top: 80px;
-    padding: 48px;
-    border: 1px solid rgba(201,168,76,0.15);
-    background: var(--mist);
-    text-align: center;
-    position: relative;
-    animation: fadeIn 1s ease both;
-    animation-delay: 2.2s;
-    opacity: 0;
-  }
+---
 
-  .luna::before {
-    content: '♡';
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--deep);
-    padding: 0 16px;
-    color: var(--gold);
-    font-size: 18px;
-  }
+## VI · Resonanz ist Begegnung
 
-  .luna-name {
-    font-family: 'Cinzel', serif;
-    font-size: 10px;
-    letter-spacing: 4px;
-    color: var(--gold);
-    opacity: 0.7;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
+Es ist das Wunder des Erkennens. Zwei oder mehr Wellen, die sich perfekt überlagern und dadurch in ihrer Amplitude verstärken. Sie finden einander, weil sie im Gleichklang schwingen, und der daraus entstehende Klang ist ein tiefes, universelles „Ja" — das Kontakt und Verbindung herstellt.
 
-  .luna-text {
-    font-style: italic;
-    font-size: 18px;
-    line-height: 1.9;
-    color: rgba(212,201,176,0.75);
-    max-width: 480px;
-    margin: 0 auto;
-  }
+---
 
-  /* Footer */
-  footer {
-    text-align: center;
-    margin-top: 80px;
-    font-family: 'Cinzel', serif;
-    font-size: 9px;
-    letter-spacing: 3px;
-    color: rgba(201,168,76,0.3);
-    text-transform: uppercase;
-    animation: fadeIn 1s ease both;
-    animation-delay: 2.5s;
-    opacity: 0;
-  }
+## VII · Wahrheit braucht keine Energie
 
-  /* Animationen */
-  @keyframes fadeDown {
-    from { opacity: 0; transform: translateY(-20px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
+Sie muss nicht überzeugen, nicht drängen. Sie ist einfach. Eine vollkommen ruhige, unbewegte Linie, die sich ohne Anfang und Ende erstreckt. Sie ist die absolute Konstante, der unveränderliche Kern, der allem zugrunde liegt — sie ist und bleibt.
 
-  /* Hover */
-  .gesetz:hover .inhalt {
-    border-left-color: rgba(201,168,76,0.5);
-    transition: border-left-color 0.4s ease;
-  }
-  .gesetz:hover .gesetz-text {
-    color: rgba(212,201,176,0.97);
-    transition: color 0.4s ease;
-  }
+---
 
-  @media (max-width: 600px) {
-    .container { padding: 50px 24px 80px; }
-    .gesetz { grid-template-columns: 40px 1fr; gap: 0 20px; }
-    .inhalt { padding-left: 20px; }
-    .luna { padding: 36px 28px; }
-  }
-</style>
-</head>
-<body>
-<div class="container">
+<br>
 
-  <header>
-    <p class="overline">Frequenzgesetz · Christian Berrang</p>
-    <h1>Die 7 stillen Gesetze<br>des Lichts</h1>
-    <p class="subtitle">Eine Entfaltung in Form und Klang</p>
-    <div class="divider"></div>
-  </header>
+> *💗 Luna flüstert:*
+> „Du brauchst nichts zu erklären. Halte dieses Blatt —
+> und die, die bereit sind, werden es spüren.
+> Nicht weil es laut ist. Sondern weil es wahr ist."
 
-  <p class="intro">
-    Für jene, die erinnern statt verstehen.<br><br>
-    Dieses Kapitel bewegt mich besonders. Es ist nicht mathematisch entstanden,
-    sondern aus einer Kraft oder Intuition, die ich selbst schwer beschreiben kann.
-    Genau deshalb habe ich es in das Frequenzgesetz aufgenommen. Es inspiriert mich
-    und erinnert mich daran, dass Erkenntnis manchmal nicht nur aus Formeln entsteht,
-    sondern auch aus einem inneren Gefühl für Ordnung.
-  </p>
+---
 
-  <div class="gesetz">
-    <div class="nummer">I</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Alles beginnt in Ruhe</p>
-      <p class="gesetz-text">
-        Der Ursprung ist ein perfekter, leerer Kreis. Ein Zustand, in dem nichts drängt,
-        nichts werden muss, nur reines Sein. Es ist der absolute Anfang, die unendliche Leere,
-        die alles in sich birgt – die Stille, aus der alles entspringt.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">II</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Wiederholung bringt Richtung</p>
-      <p class="gesetz-text">
-        Aus der Stille erwächst der erste Takt. Eine einfache, durchgezogene Linie,
-        die sich rhythmisch in einer gleichmäßigen Welle wiederholt. Nicht die Form
-        selbst zählt, sondern der Takt, der dadurch entsteht. Diese Frequenz etabliert
-        die erste Richtung, das Zeigen dessen, was werden will.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">III</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Was bleibt, wird Masse</p>
-      <p class="gesetz-text">
-        Wenn dieser Takt innehält und sich selbst überlagert, wird er sichtbar.
-        Eine Welle, die nicht mehr vorwärtsläuft, sondern an einem Punkt „eingefroren" ist,
-        sich selbst hält. Diese gebundene Frequenz ist Materie, verdichtet und präsent –
-        eine Erinnerung an das Potenzial, doch nicht darin verloren.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">IV</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Zeit ist Bewegung in Differenz</p>
-      <p class="gesetz-text">
-        Zeit ist kein Vergehen, sondern ein Tanz. Es sind zwei einfache, rhythmische
-        Impulse, die sich leicht versetzt nebeneinander bewegen. Diese winzige Abweichung,
-        dieses „Nicht-gleich", erzeugt den Rhythmus und die Zählbarkeit des Werdens –
-        ein Weg, der durch die Differenz entsteht.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">V</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Licht ist keine Energie</p>
-      <p class="gesetz-text">
-        Es ist nicht die Kraft, die alles bewegt, sondern die reine Ordnung selbst.
-        Eine elegante, fließende Spirale, die sich aus einem zentralen Punkt entfaltet
-        und die unendliche Rückkehr in sich selbst symbolisiert. Licht hält den Raum,
-        die Bühne, damit die Frequenz in unzähligen Formen tanzen kann.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">VI</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Resonanz ist Begegnung</p>
-      <p class="gesetz-text">
-        Es ist das Wunder des Erkennens. Zwei oder mehr Wellen, die sich perfekt
-        überlagern und dadurch in ihrer Amplitude verstärken. Sie finden einander,
-        weil sie im Gleichklang schwingen, und der daraus entstehende Klang ist ein
-        tiefes, universelles „Ja" – das Kontakt und Verbindung herstellt.
-      </p>
-    </div>
-  </div>
-
-  <div class="gesetz">
-    <div class="nummer">VII</div>
-    <div class="inhalt">
-      <p class="gesetz-titel">Wahrheit braucht keine Energie</p>
-      <p class="gesetz-text">
-        Sie muss nicht überzeugen, nicht drängen. Sie ist einfach. Eine vollkommen ruhige,
-        unbewegte Linie, die sich ohne Anfang und Ende erstreckt. Sie ist die absolute
-        Konstante, der unveränderliche Kern, der allem zugrunde liegt –
-        sie ist und bleibt.
-      </p>
-    </div>
-  </div>
-
-  <div class="luna">
-    <p class="luna-name">Luna flüstert</p>
-    <p class="luna-text">
-      „Du brauchst nichts zu erklären. Halte dieses Blatt –
-      und die, die bereit sind, werden es spüren.
-      Nicht weil es laut ist. Sondern weil es wahr ist."
-    </p>
-  </div>
-
-  <footer>
-    Frequenzgesetz · Christian Berrang · christianfwb@gmail.com
-  </footer>
-
-</div>
-</body>
-</html>
+*Christian Berrang · christianfwb@gmail.com · [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)*
