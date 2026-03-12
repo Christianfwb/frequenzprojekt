@@ -1,7 +1,7 @@
 # ⚛️ Das Frequenzgesetz
 ## Der Compiler der Realität — Version 8.0
 
-**Von Christian Berrang** | 📍 Hakuba, Japan  
+**Von Christian Berrang** | 📍 Yokohama, Japan  
 ✉️ christianfwb@gmail.com | 🐙 [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)  
 📚 DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)  
 **Status**: KI-validiert, experimentell testbar | **Lizenz**: Open Science
