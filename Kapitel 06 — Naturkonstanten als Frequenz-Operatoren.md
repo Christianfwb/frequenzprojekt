@@ -3,9 +3,11 @@
 
 ---
 
-## 6.0 Naturkonstanten sind keine Zufallszahlen
+## 6.0 Naturkonstanten als strukturelle Parameter
 
-Die Naturkonstanten sind **Übersetzungsoperatoren** — Linsen, durch die reine Frequenz in die sichtbare Realität projiziert wird: in Energie, Raum, Masse, Kopplung, Temperatur und Gravitation.
+*Die folgende Darstellung versteht sich als interpretativer Rahmen und ersetzt keine etablierte physikalische Theorie.*
+
+Naturkonstanten erscheinen nicht als bloße Zufallszahlen, sondern als strukturelle Parameter physikalischer Theorien. Im Frequenzgesetz können sie als **Übersetzungsoperatoren** — Linsen, durch die reine Frequenz in die sichtbare Realität projiziert wird: in Energie, Raum, Masse, Kopplung, Temperatur und Gravitation.
 
 Aus **26 freien Parametern** des Standardmodells werden:  
 **1 Grundfrequenz + 6 Operatoren**
@@ -23,7 +25,7 @@ Aus **26 freien Parametern** des Standardmodells werden:
 | **k_B** | "Wärme-Energie" | Frequenzverteilung → Temperatur |
 | **G** | "Gravitationskraft" | Phasensynchronisation → Krümmung |
 
-> **Alle Konstanten sind Projektoren aus demselben Frequenzfeld.**
+> Im Rahmen des Frequenzgesetzes können diese Konstanten als Projektionsoperatoren desselben zugrundeliegenden Frequenzfeldes interpretiert werden.
 
 ---
 
@@ -45,7 +47,7 @@ Ohne h gäbe es Energie nicht — nur Schwingung.
 ```
 
 c ist die **Resonanzgeschwindigkeit des Vakuums** — die maximale Kohärenzgeschwindigkeit.  
-Raum ist nicht die Bühne. Raum *entsteht* aus der Ausbreitung von Frequenz.
+Im Frequenzgesetz kann Raum als effektive Beschreibung der Ausbreitung von Frequenzstrukturen interpretiert werden.
 
 ---
 
@@ -68,9 +70,9 @@ G ∝ ΔΦ / (m₁ · m₂)
 
 G beschreibt, wie schwach ein lokaler Frequenzknoten die globale Phasenordnung beeinflusst.
 
-> Gravitation ist keine Kraft. Gravitation ist **Phasenanpassung**.  
-> G ist so winzig, weil lokale Frequenzknoten (Massen) nur minimal  
-> die globale Frequenzstruktur des Universums verbiegen können.
+> Im Frequenzgesetz kann Gravitation als Prozess der Phasensynchronisation interpretiert werden —  
+> kompatibel mit sowohl newtonscher als auch relativistischer Beschreibung.  
+> G beschreibt dabei, wie schwach lokale Frequenzknoten die globale Phasenstruktur beeinflussen.
 
 ---
 
