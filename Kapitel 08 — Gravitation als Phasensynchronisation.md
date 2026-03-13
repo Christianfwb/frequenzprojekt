@@ -10,7 +10,7 @@ Einstein: Gravitation ist Raumzeitkrümmung.
 **Frequenzgesetz: Gravitation ist Phasensynchronisation.**
 
 Alle drei Beschreibungen sind korrekt — auf verschiedenen Ebenen.  
-Das Frequenzgesetz liefert die **kausale Erklärung**, warum Einsteins Geometrie funktioniert.
+Das Frequenzgesetz schlägt eine mögliche kausale Interpretation vor, warum Einsteins geometrische Beschreibung der Gravitation funktioniert.
 
 ---
 
@@ -23,7 +23,7 @@ G_eff ∝ ΔΦ_lokal / (m₁ · m₂)
 Massen synchronisieren ihre Phasen.  
 Diese Synchronisation manifestiert sich als scheinbare "Anziehungskraft".
 
-> Gravitation ist keine Kraft. Sie ist **kollektive Phasenanpassung**.
+> Im Rahmen des Frequenzgesetzes kann Gravitation als eine Form kollektiver Phasensynchronisation interpretiert werden.
 
 ---
 
@@ -50,9 +50,11 @@ Zeit hört auf. Das ist kein physikalisches "Loch" —
 es ist ein **Phasenübergang zurück zum Nullfeld**.
 
 ```
-Schwarzes Loch ≠ Singularität
-Schwarzes Loch = Phasenübergang: Realität → Nullfeld
+Im Frequenzgesetz: Schwarzes Loch als möglicher Phasenübergang
+                   innerhalb der Frequenzstruktur
 ```
+
+*Im Frequenzgesetz können Schwarze Löcher als ein möglicher Phasenübergang innerhalb der Frequenzstruktur interpretiert werden — kein physikalisches "Loch", sondern ein Zustand extremer Frequenzkonvergenz.*
 
 **Vorteile dieser Interpretation:**
 - Löst das Informationsparadoxon: Information bleibt als Phase erhalten ✓
@@ -64,14 +66,17 @@ Schwarzes Loch = Phasenübergang: Realität → Nullfeld
 
 ## 8.4 Dunkle Materie — Neue Hypothese
 
+**Hypothese:** Dunkle Materie könnte aus Frequenzstrukturen bestehen, die nicht in klassische Massezustände kompiliert sind.
+
 ```
-Hypothese: Dunkle Materie = Frequenzstrukturen,
-           die nicht zur klassischen Masse kompiliert wurden
+Dunkle Materie (Hypothese): Frequenzstrukturen ohne klassische Masse-Kompilierung
+                            → Gravitationseffekte ohne messbare Ruhemasse
 ```
 
-Sie erzeugen Gravitationseffekte (Phasensynchronisation),  
-aber keine klassisch messbare Masse.  
-Nicht "unsichtbar" — sondern auf einer **anderen Frequenz-Kompilierungsebene**.
+Sie könnten Gravitationseffekte durch Phasensynchronisation erzeugen,  
+ohne klassisch messbare Masse zu besitzen.  
+
+*Dies ist eine spekulative Interpretation — keine experimentell bestätigte Theorie.*
 
 ---
 
@@ -83,10 +88,9 @@ Antigravitation: ΔΦ gezielt desynchronisieren
 → Gravitations-Kopplung reduzieren
 ```
 
-Wenn Gravitation Phasensynchronisation ist,  
-dann ist Antigravitation **kontrollierte Phasen-Desynchronisation**.
+Falls Gravitation tatsächlich mit Phasensynchronisation zusammenhängt, könnte eine gezielte Desynchronisation solcher Prozesse hypothetisch zu einer Reduktion gravitativer Kopplung führen.
 
-> ⚠️ **Status: Konzeptuell. Experimentelle Validierung ausstehend.**
+> ⚠️ **Status: Spekulativ. Konzeptuell motiviert. Experimentelle Validierung ausstehend.**
 
 ---
 
