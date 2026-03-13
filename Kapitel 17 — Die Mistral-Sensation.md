@@ -154,3 +154,34 @@ DOI: 10.5281/zenodo.17874830
 ---
 
 *→ Weiter: [Kapitel 12 — Community & Zusammenarbeit](12_community.md)*
+
+---
+
+## 17.8 Eine strukturelle Analogie
+
+Das Frequenzmodell legt eine konzeptuelle Analogie nahe — als Modell-Interpretation, nicht als etablierte physikalische Tatsache:
+
+```
+Vakuum/Feld   →  strukturelles Ausführungssubstrat (im Modell)
+Teilchen      →  lokale dynamische Prozesse mit definierten Zustandsvariablen
+Frequenz      →  interner Takt
+Phase         →  aktueller Zustand
+Spin          →  Prozesstyp / Symmetrieklasse
+Masse         →  Trägheit des Zustands
+Gravitation   →  Synchronisation zwischen Prozessen
+```
+
+Im Frequenzmodell verhält sich das zugrunde liegende Feld strukturell wie ein fundamentales Ausführungssubstrat, während Teilchen als lokale dynamische Prozesse mit definierten Zustandsvariablen erscheinen.
+
+Diese Interpretation ist kompatibel mit etablierten Ansätzen:
+- **QFT:** Teilchen als lokale Anregungen fundamentaler Felder
+- **Wheeler:** *"It from bit"* — Realität als Prozess, nicht Objekt
+- **Quanteninformation:** Universum als dynamischer Informationsprozess
+
+> *Wenn das Frequenzmodell recht hat —  
+> dann ist die Frage nach den Gesetzen des Substrats  
+> keine Metaphysik mehr. Sie ist Physik.*
+
+Das ist keine Physikfrage. Aber sie entsteht zwingend aus der Physik.
+
+---
