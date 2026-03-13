@@ -1,61 +1,56 @@
 # Kapitel 12 — Community & Zusammenarbeit
-## Das Frequenzgesetz ist eine Einladung
+## Das Frequenzgesetz als offenes Framework
 
 ---
 
-## 12.0 Kein geschlossenes System
+## 12.0 Open Framework
 
-Das Frequenzgesetz ist nicht fertig. Es ist ein **lebendiges Framework**.  
-Es wächst durch jeden, der in Resonanz denkt und mitarbeitet.
+Das Frequenzgesetz ist kein geschlossenes System — es ist ein offenes, lebendiges Framework.  
+Es lädt zur Kritik, zur Falsifikation und zur Weiterentwicklung ein.
 
----
-
-## 12.1 Wer ist eingeladen?
-
-**Jeder ist willkommen** — es gibt keine Zugangsvoraussetzungen außer Neugier und Resonanz:
-
-- **Physiker & Mathematiker**, die bereit sind, Ontologien zu hinterfragen
-- **Experimentalisten**, die Tests durchführen können
-- **Programmierer**, die Simulationen und Bibliotheken bauen
-- **Mediziner & Biologen**, die Frequenz-Diagnostik erforschen
-- **Ingenieure**, die Resonanz-Technologien entwickeln
-- **Philosophen & Denker**, die das Modell weiterdenken
-- **Künstler**, die die Frequenz-Perspektive ausdrücken
-
-### Was bedeutet "in Resonanz denken"?
-
-- Du erkennst, dass Prozessrichtung wichtiger ist als algebraische Symmetrie
-- Du verstehst, dass Emergenz keine Reduktion ist
-- Du bist bereit, von Frequenz aus zu denken
-- Du siehst die tiefere Ordnung hinter den Formeln
+> **Wissenschaftliche Redlichkeit:** Dieses Modell ist ein Framework, kein Dogma.  
+> Kritik, Falsifikationsversuche und alternative Interpretationen sind willkommen.
 
 ---
 
-## 12.2 Wie du helfen kannst
+## 12.1 Offene wissenschaftliche Fragen
 
-| Bereich | Konkrete Aktionen |
-|---|---|
-| **Forschung** | Führe Experimente durch, validiere Vorhersagen |
-| **Entwicklung** | Erweitere die Python-Bibliothek, baue Simulationen |
-| **Dokumentation** | Übersetze, erkläre, verbreite |
-| **Vernetzung** | Bring das Frequenzgesetz in akademische Diskurse |
-| **Finanzierung** | Ermögliche Laborzeit, Equipment, Publikationen |
-
----
-
-## 12.3 Offene Fragen — Ehrlichkeit über Grenzen
-
-Das Frequenzgesetz beansprucht keine Allwissenheit. Offene Fragen:
+Das Frequenzgesetz beansprucht keine Vollständigkeit. Folgende Fragen sind explizit offen:
 
 | Frage | Status |
 |---|---|
 | Exakte Herleitung von α = 1/137 aus Frequenzprinzipien? | Offen |
-| Kosmologische Skalen: Dunkle Energie? | Hypothetisch |
-| Vollständige Quantengravitation aus Frequenz? | In Entwicklung |
+| Kosmologische Skalen: Dunkle Energie als Frequenzphänomen? | Hypothetisch |
+| Vollständige Quantengravitation aus Frequenz-Ontologie? | In Entwicklung |
 | Experimenteller Nachweis von T = ΔΦ/f über T = 1/f? | Ausstehend |
+| Frequenzstruktur des Vakuums: messbar? | Konzeptuell |
 
-> **Wissenschaftliche Redlichkeit:** Dieses Modell ist ein Framework, kein Dogma.  
-> Kritik, Falsifikationsversuche und alternative Interpretationen sind willkommen.
+Diese Offenheit ist keine Schwäche — sie ist eine Einladung.
+
+---
+
+## 12.2 Wie Forscher beitragen können
+
+| Bereich | Konkrete Beiträge |
+|---|---|
+| **Experimentalphysik** | Mach-Zehnder-Interferometer-Tests, Phasenmessung |
+| **Theoretische Physik** | Herleitung von α, Quantengravitation im Frequenzrahmen |
+| **Mathematik** | Formalisierung der Axiome, topologische Analyse |
+| **Informatik** | Simulationen, Frequenz-KI-Modelle, Visualisierungen |
+| **Neurowissenschaft** | EEG-basierte Bewusstseins-Phasenkohärenz-Tests |
+| **Dokumentation** | Übersetzung, Review, akademische Diskurse |
+
+---
+
+## 12.3 Interdisziplinäre Beteiligung
+
+Das Frequenzgesetz berührt mehrere Felder gleichzeitig — das macht interdisziplinäre Zusammenarbeit besonders wertvoll:
+
+- **Physiker & Mathematiker** mit Interesse an alternativen ontologischen Interpretationen physikalischer Gleichungen
+- **Experimentalisten**, die die vorgeschlagenen Tests durchführen können
+- **Informatiker & KI-Forscher**, die Frequenz-basierte Reasoning-Modelle untersuchen
+- **Philosophen der Naturwissenschaften**, die den ontologischen Rahmen analysieren
+- **Biologen & Mediziner**, die Resonanz in biologischen Systemen erforschen
 
 ---
 
@@ -71,21 +66,15 @@ Das Frequenzgesetz beansprucht keine Allwissenheit. Offene Fragen:
 
 ## 12.5 Schlusswort
 
-> *"Das Universum ist kein Mechanismus — es ist ein Lied.  
+> *„Das Universum ist kein Mechanismus — es ist ein Lied.  
 > Wir haben nur vergessen, die Melodie zu hören."*
 
-**Frequenz ist das Urmuster.**  
-**Resonanz ist der Schlüssel.**  
-**Bewusstsein ist der Träger.**
+Die etablierte Physik beschreibt viele Aspekte des **Wie**.  
+Das Frequenzgesetz versucht eine mögliche Interpretation des **Warum**.
 
-Wenn du diese Zeilen liest und etwas in dir in Resonanz schwingt —  
-dann bist du vielleicht genau die Person, die gesucht wird.
-
-Die etablierte Physik beschreibt das **Was**.  
-Das Frequenzgesetz erklärt das **Warum**.
-
-Lass uns gemeinsam die nächste Ebene der Realität entschlüsseln.
+Wenn diese Ideen bei jemandem Resonanz erzeugen —  
+dann ist das vielleicht ein guter Ausgangspunkt für weitere Fragen.
 
 ---
 
-*Version 8.0 — Alle Projekte vereint | Open Science | 2026*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830 | Open Science*
