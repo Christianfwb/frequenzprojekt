@@ -27,589 +27,892 @@ Experimentiere mit den verschiedenen Parametern, um unterschiedliche Resonanzmus
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frequenz-Pendel Meta-Code Interface</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #1f283e, #0c111c);
-            color: #c0c6d4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-            overflow-x: hidden;
-        }
-        .container {
-            background-color: #1a202c;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            padding: 30px;
-            width: 100%;
-            max-width: 900px;
-            box-sizing: border-box;
-            border: 1px solid rgba(78, 205, 196, 0.2);
-            backdrop-filter: blur(5px);
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #4ecdc4;
-            font-weight: 700;
-            font-size: 2.5em;
-            margin-bottom: 0.2em;
-        }
-        .header p {
-            color: #a4b4c4;
-            font-size: 1.1em;
-        }
-        .info-panel {
-            background-color: rgba(78, 205, 196, 0.1);
-            border-left: 4px solid #4ecdc4;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        .info-panel b {
-            color: #4ecdc4;
-        }
-        .error-message {
-            background-color: rgba(255, 0, 0, 0.1);
-            color: #ff6b6b;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            display: none;
-        }
-        .main-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .controls-panel {
-            background-color: #2c3444;
-            padding: 20px;
-            border-radius: 10px;
-            flex: 1;
-            min-width: 280px;
-        }
-        .control-group {
-            margin-bottom: 15px;
-        }
-        .control-group label {
-            display: block;
-            margin-bottom: 5px;
-            color: #e0e6ed;
-        }
-        .control-group input[type="number"] {
-            width: 100%;
-            padding: 8px;
-            background-color: #3e485e;
-            border: 1px solid #5a667d;
-            border-radius: 5px;
-            color: #e0e6ed;
-            box-sizing: border-box;
-        }
-        .buttons-container {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        .btn {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1em;
-            transition: all 0.3s ease;
-        }
-        .btn-primary {
-            background-color: #4ecdc4;
-            color: #1a202c;
-        }
-        .btn-primary:hover {
-            background-color: #3aa69e;
-            transform: translateY(-2px);
-        }
-        .btn-secondary {
-            background-color: #5a667d;
-            color: #e0e6ed;
-        }
-        .btn-secondary:hover {
-            background-color: #4a5467;
-            transform: translateY(-2px);
-        }
-        .btn-demo {
-            background-color: #b76b45;
-            color: #e0e6ed;
-        }
-        .btn-demo:hover {
-            background-color: #a45a3a;
-            transform: translateY(-2px);
-        }
-        .pendulum-container {
-            flex: 2;
-            min-width: 300px;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .pendulum-svg {
-            width: 100%;
-            height: 100%;
-            max-width: 400px;
-            max-height: 300px;
-        }
-        .pendulum-rod {
-            transition: transform 0.05s linear;
-        }
-        .pendulum-bob {
-            fill: #4ecdc4;
-            transition: fill 0.5s ease;
-        }
-        .pendulum-bob-2 {
-            fill: #45b7d1;
-        }
-        .phase-indicator {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 8px;
-            border-radius: 5px;
-            font-size: 0.9em;
-            color: #c0c6d4;
-            pointer-events: none;
-            line-height: 1.4;
-            white-space: nowrap;
-        }
-        .results-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .result-card {
-            background-color: #2c3444;
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid rgba(78, 205, 196, 0.2);
-        }
-        .result-card h3 {
-            color: #4ecdc4;
-            margin-top: 0;
-            border-bottom: 1px solid rgba(78, 205, 196, 0.3);
-            padding-bottom: 10px;
-        }
-        .result-item {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            font-size: 0.9em;
-        }
-        .result-value {
-            font-weight: bold;
-            color: #e0e6ed;
-        }
-        .analysis-panel {
-            background-color: #2c3444;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-            border: 1px solid rgba(78, 205, 196, 0.2);
-        }
-        .analysis-panel h4 {
-            color: #4ecdc4;
-            margin-top: 0;
-        }
-        @media (max-width: 768px) {
-            .main-content {
-                flex-direction: column;
-            }
-            .pendulum-container {
-                height: 300px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frequenzgesetz — Zeitvisualisierung</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap');
+
+  :root {
+    --void: #040608;
+    --deep: #080d14;
+    --surface: #0d1520;
+    --panel: #111d2e;
+    --border: rgba(100,180,255,0.12);
+    --freq: #4fc3f7;
+    --phase: #81c784;
+    --time: #ffb74d;
+    --mass: #ce93d8;
+    --glow: rgba(79,195,247,0.15);
+    --text: #c8d8e8;
+    --muted: #5a7a9a;
+    --mono: 'Space Mono', monospace;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--void);
+    color: var(--text);
+    font-family: var(--mono);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Starfield */
+  #stars {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* Header */
+  .hero {
+    text-align: center;
+    padding: 60px 0 40px;
+  }
+
+  .hero-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    color: var(--freq);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    opacity: 0.8;
+  }
+
+  .hero h1 {
+    font-family: var(--serif);
+    font-weight: 300;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    line-height: 1.15;
+    color: #e8f4ff;
+    margin-bottom: 12px;
+    font-style: italic;
+  }
+
+  .hero h1 span {
+    color: var(--freq);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .hero-formula {
+    font-family: var(--mono);
+    font-size: 1.4rem;
+    color: var(--time);
+    letter-spacing: 0.05em;
+    margin: 24px 0 16px;
+    padding: 12px 24px;
+    border: 1px solid rgba(255,183,77,0.3);
+    display: inline-block;
+    border-radius: 4px;
+    background: rgba(255,183,77,0.05);
+  }
+
+  .hero-sub {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    color: var(--muted);
+    font-style: italic;
+    max-width: 540px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* Layout */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--freq), transparent);
+    opacity: 0.4;
+  }
+
+  .card-title {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+
+  .card-full { grid-column: 1 / -1; }
+
+  /* Canvas */
+  #pendulumCanvas {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--deep);
+    display: block;
+  }
+
+  /* Controls */
+  .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .ctrl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ctrl label {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .ctrl .val {
+    font-size: 1.1rem;
+    color: var(--freq);
+    font-family: var(--mono);
+  }
+
+  input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--freq);
+    cursor: pointer;
+    box-shadow: 0 0 8px var(--freq);
+  }
+
+  .ctrl.phase input[type=range]::-webkit-slider-thumb { background: var(--phase); box-shadow: 0 0 8px var(--phase); }
+  .ctrl.time-c input[type=range]::-webkit-slider-thumb { background: var(--time); box-shadow: 0 0 8px var(--time); }
+  .ctrl.mass-c input[type=range]::-webkit-slider-thumb { background: var(--mass); box-shadow: 0 0 8px var(--mass); }
+
+  /* Metrics */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .metrics { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .metric {
+    background: var(--deep);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    text-align: center;
+  }
+
+  .metric-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .metric-val {
+    font-size: 1.1rem;
+    font-family: var(--mono);
+    font-weight: 700;
+  }
+
+  .metric-val.freq { color: var(--freq); }
+  .metric-val.phase { color: var(--phase); }
+  .metric-val.time { color: var(--time); }
+  .metric-val.mass { color: var(--mass); }
+
+  /* Chain display */
+  .chain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 20px 0 8px;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+  }
+
+  .chain-item {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .chain-item.f { color: var(--freq); border-color: var(--freq); background: rgba(79,195,247,0.08); }
+  .chain-item.p { color: var(--phase); border-color: var(--phase); background: rgba(129,199,132,0.08); }
+  .chain-item.t { color: var(--time); border-color: var(--time); background: rgba(255,183,77,0.08); }
+  .chain-item.m { color: var(--mass); border-color: var(--mass); background: rgba(206,147,216,0.08); }
+  .chain-arrow { color: var(--muted); font-size: 0.9rem; }
+
+  .chain-active {
+    animation: pulse-chain 0.4s ease;
+  }
+
+  @keyframes pulse-chain {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.12); }
+    100% { transform: scale(1); }
+  }
+
+  /* Buttons */
+  .btn-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn:hover { border-color: var(--freq); color: var(--freq); background: var(--glow); }
+  .btn.active { border-color: var(--freq); color: var(--freq); background: var(--glow); }
+  .btn.danger { border-color: rgba(255,100,100,0.3); }
+  .btn.danger:hover { border-color: #ff6464; color: #ff6464; background: rgba(255,100,100,0.08); }
+
+  /* Phase indicator bar */
+  .phase-bar-wrap {
+    margin-top: 16px;
+  }
+
+  .phase-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .phase-bar {
+    height: 6px;
+    background: var(--deep);
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .phase-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.05s;
+  }
+
+  .phase-bar-fill.freq { background: linear-gradient(90deg, var(--freq), #29b6f6); }
+  .phase-bar-fill.phase { background: linear-gradient(90deg, var(--phase), #4caf50); }
+  .phase-bar-fill.coherence { background: linear-gradient(90deg, var(--mass), var(--freq)); }
+
+  /* Insight box */
+  .insight {
+    margin-top: 20px;
+    padding: 16px 20px;
+    border-left: 3px solid var(--time);
+    background: rgba(255,183,77,0.04);
+    border-radius: 0 8px 8px 0;
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-style: italic;
+    color: #d4c090;
+    line-height: 1.7;
+    min-height: 60px;
+    transition: opacity 0.3s;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .footer a { color: var(--freq); text-decoration: none; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🌊 Frequenz-Pendel Meta-Code Interface</h1>
-            <p>Wissenschaftliche Analyse von Frequenz-Resonanz-Mustern</p>
+
+<canvas id="stars"></canvas>
+
+<div class="wrapper">
+  <div class="hero">
+    <div class="hero-label">Frequenzgesetz v8.0 · Christian Berrang</div>
+    <h1>Zeit ist <span>Phasenfortschritt</span><br>pro Frequenzeinheit</h1>
+    <div class="hero-formula">T = ΔΦ / f</div>
+    <p class="hero-sub">Zwei Pendel. Zwei Frequenzen. Eine Phasendifferenz.<br>Beobachte wie Zeit aus Schwingung entsteht.</p>
+  </div>
+
+  <!-- Kausal-Kette -->
+  <div class="chain" id="chain">
+    <span class="chain-item f" id="c-f">f — Frequenz</span>
+    <span class="chain-arrow">→</span>
+    <span class="chain-item p" id="c-p">ΔΦ — Phase</span>
+    <span class="chain-arrow">→</span>
+    <span class="chain-item t" id="c-t">T — Zeit</span>
+    <span class="chain-arrow">→</span>
+    <span class="chain-item m" id="c-m">m — Masse</span>
+  </div>
+
+  <!-- Haupt-Canvas -->
+  <div class="card card-full" style="margin-top:20px; padding: 20px;">
+    <div class="card-title">Pendel-Visualisierung · Phasendifferenz live</div>
+    <canvas id="pendulumCanvas" height="280"></canvas>
+  </div>
+
+  <!-- Metriken -->
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-label">Frequenz P1</div>
+      <div class="metric-val freq" id="mf1">0.00 Hz</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">ΔΦ aktuell</div>
+      <div class="metric-val phase" id="mdp">0.000 rad</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">T = ΔΦ/f</div>
+      <div class="metric-val time" id="mt">0.000 s</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">m = hf/c² ·· ontol. Projektion</div>
+      <div class="metric-val mass" id="mm">0.00 eV/c²</div>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:20px;">
+    <!-- Controls -->
+    <div class="card">
+      <div class="card-title">Parameter</div>
+      <div class="controls">
+        <div class="ctrl">
+          <label>Frequenz P1</label>
+          <span class="val" id="vf1">1.0 Hz</span>
+          <input type="range" id="f1" min="0.2" max="3.0" step="0.05" value="1.0">
         </div>
-
-        <div class="info-panel">
-            <b>🔬 Wissenschaftlicher Hinweis:</b>
-            <p>
-                Die "KI-Frequenz" 216 Hz ist komplett entfernt.<br>
-                <b>Nur echte Resonanz zählt: Schumann-Resonanz 7.83 Hz</b> (Standard).<br>
-                <i>Alle weiteren Frequenzen sind für eigene Analysen frei wählbar.</i>
-            </p>
+        <div class="ctrl">
+          <label>Frequenz P2</label>
+          <span class="val" id="vf2">1.3 Hz</span>
+          <input type="range" id="f2" min="0.2" max="3.0" step="0.05" value="1.3">
         </div>
-
-        <div id="errorMessage" class="error-message"></div>
-
-        <div class="main-content">
-            <div class="controls-panel">
-                <h2>⚙️ System Parameter</h2>
-                
-                <div class="control-group">
-                    <label for="length1">Pendel 1 Länge (m):</label>
-                    <input type="number" id="length1" min="0.1" max="10" step="0.1" value="1.0">
-                </div>
-                <div class="control-group">
-                    <label for="length2">Pendel 2 Länge (m):</label>
-                    <input type="number" id="length2" min="0.1" max="10" step="0.1" value="1.2">
-                </div>
-                <div class="control-group">
-                    <label for="driveFreq">Antriebsfrequenz (Hz):</label>
-                    <input type="number" id="driveFreq" min="0.1" max="100" step="0.1" value="7.83">
-                </div>
-                <div class="control-group">
-                    <label for="gammaFreq">Zusatz-Frequenz (Hz):</label>
-                    <input type="number" id="gammaFreq" min="0.1" max="100" step="0.1" value="40">
-                </div>
-                <div class="control-group">
-                    <label for="gravity">Gravitation (m/s²):</label>
-                    <input type="number" id="gravity" min="0.1" max="20" step="0.1" value="9.81">
-                </div>
-                <div class="buttons-container">
-                    <button class="btn btn-primary" id="startBtn">▶️ Start</button>
-                    <button class="btn btn-secondary" id="stopBtn">⏹️ Stop</button>
-                    <button class="btn btn-demo" id="demoBtn">🎭 Demo</button>
-                </div>
-            </div>
-
-            <div class="pendulum-container">
-                <div id="phaseIndicator" class="phase-indicator">
-                    ΔΦ: 0.000 rad<br>
-                    Zeit: 0.000 s
-                </div>
-                
-                <svg class="pendulum-svg" viewBox="0 0 400 300">
-                    <circle cx="150" cy="30" r="3" fill="#4ecdc4"/>
-                    <circle cx="250" cy="30" r="3" fill="#4ecdc4"/>
-                    <g id="pendulum1" class="pendulum-rod">
-                        <line x1="150" y1="30" x2="150" y2="180" stroke="#4ecdc4" stroke-width="3"/>
-                        <circle cx="150" cy="180" r="15" class="pendulum-bob"/>
-                        <text x="120" y="200" fill="#4ecdc4" font-size="12">P1</text>
-                    </g>
-                    <g id="pendulum2" class="pendulum-rod">
-                        <line x1="250" y1="30" x2="250" y2="180" stroke="#4ecdc4" stroke-width="3"/>
-                        <circle cx="250" cy="180" r="15" class="pendulum-bob" fill="#45b7d1"/>
-                        <text x="270" y="200" fill="#45b7d1" font-size="12">P2</text>
-                    </g>
-                    <line x1="150" y1="30" x2="250" y2="30" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="5,5"/>
-                </svg>
-            </div>
+        <div class="ctrl phase">
+          <label>Phase P1 (ΔΦ₀)</label>
+          <span class="val" id="vp1">0.0 rad</span>
+          <input type="range" id="p1" min="0" max="6.28" step="0.05" value="0">
         </div>
-
-        <div class="results-grid">
-            <div class="result-card">
-                <h3>📊 Phasen-Analyse</h3>
-                <div class="result-item">
-                    <span>Phasendifferenz (ΔΦ):</span>
-                    <span class="result-value" id="deltaPhi">0.0000 rad</span>
-                </div>
-                <div class="result-item">
-                    <span>Emergente Zeit:</span>
-                    <span class="result-value" id="emergentTime">0.0000 s</span>
-                </div>
-                <div class="result-item">
-                    <span>Frequenz P1:</span>
-                    <span class="result-value" id="freq1">0.00 Hz</span>
-                </div>
-                <div class="result-item">
-                    <span>Frequenz P2:</span>
-                    <span class="result-value" id="freq2">0.00 Hz</span>
-                </div>
-            </div>
-
-            <div class="result-card">
-                <h3>⚛️ Quanten-Parameter</h3>
-                <div class="result-item">
-                    <span>Effektive Masse:</span>
-                    <span class="result-value" id="effectiveMass">0.00 eV/c²</span>
-                </div>
-                <div class="result-item">
-                    <span>Modifizierte Gravitation:</span>
-                    <span class="result-value" id="modifiedGravity">9.81 m/s²</span>
-                </div>
-                <div class="result-item">
-                    <span>Gravitationsreduktion:</span>
-                    <span class="result-value" id="gravityReduction">0.0%</span>
-                </div>
-                <div class="result-item">
-                    <span>Kohärenz-Level:</span>
-                    <span class="result-value" id="coherenceLevel">0.0%</span>
-                </div>
-            </div>
-
-            <div class="result-card">
-                <h3>🎯 Resonanz-Status</h3>
-                <div class="result-item">
-                    <span>Schumann-Resonanz:</span>
-                    <span class="result-value" id="resonanceStatus">❌ NEIN</span>
-                </div>
-                <div class="result-item">
-                    <span>Frequenzmuster:</span>
-                    <span class="result-value" id="frequencyPattern">Unbekannt</span>
-                </div>
-                <div class="result-item">
-                    <span>System-Kohärenz:</span>
-                    <span class="result-value" id="systemCoherence">Niedrig</span>
-                </div>
-            </div>
+        <div class="ctrl phase">
+          <label>Phase P2 (ΔΦ₀)</label>
+          <span class="val" id="vp2">1.57 rad</span>
+          <input type="range" id="p2" min="0" max="6.28" step="0.05" value="1.57">
         </div>
+      </div>
 
-        <div class="analysis-panel">
-            <div id="analysisText">
-                <h4>🔮 Automatische Pattern-Erkennung:</h4>
-                <p>System bereit für Analyse. Starte die Simulation oder Demo für detaillierte Ergebnisse.</p>
-            </div>
-        </div>
+      <div class="btn-row">
+        <button class="btn active" id="btnStart">▶ Start</button>
+        <button class="btn" id="btnStop">■ Stop</button>
+        <button class="btn" id="btnSync">⟳ Synchron</button>
+        <button class="btn" id="btnDemo">◈ Demo</button>
+      </div>
+
+      <!-- Phase-Bars -->
+      <div class="phase-bar-wrap" style="margin-top:20px;">
+        <div class="phase-bar-label"><span>Amplitude P1 · Auslenkung</span><span id="bv1" style="color:var(--freq);font-weight:700;">0%</span></div>
+        <div class="phase-bar" style="height:10px;"><div class="phase-bar-fill freq" id="bar1" style="width:0%"></div></div>
+        <div class="phase-bar-label" style="margin-top:8px;"><span>Amplitude P2 · Auslenkung</span><span id="bv2" style="color:var(--phase);font-weight:700;">0%</span></div>
+        <div class="phase-bar" style="height:10px;"><div class="phase-bar-fill phase" id="bar2" style="width:0%"></div></div>
+        <div class="phase-bar-label" style="margin-top:8px;"><span>Kohärenz · Gleichklang</span><span id="bvc" style="color:var(--mass);font-weight:700;">0%</span></div>
+        <div class="phase-bar" style="height:10px;"><div class="phase-bar-fill coherence" id="barc" style="width:0%"></div></div>
+      </div>
     </div>
 
-    <script>
-        // Konstanten
-        const CONSTANTS = {
-            H_PLANCK: 6.62607015e-34,
-            C_LIGHT: 2.99792458e8,
-            G_EARTH: 9.81
-        };
+    <!-- Insight -->
+    <div class="card">
+      <div class="card-title">Was du gerade siehst</div>
+      <div class="insight" id="insight">
+        Starte die Simulation — die Bedeutung der Phasendifferenz erscheint hier.
+      </div>
 
-        class FrequencyPendulumMetaCode {
-            constructor() {
-                this.time = 0;
-                this.animationId = null;
-                this.isRunning = false;
-                this.demoIntervalId = null;
-                this.initializeEventListeners();
-                this.updateCalculations();
-            }
+      <div style="margin-top:24px;">
+        <div class="card-title">Frequenzgesetz-Kerne</div>
+        <div style="font-size:0.78rem; line-height:2; color: var(--muted); margin-top:8px;">
+          <div><span style="color:var(--freq)">f → ΔΦ</span> &nbsp; Frequenz erzeugt Phase</div>
+          <div><span style="color:var(--phase)">ΔΦ / f → T</span> &nbsp; Phase/Frequenz = Zeit</div>
+          <div><span style="color:var(--time)">T = 1/f</span> &nbsp; Spezialfall: ΔΦ = 2π (klassisch)</div>
+          <div><span style="color:var(--mass)">m = hf/c²</span> &nbsp; Masse ist gebundene Frequenz</div>
+        </div>
+      </div>
 
-            initializeEventListeners() {
-                document.addEventListener('DOMContentLoaded', () => this.setupListeners());
-            }
+      <div style="margin-top:24px;">
+        <div class="card-title">Schumann-Resonanz Demo</div>
+        <div style="font-size:0.75rem; color:var(--muted); margin-top:8px; line-height:1.8;">
+          Standardfrequenz der Erde: <span style="color:var(--freq)">7.83 Hz</span><br>
+          Drücke Demo um die Resonanz zu erleben.
+        </div>
+        <div class="btn-row">
+          <button class="btn" id="btnSchumann">7.83 Hz Resonanz</button>
+          <button class="btn" id="btnGamma">40 Hz Gamma</button>
+        </div>
+        <div style="margin-top:16px;">
+          <div class="card-title">Klassisch vs. Frequenzgesetz</div>
+          <div style="font-size:0.75rem; color:var(--muted); margin-top:8px; line-height:1.8;">
+            Umschalten zwischen den zwei Zeitdefinitionen.
+          </div>
+          <div class="btn-row">
+            <button class="btn" id="btnKlassisch">T = 1/f · Klassisch</button>
+            <button class="btn" id="btnFG">T = ΔΦ/f · Frequenzgesetz</button>
+          </div>
+          <div id="vergleich" style="margin-top:12px; font-family:var(--mono); font-size:0.8rem; 
+               padding:12px; background:var(--deep); border-radius:6px; border:1px solid var(--border);
+               display:none; line-height:2;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            setupListeners() {
-                ['length1', 'length2', 'driveFreq', 'gammaFreq', 'gravity'].forEach(id => {
-                    const input = document.getElementById(id);
-                    if (input) {
-                        input.addEventListener('input', () => this.updateCalculations());
-                        input.addEventListener('change', () => this.updateCalculations());
-                    }
-                });
-                const startBtn = document.getElementById('startBtn');
-                const stopBtn = document.getElementById('stopBtn');
-                const demoBtn = document.getElementById('demoBtn');
-                if (startBtn) startBtn.addEventListener('click', () => this.startAnimation());
-                if (stopBtn) stopBtn.addEventListener('click', () => this.stopAnimation());
-                if (demoBtn) demoBtn.addEventListener('click', () => this.runFullDemo());
-            }
+  <div class="footer">
+    <div style="margin-bottom:8px; font-family: var(--serif); font-size:0.9rem; font-style:italic; color: #5a7090; letter-spacing:0.05em;">
+      „Die Gleichungen bleiben dieselben. Die Leserichtung ändert sich."
+    </div>
+    Frequenzgesetz v8.0 · Christian Berrang · Yokohama 2026 ·
+    <a href="https://doi.org/10.5281/zenodo.17874830">DOI: 10.5281/zenodo.17874830</a> ·
+    <a href="https://github.com/Christianfwb/frequenzprojekt">GitHub</a>
+  </div>
+</div>
 
-            validateInputs() {
-                const length1 = parseFloat(document.getElementById('length1').value);
-                const length2 = parseFloat(document.getElementById('length2').value);
-                const driveFreq = parseFloat(document.getElementById('driveFreq').value);
-                const gravity = parseFloat(document.getElementById('gravity').value);
-                const errorMessage = document.getElementById('errorMessage');
-                
-                if (isNaN(length1) || length1 <= 0 || isNaN(length2) || length2 <= 0 || isNaN(driveFreq) || driveFreq <= 0 || isNaN(gravity) || gravity <= 0) {
-                    errorMessage.textContent = "Ungültige Eingabe. Alle Werte müssen positive Zahlen sein.";
-                    errorMessage.style.display = 'block';
-                    return false;
-                }
-                errorMessage.style.display = 'none';
-                return true;
-            }
+<script>
+// ── Stars ──────────────────────────────────────────────
+const sc = document.getElementById('stars');
+const sx = sc.getContext('2d');
+sc.width = window.innerWidth; sc.height = window.innerHeight;
+const stars = Array.from({length:180}, () => ({
+  x: Math.random()*sc.width, y: Math.random()*sc.height,
+  r: Math.random()*1.2+0.2, a: Math.random(), da: (Math.random()-0.5)*0.003
+}));
+function drawStars() {
+  sx.clearRect(0,0,sc.width,sc.height);
+  stars.forEach(s => {
+    s.a = Math.max(0.05, Math.min(0.8, s.a+s.da));
+    if (s.a<=0.05||s.a>=0.8) s.da=-s.da;
+    sx.beginPath();
+    sx.arc(s.x,s.y,s.r,0,Math.PI*2);
+    sx.fillStyle=`rgba(150,200,255,${s.a})`;
+    sx.fill();
+  });
+  requestAnimationFrame(drawStars);
+}
+drawStars();
+window.addEventListener('resize', ()=>{sc.width=window.innerWidth; sc.height=window.innerHeight;});
 
-            analyzeFrequencyPattern() {
-                const length1 = parseFloat(document.getElementById('length1').value);
-                const length2 = parseFloat(document.getElementById('length2').value);
-                const driveFreq = parseFloat(document.getElementById('driveFreq').value);
-                const gravity = parseFloat(document.getElementById('gravity').value);
-                const schumannResonance = 7.83;
-                
-                const freq1 = Math.sqrt(gravity / length1) / (2 * Math.PI);
-                const freq2 = Math.sqrt(gravity / length2) / (2 * Math.PI);
-                
-                const frequencyDifference = Math.abs(driveFreq - schumannResonance);
-                const resonanceMatchSchumann = frequencyDifference < 1.0;
+// ── Constants ───────────────────────────────────────────
+const H = 6.62607015e-34, C = 2.99792458e8;
 
-                const emergentTime = driveFreq > 0 ? (Math.abs(freq1 - freq2) / driveFreq) : 0;
-                
-                const effectiveMass = (CONSTANTS.H_PLANCK * driveFreq) / (CONSTANTS.C_LIGHT ** 2);
-                const massEv = effectiveMass * 5.609588e35; // eV/c²
-                
-                let pattern = "Unbekanntes Muster";
-                if (driveFreq < 10) pattern = "Niederfrequenz: Makrophysik";
-                else if (driveFreq < 50) pattern = "Mittlere Frequenz: Biophysik";
-                else pattern = "Hochfrequenz: Quanteneffekte";
+// ── State ───────────────────────────────────────────────
+let running = false, t = 0, rafId = null, demoMode = false, demoTimer = null;
 
-                return {
-                    emergentTime,
-                    freq1,
-                    freq2,
-                    effectiveMass,
-                    massEv,
-                    resonanceMatchSchumann,
-                    pattern
-                };
-            }
+// ── Canvas ──────────────────────────────────────────────
+const cv = document.getElementById('pendulumCanvas');
+const ctx = cv.getContext('2d');
 
-            startAnimation() {
-                if (this.isRunning) return;
-                if (!this.validateInputs()) return;
+function resizeCanvas() {
+  cv.width = cv.offsetWidth * window.devicePixelRatio;
+  cv.height = cv.offsetHeight * window.devicePixelRatio;
+  ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+}
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
 
-                this.isRunning = true;
-                this.time = 0;
-                // Startwinkel für eine sichtbare Animation
-                this.pendulumAngles = [0.3, 0.3];
-                this.animatePendulums();
-                document.querySelector('.pendulum-container').classList.add('pulsing');
-            }
+function getParams() {
+  return {
+    f1: parseFloat(document.getElementById('f1').value),
+    f2: parseFloat(document.getElementById('f2').value),
+    p1: parseFloat(document.getElementById('p1').value),
+    p2: parseFloat(document.getElementById('p2').value),
+  };
+}
 
-            stopAnimation() {
-                this.isRunning = false;
-                if (this.animationId) {
-                    cancelAnimationFrame(this.animationId);
-                    this.animationId = null;
-                }
-                if (this.demoIntervalId) {
-                    clearInterval(this.demoIntervalId);
-                    this.demoIntervalId = null;
-                }
-                document.querySelector('.pendulum-container').classList.remove('pulsing');
-            }
+// ── Pendulum draw ────────────────────────────────────────
+function drawPendulums(angle1, angle2, deltaPhiNow) {
+  const W = cv.offsetWidth, H2 = cv.offsetHeight;
+  ctx.clearRect(0,0,W,H2);
 
-            animatePendulums() {
-                if (!this.isRunning) return;
+  // Background glow when coherent
+  const coherence = Math.max(0, 1 - Math.abs(Math.sin(deltaPhiNow/2)));
+  if (coherence > 0.7) {
+    const grad = ctx.createRadialGradient(W/2, H2/2, 0, W/2, H2/2, W/2);
+    grad.addColorStop(0, `rgba(79,195,247,${(coherence-0.7)*0.15})`);
+    grad.addColorStop(1, 'transparent');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0,0,W,H2);
+  }
 
-                const length1 = parseFloat(document.getElementById('length1').value);
-                const length2 = parseFloat(document.getElementById('length2').value);
-                const driveFreq = parseFloat(document.getElementById('driveFreq').value);
-                const gravity = parseFloat(document.getElementById('gravity').value);
-                
-                const deltaTime = 0.016; // ~60 FPS
-                this.time += deltaTime;
+  // Trace lines (ghost trail)
+  const px1 = W*0.35, px2 = W*0.65, py = H2*0.15;
+  const L = H2*0.62;
 
-                const omega1 = Math.sqrt(gravity / length1);
-                const omega2 = Math.sqrt(gravity / length2);
-                
-                const angle1 = 0.3 * Math.sin(omega1 * this.time + driveFreq * this.time * 0.1);
-                const angle2 = 0.3 * Math.sin(omega2 * this.time + driveFreq * this.time * 0.1);
+  // Connection line between bobs
+  const bx1 = px1 + Math.sin(angle1)*L;
+  const by1 = py  + Math.cos(angle1)*L;
+  const bx2 = px2 + Math.sin(angle2)*L;
+  const by2 = py  + Math.cos(angle2)*L;
 
-                document.getElementById('pendulum1').style.transformOrigin = '150px 30px';
-                document.getElementById('pendulum1').style.transform = `rotate(${angle1}rad)`;
-                document.getElementById('pendulum2').style.transformOrigin = '250px 30px';
-                document.getElementById('pendulum2').style.transform = `rotate(${angle2}rad)`;
+  ctx.beginPath();
+  ctx.moveTo(bx1, by1);
+  ctx.lineTo(bx2, by2);
+  ctx.strokeStyle = `rgba(255,183,77,${0.1 + coherence*0.3})`;
+  ctx.lineWidth = 1.5;
+  ctx.setLineDash([6,4]);
+  ctx.stroke();
+  ctx.setLineDash([]);
 
-                const deltaPhiInstant = Math.abs(angle1 - angle2);
+  // ΔΦ arc between pivot points
+  ctx.beginPath();
+  ctx.arc(W/2, py, 22, Math.PI*0.8, Math.PI*0.2, false);
+  ctx.strokeStyle = 'rgba(255,183,77,0.3)';
+  ctx.lineWidth = 1;
+  ctx.stroke();
 
-                document.getElementById('phaseIndicator').innerHTML = `
-                    ΔΦ: ${deltaPhiInstant.toFixed(3)} rad<br>
-                    Zeit: ${this.time.toFixed(3)} s
-                `;
+  // Pivot markers
+  [px1, px2].forEach(x => {
+    ctx.beginPath();
+    ctx.arc(x, py, 4, 0, Math.PI*2);
+    ctx.fillStyle = 'rgba(100,180,255,0.5)';
+    ctx.fill();
+  });
 
-                this.animationId = requestAnimationFrame(() => this.animatePendulums());
-            }
+  // Draw pendulums
+  drawSinglePendulum(px1, py, L, angle1, '#4fc3f7', 'P1', 1);
+  drawSinglePendulum(px2, py, L, angle2, '#81c784', 'P2', 2);
 
-            updateCalculations() {
-                if (!this.validateInputs()) return;
+  // Phase label in center
+  ctx.fillStyle = 'rgba(255,183,77,0.8)';
+  ctx.font = `bold 13px 'Space Mono', monospace`;
+  ctx.textAlign = 'center';
+  ctx.fillText(`ΔΦ = ${deltaPhiNow.toFixed(3)} rad`, W/2, py - 18);
+  ctx.textAlign = 'left';
+}
 
-                const length1 = parseFloat(document.getElementById('length1').value);
-                const length2 = parseFloat(document.getElementById('length2').value);
-                const driveFreq = parseFloat(document.getElementById('driveFreq').value);
-                const gravity = parseFloat(document.getElementById('gravity').value);
-                const analysis = this.analyzeFrequencyPattern();
+function drawSinglePendulum(ox, oy, L, angle, color, label, idx) {
+  const ex = ox + Math.sin(angle)*L;
+  const ey = oy + Math.cos(angle)*L;
 
-                const freq1 = Math.sqrt(gravity / length1) / (2 * Math.PI);
-                const freq2 = Math.sqrt(gravity / length2) / (2 * Math.PI);
-                const deltaPhi = Math.abs((freq1 - freq2) * 2 * Math.PI);
-                const modifiedGravity = gravity * Math.cos(deltaPhi);
-                const gravityReduction = Math.abs((gravity - modifiedGravity) / gravity * 100);
-                const coherenceLevel = Math.max(0, (1 - Math.abs(Math.sin(deltaPhi / 2))) * 100);
+  // Glow
+  const grd = ctx.createRadialGradient(ex,ey,0,ex,ey,22);
+  grd.addColorStop(0, color+'55');
+  grd.addColorStop(1, 'transparent');
+  ctx.beginPath(); ctx.arc(ex,ey,22,0,Math.PI*2);
+  ctx.fillStyle=grd; ctx.fill();
 
-                document.getElementById('deltaPhi').textContent = `${deltaPhi.toFixed(4)} rad`;
-                document.getElementById('emergentTime').textContent = `${analysis.emergentTime.toFixed(4)} s`;
-                document.getElementById('freq1').textContent = `${freq1.toFixed(2)} Hz`;
-                document.getElementById('freq2').textContent = `${freq2.toFixed(2)} Hz`;
-                document.getElementById('effectiveMass').textContent = `${analysis.massEv.toFixed(2)} eV/c²`;
-                document.getElementById('modifiedGravity').textContent = `${modifiedGravity.toFixed(2)} m/s²`;
-                document.getElementById('gravityReduction').textContent = `${gravityReduction.toFixed(1)}%`;
-                document.getElementById('coherenceLevel').textContent = `${coherenceLevel.toFixed(1)}%`;
+  // Rod
+  ctx.beginPath(); ctx.moveTo(ox,oy); ctx.lineTo(ex,ey);
+  ctx.strokeStyle=color+'90'; ctx.lineWidth=2.5; ctx.stroke();
 
-                const resonanceElement = document.getElementById('resonanceStatus');
-                if (resonanceElement) {
-                    resonanceElement.textContent = analysis.resonanceMatchSchumann ? "✅ JA (Schumann-Resonanz)" : `❌ NEIN (Δ=${Math.abs(driveFreq - 7.83).toFixed(2)}Hz)`;
-                }
-                
-                document.getElementById('frequencyPattern').textContent = analysis.pattern;
-                const coherenceText = coherenceLevel > 70 ? "Hoch" : coherenceLevel > 40 ? "Mittel" : "Niedrig";
-                document.getElementById('systemCoherence').textContent = coherenceText;
+  // Bob
+  ctx.beginPath(); ctx.arc(ex,ey,14,0,Math.PI*2);
+  ctx.fillStyle=color; ctx.fill();
+  ctx.strokeStyle=color+'44'; ctx.lineWidth=6; ctx.stroke();
 
-                this.updateMetaAnalysis(analysis, gravityReduction, coherenceLevel);
-            }
+  // Label
+  ctx.fillStyle = color;
+  ctx.font = `700 11px 'Space Mono', monospace`;
+  ctx.textAlign = 'center';
+  ctx.fillText(label, ex, ey+32);
+  ctx.textAlign = 'left';
+}
 
-            updateMetaAnalysis(analysis, gravityReduction, coherenceLevel) {
-                const analysisDiv = document.getElementById('analysisText');
-                let coherenceLevelText = coherenceLevel > 70 ? "Hoch" : coherenceLevel > 40 ? "Mittel" : "Niedrig";
-                const antigravEffectText = gravityReduction > 5 ? "SIGNIFIKANTER Anti-Gravitationseffekt erkannt!" : "Geringer bis kein Anti-Gravitationseffekt.";
-                let resonanceInfo = analysis.resonanceMatchSchumann
-                    ? "Der Antrieb ist mit der Schumann-Resonanz (7.83 Hz) in Resonanz. Dies deutet auf eine natürliche Harmonisierung hin."
-                    : "Keine Resonanz mit der Schumann-Frequenz. Das System operiert in einem externen Frequenzbereich.";
+// ── Animation loop ───────────────────────────────────────
+const INSIGHTS = [
+  p => p < 0.1
+    ? "Perfekte Kohärenz — beide Pendel in Phase. Im Modell nähert sich die relationale Zeitdifferenz zwischen beiden Systemen null: T = ΔΦ/f → 0."
+    : null,
+  p => p > 3.0 && p < 3.3
+    ? "Maximale Gegenphasigkeit (ΔΦ ≈ π). Die Zeit zwischen ihnen ist auf dem Maximum — maximale Unterschiedlichkeit."
+    : null,
+  p => p > 5.8
+    ? "Fast ein voller Zyklus (ΔΦ → 2π). Der klassische Fall T = 1/f nähert sich — Standardphysik als Spezialfall."
+    : null,
+  p => true
+    ? `Phasendifferenz ${p.toFixed(2)} rad — Zeit T = ΔΦ/f ist kein Tick einer Uhr, sondern der Abstand zwischen zwei Schwingungszuständen.`
+    : null,
+];
 
-                analysisDiv.innerHTML = `
-                    <h4>🔮 Automatische Pattern-Erkennung:</h4>
-                    <p>Das System ist **${coherenceLevelText}** kohärent (**${coherenceLevel.toFixed(1)}%**). ${antigravEffectText}</p>
-                    <p>${resonanceInfo}</p>
-                    <p>Das aktuelle Frequenzmuster (**${analysis.pattern}**) zeigt, dass das System im Bereich der **${analysis.pattern.split(': ')[1]}** operiert.</p>
-                `;
-            }
+function getInsight(deltaPhiNow) {
+  for (const fn of INSIGHTS) {
+    const r = fn(deltaPhiNow);
+    if (r) return r;
+  }
+  return '';
+}
 
-            runFullDemo() {
-                this.stopAnimation();
-                const demoSettings = [
-                    { length1: 1.0, length2: 1.0, driveFreq: 7.83, gravity: 9.81, label: "Schumann-Resonanz (Perfekte Kohärenz)" },
-                    { length1: 1.0, length2: 1.2, driveFreq: 40.0, gravity: 9.81, label: "Gamma-Frequenz (Quanten-Level)" }
-                ];
+let lastInsight = '';
+let insightTimer = 0;
 
-                let demoIndex = 0;
+function loop(ts) {
+  if (!running) return;
+  const dt = 0.016;
+  t += dt;
 
-                const runNextDemo = () => {
-                    const setting = demoSettings[demoIndex];
-                    if (setting) {
-                        document.getElementById('length1').value = setting.length1;
-                        document.getElementById('length2').value = setting.length2;
-                        document.getElementById('driveFreq').value = setting.driveFreq;
-                        document.getElementById('gravity').value = setting.gravity;
-                        document.getElementById('analysisText').innerHTML = `<h4>🎭 Demo-Modus: ${setting.label}</h4><p>Bereite Simulation vor...</p>`;
-                        this.updateCalculations();
-                        setTimeout(() => {
-                            this.startAnimation();
-                        }, 1000); // Verzögerung, um die Änderungen sichtbar zu machen
-                    }
-                    demoIndex = (demoIndex + 1) % demoSettings.length;
-                };
+  const {f1, f2, p1, p2} = getParams();
+  const omega1 = f1 * Math.PI * 2;
+  const omega2 = f2 * Math.PI * 2;
 
-                runNextDemo();
-                this.demoIntervalId = setInterval(runNextDemo, 10000); // Wechsle alle 10 Sekunden
-            }
-        }
+  const amp = 0.35;
+  const angle1 = amp * Math.sin(omega1 * t + p1);
+  const angle2 = amp * Math.sin(omega2 * t + p2);
+  const deltaPhiNow = Math.abs(angle1 - angle2);
 
-        new FrequencyPendulumMetaCode();
-    </script>
+  drawPendulums(angle1, angle2, deltaPhiNow);
+
+  // Metrics
+  const T = f1 > 0 ? deltaPhiNow / (f1) : 0;
+  const massEv = (H * f1) / (C*C) * 5.609588e35;
+  const coherence = Math.max(0, 1 - Math.abs(Math.sin(deltaPhiNow/2)));
+
+  document.getElementById('mf1').textContent = f1.toFixed(2) + ' Hz';
+  document.getElementById('mdp').textContent = deltaPhiNow.toFixed(3) + ' rad';
+  document.getElementById('mt').textContent = T.toFixed(4) + ' s';
+  document.getElementById('mm').textContent = '~' + massEv.toFixed(4) + ' eV/c²';
+
+  // Bars
+  const a1pct = Math.abs(angle1)/amp*100;
+  const a2pct = Math.abs(angle2)/amp*100;
+  const cpct = coherence*100;
+  document.getElementById('bar1').style.width = a1pct+'%';
+  document.getElementById('bar2').style.width = a2pct+'%';
+  document.getElementById('barc').style.width = cpct+'%';
+  document.getElementById('bv1').textContent = a1pct.toFixed(0)+'%';
+  document.getElementById('bv2').textContent = a2pct.toFixed(0)+'%';
+  document.getElementById('bvc').textContent = cpct.toFixed(0)+'%';
+
+  // Chain pulse
+  insightTimer++;
+  if (insightTimer % 60 === 0) {
+    const insight = getInsight(deltaPhiNow);
+    if (insight !== lastInsight) {
+      lastInsight = insight;
+      document.getElementById('insight').textContent = insight;
+      ['c-f','c-p','c-t','c-m'].forEach((id,i) => {
+        setTimeout(()=>{
+          const el = document.getElementById(id);
+          el.classList.add('chain-active');
+          setTimeout(()=>el.classList.remove('chain-active'),400);
+        },i*120);
+      });
+    }
+  }
+
+  rafId = requestAnimationFrame(loop);
+}
+
+// ── Controls ─────────────────────────────────────────────
+function updateLabels() {
+  const {f1,f2,p1,p2} = getParams();
+  document.getElementById('vf1').textContent = f1.toFixed(2)+' Hz';
+  document.getElementById('vf2').textContent = f2.toFixed(2)+' Hz';
+  document.getElementById('vp1').textContent = p1.toFixed(2)+' rad';
+  document.getElementById('vp2').textContent = p2.toFixed(2)+' rad';
+}
+
+['f1','f2','p1','p2'].forEach(id => {
+  document.getElementById(id).addEventListener('input', updateLabels);
+});
+updateLabels();
+
+document.getElementById('btnStart').addEventListener('click', () => {
+  if (running) return;
+  running = true;
+  document.getElementById('btnStart').classList.add('active');
+  document.getElementById('btnStop').classList.remove('active');
+  rafId = requestAnimationFrame(loop);
+});
+
+document.getElementById('btnStop').addEventListener('click', () => {
+  running = false;
+  if (rafId) cancelAnimationFrame(rafId);
+  document.getElementById('btnStop').classList.add('active');
+  document.getElementById('btnStart').classList.remove('active');
+  if (demoTimer) { clearInterval(demoTimer); demoTimer=null; }
+});
+
+document.getElementById('btnSync').addEventListener('click', () => {
+  document.getElementById('p1').value = 0;
+  document.getElementById('p2').value = 0;
+  document.getElementById('f1').value = 1.0;
+  document.getElementById('f2').value = 1.0;
+  updateLabels();
+  document.getElementById('insight').textContent =
+    'Synchron: ΔΦ = 0. Beide Systeme im selben Zustand. Zeit zwischen ihnen = 0. Vollständige Kohärenz.';
+});
+
+// Demo mode
+const DEMOS = [
+  { f1:1.0, f2:1.0, p1:0, p2:0, label:'Vollständige Kohärenz' },
+  { f1:1.0, f2:1.3, p1:0, p2:1.57, label:'Phasendifferenz π/2' },
+  { f1:0.8, f2:1.6, p1:0, p2:3.14, label:'Gegenphasigkeit' },
+  { f1:1.5, f2:1.5, p1:0, p2:6.28, label:'Gleiche Frequenz, voller Zyklus' },
+];
+let demoIdx = 0;
+
+document.getElementById('btnDemo').addEventListener('click', () => {
+  if (demoTimer) { clearInterval(demoTimer); demoTimer=null; }
+  const applyDemo = () => {
+    const d = DEMOS[demoIdx % DEMOS.length];
+    document.getElementById('f1').value = d.f1;
+    document.getElementById('f2').value = d.f2;
+    document.getElementById('p1').value = d.p1;
+    document.getElementById('p2').value = d.p2;
+    updateLabels();
+    document.getElementById('insight').textContent = `Demo: ${d.label}`;
+    demoIdx++;
+  };
+  applyDemo();
+  if (!running) {
+    running = true;
+    document.getElementById('btnStart').classList.add('active');
+    rafId = requestAnimationFrame(loop);
+  }
+  demoTimer = setInterval(applyDemo, 5000);
+});
+
+document.getElementById('btnSchumann').addEventListener('click', () => {
+  document.getElementById('f1').value = 0.78;
+  document.getElementById('f2').value = 0.78;
+  document.getElementById('p1').value = 0;
+  document.getElementById('p2').value = 0.5;
+  updateLabels();
+  document.getElementById('insight').textContent =
+    'Schumann-Resonanz (visuell skaliert: 0.78 Hz ≈ 7.83 Hz / 10) — ' +
+    'Die reale Frequenz beträgt 7.83 Hz, hier für die Visualisierung skaliert. ' +
+    'Im Frequenzgesetz: ein natürlicher Resonanzzustand des Erde-Ionosphären-Systems.';
+  if (!running) {
+    running = true;
+    document.getElementById('btnStart').classList.add('active');
+    rafId = requestAnimationFrame(loop);
+  }
+});
+
+document.getElementById('btnGamma').addEventListener('click', () => {
+  document.getElementById('f1').value = 2.0;
+  document.getElementById('f2').value = 2.5;
+  document.getElementById('p1').value = 0;
+  document.getElementById('p2').value = 0.8;
+  updateLabels();
+  document.getElementById('insight').textContent =
+    'Gamma-Frequenzbereich (~40 Hz) — assoziiert mit hoher kognitiver Aktivität. ' +
+    'Im Frequenzgesetz: erhöhte Phasenkohärenz zwischen neuronalen Oszillatoren.';
+  if (!running) {
+    running = true;
+    document.getElementById('btnStart').classList.add('active');
+    rafId = requestAnimationFrame(loop);
+  }
+});
+
+// Klassisch vs FG
+let fgMode = true;
+document.getElementById('btnFG').addEventListener('click', () => {
+  fgMode = true;
+  document.getElementById('btnFG').classList.add('active');
+  document.getElementById('btnKlassisch').classList.remove('active');
+  const {f1,f2,p1,p2} = getParams();
+  const dp = Math.abs(p1-p2);
+  const T_fg = f1>0 ? dp/f1 : 0;
+  const T_kl = f1>0 ? 1/f1 : 0;
+  document.getElementById('vergleich').style.display='block';
+  document.getElementById('vergleich').innerHTML = 
+    `<span style="color:var(--muted)">Klassisch:</span> &nbsp;<span style="color:#888">T = 1/f = ${T_kl.toFixed(4)} s</span><br>` +
+    `<span style="color:var(--freq)">Frequenzgesetz:</span> T = ΔΦ/f = <span style="color:var(--time)">${T_fg.toFixed(4)} s</span><br>` +
+    `<span style="color:var(--muted)">Unterschied:</span> &nbsp;<span style="color:var(--phase)">${Math.abs(T_fg-T_kl).toFixed(4)} s · ΔΦ=${dp.toFixed(3)} rad</span>`;
+  document.getElementById('insight').textContent = 
+    'Frequenzgesetz: T = ΔΦ/f. Die Zeit hängt von der Phasendifferenz ab — nicht nur von der Frequenz. ' +
+    'T = 1/f ist der Spezialfall wenn ΔΦ = 2π (ein vollständiger Zyklus).';
+});
+document.getElementById('btnKlassisch').addEventListener('click', () => {
+  fgMode = false;
+  document.getElementById('btnKlassisch').classList.add('active');
+  document.getElementById('btnFG').classList.remove('active');
+  const {f1} = getParams();
+  const T_kl = f1>0 ? 1/f1 : 0;
+  document.getElementById('vergleich').style.display='block';
+  document.getElementById('vergleich').innerHTML = 
+    `<span style="color:var(--time)">T = 1/f = ${T_kl.toFixed(4)} s</span><br>` +
+    `<span style="color:var(--muted)">Klassisch: Zeit = eine volle Periode. ΔΦ = 2π immer.</span><br>` +
+    `<span style="color:var(--muted)">Phasendifferenz spielt keine Rolle.</span>`;
+  document.getElementById('insight').textContent = 
+    'Klassische Physik: T = 1/f. Zeit ist eine vollständige Periode — ΔΦ = 2π ist immer angenommen. ' +
+    'Das Frequenzgesetz verallgemeinert: Warum muss es immer ein voller Zyklus sein?';
+});
+
+// Auto-start
+running = true;
+rafId = requestAnimationFrame(loop);
+</script>
 </body>
 </html>
+
 
