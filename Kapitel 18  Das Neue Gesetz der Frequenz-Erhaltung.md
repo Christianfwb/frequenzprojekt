@@ -12,7 +12,7 @@ Datum: 18\. Juni 2025
 
 ---
 
-Dieser Artikel wird aktuell in einzelne Abschnitte aufgeteilt und anschließend entfernt, da er ursprünglich nur als persönliche Gedankenstütze diente. Er stellt meinen ersten Versuch dar, meine Ideen zu verstehen und niederzuschreiben. Ich lasse ihn im Frequenzprojekt bestehen, damit spätere Vergleiche möglich sind.
+Dieses Dokument ist der ursprüngliche Entwurf des Frequenzgesetzes — ein erster Versuch, die Kernideen zu formulieren. Es bleibt im Projekt erhalten, um die Entwicklung des Frameworks nachvollziehbar zu machen.
 
 Vorwort: Die Reise zum Ur-Takt des Seins – Ein System-Admin entdeckte das Universum
 
