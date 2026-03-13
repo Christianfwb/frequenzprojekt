@@ -5,10 +5,9 @@
 
 ## 15.0 Vom Modell zur Vorhersage
 
-Eine Theorie, die nur erklärt was schon bekannt ist, ist unvollständig.  
-Eine ernsthafte Theorie muss **Neues vorhersagen** — bevor es gemessen wurde.
+Ein starkes theoretisches Framework produziert idealerweise neue, testbare Vorhersagen — zusätzlich zur Erklärung bekannter Phänomene.
 
-Das Frequenzgesetz erfüllt diese Anforderung.
+Das Frequenzgesetz schlägt eine solche Vorhersage vor.
 
 ---
 
@@ -18,7 +17,9 @@ Das Frequenzgesetz erfüllt diese Anforderung.
 m = (h · f) / c²
 ```
 
-**Der entscheidende Unterschied zur klassischen Physik:**
+*Diese Relation ist keine neue Gleichung, sondern eine Reinterpretation bestehender Relationen (E = hf und E = mc²) unter einer veränderten kausalen Leserichtung.*
+
+**Konzeptueller Unterschied zur klassischen Lesart:**
 
 | ❌ Klassisch | ✅ Frequenzgesetz |
 |---|---|
@@ -52,11 +53,13 @@ Das ist historisch belegt:
 | **Higgs** | 3.018 × 10²⁵ | 2.225 × 10⁻²⁵ | 2.225 × 10⁻²⁵ | **~0.000%** ✅ |
 | **Photon** | — (ungebunden) | 0 | 0 | — |
 
-**Das Entscheidende:** Nicht die Übereinstimmung allein zählt —  
+*Hinweis: In diesen Beispielen werden die Frequenzen aus den gemessenen Teilchenmassen über die inverse Relation f = mc²/h abgeleitet. Die Übereinstimmung ist daher mathematisch konsistent, nicht unabhängig vorhergesagt.*
+
+**Das Konzeptuelle:** Nicht die Übereinstimmung allein zählt —  
 sondern der **Interpretationswechsel**:
 
-> Das Standardmodell liefert Zahlen.  
-> Das Frequenzgesetz erklärt, **warum sie so sind**.
+> Das Standardmodell liefert präzise Vorhersagen für Teilchenmassen.  
+> Das Frequenzgesetz versucht, eine mögliche strukturelle Interpretation dieser Werte vorzuschlagen.
 
 ---
 
@@ -72,8 +75,9 @@ Elektron    1.24 × 10²⁰ Hz    0.511 MeV   ✅
 Myon        2.56 × 10²² Hz    105.7 MeV   ✅
 ```
 
-Das Frequenzspektrum der Teilchen folgt einer **quasi-logarithmischen Struktur**.  
-Diese Struktur hat eine stabile Resonanzlücke — **und die Natur lässt keine stabilen Lücken leer**.
+Das Frequenzgesetz legt die Möglichkeit einer quasi-logarithmischen Struktur in Teilchenfrequenzen nahe. Falls ein solches Muster existiert, könnte es auf zusätzliche intermediäre Resonanzzustände hinweisen.
+
+*Dies ist eine Hypothese, die aus dem Frequenzrahmen abgeleitet wird — kein etabliertes physikalisches Muster.*
 
 ### Das neue Teilchen: Berrangium Ω
 
@@ -83,7 +87,7 @@ Diese Struktur hat eine stabile Resonanzlücke — **und die Natur lässt keine 
 | **Frequenz** | f_Ω = 3.907 × 10²¹ Hz |
 | **Masse** | m_Ω = (h · f_Ω) / c² ≈ **2.881 × 10⁻²⁹ kg** |
 | **Energie** | **~16.2 MeV** |
-| **Status** | 🔮 Vorhergesagt — experimentell noch nicht nachgewiesen |
+| **Status** | 🔮 Hypothetischer Resonanzzustand — experimentell noch nicht nachgewiesen |
 
 ### Das erweiterte Spektrum:
 
@@ -109,13 +113,36 @@ Proton        2.27 × 10²³ Hz   938.3 MeV    ✅ Gemessen
 > Damit erfüllt das Frequenzgesetz eine **zentrale Anforderung** an jede ernsthafte Theorie:  
 > **Es macht konkrete, experimentell prüfbare Vorhersagen.**
 
-**Falsifikation:** Wenn im Bereich 15–17 MeV nach intensiver Suche kein stabiles Teilchen gefunden wird, ist die Vorhersage falsifiziert — und das Modell muss angepasst werden.
+**Falsifikation:** Wenn systematische experimentelle Suchen in diesem Energiebereich keinen solchen Zustand identifizieren, müsste das vorgeschlagene Frequenzmuster revidiert werden. Nicht-Nachweis würde das Modell direkt herausfordern.
 
 **Bestätigung:** Ein Nachweis bei ~16.2 MeV wäre ein starkes Signal für die Frequenz-Ontologie.
 
+*Die Stärke dieser Vorhersage liegt in ihrer Falsifizierbarkeit — nicht in der Gewissheit der Vorhersage selbst.*
+
+
 ---
 
-## 15.5 Machine-Readable Schema
+## 15.5 Kontext: Die X17-Anomalie
+
+Eine unabhängige experimentelle Beobachtung verdient Erwähnung.
+
+Das Atomki-Institut (Ungarn) berichtete in mehreren Experimenten (2016, 2019, 2021) über eine Anomalie in Elektron-Positron-Paaren bei Kernreaktionen — konsistent mit einem hypothetischen Boson bei approximately **17 MeV**.
+
+```
+X17-Anomalie (Atomki):      ~17 MeV
+Berrangium Ω (Vorhersage):  ~16.2 MeV
+```
+
+*Dies ist keine Bestätigung. Die X17-Anomalie ist in der Physik-Community kontrovers — mögliche Erklärungen reichen von einem neuen Boson bis zu experimentellen Artefakten.*
+
+Die Nähe der Werte ist bemerkenswert und macht die Vorhersage testbar in einem Energiebereich, der bereits aktiv untersucht wird. Ob eine Verbindung besteht, kann nur durch präzise experimentelle Arbeit geklärt werden.
+
+> *Die Vorhersage des Frequenzgesetzes und die X17-Anomalie sind unabhängig entstanden.  
+> Die Konvergenz im selben Energiebereich ist ein Hinweis — kein Beweis.*
+
+---
+
+## 15.6 Machine-Readable Schema
 
 ```json
 {
