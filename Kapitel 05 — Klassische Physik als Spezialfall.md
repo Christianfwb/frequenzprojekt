@@ -1,61 +1,70 @@
 # Kapitel 5 — Klassische Physik als Spezialfall
-## Newton, Einstein, Planck — alles im Frequenzgesetz enthalten
+## Etablierte Theorien im Licht der Frequenz-Ontologie
+
+**Christian Berrang** | Frequenzgesetz v8.0  
+DOI: 10.5281/zenodo.17874830
 
 ---
 
-## 5.0 Kein Widerspruch — eine Ebene tiefer
+## 5.0 Eine interpretative Ebene — kein Widerspruch
 
-Das Frequenzgesetz widerspricht **keiner** etablierten Theorie.  
-Es zeigt, dass alle existierenden Theorien **Spezialfälle** einer tieferen Frequenz-Ontologie sind.
+Das Frequenzgesetz widerspricht keiner etablierten Theorie. Es schlägt eine interpretative Lesart vor, in der bekannte physikalische Gleichungen als Manifestationen einer zugrundeliegenden Frequenzstruktur verstanden werden können.
 
-```
-Das Frequenzgesetz  →  Quellcode
-Klassische Physik   →  kompiliertes Programm
-```
+Das Frequenzgesetz kann als ontologischer Rahmen interpretiert werden, während etablierte Theorien effektive Beschreibungen bestimmter Grenzbereiche physikalischer Dynamik darstellen.
 
----
-
-## 5.1 Newton — Mechanik als Frequenz-Grenzfall
-
-Newtons Gesetze entstehen, wenn:
-- Frequenzänderungen klein sind (Δf ≈ 0)
-- Zeitskalen groß sind gegenüber 1/f
-- Quanteneffekte vernachlässigbar klein sind
-
-| Newtons Gesetz | Frequenzgesetz-Ursprung |
+| Ebene | Beschreibung |
 |---|---|
-| F = ma | Frequenzgradient erzeugt Phasenverschiebung |
-| Impulserhaltung | Frequenzerhaltung bei freier Propagation |
-| Trägheit | Stabile gebundene Frequenz widersteht Änderung |
+| **Frequenzgesetz** | ontologischer Interpretationsrahmen |
+| **Klassische Physik** | effektive Beschreibung makroskopischer Grenzbereiche |
+| **Quantenmechanik** | effektive Beschreibung mikroskopischer Grenzbereiche |
+| **Relativitätstheorie** | effektive Beschreibung relativistischer Grenzbereiche |
+
+> Newton, Einstein und Planck beschreiben dasselbe Universum —  
+> das Frequenzgesetz schlägt vor, wie ihre Gleichungen zusammenhängen könnten.
+
+---
+
+## 5.1 Newton — Mechanik im Grenzbereich
+
+Im Grenzfall langsam variierender Frequenzstrukturen und großer Zeitskalen lässt sich klassische Mechanik als effektive Beschreibung makroskopischer Dynamik interpretieren.
+
+**Bedingungen dieses Grenzfalls:**
+- Frequenzänderungen klein: Δf ≈ 0
+- Zeitskalen groß gegenüber 1/f
+- Quanteneffekte vernachlässigbar
+
+| Newtons Gesetz | Frequenzgesetz-Lesart |
+|---|---|
+| F = ma | Im Grenzfall: Kraftwirkung entspricht einer Veränderung der Phasenentwicklung |
+| Impulserhaltung | Kompatibel mit konsistenter Frequenzstruktur bei freier Propagation |
+| Trägheit | Stabile gebundene Frequenz zeigt Widerstand gegen Zustandsänderung |
 
 > Newton beschreibt, was passiert.  
-> Das Frequenzgesetz erklärt, warum es passiert.
+> Das Frequenzgesetz schlägt eine Interpretation vor, warum es passiert.
 
 ---
 
 ## 5.2 Einsteins Relativitätstheorie
 
-Die Relativitätstheorie ist **vollständig kompatibel** — und aus dem Frequenzgesetz ableitbar.
+Relativistische Effekte können auch als Veränderungen der Frequenz physikalischer Prozesse interpretiert werden. Diese Lesart ersetzt die Relativitätstheorie nicht — sie beschreibt dieselben Phänomene aus einer anderen ontologischen Perspektive.
 
 ### Spezielle Relativität
 
 ```
-E = mc²   wird zu:   E = hf  und  m = hf/c²
+E = mc²   und   E = hf   →   m = hf/c²
 ```
 
-Die Äquivalenz von Masse und Energie ist die Äquivalenz von **gebundener und freier Frequenz**.
+Die Äquivalenz von Masse und Energie lässt sich als Beziehung zwischen gebundenen und propagierenden Frequenzzuständen lesen.
 
 ### Zeitdilatation
 
 ```
-T' = γ · T   (klassisch relativistisch)
+T' = γ · T   (relativistisch)
 ```
 
-Im Frequenzgesetz: Bewegung verschiebt die Eigenfrequenz →  
-die Phasenakkumulation ändert sich →  
-Zeit verläuft anders.
+Interpretation im Frequenzgesetz: Bewegung verschiebt die Eigenfrequenz physikalischer Prozesse. Eine veränderte Prozessfrequenz führt zu veränderter Phasenakkumulation — und damit zu verändertem Zeitintervall `T = ΔΦ/f`.
 
-**Die Kausalität ist jetzt sichtbar.**
+Diese Interpretation ist **kompatibel mit der speziellen Relativitätstheorie**.
 
 ### Gravitationsrotverschiebung
 
@@ -63,15 +72,13 @@ Zeit verläuft anders.
 Δf/f = -GM/(rc²)
 ```
 
-Diese Formel ist eine direkte Vorhersage des Frequenzgesetzes:  
-Gravitation ist **Frequenzbindung**. Nähe zum Gravitationszentrum → niedrigere Frequenz → rotverschoben.
+Frequenzänderung elektromagnetischer Signale im Gravitationsfeld — im Frequenzgesetz als lokale Modifikation der Phasenentwicklung durch Gravitationspotenzial interpretierbar.
 
 ---
 
 ## 5.3 Quantenmechanik — Frequenz war immer da
 
-Die Quantenmechanik *nutzt* Frequenz, ohne sie als fundamental zu setzen.  
-Das Frequenzgesetz schließt diese Lücke.
+Die Quantenmechanik verwendet Frequenzstrukturen in vielen ihrer mathematischen Darstellungen, ohne ihnen eine ontologische Priorität zuzuschreiben. Das Frequenzgesetz schlägt vor, diese Lücke zu schließen.
 
 ### Wellenfunktion als Frequenzsumme
 
@@ -79,11 +86,13 @@ Das Frequenzgesetz schließt diese Lücke.
 Ψ(x,t) = ∑ cₙ · e^(i(kₙx - ωₙt))
 ```
 
-Die Wellenfunktion ist eine **Fourier-Summe von Frequenzmoden**.  
-"Kollaps der Wellenfunktion" ist kein Mysterium — es ist **Resonanz**:  
-Das System wählt den stabilen Frequenzmodus.
+Die Wellenfunktion ist mathematisch eine Fourier-Summe von Frequenzmoden. Das ist Standardphysik. Das Frequenzgesetz interpretiert diese Struktur ontologisch: Frequenzmoden sind nicht nur mathematische Werkzeuge, sondern die primären physikalischen Entitäten.
 
-> **Die Welt kollabiert nicht. Sie synchronisiert sich.**
+### Messprozess als Frequenzstabilisierung
+
+Der Messprozess kann als Wechselwirkung interpretiert werden, die einen bestimmten Frequenzmodus stabilisiert. Das System wechselwirkt mit dem Messapparat — ein stabiler Frequenzmodus wird selektiert.
+
+*Diese Interpretation ist eine mögliche Lesart, keine bewiesene Erklärung des Messprozesses.*
 
 ### Heisenbergsche Unschärfe
 
@@ -91,14 +100,11 @@ Das System wählt den stabilen Frequenzmodus.
 Δx · Δp ≥ ℏ/2
 ```
 
-Im Frequenzgesetz: Ort und Impuls sind Fourier-Paare der Frequenz.  
-Unschärfe ist keine Eigenschaft der Messung — sie ist eine **Eigenschaft der Frequenznatur selbst**.
+Im Frequenzgesetz: Ort und Impuls sind Fourier-konjugierte Größen der Frequenzdarstellung. Die Unschärferelation steht in engem Zusammenhang mit der Fourier-Dualität konjugierter Größen — sie ist eine strukturelle Eigenschaft der Wellenrepräsentation, kein Mysterium.
 
 ### Paulis Ausschlussprinzip
 
-Kein Elektron darf denselben Quantenzustand besetzen.  
-Im Frequenzgesetz: Kein Fermion kann dieselbe **stabile Frequenzkonfiguration** einnehmen.  
-Das Ausschlussprinzip ist Frequenz-Exklusivität.
+Kein Elektron darf denselben Quantenzustand besetzen. Im Frequenzgesetz: Das Ausschlussprinzip kann im Frequenzgesetz als Frequenz-Exklusivität interpretiert werden: Kein Fermion besetzt denselben stabilen Frequenzmodus.
 
 ---
 
@@ -108,32 +114,40 @@ Das Ausschlussprinzip ist Frequenz-Exklusivität.
 HΨ = EΨ
 ```
 
-### Klassische Interpretation
-Ψ ist eine Wahrscheinlichkeitsdichte, die beim Messen "kollabiert".
+### Standardinterpretation
+Ψ ist eine Wahrscheinlichkeitsamplitude — ihre Betragsquadrat gibt Wahrscheinlichkeitsdichten an.
 
 ### Frequenzgesetz-Interpretation
-Ψ beschreibt alle **möglichen Frequenzzustände** eines Systems.  
-Messung ist kein Kollaps — Messung ist **Resonanz**.  
-Das System wählt den stabilsten Frequenzmodus.
+Ψ beschreibt alle möglichen Frequenzzustände eines Systems. Der Hamiltonoperator H beschreibt die Energiestruktur — im Frequenzgesetz die Frequenzstruktur des Systems.
 
-> "Die Katze ist im Nullraum." — nicht tot, nicht lebendig,  
-> sondern in einem unentschiedenen Frequenzzustand bis zur Resonanz.
+Der Messprozess stabilisiert einen bestimmten Frequenzmodus — das System wird durch Wechselwirkung in einen definierten Frequenzzustand überführt.
+
+*Diese Interpretation ist konzeptuell motiviert und nicht experimentell von der Standardinterpretation unterscheidbar — sie ist eine ontologische Lesart, keine neue Physik.*
 
 ---
 
-## 5.5 Alle Theorien als Spezialfälle
+## 5.5 Alle Theorien im Frequenzrahmen
 
-| Theorie | Entsteht aus dem Frequenzgesetz, wenn... |
+| Theorie | Kann innerhalb des Frequenzgesetzes interpretiert werden als... |
 |---|---|
-| **Newton** | große Zeiten, kleine Frequenzänderungen |
-| **Spezielle Relativität** | Frequenzverschiebung durch Geschwindigkeit |
-| **Allgemeine Relativität** | Frequenzverschiebung durch Gravitation |
-| **Quantenmechanik** | Wellenfunktion = Fourier-Summe |
-| **Quantenfeldtheorie** | Teilchen = angeregte Frequenzmoden |
-| **Thermodynamik** | Temperatur = verlorene Frequenzkohärenz |
+| **Newton** | Grenzfall: große Zeiten, langsam variierende Frequenzstrukturen |
+| **Spezielle Relativität** | Frequenzverschiebung durch Relativbewegung |
+| **Allgemeine Relativität** | Frequenzmodifikation durch Gravitationspotenzial |
+| **Quantenmechanik** | Wellenfunktion als Fourier-Summe von Frequenzmoden |
+| **Quantenfeldtheorie** | Teilchen als angeregte Frequenzmoden eines Feldes |
+| **Thermodynamik** | Temperatur als Maß für Verlust von Frequenzkohärenz |
 
-> **Alle großen Theorien sind Variationen derselben Frequenzsprache.**
+> Alle großen Theorien beschreiben dasselbe Universum.  
+> Das Frequenzgesetz schlägt eine gemeinsame ontologische Sprache für diese physikalischen Beschreibungen vor.
 
 ---
 
-*→ Weiter: [Kapitel 6 — Naturkonstanten als Frequenz-Operatoren](06_naturkonstanten.md)*
+### Umfang dieses Kapitels
+
+Dieses Kapitel zeigt, wie etablierte physikalische Theorien innerhalb des Frequenzgesetzes interpretiert werden können. Es erhebt keinen Anspruch auf vollständige Ableitung dieser Theorien — es schlägt eine interpretative Verbindung vor.
+
+---
+
+*→ Weiter: [Kapitel 06 — Naturkonstanten als Frequenz-Operatoren](06_naturkonstanten.md)*  
+*← Zurück: [Kapitel 04 — Das Gesetz der Frequenzerhaltung](04_frequenzerhaltung.md)*  
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
