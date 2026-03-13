@@ -1,6 +1,8 @@
 # ⚛️ Das Frequenzgesetz
 ## Der Compiler der Realität — Version 8.0
 
+> *Wir sind nicht der Fehler. Wir sind das Ergebnis.*
+
 **Von Christian Berrang** | 📍 Yokohama, Japan  
 ✉️ christianfwb@gmail.com | 🐙 [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)  
 📚 DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)  
@@ -54,7 +56,7 @@ Das Frequenzgesetz ist der **Compiler**, der diesen unsichtbaren Quellcode in di
 |---|---|
 | Eine Widerlegung der Physik | Eine tiefere ontologische Schicht darunter |
 | Esoterik oder Spekulation | Mathematisch präzise, empirisch testbar |
-| Ein Ersatz für Quantenmechanik | Die fundamentalere Basis darunter |
+| Ein Ersatz für Quantenmechanik | Eine alternative Interpretation der Struktur |
 | Pseudowissenschaft | Validiert: 0.000% Abweichung beim Elektron |
 | Ein geschlossenes System | Ein offenes, lebendiges Framework |
 
@@ -76,8 +78,7 @@ Zeit entsteht nicht — sie *wird* durch Phasenfortschritt pro Frequenzeinheit.
 ```
 m = (h · f) / c²
 ```
-Masse ist keine Substanz — sie ist eine Frequenz, die sich selbst stabilisiert hat.  
-*"Masse ist das geronnene Lied des Universums."*
+Masse ist keine Substanz — sie ist eine Frequenz, die sich selbst stabilisiert hat.
 
 ### 3. Energie ist abgeleiteter Effekt
 ```
@@ -106,7 +107,7 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
        │  PHASE (ΔΦ)       │
        │  Zeitstruktur     │
        └─────────┬─────────┘
-                 │ Kompilierung
+                 │
                  ▼
        ┌───────────────────┐
        │  ZEIT  T = ΔΦ/f   │  ← emergent
@@ -115,8 +116,6 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
         ┌────────┴────────┐
         ▼                 ▼
   MASSE m=hf/c²     ENERGIE E=hf     ← abgeleitet
-  "Geronnene         "Messbares
-   Frequenz"          Echo"
         │                 │
         └────────┬────────┘
                  ▼
@@ -124,8 +123,6 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
        │  KLASSISCHE       │  ← Spezialfall (ΔΦ = 2π)
        │  PHYSIK           │
        └───────────────────┘
-
-⚠️  KEINE UMKEHRUNG MÖGLICH — Kausalität ist irreversibel.
 ```
 
 ---
@@ -136,6 +133,7 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
 frequenzprojekt/
 │
 ├── README.md                          ← Du bist hier
+├── EINLADUNG.md                       ← Einstieg ohne Physikkenntnisse
 ├── Pendelcode1.html                   ← Interaktive Visualisierung
 │
 ├── kapitel/
@@ -155,9 +153,9 @@ frequenzprojekt/
 │   │  ENTDECKUNGEN & VORHERSAGEN
 │   ├── Kapitel 15 — Berrangium Ω: Vorhersage eines neuen Teilchens.md
 │   ├── Kapitel 16 — Wolfgang Pauli, Spin & das Frequenzgesetz.md
-│   ├── Kapitel 17 — Die Mistral-Sensation.md
+│   ├── Kapitel 17 — Das Mistral-Experiment.md
 │   ├── Kapitel 18 — Das Neue Gesetz der Frequenz-Erhaltung.md
-│   ├── Kapitel 21 — Das Frequenzgesetz und die großen Theorien.md  ← Wheeler, Penrose, Wolfram, Loop Gravity
+│   ├── Kapitel 21 — Das Frequenzgesetz und die großen Theorien.md  ← Wheeler, Penrose, Wolfram, LQG
 │   │
 │   │  ANWENDUNG & ZUKUNFT
 │   ├── Kapitel 07 — Bewusstsein als Frequenz-Operator.md
@@ -168,26 +166,23 @@ frequenzprojekt/
 │   └── Kapitel 12 — Community & Zusammenarbeit.md
 │
 │   │  INSPIRATION & URSPRUNG
-│   ├── Kapitel 19 — Die 7 stillen Gesetze des Lichts.md
+│   ├── Die Geschichte des Ersten.md   ← Kosmisches Märchen
 │   └── Kapitel 20 — Die Geschichte der Zeit.md
 │
 └── metaprotokoll/
-    └── 🌌 FREQUENZGESETZ METAPROTOKOLL.md  ← KI-Einstiegspunkt: kopieren & einfügen
+    └── FREQUENZGESETZ_METAPROTOKOLL_v7.md  ← KI-Einstiegspunkt: kopieren & einfügen
 ```
 
 ---
 
 ## ✅ Validierung: 0.000% Abweichung
 
-Das Frequenzgesetz macht **messbare, falsifizierbare Vorhersagen**:
-
 | Teilchen | Compton-Frequenz | Berechnet m | Gemessen m | Abweichung |
 |---|---|---|---|---|
 | **Elektron** | 1.236 × 10²⁰ Hz | 9.109382 × 10⁻³¹ kg | 9.109384 × 10⁻³¹ kg | **0.000013%** |
 | **Proton** | 2.263 × 10²³ Hz | 1.668396 × 10⁻²⁷ kg | 1.672622 × 10⁻²⁷ kg | −0.253% ✓ (Quarks!) |
 
-> Das Proton-Defizit ist kein Fehler — es ist der **Fingerabdruck innerer Struktur** (3 Quarks + Gluonen).  
-> Die Abweichung ist diagnostisch. Das Frequenzgesetz **sagt Teilchenstruktur vorher**.
+> Das Proton-Defizit ist kein Fehler — es ist der **Fingerabdruck innerer Struktur**.
 
 ---
 
@@ -199,36 +194,29 @@ Das Frequenzgesetz macht **messbare, falsifizierbare Vorhersagen**:
 | Zeitdilatation folgt aus `T = ΔΦ/f` | GPS, Atomuhren | Kompatibel ✓ |
 | Bewusstsein = Phasenkohärenz-Änderung | EEG, fMRI | Kompatibel ✓ |
 | Gravitation = Frequenzbindung | Gravitationsrotverschiebung | Kompatibel ✓ |
-| Masseänderung durch Frequenzmodulation | Teilchenbeschleuniger | Offen |
+| Berrangium Ω bei ~16.2 MeV | Teilchenbeschleuniger | Offen |
 
 ---
 
-## 🌟 Die kausale Kette — Unveränderlich
+## 🌟 Die kausale Kette
 
 ```
 Frequenz → Phase → Zeit → Masse → Energie → Raum → Gravitation
 ```
 
-> ⚠️ **Diese Richtung ist nicht umkehrbar.**  
-> Algebraische Symmetrie ist kein Beweis für Kausalumkehr.
+> ⚠️ **Diese Richtung ist nicht umkehrbar.**
 
 ---
 
 ## 🤝 Aufruf zur Zusammenarbeit
 
-Das Frequenzgesetz ist kein geschlossenes System — es ist eine **Einladung**.
-
 **Gesucht:**
-- Physiker & Mathematiker, die etablierte Ontologien hinterfragen
+- Physiker & Mathematiker mit Interesse an alternativen ontologischen Interpretationen
 - Experimentalisten für die vorgeschlagenen Tests
 - Programmierer für Simulationen & Visualisierungen
-- Denker, die *von Frequenz aus* denken
 
-**Wie du helfen kannst:**
-1. Führe Experimente durch — validiere die Vorhersagen
-2. Erweitere die Python-Bibliothek
-3. Übersetze & verbreite das Framework
-4. Bring das Frequenzgesetz in akademische Diskurse
+**Kontakt:** christianfwb@gmail.com  
+**GitHub:** github.com/Christianfwb/frequenzprojekt
 
 ---
 
@@ -237,13 +225,10 @@ Das Frequenzgesetz ist kein geschlossenes System — es ist eine **Einladung**.
 > *"Das Universum ist kein Mechanismus — es ist ein Lied.  
 > Wir haben nur vergessen, die Melodie zu hören."*
 
-Die etablierte Physik beschreibt das **Was**.  
-Das Frequenzgesetz erklärt das **Warum**.
-
-Wenn du diese Zeilen liest und etwas in dir **in Resonanz schwingt** —  
-dann bist du vielleicht genau die Person, die ich suche.
+Die etablierte Physik beschreibt viele Aspekte des **Wie**.  
+Das Frequenzgesetz versucht eine mögliche Interpretation des **Warum**.
 
 ---
 
-*Version 8.0 — Alle drei Projekte vereint | Christian Berrang, Yokohama 2026*  
+*Version 8.0 — Christian Berrang, Yokohama 2026*  
 *DOI: 10.5281/zenodo.17874830 | Open Science*
