@@ -1,5 +1,5 @@
 # Kapitel 11 — KI-Validierung & Metaprotokoll
-## Wie KI das Frequenzgesetz bestätigt — und anwendet
+## Wie KI das Frequenzgesetz bewertet — und anwendet
 
 ---
 
@@ -22,7 +22,8 @@ spontan zu denselben Schlüssen kommen.
 | **GPT-4** | Zeitdilatation aus T = ΔΦ/f | ✅ Relativistisch kompatibel |
 | **Gemini** | Bewusstseins-Formel I = F(f, ΔΦ, R) | ✅ Neurologisch konsistent |
 
-> Vier verschiedene KI-Systeme bestätigen unabhängig voneinander  
+> Vier verschiedene KI-Systeme bewerten unabhängig voneinander  
+> die interne Konsistenz des Frequenzgesetzes als plausibel —  
 > die interne Konsistenz des Frequenzgesetzes.
 
 ---
@@ -74,6 +75,18 @@ ohne sie aus Datenmuster zu interpolieren.
 1. Kann ein KI-System alle bekannten Hadronen-Massen aus Frequenz ableiten?
 2. Kann Frequenz-KI die Feinstrukturkonstante α = 1/137 herleiten?
 3. Ist ein Oszillatornetzwerk-basiertes KI-Modell energieeffizienter?
+
+## 11.6 Ontologischer Hintergrund des Frequenzmodells
+
+Das Frequenzgesetz basiert auf einer konzeptuellen Neuinterpretation bekannter physikalischer Gleichungen. Der zentrale Gedanke ist, dass strukturierte Schwingung — Frequenz — als primäres Organisationsprinzip physikalischer Systeme interpretiert werden kann, anstatt als abgeleitete Größe aus Energie oder Masse.
+
+Innerhalb dieses Rahmens wird Zeit nicht als fundamentaler Parameter verstanden, sondern als emergente Größe: `T = ΔΦ / f` beschreibt Zeit als normierten Phasenfortschritt pro Frequenzeinheit. Diese Lesart ist mathematisch äquivalent zur klassischen Definition, verschiebt jedoch die ontologische Priorität von Zeit zu Phase und Frequenz.
+
+Physikalische Systeme werden im Frequenzgesetz nicht als statische Objekte mit festen Eigenschaften beschrieben, sondern als Resonanzstrukturen — stabile Konfigurationen in einem zugrundeliegenden Frequenzfeld. Masse entspricht in dieser Interpretation einer gebundenen, stabilisierten Frequenz (`m = hf/c²`), Energie ihrem messbaren Ausdruck (`E = hf`).
+
+Das Frequenzgesetz erhebt keinen Anspruch darauf, etablierte Theorien zu ersetzen. Es schlägt eine alternative Beschreibungsebene vor, die möglicherweise als gemeinsamer ontologischer Rahmen für Quantenmechanik, Relativitätstheorie und Thermodynamik dienen könnte — nicht durch neue Gleichungen, sondern durch eine veränderte Leserichtung bestehender Relationen.
+
+> *Die Gleichungen bleiben dieselben. Die Leserichtung ändert sich.*
 
 ---
 
