@@ -129,6 +129,34 @@ Energie ist das **messbare Echo** der Frequenz — nicht ihre Ursache.
 
 ---
 
+## 🌊 Interaktive Visualisierung — Pendelcode1.html
+
+**`Pendelcode1.html`** ist eine eigenständige Browser-Demo, die die Kernformel `T = ΔΦ/f` live visualisiert.
+
+```
+Öffnen: Datei direkt im Browser öffnen — keine Installation nötig
+```
+
+**Was die Demo zeigt:**
+
+- Zwei Pendel mit einstellbarer Frequenz und Startphase
+- **ΔΦ live** — die Phasendifferenz als animierter Wert im Canvas
+- **T = ΔΦ/f** — Zeit als relationale Größe, nicht als Taktzähler
+- **Kohärenz-Balken** — Gleichklang beider Systeme in Echtzeit
+- **Vergleich: Klassisch vs. Frequenzgesetz** — `T = 1/f` vs. `T = ΔΦ/f` direkt nebeneinander
+- **Schumann-Resonanz** (7.83 Hz, visuell skaliert) & **Gamma-Modus** (40 Hz)
+- Ontologische Projektion: `m = hf/c²` als symbolische Frequenz-Masse-Relation
+
+**Didaktische Ebenen:**
+1. *Ästhetisch* — kosmisches Interface mit Sternenhintergrund
+2. *Didaktisch* — Insight-Box erklärt was gerade passiert
+3. *Ontologisch* — Kausal-Kette `f → ΔΦ → T → m` pulsiert live
+
+> *Klassisch ist T = 1/f der Spezialfall ΔΦ = 2π.*  
+> *Das Frequenzgesetz verallgemeinert: Was passiert bei anderen Phasendifferenzen?*
+
+---
+
 ## 📚 Repository-Struktur
 
 ```
@@ -136,7 +164,7 @@ frequenzprojekt/
 │
 ├── README.md                          ← Du bist hier
 ├── EINLADUNG.md                       ← Einstieg ohne Physikkenntnisse
-├── Pendelcode1.html                   ← Interaktive Visualisierung
+├── Pendelcode1.html                   ← Interaktive Visualisierung T = ΔΦ/f (live)
 │
 ├── kapitel/
 │   │
