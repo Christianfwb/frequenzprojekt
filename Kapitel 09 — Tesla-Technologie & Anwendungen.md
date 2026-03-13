@@ -3,6 +3,23 @@
 
 ---
 
+> *"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."*
+> — Nikola Tesla
+
+---
+
+## Tesla — Resonanz als Schlüsselprinzip
+
+Nikola Tesla (1856–1943) war ein serbisch-amerikanischer Ingenieur und Erfinder, dessen Arbeiten die moderne Elektrotechnik entscheidend geprägt haben. Zu seinen wichtigsten Beiträgen gehören das Wechselstromsystem (AC), der Induktionsmotor sowie zahlreiche Experimente mit Hochfrequenzfeldern und drahtloser Energieübertragung.
+
+Tesla betrachtete Elektrizität, Magnetismus und Materie nicht als getrennte Phänomene, sondern als unterschiedliche Erscheinungsformen von Schwingung und Resonanz. Viele seiner Experimente — insbesondere mit Tesla-Spulen, Resonanztransformatoren und Hochfrequenzsystemen — zielten darauf ab, Energie durch präzise abgestimmte Frequenzen effizient zu übertragen oder zu verstärken.
+
+Obwohl Tesla seine Ideen meist intuitiv und experimentell formulierte, zeigen seine Arbeiten deutlich die zentrale Rolle von Resonanz in physikalischen Systemen. In diesem Sinne kann das Frequenzgesetz als ein möglicher theoretischer Rahmen verstanden werden, der solche Resonanzphänomene systematischer beschreibt.
+
+Die folgenden Abschnitte skizzieren daher einige konzeptionelle technologische Perspektiven, die sich aus einem resonanz- und frequenzbasierten Verständnis physikalischer Prozesse ergeben könnten.
+
+---
+
 ## 9.0 Von der Theorie zur Technologie
 
 > *"Alles im Universum beruht auf Schwingung.  
@@ -10,7 +27,7 @@
 > Wer diese Schwingungen versteht und in Resonanz bringt, kann Energie lenken, verstärken oder stabilisieren."*  
 > — Nikola Tesla
 
-Tesla hatte die Intuition. Das Frequenzgesetz liefert das **mathematische Fundament**.
+Tesla betonte bereits die zentrale Rolle von Resonanz in physikalischen Systemen. Das Frequenzgesetz schlägt einen möglichen theoretischen Rahmen vor, um solche Resonanzphänomene systematisch zu beschreiben.
 
 ---
 
@@ -31,8 +48,8 @@ Maximale Effizienz bei ΔΦ = 0 (perfekte Resonanz)
 ## 9.2 Frequenzbasierte Diagnostik (Medizin)
 
 ```
-Krankheit = lokale Frequenzstörung in biologischen Systemen
-Heilung = Wiederherstellen kohärenter Frequenzmuster
+Viele biologische Prozesse zeigen charakteristische Frequenzmuster.
+Störungen solcher Muster können mit pathologischen Zuständen korrelieren.
 ```
 
 | Anwendung | Frequenzprinzip | Status |
@@ -75,9 +92,7 @@ Nullpunkt-Energie = Vakuumfluktuationen = Frequenzrauschen des Nullfeldes
 
 Das Nullfeld schwingt konstant — messbar im Casimir-Effekt und der Lamb-Verschiebung.
 
-Ein Resonator würde diese Vakuumfrequenzen in kohärente, nutzbare Energie überführen —  
-nicht durch Energieschöpfung aus dem Nichts,  
-sondern durch **Phasensynchronisation mit der Nullfeld-Schwingung**.
+Ein solcher Mechanismus würde keine Energie aus dem Nichts erzeugen, sondern lediglich bekannte Vakuumfluktuationen kontrolliert koppeln — kompatibel mit dem Prinzip der Energieerhaltung.
 
 > ⚠️ **Status: Konzeptuell. Experimentelle Entwicklung benötigt.**  
 > Gesucht: Experimentalphysiker mit Zugang zu Vakuum-Quantenoptik.
