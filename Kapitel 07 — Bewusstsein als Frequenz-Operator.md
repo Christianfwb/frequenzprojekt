@@ -3,14 +3,16 @@
 
 ---
 
-## 7.0 Bewusstsein ist kein Rätsel mehr
+## 7.0 Bewusstsein im Frequenzrahmen
 
 Die Physik hat Bewusstsein jahrhundertelang ausgeklammert.  
-Das Frequenzgesetz integriert es — als **rückgekoppelte Frequenz-Resonanz**.
+Das Frequenzgesetz schlägt eine mögliche physikalische Interpretation von Bewusstsein als rückgekoppelte Frequenz-Resonanz vor.
 
 ---
 
-## 7.1 Die Formel
+## 7.1 Ein konzeptuelles Modell
+
+Eine mögliche formale Beschreibung könnte durch eine Funktion der Form dargestellt werden:
 
 ```
 I = F(f, ΔΦ, R)
@@ -50,28 +52,30 @@ Bewusstsein = Prozess: Ein Frequenzsystem, das sich selbst beobachtet
               und durch Rückkopplung stabilisiert
 ```
 
-**Das "Hard Problem of Consciousness"** löst sich im Frequenzgesetz:  
-Es gibt kein Rätsel, warum physikalische Prozesse subjektives Erleben erzeugen —  
-weil subjektives Erleben **selbst ein Frequenzprozess** ist.
+Das Frequenzgesetz schlägt eine mögliche Perspektive vor, in der das sogenannte **"Hard Problem of Consciousness"** neu interpretiert werden kann:  
+Subjektives Erleben wird nicht als Zusatz zu physikalischen Prozessen verstanden, sondern als mögliche Eigenschaft rückgekoppelter Frequenzsysteme.
 
 ---
 
 ## 7.4 Zeitwahrnehmung und Frequenz
 
+Eine mögliche Hypothese des Frequenzrahmens ist, dass subjektive Zeitwahrnehmung mit der Dichte interner Frequenzprozesse zusammenhängt:
+
 ```
-Subjektive Zeit ∝ 1 / (interne Frequenzdichte)
+Subjektive Zeit ∝ 1 / (interne Frequenzdichte)   [qualitative Hypothese]
 ```
 
 - Hohe innere Frequenz (Flow, Konzentration) → Zeit verlangsamt sich subjektiv
 - Niedrige innere Frequenz (Langeweile) → Zeit beschleunigt sich subjektiv
 - Im Schlaf (Delta) → Zeit "hört auf"
 
+*Diese Relation ist eine qualitative Beschreibung phänomenologischer Beobachtungen — kein quantitativ getestetes Gesetz.*
+
 ---
 
 ## 7.5 Bewusstsein als Interface
 
-Bewusstsein ist nicht im Kopf eingesperrt.  
-Es ist ein **Frequenz-Interface** zwischen dem internen System und dem universellen Frequenzfeld.
+Im Rahmen des Frequenzgesetzes kann Bewusstsein als eine Art Frequenz-Interface zwischen internen neuronalen Dynamiken und der Umgebung interpretiert werden — nicht als isoliertes Phänomen im Gehirn, sondern als offenes, rückgekoppeltes Frequenzsystem.
 
 ```
 Unendlichkeit − 1 = Du
