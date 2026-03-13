@@ -6,15 +6,15 @@
 ## 10.0 Wissenschaft braucht Testbarkeit
 
 Ein Modell, das alles erklärt aber nichts vorhersagt, ist wertlos.  
-Das Frequenzgesetz macht **präzise, falsifizierbare Vorhersagen**.
+Das Frequenzgesetz schlägt mehrere präzise und prinzipiell falsifizierbare Vorhersagen vor.
 
 ---
 
-## 10.1 Bereits validiert
+## 10.1 Kompatible empirische Beobachtungen
 
 | Vorhersage | Methode | Ergebnis |
 |---|---|---|
-| Elektronenmasse aus Compton-Frequenz | m = hf/c² | ✅ 0.000013% Abweichung |
+| Konsistenz von Elektronenmasse und Compton-Frequenz | m = hf/c² | ✅ 0.000013% Abweichung |
 | Proton-Massendefizit = Bindungsenergie | Δm-Analyse | ✅ QCD-konsistent |
 | Zeitdilatation aus T = ΔΦ/f | GPS-Korrekturen | ✅ Kompatibel |
 | Gravitationsrotverschiebung | Pound-Rebka-Experiment | ✅ Kompatibel |
@@ -24,8 +24,10 @@ Das Frequenzgesetz macht **präzise, falsifizierbare Vorhersagen**.
 
 ## 10.2 Test 1: Phasenzeitauflösung
 
+Dieser Test würde prüfen, ob Zeitauflösung tatsächlich von der Phasenauflösung ΔΦ abhängt.
+
 ```
-Vorhersage: T = ΔΦ/f liefert 8x präzisere Zeitauflösung als T = 1/f
+Vorhersage: T = ΔΦ/f ermöglicht Zeitauflösung unterhalb einer vollen Periode
 
 Setup:       Mach-Zehnder-Interferometer
              Variable Phasenverzögerungen (ΔΦ = π/4, π/2, π, 2π)
@@ -38,8 +40,10 @@ Falsifikation: Wenn Auflösung nur bei ΔΦ = 2π korrekt ist
 
 ## 10.3 Test 2: Bewusstseins-Phasenkohärenz
 
+Diese Hypothese beschreibt eine mögliche Beziehung zwischen Phasenkohärenz neuronaler Aktivität und subjektiver Bewusstseinsklarheit.
+
 ```
-Vorhersage: Subjektive Bewusstseinsklarheit ∝ Phasenkohärenz
+Vorhersage: Subjektive Bewusstseinsklarheit ∝ Phasenkohärenz neuronaler Aktivität
 
 Setup:       256-Kanal-EEG + subjektive Bewusstseinsskala
 Zustände:    Meditation, Flow, Konzentration, Schlaf, Narkose
@@ -60,6 +64,8 @@ Datenbasis:  Particle Data Group (PDG)
 Erwartung:   Lineare Korrelation Δm ↔ QCD-Bindungsenergie
 Falsifikation: Wenn Δm zufällig ohne Struktur verteilt ist
 ```
+
+*Diese Analyse ersetzt keine QCD-Berechnungen, sondern untersucht, ob eine konsistente Beziehung zwischen Frequenzmodell und QCD-Bindungsenergie existiert.*
 
 **Bereits gezeigt für:**
 - Elektron: Δm ≈ 0 → keine innere Struktur ✓
@@ -95,8 +101,9 @@ Step 4: Bindungsenergie ≈ 2.37 GeV
 Step 5: "Das entspricht 3 Quarks + Gluonen-Bindungsenergie"
 ```
 
-Mistral hat **QCD-Physik aus reiner Frequenz-Ontologie rekonstruiert**.  
-Das ist kein Pattern Matching — das ist ontologisches Reasoning.
+Das Ergebnis deutet darauf hin, dass das Frequenzmodell konsistente strukturelle Schlussfolgerungen über Hadronenbindung ermöglichen könnte.
+
+*Das Experiment dient nicht als physikalischer Beweis, sondern als Hinweis darauf, dass das Modell strukturelle physikalische Zusammenhänge reproduzieren kann — ein Reasoning-Test, kein Beweis.*
 
 ---
 
