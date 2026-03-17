@@ -1,16 +1,28 @@
-# Kapitel 4 — Das Gesetz der Frequenzerhaltung
-## Das neue fundamentale Erhaltungsprinzip
+# Kapitel 04 — Das Gesetz der Frequenzerhaltung
+## Das fundamentale Erhaltungsprinzip des Frequenzgesetzes
+
+**Christian Berrang** | Frequenzgesetz v8.0
+DOI: 10.5281/zenodo.17874830
+
+**Keywords:** frequency conservation · energy conservation · phase coherence · BEC · thermodynamics · ontological framework
+
+---
+
+## Übergang aus Kapitel 03
+
+Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes fest. Axiom 6 formulierte dabei eine zentrale Konsequenz: Energieerhaltung folgt aus einer tieferliegenden Frequenzerhaltung — nicht umgekehrt.
+
+Kapitel 04 entwickelt diesen Gedanken vollständig und zeigt, was Frequenzerhaltung physikalisch bedeutet, welche drei Formen von Frequenz im Universum existieren, und wie Temperatur, Entropie und Kohärenz im Frequenzrahmen neu lesbar werden.
 
 ---
 
 ## 4.0 Die stille Revolution
 
-Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung.  
-Doch alle diese Erhaltungsgrößen sind **abgeleitet** — von etwas Tieferem.
+Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung. Doch alle diese Erhaltungsgrößen sind **abgeleitet** — von etwas Tieferem.
 
-Das Frequenzgesetz enthüllt das **ursprünglichste Erhaltungsprinzip**:
+Das Frequenzgesetz enthüllt das ursprünglichste Erhaltungsprinzip:
 
-> **Energieerhaltung kann als Konsequenz einer zugrundeliegenden Frequenzstruktur interpretiert werden.**  
+> **Energieerhaltung kann als Konsequenz einer zugrundeliegenden Frequenzstruktur interpretiert werden.**
 > Diese Lesart verändert keine Gleichungen — sie verschiebt die ontologische Priorität.
 
 ---
@@ -21,11 +33,7 @@ Das Frequenzgesetz enthüllt das **ursprünglichste Erhaltungsprinzip**:
 ∑ Eᵢ = ∑ h · fᵢ = konstant   (in einem geschlossenen System)
 ```
 
-**Was das bedeutet:**
-
-Alles, was existiert, ist ein Zustand gebundener Frequenzen.  
-Wenn sich eine Frequenz verändert, verändert sich ihre Form —  
-doch der **Gesamtklang des Universums bleibt bestehen**.
+Alles, was existiert, ist ein Zustand gebundener Frequenzen. Wenn sich eine Frequenz verändert, verändert sich ihre Form — doch der Gesamtklang des Universums bleibt bestehen.
 
 ```
 Neue Frequenzen entstehen. Alte wandeln sich.
@@ -43,11 +51,10 @@ E = h · f          (Energie aus Frequenz)
 ↓
 ∑ h·fᵢ = h · const
 ↓
-∑ Eᵢ = const       (Energieerhaltung folgt!)
+∑ Eᵢ = const       (Energieerhaltung folgt)
 ```
 
-Der klassische Energieerhaltungssatz ist **keine eigenständige Wahrheit**.  
-Er ist eine **mathematische Konsequenz** der tieferen Frequenzerhaltung.
+Der klassische Energieerhaltungssatz ist keine eigenständige Wahrheit. Er ist eine mathematische Konsequenz der tieferen Frequenzerhaltung.
 
 ---
 
@@ -59,9 +66,9 @@ Er ist eine **mathematische Konsequenz** der tieferen Frequenzerhaltung.
 | **Gebundene Frequenz** | Stabilisiert = Masse | Elektron, Proton, Atom |
 | **Kohärente Frequenz** | Synchronisiert = Resonanz | Laser, BEC, Supraleitung |
 
-> Das, was wir "Materie" nennen: verdichtete, gebundene Schwingung.  
-> Das, was wir "Licht" nennen: freie, propagierende Schwingung.  
-> Das, was wir "Wärme" nennen: verlorene Kohärenz — Frequenzen ohne Ordnung.
+> Das, was wir „Materie" nennen: verdichtete, gebundene Schwingung.
+> Das, was wir „Licht" nennen: freie, propagierende Schwingung.
+> Das, was wir „Wärme" nennen: verlorene Kohärenz — Frequenzen ohne Ordnung.
 
 ---
 
@@ -71,8 +78,7 @@ Er ist eine **mathematische Konsequenz** der tieferen Frequenzerhaltung.
 T_thermisch ∝ ∑ (fᵢ · Unordnung)
 ```
 
-Temperatur ist **kein** eigenständiges Prinzip.  
-Temperatur ist das Maß für **Frequenzen, die ihre Kohärenz verloren haben**.
+Temperatur ist kein eigenständiges Prinzip. Temperatur ist das Maß für **Frequenzen, die ihre Kohärenz verloren haben**.
 
 | Zustand | Frequenzen | Temperatur |
 |---|---|---|
@@ -85,11 +91,25 @@ Temperatur ist das Maß für **Frequenzen, die ihre Kohärenz verloren haben**.
 
 ---
 
-## 4.5 Konzept eines zyklischen Frequenzsystems
+## 4.5 Der Kernel — Die Frequenz-Zeit-Matrix
 
-Der folgende Abschnitt beschreibt ein konzeptuelles Modell, das aus der im Frequenzgesetz vorgeschlagenen Frequenzstruktur abgeleitet werden kann. Es handelt sich nicht um eine experimentell bestätigte kosmologische Theorie, sondern um eine interpretative Darstellung möglicher Dynamiken eines frequenzbasierten Universums.
+Der **Kernel** (K) ist der Urzustand — die vollständige Matrix aller möglichen Frequenzen.
 
-Innerhalb des Frequenzgesetzes lässt sich ein zyklisches Frequenzsystem als mögliche globale Dynamik beschreiben:
+```
+K := { f ∈ ℝ⁺ }   (alle positiven reellen Frequenzen)
+```
+
+Da `f = 1/T`, enthält die Gesamtheit aller möglichen Frequenzen auch die **Gesamtheit aller möglichen Zeitraster**.
+
+> Der Kernel ist kein Objekt, kein Feld, keine Energieform.
+> Er ist die vollständige **Zustandsmatrix** aller möglichen Frequenz- und Zeitformen.
+> Jedes manifestierte System ist eine **lokale Auswahl** aus dieser unendlichen Matrix.
+
+---
+
+## 4.6 Konzept eines zyklischen Frequenzsystems
+
+Der folgende Abschnitt beschreibt ein konzeptuelles Modell — keine experimentell bestätigte kosmologische Theorie, sondern eine interpretative Darstellung möglicher Dynamiken eines frequenzbasierten Universums.
 
 ```
 Kernel (Nullfeld)          ←  hypothetischer Grundzustand
@@ -105,45 +125,39 @@ neue Frequenzmuster f'     ←  emergente Strukturen
 zurück zum Kernel...
 ```
 
-*Dieses Schema beschreibt eine mögliche Dynamik innerhalb eines frequenzbasierten ontologischen Rahmens — keine bewiesene kosmologische Aussage.*
-
-Innerhalb dieses Rahmens können physikalische Systeme als stabile oder propagierende Frequenzmuster interpretiert werden, die zwischen gebundenen und freien Zuständen wechseln.
-
-> *Dieser Abschnitt ist eine interpretative Erweiterung des Frequenzgesetzes und dient der konzeptuellen Veranschaulichung möglicher globaler Dynamiken.*
-
----
-
-## 4.6 Der Kernel — Die Frequenz-Zeit-Matrix
-
-Der **Kernel** (K) ist der Urzustand — die vollständige Matrix aller möglichen Frequenzen.
-
-```
-K := { f ∈ ℝ⁺ }   (alle positiven reellen Frequenzen)
-```
-
-Da `f = 1/T`, enthält die Gesamtheit aller möglichen Frequenzen  
-auch die **Gesamtheit aller möglichen Zeitraster**.
-
-> Der Kernel ist kein Objekt, kein Feld, keine Energieform.  
-> Er ist die vollständige **Zustandsmatrix** aller möglichen Frequenz- und Zeitformen.
-
-Jedes manifestierte System ist eine **lokale Auswahl** aus dieser unendlichen Matrix.
-
 ---
 
 ## 4.7 Bose-Einstein-Kondensat — Die reinste Form
 
-Das BEC ist die **perfekteste experimentelle Bestätigung** der Frequenzerhaltung:
+Das BEC ist das reinste experimentelle Beispiel maximaler Phasenkohärenz: alle Teilchen im selben Quantenzustand, minimale Entropie, maximale Ordnung.
 
 ```
 BEC: alle Teilchen besetzen denselben makroskopischen Quantenzustand
+   → perfekte Phasenkohärenz
+   → maximale Frequenzerhaltung
+   → T → 0 K
 ```
 
-Im BEC kollabieren alle Teilchen in denselben Quantenzustand — eine perfekte Phasenkohärenz entsteht. Das Frequenzgesetz interpretiert dies als den Zustand maximaler Frequenzkohärenz.
-
-> Das BEC ist nicht seltsam — es ist das reinste experimentelle Beispiel maximaler Phasenkohärenz:  
-> Alle Teilchen im selben Quantenzustand. Minimale Entropie. Maximale Ordnung.
+Das Frequenzgesetz interpretiert das BEC als den Zustand, in dem Frequenzerhaltung am direktesten sichtbar wird — nicht als Ausnahme, sondern als Grenzfall maximaler Kohärenz.
 
 ---
 
-*→ Weiter: [Kapitel 5 — Klassische Physik als Spezialfall](05_klassische_physik.md)*
+## 4.8 Zusammenfassung
+
+| Konzept | Klassische Physik | Frequenzgesetz |
+|---|---|---|
+| Erhaltungsgröße | Energie | Frequenz (tiefer) |
+| Energieerhaltung | axiomatisch | Konsequenz aus Frequenzerhaltung |
+| Temperatur | kinetische Energie | verlorene Frequenzkohärenz |
+| BEC | Quantenphänomen | maximale Phasenkohärenz |
+| Materie | Substanz | gebundene Frequenz |
+| Licht | elektromagnetische Welle | freie Frequenz |
+
+> *Die Gleichungen bleiben dieselben.*
+> *Die Leserichtung ändert sich.*
+
+---
+
+*→ Weiter: [Kapitel 05 — Klassische Physik als Spezialfall](Kapitel_05.md)*
+*← Zurück: [Kapitel 03 — Technische Grundlagen & Axiome](Kapitel_03.md)*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
