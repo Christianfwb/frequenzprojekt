@@ -8,12 +8,18 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 13
+## Übergang aus Kapitel 07
 
-Kapitel 13 zeigte, dass die klassische Zeitdefinition `T = 1/f` ein Spezialfall der fundamentaleren Formel `T = ΔΦ/f` ist — und dass viele physikalische Prozesse diese tiefere Zeitstruktur benötigen, um vollständig beschreibbar zu sein.
+Kapitel 07 zeigte, dass die klassische Zeitdefinition T = 1/f
+ein Spezialfall der fundamentaleren Formel T = ΔΦ/f ist —
+und dass viele physikalische Prozesse diese tiefere Zeitstruktur
+benötigen, um vollständig beschreibbar zu sein.
 
-Jetzt stellt sich die Frage: Wenn wir die Leserichtung der Zeit ändern — was passiert dann mit den berühmtesten Formeln der Physik? Kapitel 14 geht die Meisterformeln eine nach der anderen durch und zeigt, was sich ändert, wenn man sie durch die Frequenz-Ontologie liest.
-
+Jetzt stellt sich die nächste Frage: Wenn wir die Leserichtung
+der Zeit ändern — was passiert dann mit den berühmtesten
+Formeln der Physik? Kapitel 08 geht die Meisterformeln eine
+nach der anderen durch und zeigt, was sich ändert, wenn man
+sie durch die Frequenz-Ontologie liest.
 ---
 
 ## 14.0 Die ewige Suche nach dem Warum
@@ -162,6 +168,6 @@ Frequenz → Phase → Zeit → Masse → Energie → Raum → Gravitation
 
 ---
 
-*→ Weiter: [Kapitel 08 — Gravitation als Phasensynchronisation](Kapitel_08.md)*
-*← Zurück: [Kapitel 13 — Eine neue Grundlage der Zeit](Kapitel_13.md)*
+*→ Weiter: [Kapitel 09 — Gravitation als Phasensynchronisation](Kapitel_09.md)*
+*← Zurück: [Kapitel 07 — Eine neue Grundlage der Zeit](Kapitel_07.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
