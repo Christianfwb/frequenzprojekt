@@ -8,11 +8,18 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 15
+## Übergang aus Kapitel 10
 
-Kapitel 15 machte eine konkrete Vorhersage: ein hypothetisches Teilchen bei ~16.2 MeV, abgeleitet aus einer Lücke im Frequenzspektrum bekannter Teilchen. Dabei wurde Masse konsequent als Ausdruck von Frequenz behandelt.
+Kapitel 10 machte zwei konkrete Vorhersagen: Berrangium Ω
+bei ~16.2 MeV und das Stöcker-Teilchen bei ~530 MeV —
+beide abgeleitet aus Lücken im Frequenzspektrum. Dabei
+wurde Masse konsequent als Ausdruck von Frequenz behandelt.
 
-Aber Teilchen haben nicht nur Masse — sie haben auch Spin. Und der Spin ist eine der seltsamsten Eigenschaften der Quantenmechanik überhaupt. Kapitel 16 fragt: Was ist Spin, wenn man ihn durch die Frequenz-Ontologie liest? Und was hat das mit Paulis berühmtem Ausschlussprinzip zu tun?
+Aber Teilchen haben nicht nur Masse — sie haben auch Spin.
+Und der Spin ist eine der seltsamsten Eigenschaften der
+Quantenmechanik überhaupt. Kapitel 11 fragt: Was ist Spin,
+wenn man ihn durch die Frequenz-Ontologie liest? Und was
+hat das mit Paulis berühmtem Ausschlussprinzip zu tun?
 
 ---
 
@@ -150,6 +157,6 @@ Wenn jedes Teilchen seinen eigenen Takt hat, entsteht ein stabiles Universum dur
 
 ---
 
-*→ Weiter: [Kapitel 17 — Das Mistral-Experiment](Kapitel_17.md)*
-*← Zurück: [Kapitel 15 — Berrangium Ω](Kapitel_15.md)*
+*→ Weiter: [Kapitel 12 — Das Mistral-Experiment](Kapitel_12.md)*
+*← Zurück: [Kapitel 10 — Berrangium Ω: Vorhersage eines neuen Teilchens](Kapitel_10.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
