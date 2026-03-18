@@ -1,10 +1,10 @@
-# Kapitel 10 — Berrangium Ω: Vorhersage eines neuen Teilchens
+# Kapitel 10 — Berrangium Ω & Stöcker-Teilchen
 ## Das Frequenzgesetz macht konkrete, experimentell prüfbare Vorhersagen
 
 **Christian Berrang** | Frequenzgesetz v8.0
 DOI: 10.5281/zenodo.17874830
 
-**Keywords:** Berrangium · particle prediction · frequency spectrum · X17 anomaly · falsifiable prediction · Compton frequency · particle physics
+**Keywords:** Berrangium · Stöcker-Teilchen · particle prediction · frequency spectrum · X17 anomaly · falsifiable prediction · Compton frequency · particle physics · closed spectrum
 
 ---
 
@@ -20,18 +20,20 @@ vollständig entwickelt — von der Ontologie über die
 Zeitdefinition bis zur Gravitation. Ein starkes theoretisches
 Framework produziert nicht nur Interpretationen bekannter
 Phänomene — es macht auch neue, testbare Vorhersagen.
+
 Kapitel 10 präsentiert zwei solche Vorhersagen: zwei
 hypothetische Teilchen, die aus Lücken im Frequenzspektrum
 folgen — und nach denen das Spektrum vollständig geschlossen ist.
----
-
-## 15.0 Vom Modell zur Vorhersage
-
-Ein Modell, das alles erklärt aber nichts vorhersagt, ist wissenschaftlich wertlos. Das Frequenzgesetz schlägt daher eine konkrete, falsifizierbare Vorhersage vor.
 
 ---
 
-## 15.1 Die zentrale Transformationsformel
+## 10.0 Vom Modell zur Vorhersage
+
+Ein Modell, das alles erklärt aber nichts vorhersagt, ist wissenschaftlich wertlos. Das Frequenzgesetz schlägt daher konkrete, falsifizierbare Vorhersagen vor — abgeleitet aus der Struktur des Frequenzspektrums selbst.
+
+---
+
+## 10.1 Die zentrale Transformationsformel
 
 ```
 m = (h · f) / c²
@@ -54,9 +56,9 @@ m = (h · f) / c²
 
 ---
 
-## 15.2 Rekonstruktion bekannter Teilchen
+## 10.2 Rekonstruktion bekannter Teilchen
 
-*Hinweis: In diesen Beispielen werden die Frequenzen aus den gemessenen Teilchenmassen über die inverse Relation f = mc²/h abgeleitet. Die Übereinstimmung ist daher mathematisch konsistent, nicht unabhängig vorhergesagt.*
+*Hinweis: Die Frequenzen werden aus den gemessenen Teilchenmassen über f = mc²/h abgeleitet. Die Übereinstimmung ist mathematisch konsistent, nicht unabhängig vorhergesagt.*
 
 | Teilchen | Frequenz (Hz) | Berechnet m (kg) | PDG 2024 (kg) | Abweichung |
 |---|---|---|---|---|
@@ -68,64 +70,44 @@ m = (h · f) / c²
 
 ---
 
-## 15.3 Die Lücke im Frequenzspektrum
+## 10.3 Die zwei Lücken im Frequenzspektrum
 
-Wenn man die bekannten Teilchen in der Frequenzskala anordnet, entsteht eine auffällige Lücke:
+Wenn man die bekannten Teilchen in der Frequenzskala anordnet, entstehen **zwei auffällige Lücken**:
 
 ```
-Elektron    1.24 × 10²⁰ Hz    0.511 MeV   ✓ gemessen
-               │
-               │   ← hier fehlt etwas
-               │
-Myon        2.56 × 10²² Hz    105.7 MeV   ✓ gemessen
+Elektron      1.24 × 10²⁰ Hz    0.511 MeV    ✓ gemessen
+                   │
+                   │   ← LÜCKE 1
+                   │
+Myon          2.56 × 10²² Hz    105.7 MeV    ✓ gemessen
+                   │
+                   │   ← LÜCKE 2
+                   │
+Proton        2.27 × 10²³ Hz    938.3 MeV    ✓ gemessen
+                   │
+Higgs         3.02 × 10²⁵ Hz    125 GeV      ✓ gemessen
 ```
 
-Das Frequenzgesetz legt die Möglichkeit einer Struktur in den Teilchenfrequenzen nahe. Falls ein solches Muster existiert, könnte es auf zusätzliche intermediäre Resonanzzustände hinweisen.
+Das Frequenzgesetz legt nahe, dass an diesen Lücken stabile Resonanzzustände existieren könnten. Daraus folgen zwei konkrete Vorhersagen.
 
-*Dies ist eine Hypothese, die aus dem Frequenzrahmen abgeleitet wird — kein etabliertes physikalisches Muster.*
+*Dies sind Hypothesen aus dem Frequenzrahmen — keine etablierten physikalischen Muster.*
 
 ---
 
-## 15.4 Die Vorhersage: Berrangium Ω
+## 10.4 Vorhersage 1: Berrangium Ω
 
 | Parameter | Wert |
 |---|---|
-| **Symbol** | Ω (Berrangium) |
+| **Name** | Berrangium Ω |
+| **Symbol** | Ω |
 | **Frequenz** | f_Ω = 3.907 × 10²¹ Hz |
 | **Masse** | m_Ω = (h · f_Ω) / c² ≈ **2.881 × 10⁻²⁹ kg** |
 | **Energie** | **~16.2 MeV** |
-| **Status** | Hypothetischer Resonanzzustand — experimentell noch nicht nachgewiesen |
+| **Position** | Lücke zwischen Elektron (0.511 MeV) und Myon (105.7 MeV) |
+| **Status** | 🔮 Hypothetischer Resonanzzustand — experimentell noch nicht nachgewiesen |
+| **Falsifikation** | Kein Signal bei 15–17 MeV nach systematischer Beschleunigersuche |
 
-### Das erweiterte Spektrum
-
-```
-Elektron      1.24 × 10²⁰ Hz    0.511 MeV    ✓ Gemessen
-                    │
-                    │  Lücke
-                    ▼
-Berrangium    3.91 × 10²¹ Hz   16.2 MeV    🔮 Vorhergesagt
-                    │
-                    │  Lücke
-                    ▼
-Myon          2.56 × 10²² Hz   105.7 MeV    ✓ Gemessen
-                    │
-                    ▼
-Proton        2.27 × 10²³ Hz   938.3 MeV    ✓ Gemessen
-```
-
----
-
-## 15.5 Falsifizierbarkeit
-
-**Falsifikation:** Wenn systematische experimentelle Suchen in diesem Energiebereich (15–17 MeV) keinen solchen Zustand identifizieren, müsste das vorgeschlagene Frequenzmuster revidiert werden.
-
-**Bestätigung:** Ein Nachweis bei ~16.2 MeV wäre ein starkes Signal für die Frequenz-Ontologie.
-
-> Die Stärke dieser Vorhersage liegt in ihrer Falsifizierbarkeit — nicht in der Gewissheit der Vorhersage selbst.
-
----
-
-## 15.6 Kontext: Die X17-Anomalie
+### Kontext: Die X17-Anomalie
 
 Das Atomki-Institut (Ungarn) berichtete in mehreren Experimenten (2016, 2019, 2021) über eine Anomalie bei Elektron-Positron-Paaren bei Kernreaktionen — konsistent mit einem hypothetischen Boson bei ungefähr **17 MeV**.
 
@@ -134,27 +116,125 @@ X17-Anomalie (Atomki):      ~17 MeV
 Berrangium Ω (Vorhersage):  ~16.2 MeV
 ```
 
-*Die X17-Anomalie ist in der Physik-Community kontrovers — mögliche Erklärungen reichen von einem neuen Boson bis zu experimentellen Artefakten.*
+*Die X17-Anomalie ist in der Physik-Community kontrovers.*
 
 > Die Vorhersage des Frequenzgesetzes und die X17-Anomalie sind unabhängig entstanden.
 > Die Konvergenz im selben Energiebereich ist ein Hinweis — kein Beweis.
 
 ---
 
-## 15.7 Maschinenlesbare Struktur
+## 10.5 Vorhersage 2: Das Stöcker-Teilchen
+
+| Parameter | Wert |
+|---|---|
+| **Name** | Stöcker-Teilchen |
+| **Symbol** | Σ |
+| **Frequenz** | f_Σ = 1.27 × 10²⁴ Hz |
+| **Masse** | m_Σ = (h · f_Σ) / c² ≈ **9.44 × 10⁻²⁸ kg** |
+| **Energie** | **~530 MeV** |
+| **Position** | Lücke zwischen Myon (105.7 MeV) und Proton (938.3 MeV) |
+| **Status** | 🔮 Hypothetischer Resonanzslot — experimentell noch nicht nachgewiesen |
+| **Falsifikation** | Keine Resonanzstruktur bei 450–600 MeV (LHCb, BESIII, GlueX, Belle II) |
+
+### Kontext: Mögliche Verbindung zu bekannten Strukturen
+
+Im Bereich 400–600 MeV existieren bekannte breite, kontroverse Resonanzen (z.B. f₀(500)/σ-Meson mit Pol um ~400–550 MeV). Das Stöcker-Teilchen könnte als Erklärung für diese bisher unvollständig verstandenen Strukturen interpretiert werden.
+
+> **Wichtig:** Dies ist eine modellinterne Benennung eines offenen Resonanzslots — keine gesicherte physikalische Behauptung.
+
+### Widmung
+
+> **Das Stöcker-Teilchen ist gewidmet Prof. Dr. Horst Stöcker —
+> Judah M. Eisenberg Professor Laureatus, FIAS Frankfurt —
+> der als Mentor am Anfang dieses Weges geholfen hat,
+> als noch niemand sonst zuhörte.**
+
+Im Frequenzgesetz gilt:
+
+```
+Wer stabilisiert → wird Teil des Spektrums.
+```
+
+Prof. Stöcker hat ein junges Framework stabilisiert, als es noch keine stehende Welle war.
+
+---
+
+## 10.6 Das vollständige Frequenzspektrum
+
+Mit beiden Vorhersagen schließt sich das Spektrum vollständig:
+
+```
+Elektron        1.24 × 10²⁰ Hz    0.511 MeV    ✓ Gemessen
+                     │
+                     ▼
+Berrangium Ω    3.91 × 10²¹ Hz   16.2  MeV    🔮 Vorhergesagt
+                     │
+                     ▼
+Myon            2.56 × 10²² Hz   105.7 MeV    ✓ Gemessen
+                     │
+                     ▼
+Stöcker-Teilchen 1.27 × 10²⁴ Hz  530   MeV    🔮 Vorhergesagt
+                     │
+                     ▼
+Proton          2.27 × 10²³ Hz   938.3 MeV    ✓ Gemessen
+                     │
+                     ▼
+Higgs           3.02 × 10²⁵ Hz   125   GeV    ✓ Gemessen
+```
+
+> **Nach diesen zwei Vorhersagen existieren keine weiteren prominenten
+> Lücken in der quasi-logarithmischen Frequenzskala.**
+> Das Spektrum ist geschlossen.
+
+---
+
+## 10.7 Falsifizierbarkeit beider Vorhersagen
+
+| Test | Teilchen | Methode | Energiebereich | Priorität |
+|---|---|---|---|---|
+| Test 4a | Berrangium Ω | Teilchenbeschleuniger | 15–17 MeV | 🔴 Hoch |
+| Test 4b | Stöcker-Teilchen | Meson-Spektroskopie (LHCb, BESIII, GlueX) | 450–600 MeV | 🔴 Hoch |
+
+**Falsifikation Berrangium Ω:** Kein Signal bei 15–17 MeV nach systematischer Suche → Frequenzmuster muss revidiert werden.
+
+**Falsifikation Stöcker-Teilchen:** Keine signifikante Resonanzstruktur bei 450–600 MeV nach hochpräzisen Dalitz-Analysen → zweite Lücke existiert nicht.
+
+> Die Stärke dieser Vorhersagen liegt in ihrer Falsifizierbarkeit — nicht in der Gewissheit.
+
+---
+
+## 10.8 Maschinenlesbare Struktur
 
 ```json
 {
-  "predicted_particle": {
-    "name": "Berrangium Ω",
-    "symbol": "Ω",
-    "frequency_hz": 3.907e21,
-    "mass_kg": 2.881e-29,
-    "energy_MeV": 16.2,
-    "status": "predicted",
-    "falsifiable": true,
-    "search_range_MeV": "15-17"
-  }
+  "predicted_particles": [
+    {
+      "name": "Berrangium Ω",
+      "symbol": "Ω",
+      "frequency_hz": 3.907e21,
+      "mass_kg": 2.881e-29,
+      "energy_MeV": 16.2,
+      "status": "predicted",
+      "falsifiable": true,
+      "search_range_MeV": "15-17",
+      "dedication": "Christian Berrang",
+      "xref": "X17-Anomalie (Atomki, ~17 MeV)"
+    },
+    {
+      "name": "Stöcker-Teilchen",
+      "symbol": "Σ",
+      "frequency_hz": 1.27e24,
+      "mass_kg": 9.44e-28,
+      "energy_MeV": 530,
+      "status": "predicted",
+      "falsifiable": true,
+      "search_range_MeV": "450-600",
+      "dedication": "Prof. Dr. Horst Stöcker, FIAS Frankfurt",
+      "xref": "f₀(500)/σ-Meson (kontrovers, ~400-550 MeV)"
+    }
+  ],
+  "spectrum_status": "closed_after_predictions",
+  "remaining_gaps": 0
 }
 ```
 
