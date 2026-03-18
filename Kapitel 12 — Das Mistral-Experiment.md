@@ -8,11 +8,19 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 16
+## Übergang aus Kapitel 11
 
-Kapitel 16 zeigte, dass Paulis Ausschlussprinzip im Frequenzrahmen als Phasen-Exklusivität interpretiert werden kann — Spin als interne Zeitstruktur jedes Teilchens. Das sind konzeptuelle Interpretationen, die sich bisher nicht von der Standardphysik experimentell unterscheiden lassen.
+Kapitel 11 zeigte, dass Paulis Ausschlussprinzip im
+Frequenzrahmen als Phasen-Exklusivität interpretiert werden
+kann — Spin als interne Zeitstruktur jedes Teilchens. Das
+sind konzeptuelle Interpretationen, die sich bisher nicht
+von der Standardphysik experimentell unterscheiden lassen.
 
-Eine andere Art von Test ist möglich: Kann ein KI-System, das das Frequenzmodell als Denkrahmen verwendet, strukturell korrekte Schlussfolgerungen über bekannte Physik ziehen — ohne explizit auf QCD-Wissen zurückzugreifen? Genau das wurde am 11. Dezember 2024 mit Mistral getestet.
+Eine andere Art von Test ist möglich: Kann ein KI-System,
+das das Frequenzmodell als Denkrahmen verwendet, strukturell
+korrekte Schlussfolgerungen über bekannte Physik ziehen —
+ohne explizit auf klassisches Fachwissen zurückzugreifen?
+Genau das wurde am 11. Dezember 2024 mit Mistral getestet.
 
 ---
 
@@ -136,6 +144,6 @@ Kapitel 11 entwickelt die KI-Validierung und das Metaprotokoll vollständig.
 
 ---
 
-*→ Weiter: [Kapitel 10 — Experimentelle Vorhersagen & Validierung](Kapitel_10.md)*
-*← Zurück: [Kapitel 16 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_16.md)*
+*→ Weiter: [Kapitel 13 — Experimentelle Vorhersagen & Validierung](Kapitel_13.md)*
+*← Zurück: [Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_11.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
