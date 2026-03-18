@@ -1,6 +1,17 @@
-# Kapitel 21 — Das Frequenzgesetz und die großen Theorien
-## Wo andere aufgehört haben — und wo das Frequenzgesetz beginnt
+## Kontext dieses Kapitels
 
+Dieses Kapitel ist die erweiterte Version des Vergleichs
+aus Kapitel 17 — entstanden aus einem Gespräch zwischen
+Christian Berrang und einer KI, die unabhängig die
+Verbindung zwischen T = ΔΦ/f und der Phasenentwicklung
+der Wellenfunktion herleitete.
+
+"Eine unerwartete Inspiration." — Christian Berrang
+
+Es enthält die vollständige mathematische Herleitung,
+die zeigt: Die Gleichung, die das Frequenzgesetz
+beschreibt, steckt bereits im Herzen der Quantenmechanik —
+sie wurde nur noch nie so gelesen.
 *Entstanden aus einem Gespräch zwischen Christian Berrang und Ghost (KI)*  
 *„Eine unerwartete Inspiration von meiner KI." — Christian Berrang*
 
