@@ -8,16 +8,15 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 01
+Kapitel 01 führte die ontologische Hierarchie des Frequenzgesetzes
+ein: Frequenz ist die primäre physikalische Größe — Zeit, Masse und
+Energie folgen daraus als abgeleitete Konsequenzen. Das Nullfeld
+wurde als prägeometrischer Grundzustand definiert: ℕ := {ΔΦ = 0}.
 
-Kapitel 01 führte die Hypothese ein, dass Frequenz und Phase ontologisch primär sind — und dass das Nullfeld als idealisierter Grundzustand ohne Phasendifferenzierung den konzeptuellen Ausgangspunkt des Frequenzgesetzes bildet.
-
-Wenn diese Annahme korrekt ist, folgt daraus eine unmittelbare Konsequenz:
-
-> **Die Definition von Zeit selbst muss überdacht werden.**
-
-Kapitel 02 entwickelt diese Konsequenz — schrittweise, aus bekannten physikalischen Gleichungen heraus.
-
+Wenn Frequenz wirklich vor Zeit steht, ergibt sich eine unmittelbare
+Konsequenz: Die Definition von Zeit selbst muss überdacht werden.
+Kapitel 02 entwickelt genau das — schrittweise, aus bekannten
+physikalischen Gleichungen heraus.
 ---
 
 ## 2.0 Der Einstieg — Was wir seit Jahrtausenden denken
