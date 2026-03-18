@@ -10,9 +10,15 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 03
 
-Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes fest. Axiom 6 formulierte dabei eine zentrale Konsequenz: Energieerhaltung folgt aus einer tieferliegenden Frequenzerhaltung — nicht umgekehrt.
+Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes
+fest. Axiom 6 formulierte dabei eine zentrale Konsequenz:
+Energieerhaltung folgt aus einer tieferliegenden
+Frequenzerhaltung — nicht umgekehrt.
 
-Kapitel 04 entwickelt diesen Gedanken vollständig und zeigt, was Frequenzerhaltung physikalisch bedeutet, welche drei Formen von Frequenz im Universum existieren, und wie Temperatur, Entropie und Kohärenz im Frequenzrahmen neu lesbar werden.
+Kapitel 04 entwickelt diesen Gedanken vollständig. Was bedeutet
+Frequenzerhaltung physikalisch? Welche drei Formen von Frequenz
+existieren im Universum? Und wie werden Temperatur, Entropie
+und das Bose-Einstein-Kondensat im Frequenzrahmen neu lesbar?
 
 ---
 
