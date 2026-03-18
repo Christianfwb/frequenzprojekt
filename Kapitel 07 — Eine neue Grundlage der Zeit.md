@@ -10,9 +10,17 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 06
 
-Kapitel 06 zeigte, dass Naturkonstanten als Übersetzungsoperatoren zwischen Frequenz und messbaren Größen interpretiert werden können. Dabei wurde deutlich: Alle diese Operatoren setzen Frequenz als Eingabe voraus — nicht Zeit.
+Kapitel 06 zeigte, dass Naturkonstanten als
+Übersetzungsoperatoren zwischen Frequenz und messbaren Größen
+interpretiert werden können. Dabei wurde deutlich: Alle diese
+Operatoren setzen Frequenz als Eingabe voraus — nicht Zeit.
 
-Das führt zu einer unbequemen Frage: Wenn Frequenz primär ist, was ist dann Zeit wirklich? Kapitel 02 hat die Formel `T = ΔΦ/f` hergeleitet. Kapitel 13 vertieft diese Erkenntnis und zeigt, warum die klassische Zeitmessung für viele physikalische Prozesse schlicht zu grob ist.
+Das führt zu einer unbequemen Frage: Wenn Frequenz primär ist,
+was ist dann Zeit wirklich? Kapitel 02 hat die Formel
+T = ΔΦ/f hergeleitet. Kapitel 07 vertieft diese Erkenntnis
+und zeigt, warum die klassische Zeitmessung T = 1/f für viele
+physikalische Prozesse schlicht zu grob ist — und was das
+konkret bedeutet.
 
 ---
 
@@ -137,8 +145,6 @@ Der klassische Ausdruck ist der Spezialfall `ΔΦ = 2π`. Das Frequenzgesetz ver
 > *Die Gleichungen bleiben dieselben.*
 > *Die Leserichtung ändert sich.*
 
----
-
-*→ Weiter: [Kapitel 14 — Die Meisterformeln der Physik dekodiert](Kapitel_14.md)*
+*→ Weiter: [Kapitel 08 — Die Meisterformeln der Physik dekodiert](Kapitel_08.md)*
 *← Zurück: [Kapitel 06 — Naturkonstanten als Frequenz-Operatoren](Kapitel_06.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
