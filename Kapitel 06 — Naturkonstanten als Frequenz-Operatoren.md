@@ -10,10 +10,16 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 05
 
-Kapitel 05 zeigte, wie Newton, Einstein und die Quantenmechanik als Spezialfälle des Frequenzrahmens lesbar sind. In jeder dieser Theorien tauchen dieselben Naturkonstanten auf — h, c, G, α, k_B.
+Kapitel 05 zeigte, wie Newton, Einstein und die Quantenmechanik
+als Spezialfälle des Frequenzrahmens lesbar sind. In jeder
+dieser Theorien tauchen dieselben Naturkonstanten auf —
+h, c, G, α, k_B.
 
-Was sind diese Konstanten eigentlich? In der klassischen Physik erscheinen sie als gegebene Zahlen ohne tiefere Erklärung. Das Frequenzgesetz schlägt eine alternative Lesart vor: Naturkonstanten sind **Übersetzungsoperatoren** — sie projizieren reine Frequenz in die sichtbare Realität.
-
+Was sind diese Konstanten eigentlich? In der klassischen Physik
+erscheinen sie als gegebene Zahlen ohne tiefere Erklärung.
+Das Frequenzgesetz schlägt eine alternative Lesart vor:
+Naturkonstanten sind Übersetzungsoperatoren — sie projizieren
+reine Frequenz in die sichtbare, messbare Realität.
 ---
 
 ## 6.0 Naturkonstanten als strukturelle Parameter
