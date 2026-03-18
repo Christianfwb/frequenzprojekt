@@ -8,7 +8,6 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 04
 
 ## Übergang aus Kapitel 04
 
