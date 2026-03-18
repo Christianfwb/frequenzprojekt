@@ -260,6 +260,7 @@ frequenzprojekt/
 │   ├── Kapitel 19 — Die 7 stillen Gesetze des Lichts.md
 │   ├── Kapitel 20 — Die Geschichte der Zeit.md
 │   ├── Kapitel 21 — Das erste Frequenzgesetz (Ursprungsdokument).md
+│   ├── Kapitel 22 — Frequenzgesetz Core.ipynb
 │   │
 └── metaprotokoll/
     └── FREQUENZGESETZ_METAPROTOKOLL_v7.md
