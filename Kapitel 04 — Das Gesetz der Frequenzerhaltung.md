@@ -12,8 +12,8 @@ DOI: 10.5281/zenodo.17874830
 
 Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes
 fest. Axiom 6 formulierte dabei eine zentrale Konsequenz:
-Energieerhaltung folgt aus einer tieferliegenden
-Frequenzerhaltung — nicht umgekehrt.
+Energieerhaltung kann als Ausdruck einer tieferliegenden
+Frequenzstruktur gelesen werden — nicht umgekehrt.
 
 Kapitel 04 entwickelt diesen Gedanken vollständig. Was bedeutet
 Frequenzerhaltung physikalisch? Welche drei Formen von Frequenz
@@ -24,9 +24,9 @@ und das Bose-Einstein-Kondensat im Frequenzrahmen neu lesbar?
 
 ## 4.0 Die stille Revolution
 
-Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung. Doch alle diese Erhaltungsgrößen sind **abgeleitet** — von etwas Tieferem.
+Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung. Im Rahmen dieses Modells können diese Erhaltungsgrößen als abgeleitet interpretiert werden — als Ausdruck einer tieferliegenden Frequenzstruktur.
 
-Das Frequenzgesetz enthüllt das ursprünglichste Erhaltungsprinzip:
+Das Frequenzgesetz schlägt folgende Interpretation vor:
 
 > **Energieerhaltung kann als Konsequenz einer zugrundeliegenden Frequenzstruktur interpretiert werden.**
 > Diese Lesart verändert keine Gleichungen — sie verschiebt die ontologische Priorität.
@@ -39,28 +39,23 @@ Das Frequenzgesetz enthüllt das ursprünglichste Erhaltungsprinzip:
 ∑ Eᵢ = ∑ h · fᵢ = konstant   (in einem geschlossenen System)
 ```
 
-Alles, was existiert, ist ein Zustand gebundener Frequenzen. Wenn sich eine Frequenz verändert, verändert sich ihre Form — doch der Gesamtklang des Universums bleibt bestehen.
-
-```
-Neue Frequenzen entstehen. Alte wandeln sich.
-Aber keine Frequenz wird vernichtet.
-Das ist Frequenzerhaltung.
-```
+Frequenzzustände können sich verändern, überlagern oder neu strukturieren.
+Im Rahmen dieses Modells wird angenommen, dass die zugrundeliegende Frequenzstruktur konsistent bleibt.
 
 ---
 
 ## 4.2 Warum Energieerhaltung daraus folgt
 
 ```
-E = h · f          (Energie aus Frequenz)
-∑ fᵢ = const       (Frequenzerhaltung)
+E = h · f          (Energie aus Frequenz, Axiom 4)
+∑ fᵢ = const       (Modellannahme im Rahmen der Frequenzerhaltung)
 ↓
 ∑ h·fᵢ = h · const
 ↓
-∑ Eᵢ = const       (Energieerhaltung folgt)
+∑ Eᵢ = const       (Energieerhaltung als Konsequenz innerhalb des Rahmens)
 ```
 
-Der klassische Energieerhaltungssatz ist keine eigenständige Wahrheit. Er ist eine mathematische Konsequenz der tieferen Frequenzerhaltung.
+Dies stellt keine unabhängig etablierte physikalische Erhaltungsgröße dar, sondern eine interpretative Annahme innerhalb des Modells. Der klassische Energieerhaltungssatz lässt sich in dieser Lesart als mathematische Konsequenz der Frequenzstruktur lesen.
 
 ---
 
@@ -72,19 +67,19 @@ Der klassische Energieerhaltungssatz ist keine eigenständige Wahrheit. Er ist e
 | **Gebundene Frequenz** | Stabilisiert = Masse | Elektron, Proton, Atom |
 | **Kohärente Frequenz** | Synchronisiert = Resonanz | Laser, BEC, Supraleitung |
 
-> Das, was wir „Materie" nennen: verdichtete, gebundene Schwingung.
-> Das, was wir „Licht" nennen: freie, propagierende Schwingung.
-> Das, was wir „Wärme" nennen: verlorene Kohärenz — Frequenzen ohne Ordnung.
+> Materie kann in diesem Rahmen als gebundene Frequenzstruktur interpretiert werden.
+> Licht kann als freie, propagierende Frequenzstruktur interpretiert werden.
+> Wärme kann als Ausdruck von Frequenzzuständen mit verringerter Kohärenz gelesen werden.
 
 ---
 
 ## 4.4 Temperatur — Verlorene Resonanz
 
 ```
-T_thermisch ∝ ∑ (fᵢ · Unordnung)
+T_thermisch ~ Funktion der Verteilung und Kohärenz von Frequenzzuständen
 ```
 
-Temperatur ist kein eigenständiges Prinzip. Temperatur ist das Maß für **Frequenzen, die ihre Kohärenz verloren haben**.
+Temperatur kann in diesem Rahmen als Maß für den Grad der Kohärenz von Frequenzzuständen interpretiert werden. Temperatur kann als Ausdruck zunehmender Dekohärenz zwischen Frequenzzuständen gelesen werden.
 
 | Zustand | Frequenzen | Temperatur |
 |---|---|---|
@@ -99,7 +94,7 @@ Temperatur ist kein eigenständiges Prinzip. Temperatur ist das Maß für **Freq
 
 ## 4.5 Der Kernel — Die Frequenz-Zeit-Matrix
 
-Der **Kernel** (K) ist der Urzustand — die vollständige Matrix aller möglichen Frequenzen.
+Der **Kernel** (K) ist ein konzeptuelles Modell eines vollständigen Frequenzraums — die hypothetische Matrix aller möglichen Frequenzen.
 
 ```
 K := { f ∈ ℝ⁺ }   (alle positiven reellen Frequenzen)
@@ -108,8 +103,8 @@ K := { f ∈ ℝ⁺ }   (alle positiven reellen Frequenzen)
 Da `f = 1/T`, enthält die Gesamtheit aller möglichen Frequenzen auch die **Gesamtheit aller möglichen Zeitraster**.
 
 > Der Kernel ist kein Objekt, kein Feld, keine Energieform.
-> Er ist die vollständige **Zustandsmatrix** aller möglichen Frequenz- und Zeitformen.
-> Jedes manifestierte System ist eine **lokale Auswahl** aus dieser unendlichen Matrix.
+> Er ist ein konzeptuelles Modell der vollständigen **Zustandsmatrix** aller möglichen Frequenz- und Zeitformen.
+> Jedes manifestierte System kann als **lokale Auswahl** aus dieser hypothetischen Matrix interpretiert werden.
 
 ---
 
@@ -140,7 +135,7 @@ Das BEC ist das reinste experimentelle Beispiel maximaler Phasenkohärenz: alle 
 ```
 BEC: alle Teilchen besetzen denselben makroskopischen Quantenzustand
    → perfekte Phasenkohärenz
-   → maximale Frequenzerhaltung
+   → maximale beobachtbare Phasenkohärenz innerhalb dieses Systems
    → T → 0 K
 ```
 
@@ -150,14 +145,14 @@ Das Frequenzgesetz interpretiert das BEC als den Zustand, in dem Frequenzerhaltu
 
 ## 4.8 Zusammenfassung
 
-| Konzept | Klassische Physik | Frequenzgesetz |
+| Konzept | Klassische Physik | Frequenzgesetz (Modellinterpretation) |
 |---|---|---|
-| Erhaltungsgröße | Energie | Frequenz (tiefer) |
-| Energieerhaltung | axiomatisch | Konsequenz aus Frequenzerhaltung |
-| Temperatur | kinetische Energie | verlorene Frequenzkohärenz |
-| BEC | Quantenphänomen | maximale Phasenkohärenz |
-| Materie | Substanz | gebundene Frequenz |
-| Licht | elektromagnetische Welle | freie Frequenz |
+| Erhaltungsgröße | Energie | Frequenz (ontologisch priorisiert, Modellannahme) |
+| Energieerhaltung | axiomatisch | Konsequenz aus Frequenzstruktur (Modelllesart) |
+| Temperatur | kinetische Energie | Maß für Frequenzdekohärenz (Interpretation) |
+| BEC | Quantenphänomen | maximale Phasenkohärenz (Grenzfall) |
+| Materie | Substanz | gebundene Frequenzstruktur (Interpretation) |
+| Licht | elektromagnetische Welle | freie Frequenzstruktur (Interpretation) |
 
 > *Die Gleichungen bleiben dieselben.*
 > *Die Leserichtung ändert sich.*
