@@ -76,13 +76,13 @@ Das Frequenzgesetz schlägt folgende kausale Ordnung als Arbeitshypothese vor:
 
 Innerhalb dieses Rahmens schlägt das Modell vor:
 
-- **Frequenz** ist die primäre physikalische Größe
+- **Frequenz** wird im Rahmen dieser Interpretation als primäre physikalische Größe angesetzt
 - **Phase** ist der Zustandsparameter
 - **Zeit** ist emergent: `T = ΔΦ / f`
 - **Masse** ist gebundene Frequenz: `m = hf / c²`
 - **Energie** ist abgeleiteter Effekt: `E = hf`
 
-Diese Ordnung ist **nicht algebraisch erzwungen** — die Gleichungen sind mathematisch symmetrisch. Sie ist eine **ontologische Interpretation**, die kausal begründet wird: Frequenz muss logisch vor Energie existieren, da `E = hf` Frequenz als Eingabe voraussetzt.
+Diese Ordnung ist **nicht algebraisch erzwungen** — die Gleichungen sind mathematisch symmetrisch. Sie ist eine **ontologische Interpretation**, die kausal begründet wird: Frequenz wird in dieser Interpretation logisch vor Energie eingeordnet, da `E = hf` Frequenz als Eingabe voraussetzt.
 
 ---
 
@@ -156,7 +156,7 @@ Der Übergang aus dem Nullfeld heraus ist im Modell der Übergang von
 Das ist die kleinste mögliche ontologische Änderung: die Entstehung einer Phasendifferenz. Innerhalb des Frequenzgesetzes ist dies der Ursprung von Information, Frequenz und damit aller physikalischen Größen.
 
 ```
-ΔΦ = 0  →  keine Information  →  kein Takt  →  keine Realität
+ΔΦ = 0  →  keine Information  →  kein Takt  →  keine definierte physikalische Struktur
 ΔΦ ≠ 0  →  erste Information  →  erste Frequenz  →  Realität beginnt
 ```
 
@@ -168,7 +168,7 @@ Die Entscheidung, Frequenz statt Energie als primäre Größe zu setzen, folgt e
 E = h · f
 ```
 
-Diese Gleichung setzt Frequenz als Eingabe voraus. Energie ist das Produkt — nicht die Ursache. Das Frequenzgesetz zieht daraus die ontologische Konsequenz: Frequenz steht an der ersten Stelle der kausalen Hierarchie.
+Diese Gleichung setzt Frequenz als Eingabe voraus. Energie ist das Produkt — nicht die Ursache. Das Frequenzgesetz zieht daraus die ontologische Konsequenz: Frequenz wird an die erste Stelle der kausalen Hierarchie gesetzt.
 
 ---
 
@@ -181,7 +181,7 @@ T₀ ≈ 5.39 × 10⁻⁴⁴ s   (Planck-Zeit)
 f₀ = 1 / T₀ ≈ 1.85 × 10⁴³ Hz
 ```
 
-Innerhalb des Frequenzgesetzes wäre dies die maximale Frequenz — der theoretische Ausgangstakt, aus dem alle anderen Frequenzen als Untertakte hervorgehen.
+Innerhalb des Frequenzgesetzes wäre dies die maximale Frequenz — der theoretische Ausgangstakt, aus dem alle anderen Frequenzen als Untertakte hervorgehen. Dies setzt voraus, dass die Planck-Skala eine physikalisch relevante Grenze darstellt, was in der aktuellen Physik eine offene Frage ist.
 
 *Diese Ableitung ist spekulativ und dient der konzeptuellen Illustration, nicht als empirische Behauptung.*
 
@@ -203,7 +203,7 @@ Zeit  T = ΔΦ / f          ← emergent, nicht fundamental
 Masse m = hf/c²   Energie E = hf   ← abgeleitet
       │
       ▼
-Raum  (stabile Frequenzmuster)
+Raum  (interpretiert als emergente Struktur stabiler Frequenzmuster)
       │
       ▼
 Gravitation (Phasensynchronisation)
