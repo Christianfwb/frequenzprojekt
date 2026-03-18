@@ -8,13 +8,19 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 21
+# Übergang aus Kapitel 17
 
-Kapitel 21 zeigte, wo das Frequenzgesetz im Vergleich zu Wheeler, Penrose, Wolfram und Loop Quantum Gravity steht — und warum die Kausalumkehr von Zeit → Phase zu Phase → Zeit ein echter Paradigmenwechsel ist.
+Kapitel 17 zeigte, wo das Frequenzgesetz im Vergleich zu
+Wheeler, Penrose, Wolfram und Loop Quantum Gravity steht —
+und warum die Kausalumkehr von Zeit → Phase zu Phase → Zeit
+ein echter Paradigmenwechsel ist.
 
-Kein Paradigmenwechsel gelingt alleine. Das Frequenzgesetz ist ein offenes Framework — es lebt von Kritik, Falsifikation und Weiterentwicklung durch andere. Kapitel 12 ist daher eine Einladung.
-
----
+Kein Paradigmenwechsel gelingt alleine. Das Frequenzgesetz
+ist ein offenes Framework — es lebt von Kritik, Falsifikation
+und Weiterentwicklung durch andere. Kapitel 18 ist daher
+eine Einladung: an Physiker, Mathematiker, Programmierer,
+Neurowissenschaftler und alle, die das Modell testen,
+erweitern oder widerlegen wollen.
 
 ## 12.0 Open Framework
 
@@ -112,5 +118,5 @@ dann ist das vielleicht ein guter Ausgangspunkt für weitere Fragen.
 
 ---
 
-*← Zurück: [Kapitel 21 — Das Frequenzgesetz und die großen Theorien](Kapitel_21.md)*
+*← Zurück: [Kapitel 17 — Das Frequenzgesetz und die großen Theorien](Kapitel_17.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830 | Open Science*
