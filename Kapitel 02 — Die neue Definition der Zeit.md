@@ -17,6 +17,7 @@ Wenn Frequenz wirklich vor Zeit steht, ergibt sich eine unmittelbare
 Konsequenz: Die Definition von Zeit selbst muss überdacht werden.
 Kapitel 02 entwickelt genau das — schrittweise, aus bekannten
 physikalischen Gleichungen heraus.
+
 ---
 
 ## 2.0 Der Einstieg — Was wir seit Jahrtausenden denken
@@ -42,7 +43,7 @@ Mikroskopische Prozesse folgen einer kontinuierlichen Phasenentwicklung. Sie war
 
 Drei Beobachtungen aus der etablierten Physik legen nahe, dass Zeit möglicherweise kein fundamentaler Parameter ist, sondern aus tieferliegenden Prozessen hervorgeht.
 
-**1. Atomuhren messen Phasenfortschritt, nicht Zeit direkt.**
+**1. Atomuhren realisieren Zeitmessung über den Zählprozess von Phasenzyklen.**
 Die SI-Definition der Sekunde basiert auf dem Zählen von Schwingungszyklen des Cäsium-133-Atoms. Was hier gemessen wird, ist Phasenakkumulation — Zeit entsteht als Zählergebnis eines Prozesses, nicht als eigenständige Größe.
 
 **2. Relativistische Zeitdilatation lässt sich als Frequenzverschiebung lesen.**
@@ -55,7 +56,7 @@ Im Gegensatz zu Ort und Impuls hat Zeit in der Quantenmechanik keinen hermitesch
 
 ## 2.2 Herleitung aus der Wellenfunktion
 
-Die Verbindung zwischen Phase und Zeit steckt bereits in der Standardformulierung der Quantenmechanik. Sie muss nicht erfunden werden — sie muss nur konsequent gelesen werden.
+Die Verbindung zwischen Phase und Zeit steckt bereits in der Standardformulierung der Quantenmechanik. Sie muss nicht erfunden werden — sie kann unter einer konsistenten Interpretation entsprechend gelesen werden.
 
 ### Schritt 1 — Die Standardbeziehung
 
@@ -112,7 +113,7 @@ Das Frequenzgesetz verschiebt den Blick: Zeit ist nicht das Ergebnis des gezähl
 | Frequenzgesetz | Phase als primärer Prozess | T emergent aus ΔΦ und f |
 
 > **Zeit ist kein Gefäß, in dem etwas schwingt.**
-> **Zeit ist der Fortschritt der Schwingung selbst.**
+> **Zeit kann als Maß für den Fortschritt einer Schwingung interpretiert werden.**
 
 ---
 
@@ -145,7 +146,7 @@ T = 5.776 × 10¹⁰ / (2π × 9.192.631.770 Hz) = 1 s  ✓
 
 Die relativistische Zeitdilatation lässt sich als Frequenzverschiebung physikalischer Prozesse lesen — ohne dass die Formeln der Relativitätstheorie verändert werden müssen.
 
-In einem Gravitationsfeld ist die beobachtete Frequenz:
+In einem Gravitationsfeld ist die beobachtete Frequenz (in schwacher Feldnäherung):
 ```
 f_beobachtet ≈ f_quelle · (1 - GM/rc²)
 ```
@@ -175,7 +176,7 @@ T = ΔΦ / f  →  wenn f ↓  dann  T ↑
 | `ΔΦ = 2π` | `T = 1/f` | Klassische Periodendauer — der bekannte Spezialfall |
 | `ΔΦ = 0` | `T = 0` | Kein Phasenfortschritt — kein Zeitintervall |
 | `f → ∞` | `T → 0` | Unendlich schneller Prozess |
-| `f → 0` | `T → ∞` | Kein beobachtbarer Phasenfortschritt |
+| `f → 0` | `T → ∞` | Kein definierter Phasenfortschritt im betrachteten System |
 
 Der Grenzfall `f → 0` beschreibt das Fehlen jedes Prozesses, der Zeit überhaupt konstituieren könnte. Zeitlosigkeit ist hier kein leeres Warten — es ist der Zustand, in dem die Grundbedingung für Zeit nicht mehr gegeben ist.
 
@@ -185,7 +186,7 @@ Der Grenzfall `f → 0` beschreibt das Fehlen jedes Prozesses, der Zeit überhau
 
 Die zentrale These dieses Kapitels:
 
-> **Zeit kann als normalisierter Phasenfortschritt physikalischer Oszillationen interpretiert werden.**
+> **Zeit kann im Rahmen dieser Interpretation als normalisierter Phasenfortschritt physikalischer Oszillationen beschrieben werden.**
 
 $$
 T = \frac{\Delta\Phi}{f}
