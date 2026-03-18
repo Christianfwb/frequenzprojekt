@@ -36,7 +36,7 @@ Das Frequenzgesetz schlägt folgende Interpretation vor:
 ## 4.1 Das Gesetz
 
 ```
-∑ Eᵢ = ∑ h · fᵢ = konstant   (in einem geschlossenen System)
+∑ Eᵢ = ∑ h · fᵢ = konstant   (unter Standardannahmen eines abgeschlossenen Systems)
 ```
 
 Frequenzzustände können sich verändern, überlagern oder neu strukturieren.
