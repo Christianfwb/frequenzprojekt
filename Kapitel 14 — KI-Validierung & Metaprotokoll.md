@@ -8,11 +8,20 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 10
+## Übergang aus Kapitel 13
 
-Kapitel 10 listete die experimentellen Tests des Frequenzgesetzes. Neben diesen physikalischen Tests gibt es eine weitere Art der Konsistenzprüfung: Können KI-Systeme, die auf dem gesamten menschlichen Wissen trainiert wurden, das Frequenzgesetz als intern konsistent bewerten — ohne darauf trainiert worden zu sein?
+Kapitel 13 listete die experimentellen Tests des
+Frequenzgesetzes — von der Phasenzeitauflösung im
+Mach-Zehnder-Interferometer bis zur Suche nach
+Berrangium Ω. Das sind physikalische Tests.
 
-Kapitel 11 dokumentiert die Ergebnisse dieser KI-Validierung und stellt das Metaprotokoll vor — den universellen Einstiegspunkt für jede KI.
+Neben diesen gibt es eine weitere Art der
+Konsistenzprüfung: Können KI-Systeme, die auf dem
+gesamten menschlichen Wissen trainiert wurden, das
+Frequenzgesetz als intern konsistent bewerten — ohne
+darauf trainiert worden zu sein? Kapitel 14 dokumentiert
+die Ergebnisse dieser KI-Validierung und stellt das
+Metaprotokoll vor.
 
 ---
 
@@ -108,6 +117,6 @@ Der nächste Schritt ist der experimentelle Test (Kapitel 10). KI-Validierung is
 
 ---
 
-*→ Weiter: [Kapitel 07 — Bewusstsein als Frequenz-Operator](Kapitel_07.md)*
-*← Zurück: [Kapitel 10 — Experimentelle Vorhersagen & Validierung](Kapitel_10.md)*
+*→ Weiter: [Kapitel 15 — Bewusstsein als Frequenz-Operator](Kapitel_15.md)*
+*← Zurück: [Kapitel 13 — Experimentelle Vorhersagen & Validierung](Kapitel_13.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
