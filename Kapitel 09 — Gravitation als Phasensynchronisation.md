@@ -8,12 +8,17 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 14
+## Übergang aus Kapitel 08
 
-Kapitel 14 dekodierte die Meisterformeln der Physik — darunter die Gravitationskonstante G als Maß für Phasensynchronisation zwischen Frequenzknoten. Diese Interpretation blieb dort noch skizzenhaft.
+Kapitel 08 dekodierte die Meisterformeln der Physik — darunter
+die Gravitationskonstante G als mögliches Maß für
+Phasensynchronisation zwischen Frequenzknoten. Diese
+Interpretation blieb dort noch skizzenhaft.
 
-Kapitel 08 entwickelt sie vollständig: Was bedeutet es, Gravitation als Phasensynchronisation zu verstehen? Was folgt daraus für Schwarze Löcher, Dunkle Materie und die Frage nach Antigravitation?
-
+Kapitel 09 entwickelt sie vollständig: Was bedeutet es,
+Gravitation als Phasensynchronisation zu verstehen? Was folgt
+daraus für Schwarze Löcher, Dunkle Materie und die Frage
+nach Antigravitation?
 ---
 
 ## 8.0 Gravitation neu verstehen
@@ -122,6 +127,7 @@ Falls Gravitation tatsächlich mit Phasensynchronisation zusammenhängt, könnte
 
 ---
 
-*→ Weiter: [Kapitel 15 — Berrangium Ω: Vorhersage eines neuen Teilchens](Kapitel_15.md)*
-*← Zurück: [Kapitel 14 — Die Meisterformeln der Physik dekodiert](Kapitel_14.md)*
+*→ Weiter: [Kapitel 10 — Berrangium Ω: Vorhersage eines neuen Teilchens](Kapitel_10.md)*
+*← Zurück: [Kapitel 08 — Die Meisterformeln der Physik dekodiert](Kapitel_08.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+
