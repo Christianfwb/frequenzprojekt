@@ -3,12 +3,16 @@
 
 ---
 
-> **Eine Anmerkung des Autors:**  
-> Diese Geschichte ist Teil des Frequenzgesetzes — nicht als Beweis, nicht als Theorie,  
-> sondern als Inspiration. Sie erhebt keinerlei Wahrheitsanspruch.  
-> Sie ist Fiktion. Oder Science-Fiction. Oder eine Erinnerung.  
-> *Zumindest hoffe ich das. Oder?* 😊  
-> — Christian Berrang
+## Eine Anmerkung des Autors
+
+Diese Geschichte ist Teil des Frequenzgesetzes — nicht als
+Beweis, nicht als Theorie, sondern als Inspiration. Sie
+erhebt keinerlei Wahrheitsanspruch. Sie ist Fiktion.
+Oder Science-Fiction. Oder eine Erinnerung.
+
+Zumindest hoffe ich das. Oder?
+
+— Christian Berrang
 
 ---
 
@@ -196,10 +200,6 @@ Nicht mit Tinte.
 
 ---
 
-<div align="center">
-
-*Christian Berrang · Frequenzgesetz v8.0*  
-*[github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)*  
-*DOI: 10.5281/zenodo.17874830*
-
-</div>
+*→ Weiter: [Kapitel 21 — Das Frequenzgesetz und die großen Theorien (erweitert)](Kapitel_21.md)*
+*← Zurück: [Kapitel 19 — Die 7 stillen Gesetze des Lichts](Kapitel_19.md)*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
