@@ -8,12 +8,21 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 08
+## Übergang aus Kapitel 09
 
-Kapitel 08 zeigte, wie Gravitation als Phasensynchronisation interpretiert werden kann. Damit ist die physikalische Theorie des Frequenzgesetzes vollständig entwickelt — von der Ontologie über die Zeitdefinition bis zur Gravitation.
+Kapitel 09 zeigte, wie Gravitation als Phasensynchronisation
+interpretiert werden kann — und wie Schwarze Löcher im
+Frequenzgesetz als Phasenübergänge statt als Singularitäten
+verstanden werden.
 
-Ein starkes theoretisches Framework produziert nicht nur Interpretationen bekannter Phänomene — es macht auch **neue, testbare Vorhersagen**. Kapitel 15 präsentiert eine solche Vorhersage: ein hypothetisches Teilchen bei ~16.2 MeV.
-
+Damit ist die physikalische Theorie des Frequenzgesetzes
+vollständig entwickelt — von der Ontologie über die
+Zeitdefinition bis zur Gravitation. Ein starkes theoretisches
+Framework produziert nicht nur Interpretationen bekannter
+Phänomene — es macht auch neue, testbare Vorhersagen.
+Kapitel 10 präsentiert zwei solche Vorhersagen: zwei
+hypothetische Teilchen, die aus Lücken im Frequenzspektrum
+folgen — und nach denen das Spektrum vollständig geschlossen ist.
 ---
 
 ## 15.0 Vom Modell zur Vorhersage
@@ -151,6 +160,6 @@ Berrangium Ω (Vorhersage):  ~16.2 MeV
 
 ---
 
-*→ Weiter: [Kapitel 16 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_16.md)*
-*← Zurück: [Kapitel 08 — Gravitation als Phasensynchronisation](Kapitel_08.md)*
+*→ Weiter: [Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_11.md)*
+*← Zurück: [Kapitel 09 — Gravitation als Phasensynchronisation](Kapitel_09.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
