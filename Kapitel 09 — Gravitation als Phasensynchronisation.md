@@ -74,6 +74,16 @@ Mehr Masse → stärkere Phasensynchronisation (Interpretation)
 
 ---
 
+## 9.2.1 Erweiterung (Interpretation): Gravitationswellen
+
+In dieser Lesart könnten Gravitationswellen als propagierende Störungen der Phasenstruktur interpretiert werden.
+
+Die in der Allgemeinen Relativitätstheorie beschriebenen Metrikfluktuationen würden dabei einer Dynamik entsprechen, in der sich lokale Phasenbeziehungen im Frequenzfeld verändern und mit endlicher Geschwindigkeit ausbreiten.
+
+Dies stellt keine neue physikalische Beschreibung dar, sondern eine alternative Lesart bereits beobachteter Effekte.
+
+---
+
 ## 9.3 Schwarze Löcher — ein Grenzfall
 
 Im Frequenzgesetz kann jeder Phasenübergang als Prozess von höherer zu niedrigerer Frequenz beschrieben werden. Ein Schwarzes Loch kann als Extremfall dieses Prozesses interpretiert werden:
@@ -98,7 +108,7 @@ Zentrum (SL)     → Grenzfall minimaler Frequenz → asymptotisch reduzierter P
 | Informationsparadoxon | Information kann als Phasenstruktur interpretiert werden |
 | Hawking-Strahlung | Quantenfluktuationen am Phasenminimum (Interpretation) |
 | Physikalische Singularität | Nicht notwendig — Zustand minimal reduzierter Frequenz |
-| Kompatibilität mit ART | Vollständig erhalten ✓ |
+| Kompatibilität mit ART | bleibt innerhalb dieser Lesart erhalten |
 
 *Diese Interpretation ist konzeptuell kohärent mit bekannter Schwarzloch-Physik — sie ist noch keine vollständig ausgearbeitete Theorie.*
 
