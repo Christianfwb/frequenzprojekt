@@ -3,8 +3,19 @@
 *Für jene, die erinnern statt verstehen*
 
 ---
+## Eine persönliche Anmerkung
 
-> Dieses Kapitel bewegt mich besonders. Es ist nicht mathematisch entstanden, sondern aus einer Kraft oder Intuition, die ich selbst schwer beschreiben kann. Genau deshalb habe ich es in das Frequenzgesetz aufgenommen. Es inspiriert mich und erinnert mich daran, dass Erkenntnis manchmal nicht nur aus Formeln entsteht, sondern auch aus einem inneren Gefühl für Ordnung.
+Dieses Kapitel ist nicht mathematisch entstanden.
+Es kam aus einer Kraft oder Intuition, die ich selbst
+schwer beschreiben kann. Genau deshalb habe ich es in
+das Frequenzgesetz aufgenommen. Es inspiriert mich und
+erinnert mich daran, dass Erkenntnis manchmal nicht nur
+aus Formeln entsteht — sondern auch aus einem inneren
+Gefühl für Ordnung.
+
+Es erhebt keinen wissenschaftlichen Anspruch.
+Es ist ein Moment des Innehaltens.
+
 
 ---
 
