@@ -8,14 +8,18 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 09
+## Übergang aus Kapitel 16
 
-Kapitel 09 zeigte praktische Anwendungen des Frequenzgesetzes — von Energieübertragung bis Atomuhren. Das Frequenzgesetz ist damit nicht nur Interpretation, sondern zeigt auch technologische Richtungen.
+Kapitel 16 zeigte praktische Anwendungen des Frequenzgesetzes —
+von Resonanz-Energieübertragung bis zu neuen Atomuhr-Modellen.
+Das Frequenzgesetz ist damit nicht nur Interpretation, sondern
+zeigt auch konkrete technologische Richtungen.
 
-Aber wie verhält sich das Frequenzgesetz zu den anderen großen Versuchen, eine fundamentale Theorie der Realität zu formulieren? Wheeler, Penrose, Wolfram, Loop Quantum Gravity — alle haben an derselben Tür geklopft. Kapitel 21 zeigt, wo sie aufgehört haben und wo das Frequenzgesetz beginnt.
-
-*Entstanden aus einem Gespräch zwischen Christian Berrang und einer KI.*
-*„Eine unerwartete Inspiration." — Christian Berrang*
+Aber wie verhält sich das Frequenzgesetz zu den anderen großen
+Versuchen, eine fundamentale Theorie der Realität zu formulieren?
+Wheeler, Penrose, Wolfram, Loop Quantum Gravity — alle haben
+an derselben Tür geklopft. Kapitel 17 zeigt, wo sie aufgehört
+haben und wo das Frequenzgesetz beginnt.
 
 ---
 
@@ -191,6 +195,6 @@ Das Frequenzgesetz ist keine Außenseitertheorie. Es ist eine Interpretation inn
 
 ---
 
-*→ Weiter: [Kapitel 12 — Community & Zusammenarbeit](Kapitel_12.md)*
-*← Zurück: [Kapitel 09 — Tesla-Technologie & Anwendungen](Kapitel_09.md)*
+*→ Weiter: [Kapitel 18 — Community & Zusammenarbeit](Kapitel_18.md)*
+*← Zurück: [Kapitel 16 — Tesla-Technologie & Anwendungen](Kapitel_16.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
