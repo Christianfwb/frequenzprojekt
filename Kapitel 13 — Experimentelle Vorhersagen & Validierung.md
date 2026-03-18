@@ -8,12 +8,19 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 17
+## Übergang aus Kapitel 12
 
-Kapitel 17 zeigte, dass KI-Systeme das Frequenzmodell als kohärenten Denkrahmen verwenden und dabei physikalisch konsistente Schlussfolgerungen ziehen können. Das ist ein Hinweis auf strukturelle Kohärenz — aber kein experimenteller Beweis.
+Kapitel 12 zeigte, dass KI-Systeme das Frequenzmodell als
+kohärenten Denkrahmen verwenden und dabei physikalisch
+konsistente Schlussfolgerungen ziehen können. Das ist ein
+Hinweis auf strukturelle Kohärenz — aber kein
+experimenteller Beweis.
 
-Wissenschaft braucht Testbarkeit. Kapitel 10 listet die konkreten, experimentell prüfbaren Vorhersagen des Frequenzgesetzes — und macht explizit, was eine Falsifikation bedeuten würde.
-
+Wissenschaft braucht Testbarkeit. Ein Modell, das alles
+erklärt aber nichts vorhersagt, ist wertlos. Kapitel 13
+listet die konkreten, experimentell prüfbaren Vorhersagen
+des Frequenzgesetzes — und macht explizit, was eine
+Falsifikation bedeuten würde.
 ---
 
 ## 10.0 Wissenschaft braucht Testbarkeit
@@ -126,8 +133,9 @@ Status:      Konzeptuell — experimentelle Entwicklung benötigt
 > Ein Modell ist nur so gut wie seine schwächste Vorhersage.
 > Das Frequenzgesetz stellt sich dieser Prüfung.
 
----
+--
 
-*→ Weiter: [Kapitel 11 — KI-Validierung & Metaprotokoll](Kapitel_11.md)*
-*← Zurück: [Kapitel 17 — Das Mistral-Experiment](Kapitel_17.md)*
+*→ Weiter: [Kapitel 14 — KI-Validierung & Metaprotokoll](Kapitel_14.md)*
+*← Zurück: [Kapitel 12 — Das Mistral-Experiment](Kapitel_12.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+
