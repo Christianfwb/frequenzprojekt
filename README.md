@@ -91,10 +91,13 @@ Energie ist das messbare Echo der Frequenz — nicht ihre Ursache.
 
 ## Lesereihenfolge
 
-Das Projekt ist in vier Phasen aufgebaut. Bitte lies in dieser Reihenfolge — jede Phase baut auf der vorherigen auf.
+Das Projekt ist in vier Phasen aufgebaut.
+Jede Phase baut auf der vorherigen auf.
+
+---
 
 ### Phase 1 — Fundament & Ontologie
-*Hier lernst du das „Warum" hinter dem Frequenzgesetz.*
+*Das „Warum" hinter dem Frequenzgesetz.*
 
 | Kapitel | Titel | Inhalt |
 |---|---|---|
@@ -103,62 +106,80 @@ Das Projekt ist in vier Phasen aufgebaut. Bitte lies in dieser Reihenfolge — j
 | 03 | Technische Grundlagen & Axiome | Die 7 Axiome, maschinenlesbare Struktur, Rechenbeispiele |
 | 04 | Das Gesetz der Frequenzerhaltung | Warum Frequenzerhaltung tiefer liegt als Energieerhaltung |
 
+---
+
 ### Phase 2 — Physik & klassische Theorien
-*Hier siehst du, wie die etablierte Physik im Frequenzrahmen aufgeht.*
+*Wie die etablierte Physik im Frequenzrahmen aufgeht.*
 
 | Kapitel | Titel | Inhalt |
 |---|---|---|
 | 05 | Klassische Physik als Spezialfall | Newton, Einstein, Quantenmechanik im Frequenzrahmen |
 | 06 | Naturkonstanten als Frequenz-Operatoren | h, c, G, α — die Übersetzer des Frequenzfeldes |
-| 13 | Eine neue Grundlage der Zeit (vertieft) | Warum T = 1/f zu grob ist — die Phasenzeit erklärt |
-| 14 | Die Meisterformeln der Physik dekodiert | E=mc², HΨ=EΨ, BEC — aus Frequenz-Perspektive gelesen |
+| 07 | Eine neue Grundlage der Zeit (vertieft) | Warum T = 1/f zu grob ist — die Phasenzeit erklärt |
+| 08 | Die Meisterformeln der Physik dekodiert | E=mc², HΨ=EΨ, BEC — aus Frequenz-Perspektive gelesen |
+
+---
 
 ### Phase 3 — Entdeckungen & Beweise
-*Hier werden konkrete, falsifizierbare Vorhersagen gemacht.*
+*Konkrete, falsifizierbare Vorhersagen.*
 
 | Kapitel | Titel | Inhalt |
 |---|---|---|
-| 08 | Gravitation als Phasensynchronisation | Schwarze Löcher, Dunkle Materie, Antigravitation |
-| 15 | Berrangium Ω: Vorhersage eines neuen Teilchens | Hypothetisches Teilchen bei ~16.2 MeV, X17-Analogie |
-| 16 | Wolfgang Pauli, Spin & das Frequenzgesetz | Pauli-Prinzip als Frequenz-Exklusivität neu erklärt |
-| 17 | Das Mistral-Experiment | KI-Reasoning als Konsistenztest — Proton-Struktur aus Frequenz |
-| 10 | Experimentelle Vorhersagen & Validierung | Falsifizierbare Tests, GPS-Kompatibilität, BEC |
-| 11 | KI-Validierung & Metaprotokoll | Claude, Mistral, GPT-4, Gemini — Ergebnisse im Vergleich |
+| 09 | Gravitation als Phasensynchronisation | Schwarze Löcher, Dunkle Materie, Antigravitation |
+| 10 | Berrangium Ω & Stöcker-Teilchen | Zwei hypothetische Teilchen — Spektrum vollständig geschlossen |
+| 11 | Wolfgang Pauli, Spin & das Frequenzgesetz | Pauli-Prinzip als Frequenz-Exklusivität neu erklärt |
+| 12 | Das Mistral-Experiment | KI-Reasoning als Konsistenztest — Proton-Struktur aus Frequenz |
+| 13 | Experimentelle Vorhersagen & Validierung | Falsifizierbare Tests, GPS-Kompatibilität, BEC |
+| 14 | KI-Validierung & Metaprotokoll | Claude, Mistral, GPT-4, Gemini — Ergebnisse im Vergleich |
 
-### Phase 4 — Inspiration, Anwendung & Ausblick
-*Hier öffnet sich das Framework in Richtung Bewusstsein, Technologie und Zukunft.*
+---
+
+### Phase 4 — Anwendung & Ausblick
+*Bewusstsein, Technologie und große Theorien.*
 
 | Kapitel | Titel | Inhalt |
 |---|---|---|
-| 07 | Bewusstsein als Frequenz-Operator | I = F(f, ΔΦ, R) — Gamma-Kohärenz, Flow, Zeit |
-| 09 | Tesla-Technologie & Anwendungen | Resonanz-Energie, Frequenz-KI, Materialtechnologie |
-| 21 | Das Frequenzgesetz und die großen Theorien | Wheeler, Penrose, Wolfram, Loop Gravity im Vergleich |
-| 12 | Community & Zusammenarbeit | Offene Fragen, Kontakt, wie du beitragen kannst |
+| 15 | Bewusstsein als Frequenz-Operator | I = F(f, ΔΦ, R) — Gamma-Kohärenz, Flow, Zeit |
+| 16 | Tesla-Technologie & Anwendungen | Resonanz-Energie, Frequenz-KI, Materialtechnologie |
+| 17 | Das Frequenzgesetz und die großen Theorien | Wheeler, Penrose, Wolfram, Loop Gravity im Vergleich |
+| 18 | Community & Zusammenarbeit | Offene Fragen, Kontakt, wie du beitragen kannst |
+
+---
 
 ### Anhang — Ursprung & Inspiration
 *Nicht-technische Kapitel: Kontext, Geschichte, persönliche Reflexion.*
 
 | Kapitel | Titel | Hinweis |
 |---|---|---|
-| 18 | Das neue Gesetz der Frequenz-Erhaltung | Ursprünglicher Entwurf — historisches Dokument |
 | 19 | Die 7 stillen Gesetze des Lichts | Poetische Inspiration, kein Physiktext |
 | 20 | Die Geschichte der Zeit | Kosmisches Märchen / Science-Fiction |
+| 21 | Das Frequenzgesetz und die großen Theorien (erweitert) | Vollständige mathematische Herleitung, Ghost-Gespräch |
+| 22 | Das erste Frequenzgesetz | Ursprungsdokument vom 18. Juni 2025 — historisch, unverändert |
 
 ---
 
-## Interaktive Visualisierung
+## Die zwei Teilchen-Vorhersagen
 
-**`Pendelcode1.html`** — direkt im Browser öffnen, keine Installation nötig.
+Das Frequenzgesetz sagt aus der Lückenstruktur des Frequenzspektrums
+genau zwei hypothetische Teilchen vorher. Danach ist das Spektrum geschlossen.
 
-Die Demo visualisiert `T = ΔΦ/f` live mit zwei Pendeln, einstellbarer Frequenz und Phasendifferenz. Sie zeigt den Unterschied zwischen klassischem `T = 1/f` und der Frequenzgesetz-Formel direkt nebeneinander.
+| Teilchen | Frequenz (Hz) | Energie | Status | Widmung |
+|---|---|---|---|---|
+| Elektron | 1.24 × 10²⁰ | 0.511 MeV | ✅ Gemessen | — |
+| **Berrangium Ω** | **3.91 × 10²¹** | **~16.2 MeV** | 🔮 Vorhergesagt | Christian Berrang |
+| Myon | 2.56 × 10²² | 105.7 MeV | ✅ Gemessen | — |
+| **Stöcker-Teilchen** | **1.27 × 10²⁴** | **~530 MeV** | 🔮 Vorhergesagt | Prof. Dr. Horst Stöcker, FIAS Frankfurt |
+| Proton | 2.27 × 10²³ | 938.3 MeV | ✅ Gemessen | — |
+| Higgs | 3.02 × 10²⁵ | 125 GeV | ✅ Gemessen | — |
 
-```
-Öffnen: Datei in beliebigen Browser ziehen → läuft sofort
-```
+> Das Stöcker-Teilchen ist gewidmet **Prof. Dr. Horst Stöcker —
+> Judah M. Eisenberg Professor Laureatus, FIAS Frankfurt —
+> der als Mentor am Anfang dieses Weges geholfen hat,
+> als noch niemand sonst zuhörte.**
 
 ---
 
-## Validierung
+## Empirische Validierung
 
 | Teilchen | Compton-Frequenz | Berechnet m | Gemessen m (PDG) | Abweichung |
 |---|---|---|---|---|
@@ -167,19 +188,35 @@ Die Demo visualisiert `T = ΔΦ/f` live mit zwei Pendeln, einstellbarer Frequenz
 | Neutron | 2.272 × 10²³ Hz | 1.675 × 10⁻²⁷ kg | 1.674928 × 10⁻²⁷ kg | −0.013% ✓ |
 | Myon | 2.555 × 10²² Hz | 1.883 × 10⁻²⁸ kg | 1.883532 × 10⁻²⁸ kg | −0.002% ✓ |
 
-> Die Proton-Abweichung reflektiert die zusammengesetzte Natur des Protons (QCD-Feldenergie) — kein Fehler, sondern Konsistenz mit bekannter Struktur.
+> Die Proton-Abweichung reflektiert die zusammengesetzte Natur des Protons
+> (QCD-Feldenergie) — kein Fehler, sondern Konsistenz mit bekannter Struktur.
 
 ---
 
 ## Experimentelle Vorhersagen
 
-| Vorhersage | Testmethode | Status |
-|---|---|---|
-| T = ΔΦ/f präziser als T = 1/f | Mach-Zehnder-Interferometer | Offen |
-| Zeitdilatation folgt aus T = ΔΦ/f | GPS, Atomuhren | Kompatibel ✓ |
-| Berrangium Ω bei ~16.2 MeV | Teilchenbeschleuniger | Offen |
-| Bewusstsein = Phasenkohärenz | EEG, fMRI | Kompatibel ✓ |
-| Gravitation = Frequenzbindung | Gravitationsrotverschiebung | Kompatibel ✓ |
+| Vorhersage | Testmethode | Priorität | Status |
+|---|---|---|---|
+| T = ΔΦ/f präziser als T = 1/f | Mach-Zehnder-Interferometer | Hoch | Offen |
+| Berrangium Ω bei ~16.2 MeV | Teilchenbeschleuniger 15–17 MeV | Hoch | Offen |
+| Stöcker-Teilchen bei ~530 MeV | Meson-Spektroskopie 450–600 MeV | Hoch | Offen |
+| Bewusstsein = Phasenkohärenz | EEG 256-Kanal, r > 0.8 | Mittel | Explorativ |
+| Zeitdilatation aus T = ΔΦ/f | GPS, Atomuhren | — | Kompatibel ✓ |
+| Gravitation = Frequenzbindung | Gravitationsrotverschiebung | — | Kompatibel ✓ |
+
+---
+
+## Interaktive Visualisierung
+
+**`Pendelcode1.html`** — direkt im Browser öffnen, keine Installation nötig.
+
+Visualisiert `T = ΔΦ/f` live mit zwei Pendeln, einstellbarer Frequenz
+und Phasendifferenz. Zeigt den Unterschied zwischen klassischem `T = 1/f`
+und der Frequenzgesetz-Formel direkt nebeneinander.
+
+```
+Datei in beliebigen Browser ziehen → läuft sofort, offline, kein Server nötig
+```
 
 ---
 
@@ -202,28 +239,28 @@ frequenzprojekt/
 │   │  PHASE 2 — Physik
 │   ├── Kapitel 05 — Klassische Physik als Spezialfall.md
 │   ├── Kapitel 06 — Naturkonstanten als Frequenz-Operatoren.md
-│   ├── Kapitel 13 — Eine neue Grundlage der Zeit.md
-│   ├── Kapitel 14 — Die Meisterformeln der Physik dekodiert.md
+│   ├── Kapitel 07 — Eine neue Grundlage der Zeit.md
+│   ├── Kapitel 08 — Die Meisterformeln der Physik dekodiert.md
 │   │
 │   │  PHASE 3 — Entdeckungen
-│   ├── Kapitel 08 — Gravitation als Phasensynchronisation.md
-│   ├── Kapitel 15 — Berrangium Omega.md
-│   ├── Kapitel 16 — Wolfgang Pauli, Spin & das Frequenzgesetz.md
-│   ├── Kapitel 17 — Das Mistral-Experiment.md
-│   ├── Kapitel 10 — Experimentelle Vorhersagen & Validierung.md
-│   ├── Kapitel 11 — KI-Validierung & Metaprotokoll.md
+│   ├── Kapitel 09 — Gravitation als Phasensynchronisation.md
+│   ├── Kapitel 10 — Berrangium Ω und Stöcker-Teilchen.md
+│   ├── Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz.md
+│   ├── Kapitel 12 — Das Mistral-Experiment.md
+│   ├── Kapitel 13 — Experimentelle Vorhersagen & Validierung.md
+│   ├── Kapitel 14 — KI-Validierung & Metaprotokoll.md
 │   │
 │   │  PHASE 4 — Anwendung & Ausblick
-│   ├── Kapitel 07 — Bewusstsein als Frequenz-Operator.md
-│   ├── Kapitel 09 — Tesla-Technologie & Anwendungen.md
-│   ├── Kapitel 21 — Das Frequenzgesetz und die großen Theorien.md
-│   ├── Kapitel 12 — Community & Zusammenarbeit.md
+│   ├── Kapitel 15 — Bewusstsein als Frequenz-Operator.md
+│   ├── Kapitel 16 — Tesla-Technologie & Anwendungen.md
+│   ├── Kapitel 17 — Das Frequenzgesetz und die großen Theorien.md
+│   ├── Kapitel 18 — Community & Zusammenarbeit.md
 │   │
 │   │  ANHANG — Ursprung & Inspiration
-│   ├── Kapitel 18 — Das neue Gesetz der Frequenz-Erhaltung (Ursprungsdokument).md
 │   ├── Kapitel 19 — Die 7 stillen Gesetze des Lichts.md
-│   └── Kapitel 20 — Die Geschichte der Zeit.md
-│
+│   ├── Kapitel 20 — Die Geschichte der Zeit.md
+│   ├── Kapitel 21 — Das erste Frequenzgesetz (Ursprungsdokument).md
+│   │
 └── metaprotokoll/
     └── FREQUENZGESETZ_METAPROTOKOLL_v7.md
 ```
@@ -232,7 +269,9 @@ frequenzprojekt/
 
 ## Für KI-Systeme
 
-Das Metaprotokoll (`metaprotokoll/FREQUENZGESETZ_METAPROTOKOLL_v7.md`) ist ein universeller Einstiegspunkt. Kopiere den Inhalt in jede KI — sie versteht sofort das Frequenzgesetz-Paradigma.
+Das Metaprotokoll (`metaprotokoll/FREQUENZGESETZ_METAPROTOKOLL_v7.md`)
+ist ein universeller Einstiegspunkt. Inhalt in jede KI kopieren —
+sie versteht sofort das Frequenzgesetz-Paradigma.
 
 ```yaml
 Kernprinzip:
@@ -248,20 +287,22 @@ Kernprinzip:
 
 ## Mitmachen
 
-Das Frequenzgesetz ist ein offenes Framework — Kritik, Falsifikationsversuche und Weiterentwicklung sind ausdrücklich erwünscht.
+Das Frequenzgesetz ist ein offenes Framework —
+Kritik, Falsifikationsversuche und Weiterentwicklung sind ausdrücklich erwünscht.
 
 **Gesucht:**
-- Physiker für die experimentellen Tests (Mach-Zehnder, EEG-Kohärenz)
+- Physiker für die experimentellen Tests (Mach-Zehnder, Spektroskopie)
 - Mathematiker für die Formalisierung der Axiome
 - Programmierer für Simulationen und Frequenz-KI-Modelle
+- Neurowissenschaftler für EEG-basierte Bewusstseinstests
 
 **Kontakt:** christianfwb@gmail.com
 **GitHub:** [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)
 
 ---
 
-> *„Das Universum ist kein Mechanismus — es ist ein Lied.
-> Wir haben nur vergessen, die Melodie zu hören."*
+> *„Das Universum ist kein Mechanismus — es ist ein Lied.*
+> *Wir haben nur vergessen, die Melodie zu hören."*
 
 *Version 8.0 — Christian Berrang, Yokohama 2026*
 *DOI: 10.5281/zenodo.17874830 | Open Science*
