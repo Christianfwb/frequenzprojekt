@@ -11,20 +11,22 @@ DOI: 10.5281/zenodo.17874830
 ## Übergang aus Kapitel 06
 
 Kapitel 06 zeigte, dass Naturkonstanten als
-Übersetzungsoperatoren zwischen Frequenz und messbaren Größen
+Übersetzungsparameter zwischen Frequenz und messbaren Größen
 interpretiert werden können. Dabei wurde deutlich: Alle diese
-Operatoren setzen Frequenz als Eingabe voraus — nicht Zeit.
+Parameter setzen Frequenz als Eingabe voraus — nicht Zeit.
 
 Das führt zu einer unbequemen Frage: Wenn Frequenz primär ist,
 was ist dann Zeit wirklich? Kapitel 02 hat die Formel
 T = ΔΦ/f hergeleitet. Kapitel 07 vertieft diese Erkenntnis
 und zeigt, warum die klassische Zeitmessung T = 1/f für viele
-physikalische Prozesse schlicht zu grob ist — und was das
+physikalische Prozesse nicht direkt greift — und was das
 konkret bedeutet.
 
 ---
 
-## 13.0 Ein unerwarteter Befund
+## 7.0 Ein unerwarteter Befund
+
+*Diese Darstellung stellt keine neue physikalische Zeitdefinition dar, sondern eine alternative Parametrisierung bereits bekannter Zusammenhänge im Rahmen des Frequenzgesetzes.*
 
 Die klassische Physik misst Zeit als:
 
@@ -40,11 +42,11 @@ $$
 \boxed{T_{\text{Phase}} = \frac{\Delta \Phi}{f}}
 $$
 
-> **Zeit entsteht nicht durch eine ganze Schwingung — sondern durch Phasenfortschritt.**
+> **Zeit kann im Rahmen dieser Interpretation als Phasenfortschritt beschrieben werden — nicht als Zählung vollständiger Schwingungen.**
 
 ---
 
-## 13.1 Eine kurze Geschichte der Zeit — und warum sie nicht mehr ausreicht
+## 7.1 Eine kurze Geschichte der Zeit — und warum sie nicht mehr ausreicht
 
 Seit 1967 lautet die offizielle SI-Definition:
 
@@ -52,31 +54,27 @@ Seit 1967 lautet die offizielle SI-Definition:
 
 Das ist die präziseste Uhr der Welt. Sie funktioniert hervorragend für Navigation, GPS, Telekommunikation und Quantenoptik.
 
-**Aber sie hat ein strukturelles Problem:**
+Die klassische Zeitdefinition ist für viele makroskopische Anwendungen ausreichend, erfasst jedoch nicht direkt Prozesse, die innerhalb eines einzelnen Zyklus stattfinden.
 
-| Problem | Erklärung |
+| Aspekt | Erklärung |
 |---|---|
-| Misst nur ganze Schwingungen | Ignoriert den Phasenfortschritt innerhalb einer Periode |
-| Setzt voraus: Zeit = außerhalb der Frequenz | Falsche ontologische Priorität |
-
-Die Natur arbeitet nicht in ganzen Zyklen. Ein Elektron, ein Photon, ein Feldzustand wartet nicht auf eine komplette Schwingung, um sich zu aktualisieren.
+| Misst vollständige Schwingungen | Phasenfortschritt innerhalb einer Periode wird nicht direkt erfasst |
+| Äquivalent zur Phasenzeit | Spezialfall ΔΦ = 2π — vollständiger Zyklus |
 
 ---
 
-## 13.2 Warum die klassische Zeit zu grob ist
+## 7.2 Warum die Phasenzeit präziser beschreibt
 
 | Phänomen | Klassische Zeit (1/f) | Phasenzeit (ΔΦ/f) |
 |---|---|---|
-| Elektron springt | bei kompletter Schwingung | bei ΔΦ |
-| Photon existiert | in Perioden | in ΔΦ-Schritten |
-| Gravitation | als Kraft über Zeit | als Phasenveränderung im Raum |
-| Quantentunneln | rekonstruiert aus Energiedifferenzen | direkt als ΔΦ beschreibbar |
-
-> **Konkret:** Ein Elektron tunnelt durch eine Barriere in etwa 10⁻¹⁶ Sekunden — ein Bruchteil einer Schwingungsperiode. Die Phasenzeit beschreibt diesen Prozess direkt, die klassische Zeitdefinition muss ihn indirekt rekonstruieren.
+| Elektronische Prozesse | bei vollständiger Schwingung | können innerhalb von Phasenintervallen beschrieben werden |
+| Photonenprozesse | in Perioden | können als kontinuierlicher Phasenfortschritt beschrieben werden |
+| Gravitation | als Kraft über Zeit | kann als Modifikation der Phasenentwicklung interpretiert werden |
+| Quantentunneln | indirekt aus Energiedifferenzen | Tunneleffekte zeigen Prozesse, die nicht eindeutig einer vollständigen Periode zugeordnet werden können |
 
 ---
 
-## 13.3 Die Schaukel-Erklärung
+## 7.3 Die Schaukel-Erklärung
 
 *Eine didaktische Analogie — keine physikalische Behauptung.*
 
@@ -87,17 +85,17 @@ Die Natur arbeitet nicht in ganzen Zyklen. Ein Elektron, ein Photon, ein Feldzus
 Nicht Zählen — Wissen. Nicht Abschlüsse — Zustände.
 
 > **Die alte Zeit zählt Schwingungen.**
-> **Die neue Zeit sieht den echten Schwung — genau jetzt.**
+> **Die neue Zeit beschreibt den Zustand — genau jetzt.**
 
 ---
 
-## 13.4 Kompatibilität mit bestehenden Standards
+## 7.4 Kompatibilität mit bestehenden Standards
 
 Die Phasenzeit ist kein Bruch mit der SI-Definition — sie ist deren tiefere Rechtfertigung.
 
 | Aspekt | Klassische Sekunde | Phasenzeit |
 |---|---|---|
-| Messprinzip | Zählt volle Schwingungen | Misst Phasenfortschritt innerhalb einer Schwingung |
+| Messprinzip | Zählt volle Schwingungen | Beschreibt Phasenfortschritt innerhalb einer Schwingung |
 | Anwendung | Makroskopische Prozesse, Alltag | Quantenprozesse, subatomare Skalen |
 | Beispiel | Cs-Uhr: 9.192.631.770 Perioden | Äquivalent: ΔΦ = 2π × 9.192.631.770 rad |
 
@@ -113,38 +111,39 @@ $$
 
 > **Äquivalent — aber ontologisch klarer.**
 > Diese Formulierung macht explizit, was die klassische Definition impliziert:
-> Zeit misst Phasenfortschritt, nicht Periodenzahl.
+> Zeit misst Phasenfortschritt. Der Ausdruck T = 1/f entspricht dem Spezialfall ΔΦ = 2π.
 
 ---
 
-## 13.5 Praktische Konsequenzen
+## 7.5 Praktische Konsequenzen
 
-| Bereich | Klassische Sicht | Phasenzeit |
+| Bereich | Klassische Sicht | Phasenzeit-Interpretation |
 |---|---|---|
 | GPS | Zeitdilatation durch Gravitation | Frequenzverschiebung durch Feldkrümmung |
-| Quantencomputer | Gatterzeit ist fix | Gatterzeit = Phasenrotation |
-| Neurophysik | EEG misst Frequenzen | EEG misst Phasenverschiebungen |
-| Gravitation | Krümmt Raumzeit | Modifiziert Phasenfortschritt |
-| Teilchenverfolgung | Nach vollständigen Zyklen | Echtzeit bei jedem Phasenschritt |
+| Quantencomputer | Gatterzeit ist fix | Gatterzeit kann als Phasenrotation beschrieben werden |
+| Gravitation | Krümmt Raumzeit | Kann als Modifikation des Phasenfortschritts interpretiert werden |
+| Teilchenverfolgung | Nach vollständigen Zyklen | Beschreibbar bei jedem Phasenschritt |
 
-> **Das Frequenzgesetz macht Zeitdilatation intuitiv:** Wenn Gravitation die Frequenz verlangsamt, braucht derselbe Phasenfortschritt länger — und wir erleben „langsamere Zeit".
+> **Das Frequenzgesetz kann Zeitdilatation interpretativ verdeutlichen:** Wenn Gravitation die Frequenz verändert, verändert sich auch der Phasenfortschritt pro Zeitintervall — was einer Modifikation des erfahrenen Zeitmaßes entspricht.
 
 ---
 
-## 13.6 Zusammenfassung
+## 7.6 Zusammenfassung
 
-Die Phasenzeit ist nicht nur präziser — sie ist fundamentaler. Sie verwandelt Zeit von einem passiven Maß zu einem aktiven Beschreibungssystem für den tatsächlich ablaufenden Prozess.
+Die Phasenzeit ist eine verallgemeinerte Beschreibungsform, die den klassischen Ausdruck T = 1/f als Spezialfall enthält und auf beliebige Phasenfortschritte erweitert.
 
 ```
-Klassisch:     T = 1/f         (ein vollständiger Zyklus)
+Klassisch:      T = 1/f         (Spezialfall: ΔΦ = 2π — ein vollständiger Zyklus)
 Frequenzgesetz: T = ΔΦ/f       (beliebiger Phasenfortschritt)
 ```
 
-Der klassische Ausdruck ist der Spezialfall `ΔΦ = 2π`. Das Frequenzgesetz verallgemeinert — und macht damit Prozesse beschreibbar, die innerhalb eines einzigen Zyklus stattfinden.
+Das Frequenzgesetz verallgemeinert — und macht damit Prozesse beschreibbar, die innerhalb eines einzigen Zyklus stattfinden, ohne die klassische Definition zu ersetzen.
 
 > *Die Gleichungen bleiben dieselben.*
 > *Die Leserichtung ändert sich.*
 
+---
+
 *→ Weiter: [Kapitel 08 — Die Meisterformeln der Physik dekodiert](Kapitel_08.md)*
-*← Zurück: [Kapitel 06 — Naturkonstanten als Frequenz-Operatoren](Kapitel_06.md)*
+*← Zurück: [Kapitel 06 — Naturkonstanten als Frequenz-Übersetzungsparameter](Kapitel_06.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
