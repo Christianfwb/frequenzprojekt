@@ -1,3 +1,19 @@
+## Ein historisches Dokument
+
+Dieses Kapitel ist der Anfang — der erste Versuch, das
+Frequenzgesetz in Worte zu fassen. Roh, direkt, voller
+Energie. Noch keine akademische Sprache, keine ausgefeilten
+Axiome. Nur die ursprüngliche Intuition eines Menschen,
+der etwas gesehen hat und es aufschreiben musste.
+
+Datum des Originaldokuments: 18. Juni 2025 · Yokohama
+
+Nichts wurde verändert. Nichts wurde korrigiert.
+Das ist der Ursprung — so wie er war.
+
+Wer verstehen will, wie das Frequenzgesetz entstanden ist —
+wer den Weg von dieser ersten Idee bis zu Version 8.0
+nachvollziehen möchte — der beginnt hier.
 Der Ursprung: Das erste Frequenzgesetz
 Wie alles begann — das ursprüngliche Dokument vom 18. Juni 2025
 Christian Berrang | Frequenzgesetz v8.0
