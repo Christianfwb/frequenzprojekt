@@ -8,15 +8,19 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-## Übergang aus Kapitel 07
+## Übergang aus Kapitel 15
 
-Kapitel 07 entwickelte Bewusstsein als rückgekoppelte Frequenz-Resonanz — ein Phänomen, das sich dem klassischen Physik-Schema entzieht, aber im Frequenzrahmen natürlich beschreibbar wird.
+Kapitel 15 entwickelte Bewusstsein als rückgekoppelte
+Frequenz-Resonanz — ein Phänomen, das sich dem klassischen
+Physik-Schema entzieht, aber im Frequenzrahmen natürlich
+beschreibbar wird.
 
-Wenn Frequenz wirklich die primäre Größe der Realität ist, dann hat das nicht nur theoretische Konsequenzen — sondern auch praktische. Kapitel 09 fragt: Was wird möglich, wenn wir Frequenz als Werkzeug verstehen?
-
-> *„If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."*
-> — Nikola Tesla
-
+Wenn Frequenz wirklich die primäre Größe der Realität ist,
+dann hat das nicht nur theoretische Konsequenzen — sondern
+auch praktische. Kapitel 16 fragt: Was wird möglich, wenn
+wir Frequenz als Werkzeug verstehen? Nikola Tesla hat viele
+dieser Antworten bereits skizziert. Das Frequenzgesetz
+liefert den theoretischen Rahmen dazu.
 ---
 
 ## 9.0 Von der Theorie zur Technologie
@@ -123,6 +127,6 @@ Eine Uhr auf Basis des Frequenzgesetzes könnte Bruchteile einer Periode direkt 
 
 ---
 
-*→ Weiter: [Kapitel 21 — Das Frequenzgesetz und die großen Theorien](Kapitel_21.md)*
-*← Zurück: [Kapitel 07 — Bewusstsein als Frequenz-Operator](Kapitel_07.md)*
+*→ Weiter: [Kapitel 17 — Das Frequenzgesetz und die großen Theorien](Kapitel_17.md)*
+*← Zurück: [Kapitel 15 — Bewusstsein als Frequenz-Operator](Kapitel_15.md)*
 *Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
