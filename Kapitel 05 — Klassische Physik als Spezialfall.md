@@ -8,7 +8,6 @@ DOI: 10.5281/zenodo.17874830
 
 ---
 
-
 ## Übergang aus Kapitel 04
 
 Kapitel 04 zeigte, dass Energieerhaltung als Konsequenz einer
@@ -20,9 +19,10 @@ Wenn das stimmt, stellt sich die nächste Frage: Was passiert
 mit den großen etablierten Theorien — Newton, Einstein,
 Quantenmechanik? Widerspricht das Frequenzgesetz ihnen?
 
-Die Antwort ist nein. Kapitel 05 zeigt, wie jede dieser
-Theorien als Spezialfall des Frequenzrahmens lesbar ist —
-ohne eine einzige Gleichung zu verändern.
+Die Antwort ist nein. Kapitel 05 zeigt, wie diese Theorien
+im Rahmen des Frequenzgesetzes als Spezialfälle interpretiert
+werden können — ohne eine einzige Gleichung zu verändern.
+
 ---
 
 ## 5.0 Eine interpretative Ebene — kein Widerspruch
