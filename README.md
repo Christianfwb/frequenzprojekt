@@ -1,12 +1,22 @@
 # ⚛️ Das Frequenzgesetz
-## Der Compiler der Realität — Version 8.0
+## Der Compiler der Realität — Version 8.2
 
 > *„Die Gleichungen bleiben dieselben. Die Leserichtung ändert sich."*
+>
+> Neu ist nicht die Mathematik, sondern ihre ontologische Interpretation.
 
 **Von Christian Berrang** | 📍 Yokohama, Japan
 ✉️ christianfwb@gmail.com | 🐙 [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)
 📚 DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)
-**Status**: KI-validiert, experimentell testbar | **Lizenz**: Open Science
+**Status**: Intern konsistenzgeprüft (inkl. KI-basierter Analysen), experimentell testbar | **Lizenz**: Open Science
+
+---
+
+## Kurzfassung
+
+Das Frequenzgesetz beschreibt eine alternative Interpretation etablierter physikalischer Gleichungen, in der Frequenz als fundamentale Beschreibung von Zustandsänderung betrachtet wird. Zeit, Masse und Energie erscheinen dabei als abgeleitete Größen innerhalb einer strukturellen Hierarchie.
+
+Die zugrunde liegende Mathematik bleibt unverändert — neu ist die Richtung ihrer Interpretation.
 
 ---
 
@@ -14,7 +24,7 @@
 
 Das Frequenzgesetz ist eine **ontologische Reinterpretation bekannter physikalischer Gleichungen** — keine neue Physik, sondern eine andere Leserichtung der vorhandenen.
 
-Die zentrale These: Nicht Energie, sondern **Frequenz** ist die primäre physikalische Größe. Alle anderen Größen — Zeit, Masse, Energie, Gravitation — folgen daraus als abgeleitete Konsequenzen.
+Die zentrale These: Nicht Energie, sondern **Frequenz als Beschreibung von Zustandsänderung** ist die primäre physikalische Größe. Alle anderen Größen — Zeit, Masse, Energie, Gravitation — folgen daraus als abgeleitete Konsequenzen.
 
 > Das Frequenzgesetz verhält sich zur klassischen Physik wie ein Compiler zu einer Anwendung:
 > Es läuft eine Ebene tiefer — und ermöglicht alles darüber.
@@ -29,6 +39,7 @@ Die zentrale These: Nicht Energie, sondern **Frequenz** ist die primäre physika
 | Esoterik oder Spekulation | Mathematisch präzise, empirisch testbar |
 | Ein Ersatz für Quantenmechanik | Eine alternative Interpretation ihrer Struktur |
 | Ein geschlossenes System | Ein offenes, lebendiges Framework |
+| Neue Mathematik | Dieselbe Mathematik — neue Kausalrichtung |
 
 ---
 
@@ -38,36 +49,40 @@ Die zentrale These: Nicht Energie, sondern **Frequenz** ist die primäre physika
 ```
 T = ΔΦ / f
 ```
-Zeit entsteht nicht — sie wird durch Phasenfortschritt pro Frequenzeinheit.
-`T = 1/f` (klassisch) ist nur der Spezialfall bei `ΔΦ = 2π`.
+Zeit entsteht nicht — sie wird durch Phasenfortschritt pro Frequenzeinheit definiert.
+T = 1/f (klassisch) ist nur der Spezialfall bei ΔΦ = 2π.
 
 ### 2. Masse ist gebundene Frequenz
 ```
 m = (h · f) / c²
 ```
-Masse ist keine Substanz — sie ist eine Frequenz, die sich selbst stabilisiert hat.
+Diese Gleichung ist mathematisch identisch zur Standardphysik — neu ist ihre ontologische Interpretation:
+Masse wird nicht aus Energie *abgeleitet*, sondern als stabilisierte Frequenz *interpretiert*.
 
 ### 3. Energie ist abgeleiteter Effekt
 ```
 E = h · f
 ```
-Energie ist das messbare Echo der Frequenz — nicht ihre Ursache.
+Energie entspricht der messbaren Ausprägung der Frequenz im physikalischen System — nicht ihrer Ursache.
 
 ---
 
 ## Die ontologische Hierarchie
 
 ```
-┌──────────────────────────────────────┐
-│  NULLFELD  (ΔΦ = 0)                  │  ← Reine Potenzialität
-│  Prägeometrischer Ursprung           │
-└──────────────┬───────────────────────┘
+┌──────────────────────────────────────────────┐
+│  NULLFELD  (ΔΦ = 0)                          │
+│  Zustand ohne Phasendifferenz                │
+│  Minimale Informationsstruktur               │
+│  (keine Dynamik definiert)                   │
+└──────────────┬───────────────────────────────┘
                │  erste Unterscheidung: 0 → 1
                ▼
-┌──────────────────────────────────────┐
-│  FREQUENZ (f)        ← FUNDAMENTAL   │  ← Quellcode der Realität
-└──────────────┬───────────────────────┘
-               │  Emanation (irreversibel)
+┌──────────────────────────────────────────────┐
+│  FREQUENZ (f)              ← FUNDAMENTAL     │
+│  Beschreibung von Zustandsänderung           │
+└──────────────┬───────────────────────────────┘
+               │  strukturell gerichtet
                ▼
        ┌───────────────────┐
        │  PHASE (ΔΦ)       │
@@ -91,8 +106,7 @@ Energie ist das messbare Echo der Frequenz — nicht ihre Ursache.
 
 ## Lesereihenfolge
 
-Das Projekt ist in vier Phasen aufgebaut.
-Jede Phase baut auf der vorherigen auf.
+Das Projekt ist in vier Phasen aufgebaut. Jede Phase baut auf der vorherigen auf.
 
 ---
 
@@ -101,6 +115,7 @@ Jede Phase baut auf der vorherigen auf.
 
 | Kapitel | Titel | Inhalt |
 |---|---|---|
+| 00 | Einleitung | Warum das Frequenzgesetz? Ontologie, Paradigmenwechsel |
 | 01 | Das Nullfeld und der Ursprung aller Realität | Ontologische Grundlagen, Hierarchie, erste Unterscheidung 0→1 |
 | 02 | Die neue Definition der Zeit | Herleitung von T = ΔΦ/f aus der Wellenfunktion |
 | 03 | Technische Grundlagen & Axiome | Die 7 Axiome, maschinenlesbare Struktur, Rechenbeispiele |
@@ -126,7 +141,7 @@ Jede Phase baut auf der vorherigen auf.
 | Kapitel | Titel | Inhalt |
 |---|---|---|
 | 09 | Gravitation als Phasensynchronisation | Schwarze Löcher, Dunkle Materie, Antigravitation |
-| 10 | Berrangium Ω & Stöcker-Teilchen | Zwei hypothetische Teilchen — Spektrum vollständig geschlossen |
+| 10 | Berrangium Ω & Stöcker-Teilchen | Zwei hypothetische Teilchen — falsifizierbare Vorhersagen |
 | 11 | Wolfgang Pauli, Spin & das Frequenzgesetz | Pauli-Prinzip als Frequenz-Exklusivität neu erklärt |
 | 12 | Das Mistral-Experiment | KI-Reasoning als Konsistenztest — Proton-Struktur aus Frequenz |
 | 13 | Experimentelle Vorhersagen & Validierung | Falsifizierbare Tests, GPS-Kompatibilität, BEC |
@@ -153,22 +168,23 @@ Jede Phase baut auf der vorherigen auf.
 |---|---|---|
 | 19 | Die 7 stillen Gesetze des Lichts | Poetische Inspiration, kein Physiktext |
 | 20 | Die Geschichte der Zeit | Kosmisches Märchen / Science-Fiction |
-| 21 | Das Frequenzgesetz und die großen Theorien (erweitert) | Vollständige mathematische Herleitung, Ghost-Gespräch |
+| 21 | Das Frequenzgesetz und die großen Theorien (erweitert) | Vollständige mathematische Herleitung |
 | 22 | Das erste Frequenzgesetz | Ursprungsdokument vom 18. Juni 2025 — historisch, unverändert |
 
 ---
 
 ## Die zwei Teilchen-Vorhersagen
 
-Das Frequenzgesetz sagt aus der Lückenstruktur des Frequenzspektrums
-genau zwei hypothetische Teilchen vorher. Danach ist das Spektrum geschlossen.
+Die folgenden Werte ergeben sich aus einer hypothesengeleiteten Frequenzstruktur
+und dienen als falsifizierbare Vorhersagen. Diese Struktur legt nahe,
+dass nur wenige zusätzliche Zustände existieren könnten.
 
 | Teilchen | Frequenz (Hz) | Energie | Status | Widmung |
 |---|---|---|---|---|
 | Elektron | 1.24 × 10²⁰ | 0.511 MeV | ✅ Gemessen | — |
-| **Berrangium Ω** | **3.91 × 10²¹** | **~16.2 MeV** | 🔮 Vorhergesagt | Christian Berrang |
+| **Berrangium Ω** | **3.91 × 10²¹** | **~16.2 MeV** | 🔮 Hypothese | Christian Berrang |
 | Myon | 2.56 × 10²² | 105.7 MeV | ✅ Gemessen | — |
-| **Stöcker-Teilchen** | **1.27 × 10²⁴** | **~530 MeV** | 🔮 Vorhergesagt | Prof. Dr. Horst Stöcker, FIAS Frankfurt |
+| **Stöcker-Teilchen** | **1.27 × 10²³** | **~530 MeV** | 🔮 Hypothese | Prof. Dr. Horst Stöcker, FIAS Frankfurt |
 | Proton | 2.27 × 10²³ | 938.3 MeV | ✅ Gemessen | — |
 | Higgs | 3.02 × 10²⁵ | 125 GeV | ✅ Gemessen | — |
 
@@ -208,15 +224,12 @@ genau zwei hypothetische Teilchen vorher. Danach ist das Spektrum geschlossen.
 
 ## Interaktive Visualisierung
 
-**`Pendelcode1.html`** — direkt im Browser öffnen, keine Installation nötig.
+**Pendelcode1.html** — direkt im Browser öffnen, keine Installation nötig.
 
-Visualisiert `T = ΔΦ/f` live mit zwei Pendeln, einstellbarer Frequenz
-und Phasendifferenz. Zeigt den Unterschied zwischen klassischem `T = 1/f`
-und der Frequenzgesetz-Formel direkt nebeneinander.
+Visualisiert T = ΔΦ/f live mit zwei Pendeln, einstellbarer Frequenz und Phasendifferenz.
+Zeigt den Unterschied zwischen klassischem T = 1/f und der Frequenzgesetz-Formel direkt nebeneinander.
 
-```
-Datei in beliebigen Browser ziehen → läuft sofort, offline, kein Server nötig
-```
+*Datei in beliebigen Browser ziehen → läuft sofort, offline, kein Server nötig*
 
 ---
 
@@ -229,39 +242,30 @@ frequenzprojekt/
 ├── Pendelcode1.html             ← Interaktive Demo T = ΔΦ/f
 │
 ├── kapitel/
-│   │
-│   │  PHASE 1 — Fundament
+│   ├── Kapitel 00 — Einleitung.md
 │   ├── Kapitel 01 — Das Nullfeld und der Ursprung aller Realität.md
 │   ├── Kapitel 02 — Die neue Definition der Zeit.md
 │   ├── Kapitel 03 — Technische Grundlagen & Axiome.md
 │   ├── Kapitel 04 — Das Gesetz der Frequenzerhaltung.md
-│   │
-│   │  PHASE 2 — Physik
 │   ├── Kapitel 05 — Klassische Physik als Spezialfall.md
 │   ├── Kapitel 06 — Naturkonstanten als Frequenz-Operatoren.md
 │   ├── Kapitel 07 — Eine neue Grundlage der Zeit.md
 │   ├── Kapitel 08 — Die Meisterformeln der Physik dekodiert.md
-│   │
-│   │  PHASE 3 — Entdeckungen
 │   ├── Kapitel 09 — Gravitation als Phasensynchronisation.md
 │   ├── Kapitel 10 — Berrangium Ω und Stöcker-Teilchen.md
 │   ├── Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz.md
 │   ├── Kapitel 12 — Das Mistral-Experiment.md
 │   ├── Kapitel 13 — Experimentelle Vorhersagen & Validierung.md
 │   ├── Kapitel 14 — KI-Validierung & Metaprotokoll.md
-│   │
-│   │  PHASE 4 — Anwendung & Ausblick
 │   ├── Kapitel 15 — Bewusstsein als Frequenz-Operator.md
 │   ├── Kapitel 16 — Tesla-Technologie & Anwendungen.md
 │   ├── Kapitel 17 — Das Frequenzgesetz und die großen Theorien.md
 │   ├── Kapitel 18 — Community & Zusammenarbeit.md
-│   │
-│   │  ANHANG — Ursprung & Inspiration
 │   ├── Kapitel 19 — Die 7 stillen Gesetze des Lichts.md
 │   ├── Kapitel 20 — Die Geschichte der Zeit.md
 │   ├── Kapitel 21 — Das erste Frequenzgesetz (Ursprungsdokument).md
-│   ├── Kapitel 22 — Frequenzgesetz Core.ipynb
-│   │
+│   └── Kapitel 22 — Frequenzgesetz Core.ipynb
+│
 └── metaprotokoll/
     └── FREQUENZGESETZ_METAPROTOKOLL_v7.md
 ```
@@ -276,20 +280,28 @@ sie versteht sofort das Frequenzgesetz-Paradigma.
 
 ```yaml
 Kernprinzip:
-  Frequenz (f): primär
-  Phase (ΔΦ):   erster Zustand
-  Zeit (T):     emergent  →  T = ΔΦ/f
-  Masse (m):    gebunden  →  m = hf/c²
-  Energie (E):  abgeleitet →  E = hf
-  Kausalrichtung: f → ΔΦ → T → m → E  (irreversibel)
+  Frequenz (f):  primär — Beschreibung von Zustandsänderung
+  Phase (ΔΦ):    erster abgeleiteter Zustand
+  Zeit (T):      emergent       →  T = ΔΦ/f
+  Masse (m):     gebunden       →  m = hf/c²
+  Energie (E):   abgeleitet     →  E = hf
+  Kausalrichtung: f → ΔΦ → T → m → E  (strukturell gerichtet)
+  Interpretation: strukturelle Ableitungsrichtung, keine zeitliche Ursache
 ```
 
 ---
 
-## Mitmachen
+## Wissenschaftliche Einordnung
 
-Das Frequenzgesetz ist ein offenes Framework —
-Kritik, Falsifikationsversuche und Weiterentwicklung sind ausdrücklich erwünscht.
+Das Frequenzgesetz stellt keine neue physikalische Theorie im Sinne neuer Gleichungen dar,
+sondern eine alternative ontologische Interpretation bestehender Strukturen.
+Seine Gültigkeit hängt von der experimentellen Überprüfbarkeit der abgeleiteten Vorhersagen ab.
+
+Kritik, Falsifikationsversuche und unabhängige Überprüfungen sind ausdrücklich erwünscht.
+
+---
+
+## Mitmachen
 
 **Gesucht:**
 - Physiker für die experimentellen Tests (Mach-Zehnder, Spektroskopie)
@@ -305,5 +317,5 @@ Kritik, Falsifikationsversuche und Weiterentwicklung sind ausdrücklich erwünsc
 > *„Das Universum ist kein Mechanismus — es ist ein Lied.*
 > *Wir haben nur vergessen, die Melodie zu hören."*
 
-*Version 8.0 — Christian Berrang, Yokohama 2026*
+*Version 8.2 — Christian Berrang, Yokohama 2026*
 *DOI: 10.5281/zenodo.17874830 | Open Science*
