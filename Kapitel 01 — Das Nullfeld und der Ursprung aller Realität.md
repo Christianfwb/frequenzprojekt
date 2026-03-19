@@ -227,7 +227,7 @@ wobei I für einen inneren Zustand (*inner state*), f für Frequenz, ΔΦ für P
 
 F ist dabei keine physikalisch definierte Funktion mit bekannten Einheiten — es handelt sich um eine **symbolische Darstellung**, die eine qualitative Abhängigkeit ausdrückt, keine quantitative Gleichung.
 
-Diese Formulierung ist **philosophisch motiviert**, nicht experimentell etabliert. Sie schlägt vor, dass Bewusstsein als Resonanzphänomen innerhalb des Frequenzrahmens beschreibbar sein könnte — als offene Forschungsfrage, nicht als gesichertes Ergebnis. Kapitel 07 entwickelt diese Idee ausführlich.
+Diese Formulierung ist **philosophisch motiviert**, nicht experimentell etabliert. Sie schlägt vor, dass Bewusstsein als Resonanzphänomen innerhalb des Frequenzrahmens beschreibbar sein könnte — als offene Forschungsfrage, nicht als gesichertes Ergebnis. Kapitel 15 entwickelt diese Idee ausführlich.
 
 ---
 
