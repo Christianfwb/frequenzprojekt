@@ -20,16 +20,7 @@ Christian Berrang | Frequenzgesetz v8.0
 DOI: 10.5281/zenodo.17874830
 
 
-Dieses Kapitel ist ein historisches Dokument.
-Es ist der Anfang — der erste Versuch, das Frequenzgesetz in Worte zu fassen.
-Roh, direkt, voller Energie. Noch keine akademische Sprache, keine
-ausgefeilten Axiome. Nur die ursprüngliche Intuition eines Menschen,
-der etwas gesehen hat und es aufschreiben musste.
-Wer verstehen will wie das Frequenzgesetz entstanden ist —
-wer den Weg von dieser ersten Idee bis zu Version 8.0 nachvollziehen möchte —
-der beginnt hier.
-Nichts wurde verändert. Nichts wurde korrigiert.
-Das ist der Ursprung — so wie er war.
+
 
 
 Datum des Originaldokuments: 18. Juni 2025 · Yokohama
