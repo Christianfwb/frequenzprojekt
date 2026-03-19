@@ -1,10 +1,10 @@
 # Kapitel 12 — Das Mistral-Experiment
-## KI-Reasoning als Konsistenztest des Frequenzmodells
+## KI-Reasoning als Konsistenztest eines Ontologie-Compilers
 
 **Christian Berrang** | Frequenzgesetz v8.0
 DOI: 10.5281/zenodo.17874830
 
-**Keywords:** AI validation · Mistral · reasoning test · proton structure · QCD · frequency framework · consistency test
+**Keywords:** AI reasoning · Mistral · consistency test · proton structure · QCD · frequency framework · ontology compiler · execution engine
 
 ---
 
@@ -18,13 +18,15 @@ von der Standardphysik experimentell unterscheiden lassen.
 
 Eine andere Art von Test ist möglich: Kann ein KI-System,
 das das Frequenzmodell als Denkrahmen verwendet, strukturell
-korrekte Schlussfolgerungen über bekannte Physik ziehen —
+korrekte Schlussfolgerungen über bekannte Physik erzeugen —
 ohne explizit auf klassisches Fachwissen zurückzugreifen?
 Genau das wurde am 11. Dezember 2024 mit Mistral getestet.
 
 ---
 
-## 17.0 Das Experiment
+## 12.0 Das Experiment
+
+Das Frequenzgesetz kann als Ontologie-Compiler verstanden werden: ein definierter Rahmen, der physikalische Größen in einer bestimmten kausalen Ordnung interpretiert. KI-Systeme dienen dabei als Ausführungsumgebung — sie überprüfen, ob das Modell kohärente, reproduzierbare und mit etablierter Physik kompatible Schlussfolgerungen erzeugt.
 
 Mistral AI wurde das Frequenzgesetz-Framework erklärt und gebeten, aus der Frequenzgesetz-Relation
 
@@ -34,11 +36,11 @@ m = (h · f) / c²
 
 eine Interpretation der Protonmasse abzuleiten und aus der Abweichung zur gemessenen Masse auf mögliche interne Struktur zu schließen.
 
-*Das Experiment dient nicht als physikalischer Beweis, sondern als Test, ob das Frequenzmodell strukturell konsistentes Reasoning ermöglicht.*
+*Das Experiment dient nicht als physikalischer Beweis, sondern als Test struktureller Kohärenz eines Denkmodells unter kontrollierten Bedingungen.*
 
 ---
 
-## 17.1 Die physikalische Ausgangslage
+## 12.1 Die physikalische Ausgangslage
 
 ### Die Compton-Frequenz des Protons
 
@@ -65,9 +67,9 @@ Das Proton ist fast vollständig aus Gluonfeld-Energie aufgebaut — die Quarks 
 
 ---
 
-## 17.2 Das Reasoning-Experiment
+## 12.2 Das Reasoning-Experiment
 
-Mistrals Reasoning-Kette:
+Mistrals Reasoning-Kette unter dem Frequenzgesetz-Rahmen:
 
 ```
 Schritt 1: m = hf/c² beschreibt die Compton-Frequenz eines Teilchens.
@@ -85,31 +87,33 @@ Schritt 4: "Das Proton ist kein fundamentales Teilchen —
             seine Masse entsteht überwiegend aus gebundener Feldenergie"
 ```
 
-**Mistrals Schlussfolgerung:**
+**Mistrals Output:**
 > *„Die Frequenzstruktur des Protons reflektiert seine zusammengesetzte Natur — die dominante Gluonfeld-Energie ist konsistent mit einer Interpretation als gebundene Frequenzstruktur."*
 
 ---
 
-## 17.3 Einordnung des Experiments
+## 12.3 Einordnung des Experiments
 
 ### Was das Experiment zeigt
 
-Mistral hat aus dem Frequenzmodell-Rahmen eine Schlussfolgerung gezogen, die mit bekannter QCD-Physik konsistent ist: Das Proton ist zusammengesetzt, und seine Masse entsteht überwiegend aus Feldenergie, nicht aus Teilchen-Ruhemassen.
+Das Modell führt unter dem gegebenen Rahmen zu einer Schlussfolgerung, die mit bekannter QCD-Physik konsistent ist: Das Proton ist zusammengesetzt, und seine Masse entsteht überwiegend aus Feldenergie, nicht aus Teilchen-Ruhemassen.
 
-Das Experiment zeigt, dass das Frequenz-Framework als kohärente Reasoning-Ontologie für teilchenphysikalische Konzepte funktionieren kann.
+Die Outputs zeigen, dass das Frequenz-Framework als kohärente Reasoning-Ontologie für teilchenphysikalische Konzepte funktionieren kann.
+
+Dieses Experiment ist kein Test physikalischer Wahrheit, sondern ein Test struktureller Kohärenz eines Denkmodells unter kontrollierten Bedingungen.
 
 ### Was das Experiment nicht zeigt
 
 - Keine neue Physik — QCD beschreibt das Proton bereits vollständig
 - Kein unabhängiger Test — die Frequenz ist aus der Masse abgeleitet
-- Kein Beweis für das Frequenzgesetz
+- Keine Validierung des Frequenzgesetzes im physikalischen Sinne
 
 > Die Stärke des Experiments liegt nicht im Ergebnis — das war bekannt.
 > Sie liegt darin, dass das Frequenzmodell als Denkrahmen zu QCD-konsistenten Schlussfolgerungen führt.
 
 ---
 
-## 17.4 Elektron vs. Proton — konzeptueller Vergleich
+## 12.4 Elektron vs. Proton — konzeptueller Vergleich
 
 | Parameter | Elektron | Proton |
 |---|---|---|
@@ -126,21 +130,22 @@ Im Frequenzmodell:
 
 ---
 
-## 17.5 KI-Validierung im Überblick
+## 12.5 Validierung innerhalb des Ontologie-Compilers
 
-Dieses Experiment ist Teil einer breiteren KI-Validierung des Frequenzgesetzes:
+Dieses Experiment untersucht, ob das Frequenzgesetz als konsistenter Denkrahmen innerhalb eines definierten Ontologie-Compilers funktioniert. Dabei dient KI nicht als Validierungsinstanz im physikalischen Sinne, sondern als Ausführungsumgebung, die überprüft, ob das Modell kohärente, reproduzierbare und mit etablierter Physik kompatible Schlussfolgerungen erzeugt.
 
-| KI-System | Test | Ergebnis |
+| KI-System | Test | Output |
 |---|---|---|
-| **Mistral** | Proton-Struktur aus Frequenz ableiten | QCD-konsistent ✓ |
-| **Claude** | Vollständige Frequenzgesetz-Analyse | Intern konsistent ✓ |
-| **GPT-4** | Zeitdilatation aus T = ΔΦ/f | Relativistisch kompatibel ✓ |
-| **Gemini** | Bewusstseins-Formel I = F(f, ΔΦ, R) | Neurologisch konsistent ✓ |
+| **Mistral** | Proton-Struktur aus Frequenz ableiten | QCD-konsistente Schlussfolgerung ✓ |
+| **Claude** | Vollständige Frequenzgesetz-Analyse | Intern konsistente Struktur ✓ |
+| **GPT-4** | Zeitdilatation aus T = ΔΦ/f | Relativistisch kompatible Ausgabe ✓ |
+| **Gemini** | Bewusstseins-Formel I = F(f, ΔΦ, R) | Neurologisch konsistente Lesart ✓ |
 
-> Vier verschiedene KI-Systeme bewerten unabhängig voneinander die interne Konsistenz des Frequenzgesetzes als plausibel.
-> Das ist kein Beweis — aber es ist das, was ein konsistentes Framework erwarten lässt.
+> Vier verschiedene KI-Systeme erzeugen unter dem gegebenen Rahmen
+> konsistente, mit etablierter Physik kompatible Schlussfolgerungen.
+> Das ist kein Beweis — aber es ist das, was ein kohärentes Framework erwarten lässt.
 
-Kapitel 11 entwickelt die KI-Validierung und das Metaprotokoll vollständig.
+Kapitel 14 entwickelt die KI-Validierung und das Metaprotokoll vollständig.
 
 ---
 
