@@ -10,56 +10,60 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 03
 
-Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes
-fest. Axiom 6 formulierte dabei eine zentrale Konsequenz:
-Energieerhaltung kann als Ausdruck einer tieferliegenden
-Frequenzstruktur gelesen werden — nicht umgekehrt.
+Kapitel 03 legte die sieben Arbeitsaxiome des Frequenzgesetzes fest (→ A0–A6).
+Axiom A6 formulierte dabei eine zentrale Konsequenz: Energieerhaltung kann als
+Ausdruck einer tieferliegenden Frequenzstruktur gelesen werden.
 
-Kapitel 04 entwickelt diesen Gedanken vollständig. Was bedeutet
-Frequenzerhaltung physikalisch? Welche drei Formen von Frequenz
-existieren im Universum? Und wie werden Temperatur, Entropie
-und das Bose-Einstein-Kondensat im Frequenzrahmen neu lesbar?
-
----
-
-## 4.0 Die stille Revolution
-
-Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung. Im Rahmen dieses Modells können diese Erhaltungsgrößen als abgeleitet interpretiert werden — als Ausdruck einer tieferliegenden Frequenzstruktur.
-
-Das Frequenzgesetz schlägt folgende Interpretation vor:
-
-> **Energieerhaltung kann als Konsequenz einer zugrundeliegenden Frequenzstruktur interpretiert werden.**
-> Diese Lesart verändert keine Gleichungen — sie verschiebt die ontologische Priorität.
+Kapitel 04 entwickelt diesen Gedanken vollständig: Was bedeutet Frequenzerhaltung
+physikalisch? Welche drei Aggregatzustände von Frequenz gibt es im Universum?
+Und wie werden Temperatur, Entropie und das Bose-Einstein-Kondensat
+im Frequenzrahmen lesbar?
 
 ---
 
-## 4.1 Das Gesetz
+## 4.0 Die ontologische Verschiebung
+
+Die Physik kennt viele Erhaltungssätze: Energie, Impuls, Ladung.
+Das Frequenzgesetz schlägt vor, diese Größen als abgeleitet zu interpretieren —
+als Ausdruck einer tieferliegenden Frequenzstruktur.
+
+> **Energieerhaltung kann als Konsequenz einer zugrundeliegenden
+> Frequenzstruktur interpretiert werden.**
+> Diese Lesart verändert keine Gleichungen — sie verschiebt die
+> ontologische Priorität.
+
+---
+
+## 4.1 Das Gesetz (Modellformulierung)
+
+Aus Axiom A6 (→ Kapitel 03):
 
 ```
-∑ Eᵢ = ∑ h · fᵢ = konstant   (unter Standardannahmen eines abgeschlossenen Systems)
+∑ Eᵢ = ∑ h · fᵢ = konstant
 ```
 
 Frequenzzustände können sich verändern, überlagern oder neu strukturieren.
-Im Rahmen dieses Modells wird angenommen, dass die zugrundeliegende Frequenzstruktur konsistent bleibt.
+Im Rahmen dieses Modells wird angenommen, dass die zugrundeliegende
+Frequenzstruktur konsistent bleibt.
+
+**Herleitung:**
+
+```
+E = h · f                       (A4)
+∑ fᵢ = const                   (Modellannahme)
+∑ h · fᵢ = h · const
+∑ Eᵢ = const                   (Energieerhaltung als Konsequenz)
+```
+
+Dies ist eine interpretative Annahme innerhalb des Modells —
+keine unabhängig neu bewiesene Erhaltungsgröße.
 
 ---
 
-## 4.2 Warum Energieerhaltung daraus folgt
+## 4.2 Die drei Aggregatzustände der Frequenz
 
-```
-E = h · f          (Energie aus Frequenz, Axiom 4)
-∑ fᵢ = const       (Modellannahme im Rahmen der Frequenzerhaltung)
-↓
-∑ h·fᵢ = h · const
-↓
-∑ Eᵢ = const       (Energieerhaltung als Konsequenz innerhalb des Rahmens)
-```
-
-Dies stellt keine unabhängig etablierte physikalische Erhaltungsgröße dar, sondern eine interpretative Annahme innerhalb des Modells. Der klassische Energieerhaltungssatz lässt sich in dieser Lesart als mathematische Konsequenz der Frequenzstruktur lesen.
-
----
-
-## 4.3 Die drei Formen der Frequenz im Universum
+Materie, Licht und Wärme lassen sich im Frequenzrahmen als drei verschiedene
+Zustände derselben zugrundeliegenden Frequenzstruktur lesen:
 
 | Zustand | Beschreibung | Physikalisches Beispiel |
 |---|---|---|
@@ -67,95 +71,74 @@ Dies stellt keine unabhängig etablierte physikalische Erhaltungsgröße dar, so
 | **Gebundene Frequenz** | Stabilisiert = Masse | Elektron, Proton, Atom |
 | **Kohärente Frequenz** | Synchronisiert = Resonanz | Laser, BEC, Supraleitung |
 
-> Materie kann in diesem Rahmen als gebundene Frequenzstruktur interpretiert werden.
-> Licht kann als freie, propagierende Frequenzstruktur interpretiert werden.
-> Wärme kann als Ausdruck von Frequenzzuständen mit verringerter Kohärenz gelesen werden.
+> Materie kann als gebundene, Licht als freie und Wärme als dekohärente
+> Frequenzstruktur interpretiert werden.
 
 ---
 
-## 4.4 Temperatur — Verlorene Resonanz
+## 4.3 Temperatur — Maß für verlorene Resonanz
 
-```
-T_thermisch ~ Funktion der Verteilung und Kohärenz von Frequenzzuständen
-```
+Temperatur kann in diesem Rahmen als Maß für den Grad der Dekohärenz
+zwischen Frequenzzuständen interpretiert werden:
 
-Temperatur kann in diesem Rahmen als Maß für den Grad der Kohärenz von Frequenzzuständen interpretiert werden. Temperatur kann als Ausdruck zunehmender Dekohärenz zwischen Frequenzzuständen gelesen werden.
-
-| Zustand | Frequenzen | Temperatur |
+| Zustand | Frequenzkohärenz | Temperatur |
 |---|---|---|
 | Absoluter Nullpunkt | Maximal kohärent | T = 0 K |
 | Normales Gas | Teilweise kohärent | T > 0 K |
 | Plasma | Kaum kohärent | T → sehr hoch |
 | BEC | Perfekt kohärent | T → 0 K |
 
-> **Wärme kann als Verlust von Kohärenz zwischen Frequenzzuständen interpretiert werden.**
+> **Wärme kann als Verlust von Phasenkohärenz zwischen
+> Frequenzzuständen interpretiert werden.**
 
 ---
 
-## 4.5 Der Kernel — Die Frequenz-Zeit-Matrix
+## 4.4 Das Bose-Einstein-Kondensat — Die reinste Form
 
-Der **Kernel** (K) ist ein konzeptuelles Modell eines vollständigen Frequenzraums — die hypothetische Matrix aller möglichen Frequenzen.
+Das BEC ist das reinste experimentell zugängliche Beispiel maximaler
+Phasenkohärenz: alle Teilchen im selben Quantenzustand, minimale Entropie,
+maximale Ordnung.
+
+```
+BEC: alle Teilchen → selber makroskopischer Quantenzustand
+   → perfekte Phasenkohärenz
+   → T → 0 K
+```
+
+Das Frequenzgesetz interpretiert das BEC als den Zustand, in dem
+Frequenzerhaltung am direktesten sichtbar wird — nicht als Ausnahme,
+sondern als Grenzfall maximaler Kohärenz.
+
+---
+
+## 4.5 Der Kernel — Vollständige Zustandsmatrix
+
+Der **Kernel** (K) ist ein konzeptuelles Modell des vollständigen Frequenzraums:
 
 ```
 K := { f ∈ ℝ⁺ }   (alle positiven reellen Frequenzen)
 ```
 
-Da `f = 1/T`, enthält die Gesamtheit aller möglichen Frequenzen auch die **Gesamtheit aller möglichen Zeitraster**.
+Da `f = 1/T`, enthält die Gesamtheit aller möglichen Frequenzen auch
+die Gesamtheit aller möglichen Zeitraster.
 
 > Der Kernel ist kein Objekt, kein Feld, keine Energieform.
-> Er ist ein konzeptuelles Modell der vollständigen **Zustandsmatrix** aller möglichen Frequenz- und Zeitformen.
-> Jedes manifestierte System kann als **lokale Auswahl** aus dieser hypothetischen Matrix interpretiert werden.
+> Er ist die hypothetische vollständige **Zustandsmatrix** aller
+> möglichen Frequenz- und Zeitformen.
+> Jedes manifestierte System ist eine **lokale Auswahl** aus dieser Matrix.
 
 ---
 
-## 4.6 Konzept eines zyklischen Frequenzsystems
-
-Der folgende Abschnitt beschreibt ein konzeptuelles Modell — keine experimentell bestätigte kosmologische Theorie, sondern eine interpretative Darstellung möglicher Dynamiken eines frequenzbasierten Universums.
-
-```
-Kernel (Nullfeld)          ←  hypothetischer Grundzustand
-    ↓
-Licht (freie Frequenz)     ←  propagierende Frequenzmuster
-    ↓
-Masse (gebundene Frequenz) ←  stabilisierte Frequenzknoten
-    ↓
-Resonanz (kohärente Freq.) ←  synchronisierte Systeme
-    ↓
-neue Frequenzmuster f'     ←  emergente Strukturen
-    ↓
-zurück zum Kernel...
-```
-
----
-
-## 4.7 Bose-Einstein-Kondensat — Die reinste Form
-
-Das BEC ist das reinste experimentelle Beispiel maximaler Phasenkohärenz: alle Teilchen im selben Quantenzustand, minimale Entropie, maximale Ordnung.
-
-```
-BEC: alle Teilchen besetzen denselben makroskopischen Quantenzustand
-   → perfekte Phasenkohärenz
-   → maximale beobachtbare Phasenkohärenz innerhalb dieses Systems
-   → T → 0 K
-```
-
-Das Frequenzgesetz interpretiert das BEC als den Zustand, in dem Frequenzerhaltung am direktesten sichtbar wird — nicht als Ausnahme, sondern als Grenzfall maximaler Kohärenz.
-
----
-
-## 4.8 Zusammenfassung
+## 4.6 Zusammenfassung
 
 | Konzept | Klassische Physik | Frequenzgesetz (Modellinterpretation) |
 |---|---|---|
-| Erhaltungsgröße | Energie | Frequenz (ontologisch priorisiert, Modellannahme) |
-| Energieerhaltung | axiomatisch | Konsequenz aus Frequenzstruktur (Modelllesart) |
-| Temperatur | kinetische Energie | Maß für Frequenzdekohärenz (Interpretation) |
-| BEC | Quantenphänomen | maximale Phasenkohärenz (Grenzfall) |
-| Materie | Substanz | gebundene Frequenzstruktur (Interpretation) |
-| Licht | elektromagnetische Welle | freie Frequenzstruktur (Interpretation) |
-
-> *Die Gleichungen bleiben dieselben.*
-> *Die Leserichtung ändert sich.*
+| Erhaltungsgröße | Energie | Frequenz (ontologisch priorisiert) |
+| Energieerhaltung | axiomatisch | Konsequenz aus A6 |
+| Temperatur | kinetische Energie | Maß für Frequenzdekohärenz |
+| BEC | Quantenphänomen | Grenzfall maximaler Phasenkohärenz |
+| Materie | Substanz | gebundene Frequenzstruktur |
+| Licht | elektromagnetische Welle | freie Frequenzstruktur |
 
 ---
 
