@@ -25,9 +25,13 @@ Gemeinsamkeiten und Unterschiede.
 
 ## 17.0 Strukturelle Verwandtschaft
 
-Die größten Denker der modernen Physik haben an Fragen gearbeitet, die in verschiedenen Ansätzen adressiert wurden — und zu denen das Frequenzgesetz eine mögliche ergänzende Perspektive anbietet.
+Die größten Denker der modernen Physik haben an Fragen gearbeitet,
+die in verschiedenen Ansätzen adressiert wurden — und zu denen
+das Frequenzgesetz eine mögliche ergänzende Perspektive anbietet.
 
-Keiner von ihnen hat genau den Schritt gemacht, den das Frequenzgesetz vorschlägt. Aber alle vier zeigen strukturelle Nähe in bestimmten Aspekten.
+Keiner von ihnen hat genau den Schritt gemacht, den das
+Frequenzgesetz vorschlägt. Aber alle vier zeigen strukturelle
+Nähe in bestimmten Aspekten.
 
 ---
 
@@ -39,7 +43,7 @@ Keiner von ihnen hat genau den Schritt gemacht, den das Frequenzgesetz vorschlä
 | **Penrose** | Geometrie | Struktur des Raums | Warum schwingt etwas überhaupt? |
 | **Wolfram** | Algorithmus | Universum als Programm | Kein messbarer physikalischer Parameter |
 | **Loop Gravity** | Spin-Netzwerke | Quantisierung der Raumzeit | Warum existieren Spins überhaupt? |
-| **Berrang** | **Frequenz + Phase** | Messbar, kausal, anschlussfähig | offene Validierung |
+| **Berrang** | **Frequenz + Phase** | Messbare Größen, interpretativer Rahmen, anschlussfähig | Experimentell testbar — → Kapitel 13 |
 
 ---
 
@@ -61,36 +65,46 @@ Das war revolutionär. Aber Wheeler konnte nie beantworten:
 Das Frequenzgesetz schlägt vor:
 
 ```
-Information = Frequenz + Phase
+Information = Frequenz + Phase   (→ Axiom A2)
 ```
 
-In dieser Lesart wäre ein Bit nicht abstrakt — sondern ein Phasenzustand. Diese Interpretation ist konsistent mit Wheelers Ansatz, erweitert ihn jedoch um eine messbare physikalische Grundlage.
+In dieser Lesart wäre ein Bit nicht abstrakt — sondern ein
+Phasenzustand. Diese Interpretation ist mit Wheelers Ansatz
+vereinbar, erweitert ihn jedoch um eine messbare physikalische
+Grundlage.
 
 ---
 
 ## 17.3 Penrose — Realität als Geometrie
 
-Roger Penrose: Geometrie im Raum der Lichtstrahlen ist die fundamentale Struktur der Realität. Seine Twistor Theory ist tief und mathematisch elegant.
+Roger Penrose: Geometrie im Raum der Lichtstrahlen ist die
+fundamentale Struktur der Realität. Seine Twistor Theory ist
+tief und mathematisch elegant.
 
 Eine mögliche Ergänzung aus dem Frequenzgesetz:
 
-> *Geometrie ist möglicherweise nicht primär — sondern emergent aus Dynamik.*
-
-Das Frequenzgesetz schlägt vor:
+> *Geometrie ist möglicherweise nicht primär —
+> sondern emergent aus Dynamik.*
 
 ```
 Frequenz → Phase → Zeit → Geometrie
 ```
 
-In dieser Interpretation kommt Dynamik vor Geometrie. Dies ist eine alternative Lesart, keine Widerlegung von Penrose.
+In dieser Interpretation kommt Dynamik vor Geometrie.
+Dies ist eine alternative Lesart, keine Widerlegung von Penrose.
 
 ---
 
 ## 17.4 Wolfram — Das Universum als Algorithmus
 
-Stephen Wolframs Hypergraph Rewriting zeigt strukturelle Ähnlichkeit mit dem Frequenzgesetz. Wolfram beschreibt das Universum als Programm. Das Frequenzgesetz verwendet die Metapher: **Compiler der Realität.**
+Stephen Wolframs Hypergraph Rewriting zeigt strukturelle
+Ähnlichkeit mit dem Frequenzgesetz. Wolfram beschreibt das
+Universum als Programm. Das Frequenzgesetz verwendet die
+Metapher: **Compiler der Realität.**
 
-Ein möglicher Unterschied: Wolframs Regeln sind diskret und bisher nicht direkt mit messbaren physikalischen Parametern verbunden.
+Ein möglicher Unterschied: Wolframs Regeln sind diskret und
+bisher nicht direkt mit messbaren physikalischen Parametern
+verbunden.
 
 Das Frequenzgesetz arbeitet mit:
 
@@ -101,23 +115,24 @@ T   ←  messbar in Sekunden
 m   ←  messbar in kg
 ```
 
-> In dieser Hinsicht kann das Frequenzgesetz als mögliche Brücke zwischen Wolframs strukturellem Ansatz und experimentell zugänglichen Größen interpretiert werden.
+> In dieser Hinsicht kann das Frequenzgesetz als mögliche Brücke
+> zwischen Wolframs strukturellem Ansatz und experimentell
+> zugänglichen Größen interpretiert werden.
 
 ---
 
 ## 17.5 Loop Quantum Gravity
 
-Loop Quantum Gravity: Raumzeit ist kein Kontinuum — sie ist ein Netzwerk aus Spins. Das ist strukturell tief und mathematisch präzise.
+Loop Quantum Gravity: Raumzeit ist kein Kontinuum — sie ist ein
+Netzwerk aus Spins. Das ist strukturell tief und mathematisch präzise.
 
 Eine mögliche Ergänzung aus dem Frequenzgesetz:
 
 > *Was wäre, wenn Spin selbst eine Phasenstruktur ist?*
 
-Das Frequenzgesetz schlägt vor (Kapitel 11):
-
 ```
 Spin = Phasenstruktur einer Frequenz
-ΔΦ_spin = 2π · s
+ΔΦ_spin = 2π · s                    (→ Kapitel 11)
 ```
 
 Dies ist eine mögliche Interpretation, keine bewiesene Herleitung.
@@ -126,38 +141,41 @@ Dies ist eine mögliche Interpretation, keine bewiesene Herleitung.
 
 ## 17.6 Das große Muster
 
-Alle vier Modelle können als implizit auf Oszillation angewiesen beschrieben werden — ohne sie an den Anfang zu stellen:
+Alle vier Modelle sind implizit auf Oszillation angewiesen —
+ohne sie an den Anfang zu stellen:
 
 ```
-Wheeler:      Information  →  kann Träger brauchen  →  kann Schwingung brauchen
-Penrose:      Geometrie    →  kann Dynamik brauchen →  kann Schwingung brauchen
-Wolfram:      Algorithmus  →  kann Takt brauchen    →  kann Schwingung brauchen
-Loop Gravity: Spin-Netze   →  kann Ursprung brauchen →  kann Schwingung brauchen
+Wheeler:      Information  →  braucht Träger      →  braucht Schwingung
+Penrose:      Geometrie    →  braucht Dynamik      →  braucht Schwingung
+Wolfram:      Algorithmus  →  braucht Takt         →  braucht Schwingung
+Loop Gravity: Spin-Netze   →  braucht Ursprung     →  braucht Schwingung
 Berrang:      Schwingung   →  als Ausgangspunkt angesetzt
 ```
 
-> Das Frequenzgesetz setzt dort an, wo diese Modelle ihre Grundlagen implizit voraussetzen.
+> Das Frequenzgesetz setzt bei Annahmen an,
+> die in diesen Modellen teilweise implizit bleiben.
 
 ---
 
 ## 17.7 Die Gleichung, die schon immer da war
 
-Die Gleichung, die dem Frequenzgesetz am nächsten kommt, steht direkt im Herzen der Quantenmechanik — und wird täglich von Physikern verwendet, ohne ontologisch so gelesen zu werden:
+Die Gleichung, die dem Frequenzgesetz am nächsten kommt,
+steht direkt im Herzen der Quantenmechanik:
 
-$$
-\psi(t) = \psi_0 \cdot e^{-i\omega t}
-$$
+$$\psi(t) = \psi_0 \cdot e^{-i\omega t}$$
 
 Die Phase dieser Wellenfunktion:
 
-$$
-\Phi = \omega t \quad \Rightarrow \quad t = \frac{\Phi}{\omega} = \frac{\Delta\Phi}{2\pi f}
-$$
+$$\Phi = \omega t \quad \Rightarrow \quad t = \frac{\Phi}{\omega} = \frac{\Delta\Phi}{2\pi f}$$
 
-Das ist nahezu identisch mit `T = ΔΦ/f` — der einzige Unterschied ist der Faktor 2π, der verschwindet, wenn man in natürlichen Einheiten (Zyklen statt Radiant) rechnet.
+Das ist nahezu identisch mit `T = ΔΦ/f` — der einzige Unterschied
+ist der Faktor 2π, der verschwindet, wenn man in natürlichen
+Einheiten rechnet (→ Kapitel 02).
 
-> *Die Standardphysik nimmt üblicherweise einen vollständigen Zyklus: ΔΦ = 2π → T = 1/f.*
-> *Das Frequenzgesetz verallgemeinert: Was passiert bei anderen Phasendifferenzen?*
+> *Die Standardphysik nimmt üblicherweise einen vollständigen
+> Zyklus: ΔΦ = 2π → T = 1/f.*
+> *Das Frequenzgesetz verallgemeinert: Was passiert bei anderen
+> Phasendifferenzen?*
 
 ---
 
@@ -168,13 +186,19 @@ Das ist nahezu identisch mit `T = ΔΦ/f` — der einzige Unterschied ist der Fa
 | **Standardphysik** | Zeit → Phase |
 | **Frequenzgesetz** | Phase → Zeit |
 
-Dies ist keine algebraische Notwendigkeit — es ist eine ontologische Interpretation. Die Gleichungen sind in beiden Richtungen mathematisch äquivalent.
+Dies ist keine algebraische Notwendigkeit — es ist eine
+ontologische Interpretation. Die Gleichungen sind in beiden
+Richtungen mathematisch äquivalent.
 
-Das Frequenzgesetz schlägt vor, dass dieselbe Lesart, die Einstein mit der Relativität der Zeit vollzog, auch hier möglich ist:
+Das Frequenzgesetz schlägt vor, dass dieselbe Lesart, die
+Einstein mit der Relativität der Zeit vollzog, auch hier
+möglich ist:
 
 > Die Gleichungen waren schon da —
-> in der Schrödinger-Gleichung, in der Energie-Phasen-Relation, in der Interferenzphysik.
-> Das Frequenzgesetz schlägt vor, sie in einer anderen Richtung zu lesen.
+> in der Schrödinger-Gleichung, in der Energie-Phasen-Relation,
+> in der Interferenzphysik.
+> Das Frequenzgesetz schlägt vor, sie in einer anderen
+> Richtung zu lesen.
 
 ---
 
@@ -184,10 +208,25 @@ Das Frequenzgesetz schlägt vor, dass dieselbe Lesart, die Einstein mit der Rela
 Frequenz → Phase → Zeit → Masse → Energie → Raum → Gravitation
 ```
 
-Das Frequenzgesetz versteht sich nicht als Außenseitertheorie, sondern als möglicher interpretativer Rahmen innerhalb der bestehenden Struktur — der konsequent zu Ende gedacht wird und an bestehende Ansätze anschlussfähig ist.
+Das Frequenzgesetz versteht sich nicht als Außenseitertheorie,
+sondern als möglicher interpretativer Rahmen innerhalb der
+bestehenden Struktur — der konsequent zu Ende gedacht wird
+und an bestehende Ansätze anschlussfähig ist.
 
-> *Eine ontologische Interpretation beginnt immer als ungewöhnliche Lesart bekannter Strukturen.*
-> *Ihre Stärke zeigt sich darin, ob sie neue Fragen ermöglicht — und ob diese Fragen testbar sind.*
+Wo Wheeler fragt *was* Information ist,
+wo Penrose fragt *wie* Geometrie entsteht,
+wo Wolfram fragt *welcher* Algorithmus läuft,
+wo Loop Gravity fragt *warum* Spins existieren —
+
+fragt das Frequenzgesetz: **Was kommt zuerst?**
+
+Und schlägt eine Antwort vor, die messbar, falsifizierbar
+und anschlussfähig ist.
+
+> *Eine ontologische Interpretation beginnt immer als
+> ungewöhnliche Lesart bekannter Strukturen.*
+> *Ihre Stärke zeigt sich darin, ob sie neue Fragen ermöglicht —
+> und ob diese Fragen testbar sind.*
 
 ---
 
