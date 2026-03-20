@@ -10,37 +10,33 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 08
 
-Kapitel 08 dekodierte die Meisterformeln der Physik — darunter
-die Gravitationskonstante G als mögliches Maß für
-Phasensynchronisation zwischen Frequenzknoten. Diese
-Interpretation blieb dort noch skizzenhaft.
+Kapitel 08 dekodierte die Meisterformeln der Physik — darunter G als mögliches
+Maß für Phasenkopplung zwischen Frequenzknoten. Diese Andeutung wird hier
+vollständig entwickelt.
 
-Kapitel 09 entwickelt sie vollständig: Was bedeutet es,
-Gravitation als Phasensynchronisation zu verstehen? Was folgt
-daraus für Schwarze Löcher, Dunkle Materie und die Frage
-nach Antigravitation?
+Kapitel 09 beantwortet: Was bedeutet es konkret, Gravitation als
+Phasensynchronisation zu verstehen? Was folgt daraus für Schwarze Löcher,
+Dunkle Materie und die Frage nach Antigravitation?
 
 ---
 
-## 9.0 Gravitation neu lesen
+## 9.0 Drei Beschreibungen — eine Physik
 
 Newton: Gravitation ist Kraft.
 Einstein: Gravitation ist Raumzeitkrümmung.
 **Frequenzgesetz: Gravitation kann als Phasensynchronisation interpretiert werden.**
 
-Alle drei Beschreibungen sind konsistent innerhalb ihrer jeweiligen theoretischen Rahmen. Die mathematische Beschreibung hat sich verändert — die beobachtbaren Effekte nicht.
-
-Das Frequenzgesetz schlägt eine mögliche kausale Lesart vor, warum Einsteins geometrische Beschreibung der Gravitation funktioniert — ohne sie zu ersetzen.
-
-Diese Interpretation erhebt keinen Anspruch darauf, die zugrunde liegende Dynamik vollständig zu erklären — sie schlägt eine konsistente Lesart vor, die bekannte Effekte in einen gemeinsamen Zusammenhang bringt.
-
-> Im Rahmen dieser Interpretation können Phasenübergänge als Prozesse von höherer zu niedrigerer lokaler Frequenz beschrieben werden — eine Richtung, die möglicherweise bereits implizit in der bekannten Physik angelegt ist.
+Alle drei Beschreibungen sind konsistent innerhalb ihrer jeweiligen Rahmen.
+Das Frequenzgesetz schlägt eine mögliche kausale Lesart vor, warum Einsteins
+geometrische Beschreibung funktioniert — ohne sie zu ersetzen.
 
 ---
 
 ## 9.1 Die Interpretation
 
-Massen können als Zentren interpretiert werden, an denen sich Phasenstrukturen synchronisieren. Diese Synchronisation kann als scheinbare „Anziehungskraft" verstanden werden. Im Rahmen dieser Interpretation kann die Richtung der Synchronisation als Prozess von höherer zu niedrigerer lokaler Frequenz beschrieben werden.
+Massen können als Zentren interpretiert werden, an denen sich Phasenstrukturen
+synchronisieren. Diese Synchronisation erzeugt die scheinbare „Anziehungskraft".
+Im Frequenzrahmen verläuft sie von höherer zu niedrigerer lokaler Frequenz:
 
 ```
 Hohe Frequenz (freier Raum)
@@ -50,100 +46,99 @@ Niedrigere Frequenz (in Massenähe)
 Minimale Frequenz (im Zentrum massereicher Objekte)
 ```
 
-> Im Rahmen des Frequenzgesetzes kann Gravitation als eine Form kollektiver
-> Phasensynchronisation interpretiert werden — kompatibel mit newtonscher
-> und relativistischer Beschreibung.
+> Im Frequenzgesetz ist Gravitation keine Kraft und keine Krümmung —
+> sie ist kollektive Phasensynchronisation.
 
 ---
 
-## 9.2 Gravitationsrotverschiebung — eine mögliche Lesart
+## 9.2 Gravitationsrotverschiebung
 
 ```
 Δf/f = -GM/(rc²)
 ```
 
-**Klassisch:** Die Formel ist bekannt, ihre tiefere ontologische Ursache wird unterschiedlich interpretiert.
-
-**Frequenzgesetz:** Die Nähe zu Masse kann als Verringerung der lokal beobachteten Frequenz interpretiert werden. Eine niedrigere lokale Frequenz kann als Ursache des rotverschobenen Lichts gelesen werden — das Licht kommt aus einer Region, in der der Phasenfortschritt verlangsamt erscheint.
+Die Nähe zu Masse verringert die lokal beobachtete Frequenz.
+Eine niedrigere lokale Frequenz bedeutet verlangsamter Phasenfortschritt —
+und damit nach T = ΔΦ/f (→ Axiom A3) verlangsamte Zeit.
 
 ```
-Mehr Masse → stärkere Phasensynchronisation (Interpretation)
+Mehr Masse → stärkere Phasensynchronisation
            → niedrigere lokale Frequenz
            → rotverschobenes Licht
+           → langsamer laufende Uhren
 ```
 
----
+Diese Lesart ist kompatibel mit der relativistischen Zeitdilatation.
+Sie ersetzt sie nicht — sie gibt ihr eine kausale Sprache.
 
-## 9.2.1 Erweiterung (Interpretation): Gravitationswellen
+### Gravitationswellen (Erweiterung)
 
-In dieser Lesart könnten Gravitationswellen als propagierende Störungen der Phasenstruktur interpretiert werden.
-
-Die in der Allgemeinen Relativitätstheorie beschriebenen Metrikfluktuationen würden dabei einer Dynamik entsprechen, in der sich lokale Phasenbeziehungen im Frequenzfeld verändern und mit endlicher Geschwindigkeit ausbreiten.
-
-Dies stellt keine neue physikalische Beschreibung dar, sondern eine alternative Lesart bereits beobachteter Effekte.
+In dieser Lesart sind Gravitationswellen propagierende Störungen der
+Phasenstruktur — Metrikfluktuationen entsprechen lokalen Phasenbeziehungen,
+die sich mit endlicher Geschwindigkeit ausbreiten. Das ist keine neue
+physikalische Beschreibung, sondern eine alternative Lesart bereits
+beobachteter Effekte.
 
 ---
 
 ## 9.3 Schwarze Löcher — ein Grenzfall
 
-Im Frequenzgesetz kann jeder Phasenübergang als Prozess von höherer zu niedrigerer Frequenz beschrieben werden. Ein Schwarzes Loch kann als Extremfall dieses Prozesses interpretiert werden:
+Ein Schwarzes Loch ist im Frequenzgesetz kein physikalisches „Loch",
+sondern ein Grenzzustand extremer Phasensynchronisation:
 
 ```
-Schwarzes Loch: f_lokal → sehr klein (Grenzfall)   →   T = ΔΦ/f → sehr groß
+Freier Raum      → hohe lokale Frequenz     → normale Zeit
+Massenähe        → niedrigere Frequenz       → langsamere Zeit
+Ereignishorizont → f → sehr klein            → T → sehr groß
+Zentrum          → Grenzfall minimaler Frequenz
 ```
-
-Für einen externen Beobachter erscheint der Phasenfortschritt asymptotisch verlangsamt. Das ist im Frequenzgesetz kein physikalisches „Loch" — es kann als Grenzzustand interpretiert werden, in dem der Phasenfortschritt extrem reduziert erscheint.
-
-```
-Freier Raum      → hohe lokale Frequenz        → normale Zeit
-Massenähe        → niedrigere Frequenz          → langsamere Zeit
-Ereignishorizont → f → sehr klein               → T → sehr groß
-Zentrum (SL)     → Grenzfall minimaler Frequenz → asymptotisch reduzierter Phasenfortschritt
-```
-
-**Konzeptuelle Konsequenzen dieser Interpretation:**
 
 | Problem | Frequenzgesetz-Lesart |
 |---|---|
-| Informationsparadoxon | Information kann als Phasenstruktur interpretiert werden |
-| Hawking-Strahlung | Quantenfluktuationen am Phasenminimum (Interpretation) |
-| Physikalische Singularität | Nicht notwendig — Zustand minimal reduzierter Frequenz |
-| Kompatibilität mit ART | bleibt innerhalb dieser Lesart erhalten |
+| Informationsparadoxon | Information als Phasenstruktur interpretierbar |
+| Hawking-Strahlung | Quantenfluktuationen am Phasenminimum |
+| Physikalische Singularität | Nicht notwendig — Grenzzustand minimaler Frequenz |
+| Kompatibilität mit ART | Bleibt erhalten |
 
-*Diese Interpretation ist konzeptuell kohärent mit bekannter Schwarzloch-Physik — sie ist noch keine vollständig ausgearbeitete Theorie.*
+*Diese Interpretation ist konzeptuell kohärent mit bekannter Schwarzloch-Physik —
+noch keine vollständig ausgearbeitete Theorie.*
 
 ---
 
-## 9.4 Dunkle Materie — eine mögliche Interpretation
+## 9.4 Dunkle Materie — eine Hypothese
 
-**Hypothese:** Dunkle Materie könnte — eine mögliche Interpretation innerhalb dieses Rahmens — aus Frequenzstrukturen bestehen, die nicht in klassische Massezustände kompiliert sind.
+**Hypothese:** Dunkle Materie könnte aus Frequenzstrukturen bestehen,
+die nicht in klassische Massezustände kompiliert sind.
 
 ```
-Dunkle Materie (Hypothese):
 Frequenzstrukturen ohne klassische Masse-Kompilierung
-→ Gravitationseffekte durch Phasensynchronisation (Interpretation)
+→ Gravitationseffekte durch Phasensynchronisation
 → ohne messbare Ruhemasse
 ```
 
-Falls Frequenzstrukturen Gravitationseffekte durch Phasensynchronisation erzeugen können, ohne klassisch messbare Masse zu besitzen, wäre das eine mögliche Lesart für die beobachteten gravitativen Effekte ohne sichtbare Materie.
+Falls Frequenzstrukturen Gravitationseffekte erzeugen können ohne klassisch
+messbare Masse zu besitzen, wäre das eine mögliche Lesart für die beobachteten
+gravitativen Effekte ohne sichtbare Materie.
 
-> ⚠️ **Status: Spekulativ.** Dies ist eine aus dem Frequenzrahmen abgeleitete Hypothese — keine experimentell bestätigte Theorie.
+> ⚠️ **Status: Spekulativ.** Aus dem Frequenzrahmen abgeleitete Hypothese —
+> keine experimentell bestätigte Theorie.
 
 ---
 
-## 9.5 Antigravitation — rein konzeptuell
+## 9.5 Antigravitation — konzeptuell
 
 ```
-Antigravitation (Hypothese):
+Hypothese:
 ΔΦ gezielt desynchronisieren
-→ Phasenbindung auflösen (Interpretation)
-→ Gravitationskopplung reduzieren (Interpretation)
+→ Phasenbindung auflösen
+→ Gravitationskopplung reduzieren
 ```
 
-Falls Gravitation tatsächlich mit Phasensynchronisation zusammenhängt und diese von hoher zu niedriger Frequenz beschreibbar ist, könnte eine gezielte Desynchronisation hypothetisch zu einer Reduktion gravitativer Kopplung führen.
+Falls Gravitation tatsächlich mit Phasensynchronisation zusammenhängt,
+könnte eine gezielte Desynchronisation hypothetisch zu reduzierter
+gravitativer Kopplung führen.
 
 > ⚠️ **Derzeit rein konzeptuell — keine experimentelle Grundlage.**
-> Konzeptuell motiviert. Experimentelle Validierung ausstehend.
 
 ---
 
@@ -151,15 +146,13 @@ Falls Gravitation tatsächlich mit Phasensynchronisation zusammenhängt und dies
 
 | Konzept | Newton | Einstein | Frequenzgesetz |
 |---|---|---|---|
-| Gravitation | Kraft zwischen Massen | Raumzeitkrümmung | Phasensynchronisation (Interpretation) |
+| Gravitation | Kraft zwischen Massen | Raumzeitkrümmung | Phasensynchronisation |
 | Zeitdilatation | — | Geometrie der Raumzeit | T = ΔΦ/f, f lokal reduziert |
-| Schwarzes Loch | Entweichgeschwindigkeit = c | Singularität | Grenzfall minimaler Frequenz |
+| Schwarzes Loch | Entweichgeschwindigkeit = c | Singularität | Grenzzustand minimaler Frequenz |
 | Dunkle Materie | unbekannte Masse | unbekannte Masse | Frequenzstruktur ohne Massekompilierung (Hypothese) |
 
-Das Frequenzgesetz schlägt nicht vor, Gravitation anders zu berechnen — sondern anders zu lesen.
-
-> *Die Gleichungen bleiben dieselben.*
-> *Die Leserichtung ändert sich.*
+Das Frequenzgesetz schlägt nicht vor, Gravitation anders zu berechnen —
+sondern anders zu lesen.
 
 ---
 
