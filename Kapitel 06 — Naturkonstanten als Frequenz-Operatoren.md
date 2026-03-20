@@ -10,47 +10,41 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 05
 
-Kapitel 05 zeigte, wie Newton, Einstein und die Quantenmechanik
-im Rahmen des Frequenzgesetzes als Spezialfälle interpretiert
-werden können. In jeder dieser Theorien tauchen dieselben
-Naturkonstanten auf — h, c, G, α, k_B.
+Kapitel 05 zeigte, wie Newton, Einstein und die Quantenmechanik im Rahmen des
+Frequenzgesetzes als Spezialfälle interpretiert werden können. In jeder dieser
+Theorien tauchen dieselben Naturkonstanten auf — h, c, G, α, k_B.
 
-Was sind diese Konstanten eigentlich? In der klassischen Physik
-erscheinen sie als gegebene Zahlen ohne tiefere Erklärung.
-Das Frequenzgesetz schlägt eine alternative Lesart vor:
-Naturkonstanten sind Übersetzungsparameter — sie projizieren
-reine Frequenz in die sichtbare, messbare Realität.
+Was sind diese Konstanten? In der klassischen Physik erscheinen sie als gegebene
+Zahlen ohne tiefere Erklärung. Das Frequenzgesetz schlägt eine alternative Lesart
+vor: Naturkonstanten sind **Übersetzungsparameter** — sie projizieren Frequenz
+in die sichtbare, messbare Realität.
 
 ---
 
-## 6.0 Naturkonstanten als strukturelle Parameter
-
-*Die folgende Darstellung versteht sich als interpretativer Rahmen und ersetzt keine etablierte physikalische Theorie.*
-
-Im Frequenzgesetz können Naturkonstanten als **Übersetzungsparameter** interpretiert werden — als Skalenparameter, durch die Frequenz in messbare Größen übersetzt wird: in Energie, Raum, Masse, Kopplung, Temperatur und Gravitation.
+## 6.0 Naturkonstanten als strukturelle Brücken
 
 | Konstante | Klassische Rolle | Frequenzgesetz-Rolle |
 |---|---|---|
-| **h** | Energiequant | Frequenz → Energie |
+| **h** | Energiequant | Frequenz → Energie (→ A4) |
 | **c** | Geschwindigkeitslimit | Frequenz → Raum |
-| **h/c²** | Masse-Energie-Äquivalenz | Frequenz → Stabilität (Masse) |
+| **h/c²** | Masse-Energie-Äquivalenz | Frequenz → Masse (→ A5) |
 | **α ≈ 1/137** | EM-Kopplung | Frequenz → Kohärenzstärke |
-| **k_B** | Wärme-Energie | Frequenzverteilung → Temperatur |
-| **G** | Gravitationskraft | Phasensynchronisation → Krümmung |
-
-> Im Rahmen des Frequenzgesetzes können diese Konstanten als Übersetzungsparameter desselben zugrundeliegenden Frequenzfeldes interpretiert werden.
+| **k_B** | Wärme-Energie | Frequenzverteilung → Temperatur (→ Kapitel 04) |
+| **G** | Gravitationskraft | Phasensynchronisation → Krümmung (→ Kapitel 09) |
 
 ---
 
 ## 6.1 Planck-Konstante h — Der Energie-Übersetzungsparameter
 
 ```
-E = h · f
+E = h · f   (→ Axiom A4)
 ```
 
-h ist der Proportionalitätsfaktor, der Frequenz mit Energie verknüpft. Ohne h gäbe es Energie nicht als messbare Größe — nur Schwingung.
+h ist der Proportionalitätsfaktor, der Frequenz mit Energie verknüpft.
+Ohne h gäbe es Energie nicht als messbare Größe — nur Schwingung.
 
-Die Planck-Konstante ist damit nicht der Ursprung der Quantisierung, sondern ihr Maßstab: der Faktor, der bestimmt, wie viel Energie einer gegebenen Frequenz entspricht.
+h ist nicht der Ursprung der Quantisierung, sondern ihr Maßstab: der Faktor,
+der bestimmt, wie viel Energie einer gegebenen Frequenz entspricht.
 
 ```
 h = 6.626 × 10⁻³⁴ J·s
@@ -64,7 +58,9 @@ h = 6.626 × 10⁻³⁴ J·s
 λ = c / f   →   c = λ · f
 ```
 
-c beschreibt die maximale Ausbreitungsgeschwindigkeit physikalischer Wechselwirkungen im Vakuum. Im Frequenzgesetz kann dies als strukturelle Eigenschaft der Ausbreitung von Frequenzmustern interpretiert werden.
+c beschreibt die maximale Ausbreitungsgeschwindigkeit physikalischer
+Wechselwirkungen im Vakuum. Im Frequenzgesetz ist dies eine strukturelle
+Eigenschaft der Ausbreitung von Frequenzmustern.
 
 ```
 c = 2.998 × 10⁸ m/s
@@ -78,75 +74,72 @@ c = 2.998 × 10⁸ m/s
 α = e² / (4πε₀ħc) ≈ 1/137.036
 ```
 
-α beschreibt die **natürliche Kopplungsstärke** des elektromagnetischen Frequenzfeldes — wie stark elektromagnetische Wechselwirkungen im Vergleich zur reinen Frequenzstruktur koppeln.
+α beschreibt die natürliche Kopplungsstärke des elektromagnetischen
+Frequenzfeldes — wie stark elektromagnetische Wechselwirkungen im Vergleich
+zur reinen Frequenzstruktur koppeln.
 
-Warum genau 1/137? Das ist eine der offenen Fragen des Frequenzgesetzes. Eine tiefere Herleitung von α aus Frequenzprinzipien ist noch ausstehend — sie bleibt eine der zentralen offenen Forschungsfragen (siehe Kapitel 12).
+Warum genau 1/137? Das ist eine der offenen Fragen des Frequenzgesetzes.
+Eine tiefere Herleitung von α aus Frequenzprinzipien ist noch ausstehend
+(→ Kapitel 13, offene Testfragen).
 
 ---
 
 ## 6.4 Gravitationskonstante G — Die Phasensynchronisation
 
-G beschreibt die Kopplungsstärke gravitativer Wechselwirkungen.
-
-Im Rahmen des Frequenzgesetzes kann Gravitation als kollektive Phasenstruktur interpretiert werden, ohne die etablierte Beschreibung durch Newton oder Einstein zu ersetzen.
-
 ```
 G = 6.674 × 10⁻¹¹ Nm²/kg²
 ```
 
-Kapitel 08 entwickelt Gravitation als Phasensynchronisation vollständig.
+G beschreibt die Kopplungsstärke gravitativer Wechselwirkungen.
+Im Frequenzgesetz kann Gravitation als kollektive Phasenstruktur interpretiert
+werden. Kapitel 09 entwickelt diese Interpretation vollständig.
 
 ---
 
 ## 6.5 Boltzmann-Konstante k_B — Der Wärme-Übersetzungsparameter
 
-k_B verbindet Temperatur mit der mittleren Energieverteilung eines Systems.
-
-Im Frequenzgesetz kann diese Energieverteilung als Verteilung von Frequenzzuständen interpretiert werden: Ein kohärentes System zeigt geordnete Frequenzverteilung, ein thermisch ungeordnetes System zeigt dekohärente Frequenzverteilung.
-
 ```
 k_B = 1.380 × 10⁻²³ J/K
 ```
+
+k_B verbindet Temperatur mit der mittleren Energieverteilung eines Systems.
+Im Frequenzgesetz entspricht diese Energieverteilung einer Verteilung von
+Frequenzzuständen: kohärente Systeme zeigen geordnete, thermisch ungeordnete
+Systeme dekohärente Frequenzverteilung (→ Kapitel 04.3).
 
 ---
 
 ## 6.6 Die Konstanten als System
 
-Zusammen bilden die fünf Übersetzungsparameter ein vollständiges Beschreibungssystem:
+Zusammen bilden die fünf Übersetzungsparameter ein vollständiges
+Beschreibungssystem. Alle setzen Frequenz als Eingabe voraus:
 
 ```
 Frequenz (f)
     │
-    ├─── × h      →  Energie E = hf
-    │
-    ├─── / c      →  Wellenlänge λ = c/f
-    │
-    ├─── × h/c²   →  Masse m = hf/c²
-    │
+    ├─── × h      →  Energie  E = hf
+    ├─── / c      →  Wellenlänge  λ = c/f
+    ├─── × h/c²   →  Masse  m = hf/c²
     ├─── × α      →  EM-Kopplungsstärke
-    │
-    ├─── × k_B    →  Temperatur T ∝ hf/k_B
-    │
-    └─── G        →  bestimmt die Stärke gravitativer Wechselwirkungen
+    ├─── × k_B    →  Temperatur  T ∝ hf/k_B
+    └─── G        →  Stärke gravitativer Wechselwirkungen
 ```
 
-> Die Naturkonstanten können in diesem Rahmen als Übersetzungsparameter interpretiert werden —
-> als strukturelle Brücken zwischen Frequenz und messbarer Realität.
+> Die Naturkonstanten können in diesem Rahmen als Übersetzungsparameter
+> interpretiert werden — als strukturelle Brücken zwischen Frequenz
+> und messbarer Realität.
 
 ---
 
 ## 6.7 Zusammenfassung
 
-| Konstante | Wert | Frequenzgesetz-Rolle |
-|---|---|---|
-| h | 6.626×10⁻³⁴ J·s | Energie-Übersetzungsparameter |
-| c | 2.998×10⁸ m/s | Raum-Übersetzungsparameter |
-| α | ≈ 1/137 | Kopplungsstärke (offen) |
-| G | 6.674×10⁻¹¹ Nm²/kg² | Phasensynchronisation (Interpretation) |
-| k_B | 1.380×10⁻²³ J/K | Wärme-Frequenz-Übersetzungsparameter |
-
-> *Die Gleichungen bleiben dieselben.*
-> *Die Leserichtung ändert sich.*
+| Konstante | Wert | Frequenzgesetz-Rolle | Vertiefung |
+|---|---|---|---|
+| h | 6.626×10⁻³⁴ J·s | Energie-Übersetzung | A4 |
+| c | 2.998×10⁸ m/s | Raum-Übersetzung | Kap. 08 |
+| α | ≈ 1/137 | Kopplungsstärke (offen) | Kap. 13 |
+| G | 6.674×10⁻¹¹ Nm²/kg² | Phasensynchronisation | Kap. 09 |
+| k_B | 1.380×10⁻²³ J/K | Wärme-Frequenz-Übersetzung | Kap. 04 |
 
 ---
 
