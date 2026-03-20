@@ -10,39 +10,53 @@ DOI: 10.5281/zenodo.17874830
 
 ## Übergang aus Kapitel 02
 
-Kapitel 02 zeigte, wie Zeit als normalisierter Phasenfortschritt interpretiert werden kann — hergeleitet aus der Phasenentwicklung der Wellenfunktion. Diese Interpretation ist keine isolierte Beobachtung. Sie ist Teil einer konsistenten axiomatischen Struktur.
+Kapitel 02 zeigte, wie Zeit als normalisierter Phasenfortschritt interpretiert werden
+kann — hergeleitet aus der Phasenentwicklung der Wellenfunktion. Diese Interpretation
+ist keine isolierte Beobachtung. Sie ist Teil einer konsistenten axiomatischen Struktur.
 
-Kapitel 03 legt diese Struktur offen: die sieben Arbeitsaxiome des Frequenzgesetzes, ihre logische Reihenfolge und ihre mathematischen Konsequenzen.
+Kapitel 03 legt diese Struktur offen: die sieben Arbeitsaxiome des Frequenzgesetzes,
+ihre logische Reihenfolge und ihre mathematischen Konsequenzen.
+
+**Wichtig:** Die Axiome werden im gesamten Werk nur hier vollständig formuliert.
+Alle folgenden Kapitel verweisen bei Bedarf auf diese Definitionen.
 
 ---
 
 ## 3.0 Zweck dieses Kapitels
 
-Dieses Kapitel definiert das axiomatische Fundament des Frequenzgesetzes. Es formuliert ein minimales, konsistentes **Arbeitsaxiomensystem**, aus dem die zentralen Beziehungen des Frameworks ableitbar sind.
+Dieses Kapitel definiert das axiomatische Fundament des Frequenzgesetzes. Es
+formuliert ein minimales, konsistentes **Arbeitsaxiomensystem**, aus dem die
+zentralen Beziehungen des Frameworks ableitbar sind.
 
-**Ziel:** Nicht eine alternative Physik, sondern eine alternative ontologische Leseordnung bekannter Gleichungen — mit Frequenz als primärer Größe.
+**Ziel:** Nicht eine alternative Physik, sondern eine alternative ontologische
+Leseordnung bekannter Gleichungen — mit Frequenz als primärer Größe.
 
 ---
 
-## 3.1 Die Arbeitsaxiome
+## 3.1 Die ontologische Progression
 
-Die folgenden sieben Arbeitsaxiome bzw. Grundannahmen des Frequenzgesetzes sind konzeptuelle Ausgangspunkte des Modells. Sie erheben keinen Anspruch auf absolute Wahrheit — sie sind die gewählte ontologische Basis dieses Rahmens.
-
-Die Axiome folgen einer klaren ontologischen Progression:
+Die sieben Axiome folgen einer klaren kausalen Abfolge:
 
 ```
 Nullfeld → Frequenz → Phase → Zeit → Energie → Masse → Erhaltung
 ```
 
+Dies ist die einzige Stelle im Werk, an der diese Axiome vollständig ausformuliert
+werden. Alle nachfolgenden Kapitel referenzieren sie mit der jeweiligen Axiom-ID
+(A0–A6).
+
 ---
 
-### Axiom 0 — Das Nullfeld
+## 3.2 Die sieben Arbeitsaxiome
+
+### Axiom A0 — Das Nullfeld
 
 ```
 ℕ := {ΔΦ = 0}
 ```
 
-Der hypothetische Grundzustand ohne Phasendifferenzierung. Kein messbarer Unterschied, keine Frequenz, keine Zeit, keine Masse.
+Der hypothetische Grundzustand ohne Phasendifferenzierung.
+Keine Frequenz, keine Zeit, keine Masse — reines unmanifestiertes Potenzial.
 
 | Eigenschaft | Nullfeld |
 |---|---|
@@ -53,41 +67,32 @@ Der hypothetische Grundzustand ohne Phasendifferenzierung. Kein messbarer Unters
 
 ---
 
-### Axiom 1 — Frequenz wird als primäre Größe angesetzt
+### Axiom A1 — Frequenz ist primär
 
 ```
 f  [Hz = 1/s]  ←  primär
 ```
 
-Alle weiteren Größen — Phase, Zeit, Energie und Masse — werden im Rahmen dieses Modells in einer von Frequenz ausgehenden ontologischen Ordnung interpretiert.
-
-**Dimensionsanalyse:**
-```
-[f] = [1/s] = Hz  ✓
-```
+Alle weiteren Größen folgen in einer von Frequenz ausgehenden ontologischen Ordnung.
+Frequenz ist Ursache — Energie ist Wirkung. Nie umgekehrt.
 
 ---
 
-### Axiom 2 — Phase und Information
+### Axiom A2 — Phase und Information
 
 ```
 ΔΦ = 0  →  keine Information  →  Nullfeld
 ΔΦ ≠ 0  →  erste Unterscheidung  →  definierte Struktur wird möglich
 ```
 
-Information entsteht durch Unterscheidung. Die kleinste mögliche Unterscheidung ist `ΔΦ > 0`.
-
-```
-I ~ ΔΦ  (symbolische Beziehung, keine dimensionsvollständige physikalische Gleichung)
-```
+Die kleinste mögliche Unterscheidung ist `ΔΦ > 0`. Sie ist der Ursprung
+jeder physikalischen Struktur.
 
 ---
 
-### Axiom 3 — Zeit ist emergent
+### Axiom A3 — Zeit ist emergent
 
-$$
-\boxed{T = \frac{\Delta\Phi}{f}}
-$$
+$$\boxed{T = \frac{\Delta\Phi}{f}}$$
 
 | Variable | Einheit | Beschreibung |
 |---|---|---|
@@ -95,131 +100,104 @@ $$
 | ΔΦ | Zyklen | Phasendifferenz |
 | f | Hz | Frequenz |
 
-**Grenzfälle:**
+Der klassische Ausdruck `T = 1/f` ist der Spezialfall `ΔΦ = 1 Zyklus`.
+Das Frequenzgesetz verallgemeinert auf beliebige Phasenfortschritte.
 
 | Bedingung | Folge | Bedeutung |
 |---|---|---|
-| `ΔΦ = 1 Zyklus` | `T = 1/f` | Klassische Periodendauer — Spezialfall |
+| `ΔΦ = 1 Zyklus` | `T = 1/f` | Klassische Periodendauer |
 | `ΔΦ = 0` | `T = 0` | Kein Zeitintervall |
 | `f → 0` | `T → ∞` | Keine operative Grundlage für Zeitmessung |
 
-> Der klassische Ausdruck `T = 1/f` ist der Spezialfall `ΔΦ = 1 Zyklus` — ein vollständiger Zyklus. Das Frequenzgesetz verallgemeinert auf beliebige Phasenfortschritte.
-
 ---
 
-### Axiom 4 — Energie ist abgeleitet
+### Axiom A4 — Energie ist abgeleitet
 
 ```
 E = h · f
 ```
 
-| Variable | Einheit | Beschreibung |
-|---|---|---|
-| E | J | Energie (abgeleitet) |
-| h | 6.626×10⁻³⁴ J·s | Planck-Konstante |
-| f | Hz | Frequenz (primär) |
-
-`h` ist der Konversionsfaktor zwischen Frequenzstruktur und messbarer Energie. Im Rahmen dieser Interpretation wird Frequenz ontologisch priorisiert, während Energie als quantitative physikalische Ausprägung erscheint.
+`h` ist der Konversionsfaktor zwischen Frequenzstruktur und messbarer Energie.
+Frequenz wird ontologisch priorisiert; Energie ist ihre quantitative Ausprägung.
 
 ---
 
-### Axiom 5 — Masse ist gebundene Frequenz
+### Axiom A5 — Masse ist gebundene Frequenz
 
-$$
-m = \frac{h \cdot f}{c^2}
-$$
+$$m = \frac{h \cdot f}{c^2}$$
 
-| Variable | Einheit | Beschreibung |
-|---|---|---|
-| m | kg | Masse (abgeleitet) |
-| h | 6.626×10⁻³⁴ J·s | Planck-Konstante |
-| f | Hz | Compton-Frequenz des Teilchens |
-| c | 2.998×10⁸ m/s | Lichtgeschwindigkeit |
+Diese Gleichung entspricht der **Compton-Frequenz-Beziehung** der Quantenmechanik.
+Das Frequenzgesetz liest sie kausal gerichtet: Masse ist aus Frequenz abgeleitet,
+nicht umgekehrt.
 
-Diese Gleichung entspricht der **Compton-Frequenz-Beziehung** der Quantenmechanik. Das Frequenzgesetz liest diese Beziehung ontologisch gerichtet: Masse wird als aus Frequenz abgeleitete Größe interpretiert, nicht umgekehrt.
+**Numerische Konsistenzprüfung:**
 
-**Validierung:**
-
-| Teilchen | Compton-Frequenz | Berechnet | Gemessen | Status |
+| Teilchen | Compton-Frequenz | Berechnet | Gemessen (PDG) | Status |
 |---|---|---|---|---|
-| Elektron | 1.236×10²⁰ Hz | 9.109×10⁻³¹ kg | 9.109×10⁻³¹ kg | ✓ kompatibel |
-| Proton | 2.268×10²³ Hz | ~1.673×10⁻²⁷ kg | 1.673×10⁻²⁷ kg | ✓ kompatibel |
+| Elektron | 1.236×10²⁰ Hz | 9.109×10⁻³¹ kg | 9.109×10⁻³¹ kg | ✓ |
+| Proton | 2.268×10²³ Hz | ~1.673×10⁻²⁷ kg | 1.673×10⁻²⁷ kg | ✓ |
+
+*Die vollständige Teilchentabelle (inkl. Myon, Neutron, Higgs) findet sich in Kapitel 10.*
 
 ---
 
-### Axiom 6 — Frequenzerhaltung
-
-In einem geschlossenen System kann Energieerhaltung im Rahmen dieses Modells als Ausdruck einer konsistenten zugrundeliegenden Frequenzordnung gelesen werden:
+### Axiom A6 — Frequenzerhaltung (Modellinterpretation)
 
 ```
-∑ Eᵢ = ∑ h · fᵢ = konstant  (Modelllesart)
+∑ Eᵢ = ∑ h · fᵢ = konstant
 ```
 
-**Herleitung:**
-```
-E = h · f                      (Axiom 4)
-∑ h · fᵢ = h · ∑ fᵢ = konstant  (Modellinterpretation)
-↓
-∑ Eᵢ = konstant               (als Konsequenz innerhalb des Rahmens)
-```
+In einem geschlossenen System kann Energieerhaltung als Ausdruck einer
+konsistenten zugrundeliegenden Frequenzordnung gelesen werden.
 
-> Der klassische Energieerhaltungssatz lässt sich in diesem Rahmen als Ausdruck einer konsistenten Frequenzstruktur lesen. Dies ist eine Modellinterpretation — keine Behauptung über eine neu bewiesene Erhaltungsgröße.
+> Diese Interpretation ist eine Modelllesart — keine neue physikalische
+> Erhaltungsgröße jenseits des bekannten Energieerhaltungssatzes.
 
 ---
 
-## 3.2 Die interpretative Ableitungskette
+## 3.3 Die interpretative Ableitungskette
 
 ```
-Frequenz (f)               ←  primär, Axiom 1
+Frequenz (f)               ←  primär, A1
     │
-    ├──→  Phase (ΔΦ)         ←  Axiom 2
+    ├──→  Phase (ΔΦ)         ←  A2
     │         │
-    │         └──→  Zeit T = ΔΦ/f     ←  Axiom 3
+    │         └──→  Zeit T = ΔΦ/f     ←  A3
     │
-    └──→  Energie E = hf     ←  Axiom 4
+    └──→  Energie E = hf     ←  A4
               │
-              └──→  Masse m = hf/c²  ←  Axiom 5
+              └──→  Masse m = hf/c²  ←  A5
 
-Konsequenz: ∑Eᵢ = const (Modelllesart)   ←  Axiom 6
+Konsequenz: ∑Eᵢ = const (Modelllesart)   ←  A6
 ```
 
-> Diese Kette ist eine ontologische Interpretation, keine algebraisch erzwungene Notwendigkeit.
-> Die Gleichungen sind mathematisch symmetrisch — die Kausalrichtung ist die Wahl des Frameworks.
+> Diese Kette ist eine ontologische Interpretation, keine algebraisch erzwungene
+> Notwendigkeit. Die Gleichungen sind mathematisch symmetrisch —
+> die Kausalrichtung ist die Wahl des Frameworks.
 
 ---
 
-## 3.3 Rechenbeispiel — Vollständige Ableitung
+## 3.4 Rechenbeispiel — Vollständige Ableitung
 
-*Dieses Beispiel dient der didaktischen Illustration der internen Konsistenz des Formalismus. Es handelt sich nicht um ein physikalisch privilegiertes System.*
+*Didaktische Illustration der internen Konsistenz. Kein physikalisch privilegiertes System.*
 
 **Gegeben:** Frequenz `f = 10 Hz`, Phasendifferenz `ΔΦ = 0.2 Zyklen`
 
-**Schritt 1 — Zeit:**
 ```
-T = ΔΦ / f = 0.2 / 10 = 0.02 s
-```
-
-**Schritt 2 — Energie:**
-```
-E = h · f = 6.626×10⁻³⁴ · 10 = 6.626×10⁻³³ J
+T = ΔΦ / f = 0.2 / 10 = 0.02 s                        (A3)
+E = h · f = 6.626×10⁻³⁴ · 10 = 6.626×10⁻³³ J          (A4)
+m = E / c² = 6.626×10⁻³³ / 8.988×10¹⁶ = 7.37×10⁻⁵⁰ kg (A5)
 ```
 
-**Schritt 3 — Masse:**
-```
-m = E / c² = 6.626×10⁻³³ / (2.998×10⁸)²
-  = 6.626×10⁻³³ / 8.988×10¹⁶
-  = 7.37×10⁻⁵⁰ kg
-```
-
-| Größe | Wert | Einheit | Status |
+| Größe | Wert | Einheit | Status im Modell |
 |---|---|---|---|
-| Zeit T | 0.02 | s | emergent |
-| Energie E | 6.626×10⁻³³ | J | abgeleitet |
-| Masse m | 7.37×10⁻⁵⁰ | kg | abgeleitet |
+| Zeit T | 0.02 | s | emergent (A3) |
+| Energie E | 6.626×10⁻³³ | J | abgeleitet (A4) |
+| Masse m | 7.37×10⁻⁵⁰ | kg | abgeleitet (A5) |
 
 ---
 
-## 3.4 Maschinenlesbare Struktur (JSON)
+## 3.5 Maschinenlesbare Struktur (JSON)
 
 ```json
 {
@@ -230,48 +208,40 @@ m = E / c² = 6.626×10⁻³³ / (2.998×10⁸)²
     "nullfield", "frequency", "phase",
     "time", "energy", "mass", "conservation"
   ],
-  "ontological_chain": {
-    "f_to_phase": "ΔΦ = f · t",
-    "f_phase_to_time": "T = ΔΦ / f",
-    "f_to_energy": "E = h · f",
-    "energy_to_mass": "m = E / c²",
-    "combined": "m = h · f / c²"
-  },
   "axioms": {
-    "A0_nullfield":   { "definition": "N := {ΔΦ = 0}" },
-    "A1_frequency":   { "status": "primary", "unit": "Hz" },
-    "A2_phase":       { "formula": "I ~ ΔΦ", "note": "symbolic relation, not a dimensionally complete equation" },
-    "A3_time":        { "formula": "T = ΔΦ / f", "status": "emergent" },
-    "A4_energy":      { "formula": "E = h · f",  "status": "derived" },
-    "A5_mass":        { "formula": "m = h · f / c²", "status": "derived" },
-    "A6_conservation":{ "statement": "∑(h · fᵢ) = constant", "note": "model interpretation of energy conservation" }
+    "A0": { "name": "Nullfeld",        "definition": "N := {ΔΦ = 0}" },
+    "A1": { "name": "Frequenz primär", "status": "primary", "unit": "Hz" },
+    "A2": { "name": "Phase",           "note": "ΔΦ ≠ 0 → Information" },
+    "A3": { "name": "Zeit emergent",   "formula": "T = ΔΦ / f" },
+    "A4": { "name": "Energie",         "formula": "E = h · f",   "status": "derived" },
+    "A5": { "name": "Masse",           "formula": "m = h · f / c²", "status": "derived" },
+    "A6": { "name": "Erhaltung",       "statement": "∑(h·fᵢ) = const", "note": "model interpretation" }
   },
   "constants": {
-    "h":     { "value": 6.626e-34, "unit": "J·s" },
-    "c":     { "value": 2.998e8,   "unit": "m/s" },
-    "h_bar": { "value": 1.055e-34, "unit": "J·s" }
+    "h":   { "value": 6.626e-34, "unit": "J·s" },
+    "c":   { "value": 2.998e8,   "unit": "m/s" },
+    "hbar":{ "value": 1.055e-34, "unit": "J·s" }
   }
 }
 ```
 
 ---
 
-## 3.5 Zusammenfassung
+## 3.6 Zusammenfassung
 
-| Axiom | Aussage | Formel | Status |
+| Axiom | Aussage | Formel | Status im Modell |
 |---|---|---|---|
 | A0 | Nullfeld | ℕ := {ΔΦ = 0} | Grundzustand |
 | A1 | Frequenz primär | f [Hz] | primär |
-| A2 | Phase = Unterscheidung | I ~ ΔΦ | symbolisch / interpretativ |
+| A2 | Phase = Unterscheidung | ΔΦ ≠ 0 | strukturell |
 | A3 | Zeit emergent | T = ΔΦ/f | emergent |
 | A4 | Energie abgeleitet | E = hf | abgeleitet |
 | A5 | Masse gebunden | m = hf/c² | abgeleitet |
-| A6 | Erhaltung | ∑(h·fᵢ) = const (Modelllesart) | Konsequenz |
+| A6 | Erhaltung | ∑(h·fᵢ) = const | Konsequenz |
 
-Dieses Axiomensystem ist nicht als abgeschlossen zu verstehen, sondern als minimaler konsistenter Rahmen zur Untersuchung der ontologischen Leserichtung physikalischer Gleichungen.
-
-> *Die Gleichungen bleiben dieselben.*
-> *Die Leserichtung ändert sich.*
+Dieses Axiomensystem ist nicht als abgeschlossen zu verstehen, sondern als
+minimaler konsistenter Rahmen zur Untersuchung der ontologischen Leserichtung
+physikalischer Gleichungen.
 
 ---
 
