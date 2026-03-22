@@ -3,7 +3,7 @@
 
 > *„Die Gleichungen bleiben dieselben. Die Leserichtung ändert sich."*
 
-**Von Christian Berrang** | 📍 Yokohama, Japan
+**Von Christian Berrang** | 📍 Hakuba, Japan
 ✉️ christianfwb@gmail.com | 🐙 [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)
 📚 DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)
 **Status:** Intern konsistenzgeprüft (inkl. KI-basierter Analysen), experimentell testbar | **Lizenz:** Open Science
