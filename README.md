@@ -270,5 +270,5 @@ Kernprinzip:
 > *„Das Universum ist kein Mechanismus — es ist ein Lied.*
 > *Wir haben nur vergessen, die Melodie zu hören."*
 
-*Version 8.0 — Christian Berrang, Yokohama 2026*
+*Version 8.0 — Christian Berrang, Hakuba 2026*
 *DOI: 10.5281/zenodo.17874830 | Open Science*
