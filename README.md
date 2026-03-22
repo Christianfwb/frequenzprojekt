@@ -31,11 +31,14 @@ Interpretation.
 
 ## 🧪 Reproduzierbares Notebook — Kernelement des Projekts
 
-> **Das Jupyter Notebook ist nicht Dokumentation — es ist die reproduzierbare Implementierung des Frequenzgesetzes.**
+> **Das Notebook ist nicht Dokumentation — es ist die reproduzierbare Implementierung des Frequenzgesetzes.**
+
+This notebook is the primary entry point for testing and reproducing the framework.
+The notebook demonstrates that the framework is not only conceptual, but computationally executable.
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Christianfwb/frequenzprojekt/main)
 &nbsp;&nbsp;
-[![View Notebook](https://img.shields.io/badge/Notebook-Kapitel_22-blue?logo=jupyter)](https://github.com/Christianfwb/frequenzprojekt/blob/main/Kapitel_22_Frequenzgesetz.ipynb)
+[![View Notebook](https://img.shields.io/badge/Notebook-Frequenzgesetz-blue?logo=jupyter)](https://github.com/Christianfwb/frequenzprojekt/blob/main/Kapitel_22_Frequenzgesetz.ipynb)
 
 **→ [Kapitel_22_Frequenzgesetz.ipynb](https://github.com/Christianfwb/frequenzprojekt/blob/main/Kapitel_22_Frequenzgesetz.ipynb)**
 
@@ -47,6 +50,7 @@ Interpretation.
 | **Teilchenvorhersagen** | Berrangium Ω (~16.2 MeV) · Stöcker-Teilchen (~530 MeV) |
 | **JSON-Framework** | Maschinenlesbare Ontologie inkl. `falsification_targets` |
 | **Experimentelle Testmatrix** | Falsifizierbare Tests mit Priorität und Methode |
+
 ```bash
 # Lokal ausführen
 git clone https://github.com/Christianfwb/frequenzprojekt.git
@@ -96,6 +100,7 @@ nicht ihre Ursache.
 ---
 
 ## Die ontologische Hierarchie
+
 ```
 ┌──────────────────────────────────────────────┐
 │  NULLFELD  (ΔΦ = 0)          → Axiom A0      │
@@ -241,6 +246,7 @@ ein explizites ⚠️ und eine Statusangabe.
 
 Das Metaprotokoll (`metaprotokoll/FREQUENZGESETZ_METAPROTOKOLL_v7.md`)
 stellt die Kernannahmen in kompakter maschinenlesbarer Form bereit:
+
 ```yaml
 Kernprinzip:
   Frequenz (f):   primär
