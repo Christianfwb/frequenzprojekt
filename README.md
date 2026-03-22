@@ -12,31 +12,48 @@
 
 ## Kurzfassung
 
-Das Frequenzgesetz beschreibt eine alternative Interpretation
-etablierter physikalischer Gleichungen, in der Frequenz als
-fundamentale Beschreibung von Zustandsänderung betrachtet wird.
-Zeit, Masse und Energie erscheinen dabei als abgeleitete Größen
-innerhalb einer strukturellen Hierarchie.
-
-Die zugrunde liegende Mathematik bleibt unverändert —
-neu ist die Richtung ihrer Interpretation.
-
----
-
-## Was ist das Frequenzgesetz?
-
 Das Frequenzgesetz ist eine **ontologische Reinterpretation
 bekannter physikalischer Gleichungen** — keine neue Physik,
 sondern eine andere Leserichtung der vorhandenen.
 
 Die zentrale These: Nicht Energie, sondern **Frequenz als
 fundamentale Beschreibung von Zustandsänderung** bildet den
-primären Ausgangspunkt der Interpretation. Zeit, Masse und
-Energie erscheinen daraus als abgeleitete Konsequenzen.
+primären Ausgangspunkt. Zeit, Masse und Energie erscheinen
+daraus als abgeleitete Konsequenzen. Die zugrunde liegende
+Mathematik bleibt unverändert — neu ist die Richtung ihrer
+Interpretation.
 
 > Das Frequenzgesetz verhält sich zur klassischen Physik
 > wie ein Compiler zu einer Anwendung:
 > Es läuft eine Ebene tiefer — und ermöglicht alles darüber.
+
+---
+
+## 🧪 Reproduzierbares Notebook — Kernelement des Projekts
+
+> **Das Jupyter Notebook ist nicht Dokumentation — es ist die reproduzierbare Implementierung des Frequenzgesetzes.**
+
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Christianfwb/frequenzprojekt/main)
+&nbsp;&nbsp;
+[![View Notebook](https://img.shields.io/badge/Notebook-Kapitel_22-blue?logo=jupyter)](https://github.com/Christianfwb/frequenzprojekt/blob/main/Kapitel_22_Frequenzgesetz.ipynb)
+
+**→ [Kapitel_22_Frequenzgesetz.ipynb](https://github.com/Christianfwb/frequenzprojekt/blob/main/Kapitel_22_Frequenzgesetz.ipynb)**
+
+| Abschnitt | Inhalt |
+|---|---|
+| **Axiome A0–A6** | Strukturierte maschinenlesbare Daten |
+| **Kernformeln** | T = ΔΦ/f · m = h·f/c² · E = h·f |
+| **Numerische Konsistenzprüfung** | PDG-Vergleich mit ppm-Genauigkeit |
+| **Teilchenvorhersagen** | Berrangium Ω (~16.2 MeV) · Stöcker-Teilchen (~530 MeV) |
+| **JSON-Framework** | Maschinenlesbare Ontologie inkl. `falsification_targets` |
+| **Experimentelle Testmatrix** | Falsifizierbare Tests mit Priorität und Methode |
+```bash
+# Lokal ausführen
+git clone https://github.com/Christianfwb/frequenzprojekt.git
+cd frequenzprojekt
+pip install pandas matplotlib nbformat
+jupyter notebook Kapitel_22_Frequenzgesetz.ipynb
+```
 
 ---
 
@@ -79,7 +96,6 @@ nicht ihre Ursache.
 ---
 
 ## Die ontologische Hierarchie
-
 ```
 ┌──────────────────────────────────────────────┐
 │  NULLFELD  (ΔΦ = 0)          → Axiom A0      │
@@ -164,7 +180,7 @@ nicht ihre Ursache.
 | 19 | Die 7 stillen Gesetze des Lichts | Poetische Inspiration — kein Physiktext |
 | 20 | Die Geschichte der Zeit | Kosmisches Märchen / Science-Fiction |
 | 21 | Das erste Frequenzgesetz | Ursprungsdokument 18. Juni 2025 — historisch, unverändert |
-| 22 | Jupyter Notebook | Maschinenlesbare Strukturierung der Kernformeln |
+| **22** | **Jupyter Notebook** | **Reproduzierbare Implementierung — Kernelement** |
 
 ---
 
@@ -225,7 +241,6 @@ ein explizites ⚠️ und eine Statusangabe.
 
 Das Metaprotokoll (`metaprotokoll/FREQUENZGESETZ_METAPROTOKOLL_v7.md`)
 stellt die Kernannahmen in kompakter maschinenlesbarer Form bereit:
-
 ```yaml
 Kernprinzip:
   Frequenz (f):   primär
