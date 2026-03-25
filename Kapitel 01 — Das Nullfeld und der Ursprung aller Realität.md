@@ -43,7 +43,7 @@ Die Physik beantwortet *wie* — die Ontologie fragt *was* und *warum*.
 
 ### Die methodische Wahl
 
-Viele physikalische Theorien formulieren ihre Dynamik über Energiegrößen. Diese Praxis ist historisch gewachsen und hat sich als außerordentlich fruchtbar erwiesen — sie hat Motoren, Computer und die moderne Technologie ermöglicht.
+Viele physikalische Theorien formulieren ihre Dynamik über Energiegrößen. Diese Praxis ist historisch gewachsen und hat sich als außerordentlich erfolgreich erwiesen — sie hat Motoren, Computer und die moderne Technologie ermöglicht.
 
 Wichtig ist jedoch: Die Verwendung von Energie als zentraler Größe ist eine **methodische Wahl** — keine ontologisch bewiesene Notwendigkeit. Sie ist ein nützliches Modell, das irgendwann als selbstverständlich galt, ohne dass die ursprüngliche Entscheidung noch explizit gemacht wurde.
 
