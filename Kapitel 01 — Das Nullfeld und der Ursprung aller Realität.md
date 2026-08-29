@@ -2,7 +2,7 @@
 ## Ontologische Grundlagen des Frequenzgesetzes
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** frequency ontology · phase ontology · emergent time · nullfield · foundations of physics · frequency law · ontological interpretation
 
@@ -253,4 +253,4 @@ Es ist eine ontologische Interpretation bekannter Gleichungen unter einer andere
 ---
 
 *→ Weiter: [Kapitel 02 — Die neue Definition der Zeit](Kapitel_02.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

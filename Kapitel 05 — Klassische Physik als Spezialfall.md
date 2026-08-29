@@ -2,7 +2,7 @@
 ## Etablierte Theorien im Licht der Frequenz-Ontologie
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** classical mechanics · special relativity · quantum mechanics · frequency interpretation · ontological framework · emergent physics
 
@@ -166,4 +166,4 @@ und starker Felder.
 
 *→ Weiter: [Kapitel 06 — Naturkonstanten als Frequenz-Übersetzungsparameter](Kapitel_06.md)*
 *← Zurück: [Kapitel 04 — Das Gesetz der Frequenzerhaltung](Kapitel_04.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

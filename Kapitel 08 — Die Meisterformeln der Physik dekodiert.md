@@ -2,7 +2,7 @@
 ## Bekannte Formeln aus der Perspektive des Frequenzgesetzes
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** E=mc² · Planck formula · Schrödinger equation · uncertainty principle · BEC · gravitational constant · frequency reinterpretation
 
@@ -148,4 +148,4 @@ Was sich ändert, ist ausschließlich die Leserichtung ihrer kausalen Ordnung.
 
 *→ Weiter: [Kapitel 09 — Gravitation als Phasensynchronisation](Kapitel_09.md)*
 *← Zurück: [Kapitel 07 — Eine neue Grundlage der Zeit](Kapitel_07.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

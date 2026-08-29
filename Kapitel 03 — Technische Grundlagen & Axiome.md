@@ -2,7 +2,7 @@
 ## Das axiomatische Fundament des Frequenzgesetzes
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** frequency axioms · phase ontology · emergent time · Compton frequency · frequency conservation · ontological framework
 
@@ -203,7 +203,7 @@ m = E / c² = 6.626×10⁻³³ / 8.988×10¹⁶ = 7.37×10⁻⁵⁰ kg (A5)
 {
   "framework": "Frequenzgesetz",
   "version": "8.0",
-  "doi": "10.5281/zenodo.17874830",
+  "doi": "10.5281/zenodo.16727005",
   "ontological_order": [
     "nullfield", "frequency", "phase",
     "time", "energy", "mass", "conservation"
@@ -247,4 +247,4 @@ physikalischer Gleichungen.
 
 *→ Weiter: [Kapitel 04 — Das Gesetz der Frequenzerhaltung](Kapitel_04.md)*
 *← Zurück: [Kapitel 02 — Die neue Definition der Zeit](Kapitel_02.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

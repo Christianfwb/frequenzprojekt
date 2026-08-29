@@ -2,7 +2,7 @@
 ## KI-Reasoning als Konsistenztest eines Ontologie-Compilers
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** AI reasoning · Mistral · consistency test · proton structure · QCD · frequency framework · ontology compiler · execution engine
 
@@ -159,4 +159,4 @@ KI-Konsistenzprüfung werden in Kapitel 14 ausführlich dokumentiert.
 
 *→ Weiter: [Kapitel 13 — Experimentelle Vorhersagen & Validierung](Kapitel_13.md)*
 *← Zurück: [Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_11.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

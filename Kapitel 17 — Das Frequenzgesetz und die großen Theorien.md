@@ -2,7 +2,7 @@
 ## Strukturelle Einordnung in bestehende Ansätze
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** Wheeler · Penrose · Wolfram · Loop Quantum Gravity · it from bit · twistor theory · hypergraph rewriting · frequency ontology · paradigm comparison
 
@@ -232,4 +232,4 @@ und anschlussfähig ist.
 
 *→ Weiter: [Kapitel 18 — Community & Zusammenarbeit](Kapitel_18.md)*
 *← Zurück: [Kapitel 16 — Tesla-Technologie & Anwendungen](Kapitel_16.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

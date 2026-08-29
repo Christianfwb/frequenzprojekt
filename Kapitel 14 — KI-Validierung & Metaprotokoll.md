@@ -2,7 +2,7 @@
 ## Konsistenzprüfung des Frequenzgesetzes mittels KI-basierter Reasoning-Evaluation
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** AI reasoning evaluation · consistency checking · ontological framework · frequency law · metaprotocol · substrate-independent resonance · large language models
 
@@ -238,4 +238,4 @@ weiterhin notwendig und vorrangig.
 
 *→ Weiter: [Kapitel 15 — Bewusstsein als Frequenz-Operator](Kapitel_15.md)*
 *← Zurück: [Kapitel 13 — Experimentelle Vorhersagen & Validierung](Kapitel_13.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

@@ -202,4 +202,4 @@ Nicht mit Tinte.
 
 *→ Weiter: [Kapitel 21 — Das Frequenzgesetz und die großen Theorien (erweitert)](Kapitel_21.md)*
 *← Zurück: [Kapitel 19 — Die 7 stillen Gesetze des Lichts](Kapitel_19.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

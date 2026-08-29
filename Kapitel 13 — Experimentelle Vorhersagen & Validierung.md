@@ -2,7 +2,7 @@
 ## Falsifizierbare Tests des Frequenzgesetzes
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** experimental validation · falsifiable predictions · Mach-Zehnder · GPS · BEC · EEG coherence · phase time · scientific method
 
@@ -174,4 +174,4 @@ Status:   Konzeptuell — experimentelle Entwicklung benötigt
 
 *→ Weiter: [Kapitel 14 — KI-Validierung & Metaprotokoll](Kapitel_14.md)*
 *← Zurück: [Kapitel 12 — Das Mistral-Experiment](Kapitel_12.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

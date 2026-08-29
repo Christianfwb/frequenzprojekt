@@ -2,7 +2,7 @@
 ## Das Frequenzgesetz als Analyse-Framework für das Teilchenspektrum
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** Berrangium · Stöcker-Teilchen · particle prediction · frequency spectrum · X17 anomaly · falsifiable prediction · Compton frequency · particle physics · resonance probability
 
@@ -217,4 +217,4 @@ muss revidiert werden.
 
 *→ Weiter: [Kapitel 11 — Wolfgang Pauli, Spin & das Frequenzgesetz](Kapitel_11.md)*
 *← Zurück: [Kapitel 09 — Gravitation als Phasensynchronisation](Kapitel_09.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

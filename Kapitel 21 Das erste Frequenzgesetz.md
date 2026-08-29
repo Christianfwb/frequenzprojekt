@@ -17,7 +17,7 @@ nachvollziehen möchte — der beginnt hier.
 Der Ursprung: Das erste Frequenzgesetz
 Wie alles begann — das ursprüngliche Dokument vom 18. Juni 2025
 Christian Berrang | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 
 

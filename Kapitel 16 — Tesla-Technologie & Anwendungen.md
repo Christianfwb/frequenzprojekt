@@ -2,7 +2,7 @@
 ## Resonanz als Werkzeug — Von historischen Experimenten zu möglichen Anwendungen
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** Tesla · resonance · plasma · high-frequency · coupled oscillators · phase coherence · frequency applications · AC systems
 
@@ -277,4 +277,4 @@ lassen sich nicht mehr ungestellt machen.
 
 *→ Weiter: [Kapitel 17 — Das Frequenzgesetz und die großen Theorien](Kapitel_17.md)*
 *← Zurück: [Kapitel 15 — Bewusstsein als Frequenz-Operator](Kapitel_15.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

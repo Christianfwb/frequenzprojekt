@@ -2,7 +2,7 @@
 ## Zeit als normalisierter Phasenfortschritt: Eine konzeptuelle Herleitung
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** emergent time · phase evolution · T = ΔΦ/f · time definition · oscillatory systems · phase ontology
 
@@ -222,4 +222,4 @@ Das ist kein Zufall. In diesem Moment ist die Phasendifferenz zwischen dir und d
 
 *→ Weiter: [Kapitel 03 — Technische Grundlagen & Axiome](Kapitel_03.md)*
 *← Zurück: [Kapitel 01 — Das Nullfeld und der Ursprung aller Realität](Kapitel_01.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

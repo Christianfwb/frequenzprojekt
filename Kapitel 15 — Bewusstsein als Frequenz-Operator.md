@@ -2,7 +2,7 @@
 ## I = F(f, ΔΦ, R) — Ein heuristisches Modell
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** consciousness · frequency operator · gamma coherence · flow state · neural oscillations · phase coherence · hard problem · time perception · IIT · global workspace
 
@@ -253,4 +253,4 @@ Was dahinter liegt, verdient einen eigenen Raum.
 
 *→ Weiter: [Kapitel 16 — Tesla-Technologie & Anwendungen](Kapitel_16.md)*
 *← Zurück: [Kapitel 14 — KI-Validierung & Metaprotokoll](Kapitel_14.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

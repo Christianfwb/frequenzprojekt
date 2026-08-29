@@ -2,7 +2,7 @@
 ## Das fundamentale Erhaltungsprinzip des Frequenzgesetzes
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** frequency conservation · energy conservation · phase coherence · BEC · thermodynamics · ontological framework
 
@@ -144,4 +144,4 @@ die Gesamtheit aller möglichen Zeitraster.
 
 *→ Weiter: [Kapitel 05 — Klassische Physik als Spezialfall](Kapitel_05.md)*
 *← Zurück: [Kapitel 03 — Technische Grundlagen & Axiome](Kapitel_03.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

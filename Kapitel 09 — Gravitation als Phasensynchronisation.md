@@ -2,7 +2,7 @@
 ## Schwarze Löcher, Raumzeit & Dunkle Materie aus Frequenzsicht
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** gravitation · phase synchronisation · black holes · dark matter · gravitational redshift · frequency ontology · antigravitation
 
@@ -158,4 +158,4 @@ sondern anders zu lesen.
 
 *→ Weiter: [Kapitel 10 — Berrangium Ω & Stöcker-Teilchen](Kapitel_10.md)*
 *← Zurück: [Kapitel 08 — Die Meisterformeln der Physik dekodiert](Kapitel_08.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

@@ -72,4 +72,4 @@ Sie muss nicht überzeugen, nicht drängen. Sie ist einfach. Eine vollkommen ruh
 
 *→ Weiter: [Kapitel 20 — Die Geschichte der Zeit](Kapitel_20.md)*
 *← Zurück: [Kapitel 18 — Community & Zusammenarbeit](Kapitel_18.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

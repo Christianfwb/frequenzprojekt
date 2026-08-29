@@ -2,7 +2,7 @@
 ## Warum die klassische Zeitmessung an ihre Grenze kommt
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** phase time · SI definition · quantum tunneling · time resolution · phasetime · emergent time · T = ΔΦ/f
 
@@ -127,4 +127,4 @@ Definition zu ersetzen.
 
 *→ Weiter: [Kapitel 08 — Die Meisterformeln der Physik dekodiert](Kapitel_08.md)*
 *← Zurück: [Kapitel 06 — Naturkonstanten als Frequenz-Übersetzungsparameter](Kapitel_06.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

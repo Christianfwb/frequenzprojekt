@@ -117,4 +117,4 @@ print(f"Abweichung:      0.000013%  ✓")
 ---
 
 *Metaprotokoll v7.0 | Frequenzgesetz v8.0 | Open Science*  
-*DOI: 10.5281/zenodo.17874830*
+*DOI: 10.5281/zenodo.16727005*

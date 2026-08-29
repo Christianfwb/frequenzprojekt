@@ -2,7 +2,7 @@
 
 ## Warum das Frequenzgesetz?
 
-*Autor: Christian Berrang · DOI: 10.5281/zenodo.17874830*
+*Autor: Christian Berrang · DOI: 10.5281/zenodo.16727005*
 
 ---
 

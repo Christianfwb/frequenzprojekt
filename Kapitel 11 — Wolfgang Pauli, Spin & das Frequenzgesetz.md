@@ -2,7 +2,7 @@
 ## Die Geschichte einer Entdeckung — und eine mögliche Interpretation, 100 Jahre später
 
 **Christian Berrang** | Frequenzgesetz v8.0
-DOI: 10.5281/zenodo.17874830
+DOI: 10.5281/zenodo.16727005
 
 **Keywords:** Pauli exclusion principle · spin · fermion · phase structure · frequency clock · local time · antisymmetry · quantum mechanics
 
@@ -157,4 +157,4 @@ definiert durch seine Eigenfrequenz und den lokalen Phasenfortschritt
 
 *→ Weiter: [Kapitel 12 — Das Mistral-Experiment](Kapitel_12.md)*
 *← Zurück: [Kapitel 10 — Berrangium Ω & Stöcker-Teilchen](Kapitel_10.md)*
-*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.17874830*
+*Version 8.0 | Christian Berrang | DOI: 10.5281/zenodo.16727005*

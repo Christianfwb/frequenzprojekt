@@ -5,7 +5,7 @@
 
 **Von Christian Berrang** | 📍 Hakuba, Japan
 ✉️ christianfwb@gmail.com | 🐙 [github.com/Christianfwb/frequenzprojekt](https://github.com/Christianfwb/frequenzprojekt)
-📚 DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)
+📚 DOI: [10.5281/zenodo.16727005](https://doi.org/10.5281/zenodo.16727005)
 **Status:** Intern konsistenzgeprüft (inkl. KI-basierter Analysen), experimentell testbar | **Lizenz:** Open Science
 
 ---
@@ -277,4 +277,4 @@ Kernprinzip:
 > *Wir haben nur vergessen, die Melodie zu hören."*
 
 *Version 8.0 — Christian Berrang, Hakuba 2026*
-*DOI: 10.5281/zenodo.17874830 | Open Science*
+*DOI: 10.5281/zenodo.16727005 | Open Science*
